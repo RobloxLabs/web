@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Roblox.Website-53440733-3462-404b-9771-9b31d4c49387</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Assemblies\EventLog\Roblox.EventLog\Roblox.EventLog.csproj" />
+    <ProjectReference Include="..\..\Assemblies\Platform\Membership\Roblox.Platform.Membership.Core\Roblox.Platform.Membership.Core.csproj" />
+    <ProjectReference Include="..\..\Assemblies\Platform\Membership\Roblox.Platform.Membership\Roblox.Platform.Membership.csproj" />
+    <ProjectReference Include="..\..\Assemblies\Web\Roblox.Web.Authentication\Roblox.Web.Authentication.csproj" />
+  </ItemGroup>
+
+</Project>
