@@ -59,7 +59,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.EmailAddresses", "..
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Roles", "Roles", "{F0120D08-1370-413E-958B-22BB979B4387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Roles", "..\Assemblies\Roles\Roblox.Roles\Roblox.Roles.csproj", "{0A0DA358-0209-4784-B9E2-CC9B69843BD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.Roles", "..\Assemblies\Roles\Roblox.Roles\Roblox.Roles.csproj", "{0A0DA358-0209-4784-B9E2-CC9B69843BD6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E1461B94-2D3F-48BC-984A-C795C35A0277}"
 EndProject
@@ -81,9 +81,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mssql", "Mssql", "{28F7EF20
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.MssqlDatabases", "..\Assemblies\Mssql\Roblox.MssqlDatabases\Roblox.MssqlDatabases.csproj", "{424AC431-0E10-4789-BD95-302E40D3DD91}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{73B8E0D8-063D-4484-8474-05CECF6A3CF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.Web.Authentication", "..\Assemblies\Web\Roblox.Web.Authentication\Roblox.Web.Authentication.csproj", "{5F6A28A2-E011-4A56-A9F3-6A81E23D9E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Web.Authentication", "..\Assemblies\Web\Roblox.Web.Authentication\Roblox.Web.Authentication.csproj", "{5F6A28A2-E011-4A56-A9F3-6A81E23D9E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.EntityFrameworkCore.Unit.Tests", "..\Assemblies\EntityFrameworkCore\Roblox.EntityFrameworkCore.Unit.Tests\Roblox.EntityFrameworkCore.Unit.Tests.csproj", "{6F339EB1-ADA0-46DE-9A4A-550B53B9B95D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{79DE2F76-9442-4992-992E-60129883ABA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Platform.Authentication", "..\Assemblies\Platform\Authentication\Roblox.Platform.Authentication\Roblox.Platform.Authentication.csproj", "{2B91696E-5CC8-4AAB-9559-B04B6F57E09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Platform.Authentication.Core", "..\Assemblies\Platform\Authentication\Roblox.Platform.Authentication.Core\Roblox.Platform.Authentication.Core.csproj", "{3DAF1DB1-006E-406F-8ED4-0A607452ABB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +185,18 @@ Global
 		{5F6A28A2-E011-4A56-A9F3-6A81E23D9E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6A28A2-E011-4A56-A9F3-6A81E23D9E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6A28A2-E011-4A56-A9F3-6A81E23D9E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F339EB1-ADA0-46DE-9A4A-550B53B9B95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F339EB1-ADA0-46DE-9A4A-550B53B9B95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F339EB1-ADA0-46DE-9A4A-550B53B9B95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F339EB1-ADA0-46DE-9A4A-550B53B9B95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B91696E-5CC8-4AAB-9559-B04B6F57E09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B91696E-5CC8-4AAB-9559-B04B6F57E09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B91696E-5CC8-4AAB-9559-B04B6F57E09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B91696E-5CC8-4AAB-9559-B04B6F57E09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DAF1DB1-006E-406F-8ED4-0A607452ABB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAF1DB1-006E-406F-8ED4-0A607452ABB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAF1DB1-006E-406F-8ED4-0A607452ABB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAF1DB1-006E-406F-8ED4-0A607452ABB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,8 +238,11 @@ Global
 		{6F7C33F9-7809-48B7-BC12-21A90AEED683} = {E7D3D144-E3F6-4CD3-BC87-490C033CAFA3}
 		{28F7EF20-FEA4-4A92-9C19-4BA69E2A63B9} = {E983FD40-2749-4C04-B6BA-E835CA4045C8}
 		{424AC431-0E10-4789-BD95-302E40D3DD91} = {28F7EF20-FEA4-4A92-9C19-4BA69E2A63B9}
-		{73B8E0D8-063D-4484-8474-05CECF6A3CF8} = {E983FD40-2749-4C04-B6BA-E835CA4045C8}
-		{5F6A28A2-E011-4A56-A9F3-6A81E23D9E42} = {73B8E0D8-063D-4484-8474-05CECF6A3CF8}
+		{5F6A28A2-E011-4A56-A9F3-6A81E23D9E42} = {16572BAE-40F4-47A8-BC9F-F59037643A63}
+		{6F339EB1-ADA0-46DE-9A4A-550B53B9B95D} = {4D829F4E-A1B6-4336-A525-7E0380AE10BA}
+		{79DE2F76-9442-4992-992E-60129883ABA3} = {F0324D42-F8FB-4E90-A0BF-087114BAE18A}
+		{2B91696E-5CC8-4AAB-9559-B04B6F57E09D} = {79DE2F76-9442-4992-992E-60129883ABA3}
+		{3DAF1DB1-006E-406F-8ED4-0A607452ABB3} = {79DE2F76-9442-4992-992E-60129883ABA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {899E014E-6FA2-40D9-9870-A893660A5F34}

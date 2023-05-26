@@ -7,6 +7,7 @@ using Roblox.EventLog;
 using Roblox.Platform.Membership;
 using Roblox.Platform.Roles;
 using Roblox.Platform.Email;
+using Roblox.Platform.Authentication;
 
 using Roblox.Website.Data;
 
@@ -158,6 +159,7 @@ namespace Roblox.Website
             services.AddSingleton<MembershipDomainFactories>();
             services.AddSingleton<RoleDomainFactories>();
             services.AddSingleton<EmailDomainFactories>();
+            services.AddSingleton<AuthenticationDomainFactories>();
         }
     }
 }
