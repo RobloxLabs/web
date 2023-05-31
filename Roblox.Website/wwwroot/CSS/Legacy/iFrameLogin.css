@@ -1,0 +1,71 @@
+/* Legacy CSS file - Please do not copy */
+body {
+  min-width: 0; }
+
+.fbSplashPageConnect {
+  margin: 5px 0px; }
+
+a.old-facebook-button, a.old-facebook-button:visited {
+  display: inline-block;
+  text-decoration: none;
+  /*These styles cannot be over-ridden or they will break the display. Since this is used
+        more than once, there can be no ID on the element*/
+  font-weight: normal !important;
+  font-size: 12px !important; }
+
+a.old-facebook-button span.left, a.old-facebook-button span.right, a.old-facebook-button span.middle {
+  float: left;
+  height: 25px;
+  line-height: 14px; }
+
+a.old-facebook-button span.left {
+  width: 27px;
+  background: url(/images/facebook/bg-fblogin_sides.png) left top no-repeat; }
+
+a.old-facebook-button span.middle {
+  height: 18px;
+  width: auto;
+  background: url(/images/facebook/bg-fblogin_middle.png) left top repeat-x;
+  color: #394f7d;
+  padding: 7px 2px 0px 6px; }
+
+a.old-facebook-button span.middle span {
+  display: block;
+  color: #fff;
+  position: relative;
+  bottom: 16px; }
+
+a.old-facebook-button span.right {
+  width: 5px;
+  background: url(/images/facebook/bg-fblogin_sides.png) right top no-repeat; }
+
+.newLogin {
+  margin: 10px; }
+
+.iframe-login-signup {
+  margin-top: 6px;
+  float: right;
+  position: relative; }
+
+#header-signup {
+  font-weight: 600;
+  color: #fff;
+  position: relative; }
+
+.login-frame {
+  height: 100%;
+  width: 100%; }
+
+#login-dropdown {
+  border-top: none;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  left: auto;
+  width: 320px;
+  padding: 12px; }
+
+#facebookSignIn {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  text-align: center; }

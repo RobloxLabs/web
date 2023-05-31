@@ -1,0 +1,30 @@
+﻿.iframeHeader  #Nav 
+{
+    width: 100%  !important; 
+}
+.MiniHeaderBG
+{
+    margin-top:-3px;
+    z-index:1;
+    width:100%;
+    height:153px;
+    background: url(/images/MiniclipHeader_BG.PNG) white bottom repeat-x;
+}
+#MiniWrapper
+{
+    width:960px;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-1px;
+    margin-bottom:0;
+    padding: 0;
+}
+.MiniclipHeader
+{
+    padding: 0;
+    border:none;
+    margin-top:-2px;
+    margin-left:-7px; 
+    display: block;
+}

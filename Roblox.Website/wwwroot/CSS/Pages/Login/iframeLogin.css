@@ -1,0 +1,31 @@
+﻿#facebookSignIn 
+{
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+.LoginFormFieldSet 
+{
+	position: relative;
+	height: 39px;
+	*margin-top : -10px;
+}
+.UserNameDiv
+{
+	float: left;
+	width: 156px;
+}
+.PasswordDiv
+{
+	float: right;
+	width: 158px;
+	position: relative;
+}
+.LoginFormInput
+{
+	*margin-left: -10px /*hack for ie7 and below*/
+}
+#SocialNetworkSignIn {
+	border-top: 1px solid #ACACAC;
+}
+

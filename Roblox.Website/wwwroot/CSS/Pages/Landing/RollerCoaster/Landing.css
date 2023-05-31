@@ -1,0 +1,333 @@
+﻿/* RBX default font of Source Sans Pro */
+html {
+  overflow-x: hidden; }
+
+html, body, .container-fluid {
+  height: 100%;
+  font-weight: 300; }
+
+a, a:hover {
+  color: black;
+  text-decoration: none;
+  outline: none; }
+
+label {
+  font-weight: 300; }
+
+.navbar-landing {
+  background-color: #5e9eb2;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  min-height: 66px; }
+
+.navbar-landing .container {
+  padding: 6px; }
+
+.navbar-landing .navbar-nav a {
+  color: white;
+  font-size: 18px; }
+
+.navbar-landing .navbar-nav a:hover {
+  background: none; }
+
+.navbar-landing .navbar-nav a:focus {
+  background-color: transparent;
+  outline: none; }
+
+.navbar-landing .navbar-toggle {
+  background-color: white;
+  color: black; }
+
+.navbar-landing .navbar-brand {
+  padding: 8px 10px; }
+
+.navbar-landing .input-sm {
+  height: 26px; }
+
+.navbar-landing .navbar-link {
+  color: white; }
+
+#HeaderForgotPassword {
+  text-align: center;
+  display: block;
+  position: absolute;
+  margin: 0;
+  bottom: -10px;
+  font-size: 13px;
+  /*left: 15px;*/ }
+
+.collapse.in #HeaderForgotPassword {
+  position: relative; }
+
+.robloxLogo {
+  width: 36px;
+  height: 36px; }
+
+#magic-line {
+  position: absolute;
+  left: 56px;
+  width: 61px;
+  height: 2px;
+  background: #ffffff;
+  top: 40px; }
+
+#LoginButton, #SignUpButton {
+  background-color: #00B259;
+  color: white;
+  border: 1px solid #ccc;
+  font-weight: 400; }
+
+#SignUpButton {
+  font-size: 20px; }
+
+#LoginButton {
+  border: 1px solid transparent;
+  font-size: 14px;
+  width: 100%; }
+
+.full-height-section {
+  height: 100%;
+  min-height: 720px; }
+
+.inner-full-height-section {
+  /*padding-top: 70px;*/
+  height: 100%; }
+
+#MainCenterContainer {
+  position: relative;
+  top: 200px; }
+
+#MainLogo {
+  top: 100px;
+  position: relative; }
+
+#LogoAndSlogan {
+  float: right; }
+
+#MainLogo h1 {
+  color: white;
+  font-size: 35px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 25px;
+  text-align: center;
+  margin-top: -20px;
+  display: inline-block; }
+
+#MainLogo h1 span {
+  position: absolute;
+  font-size: 15px; }
+
+.special-dropdown select::-ms-expand {
+  display: none; }
+
+.special-dropdown {
+  display: inline-block; }
+
+.noHighlight:focus {
+  outline: none; }
+
+.month-special-dropdown {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc; }
+
+.day-special-dropdown {
+  border-right: 1px solid #ccc; }
+
+#birthdayDaySelect {
+  width: 55px; }
+
+#birthdayMonthSelect {
+  width: 95px; }
+
+#birthdayYearSelect {
+  width: 60px; }
+
+#SignUpFormContainer {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 15px;
+  max-width: 435px; }
+
+#SignUpForm select.input-sm {
+  font-weight: normal;
+  width: auto;
+  display: inline-block; }
+
+#SignUpForm h3 {
+  margin-top: 5px; }
+
+.attribution {
+  position: absolute;
+  bottom: 4%;
+  left: 20%;
+  color: white;
+  text-align: left;
+  line-height: 1;
+  font-size: 28px; }
+
+#MainLogoImage {
+  width: 457px;
+  height: 115px;
+  opacity: 0.99;
+  /* hack to make it stack on-top */
+  z-index: 100;
+  float: right; }
+
+.gender-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 40px;
+  cursor: pointer; }
+
+.selected-gender {
+  background-color: #255094;
+  border: 1px solid #255094; }
+
+.gender {
+  margin: 3px 9px;
+  height: 26px; }
+
+.female {
+  background-position: -37px -7px;
+  width: 13px; }
+
+.male {
+  background-position: -51px -7px;
+  width: 12px; }
+
+.roblox-captcha-modal {
+  width: 320px;
+  margin: 0 auto; }
+
+.modal-body-text {
+  text-align: center; }
+
+.fake-input-lg {
+  height: 46px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px; }
+
+.fake-input-lg label {
+  padding: 5px 8px; }
+
+#WhatsRobloxContainer .inner-full-height-section {
+  padding: 0;
+  margin-top: 5px;
+  overflow: hidden; }
+
+#WhatIsRobloxTextBg {
+  top: 25%; }
+
+#RobloxDeviceText {
+  padding-top: 110px; }
+
+#InnerWhatsRobloxContainer2 {
+  height: 30%;
+  margin-top: 5px; }
+
+.game-image {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+
+.app-store-logo {
+  display: inline-block;
+  width: 136px;
+  height: 47px; }
+
+#ComputerImgSmall {
+  margin-top: 20px; }
+
+.ComputerImg {
+  margin-bottom: -72px;
+  vertical-align: bottom; }
+
+footer {
+  padding-top: 100px;
+  background: #ececec;
+  background-image: -webkit-linear-gradient(top, #ececec 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #ececec 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #ececec 0%, #ffffff 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFECECEC', endColorstr='#FFFFFFFF', GradientType=0); }
+
+#FooterBigLinks a {
+  font-size: 40px;
+  margin: 0 13px; }
+
+#FooterLanguage {
+  margin: 15px 0; }
+
+#FooterLanguage a {
+  font-size: 25px;
+  margin: 0 10px; }
+
+.social-button {
+  display: inline-block;
+  vertical-align: top; }
+
+.fb-button {
+  width: 50px; }
+
+.youtube-subscribe {
+  margin-left: 40px; }
+
+@media (max-width: 991px) {
+  #SignUpFormContainer {
+    display: block;
+    margin: 0 auto; }
+  #MainLogo {
+    text-align: center;
+    top: 0; }
+  #LogoAndSlogan {
+    float: none; }
+  #MainLogo h1 {
+    font-size: 2.1em;
+    margin-top: -18px; }
+  #MainLogoImage {
+    float: none; }
+  .attribution {
+    font-size: 14px;
+    left: 1%; }
+  #MainCenterContainer {
+    top: 100px; }
+  .navbar-landing .navbar-collapse.in {
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6); } }
+
+@media (max-width: 767px) {
+  .navbar-landing .navbar-nav a {
+    font-size: inherit; }
+  .fake-input-lg > label {
+    display: block; }
+  .fake-input-lg {
+    height: auto; }
+  .month-special-dropdown {
+    border-left: none; }
+  .full-height-section {
+    min-height: 780px; }
+  #TopLeftNavLinks {
+    margin-left: 5px; }
+  #WhatIsRobloxTextBg {
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.7); }
+  #InnerWhatsRobloxContainer1 {
+    background-size: cover;
+    background-position: 20% center; }
+  #FooterLegalText {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; } }
+
+/*# sourceMappingURL=Landing.css.map */

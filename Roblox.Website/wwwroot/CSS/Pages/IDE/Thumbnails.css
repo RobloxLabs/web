@@ -1,0 +1,33 @@
+/* Legacy CSS file - Please do not copy */
+.thumbnail-container {
+  width: 530px;
+  height: 280px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  position: relative; }
+
+.snapshot-container {
+  margin-top: 30px;
+  width: 570px;
+  text-align: center; }
+
+.take-snapshot-button {
+  margin: auto;
+  width: 130px; }
+
+.preview-image {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.file-input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 1px; }

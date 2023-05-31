@@ -1,0 +1,38 @@
+﻿.BannerRedesign { 
+    background:url(/images/Themes/Thanksgiving2013/nav-bar-bkg.png) repeat-x !important; 
+}
+#NavigationRedesignBannerContainer {
+    background-image: url(/images/Themes/Thanksgiving2013/leaves.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom center !important;
+}
+#NavigationRedesignBannerContainer a.btn-logo,#NavigationRedesignBannerContainer a.btn-logo:visited {
+    background:url(/images/Themes/Thanksgiving2013/nav-logo.png) !important;
+	width:116px !important;
+}
+#NavigationRedesignBannerContainer a.btn-logo:hover 
+{
+    background:url(/images/Themes/Thanksgiving2013/nav-logo.png) !important;
+    background-position: 0 35px !important;
+}
+#NavigationRedesignBannerContainer .HeaderDivider {
+    border-left: 1px solid #B18C66 !important;
+}
+#NavigationRedesignBannerContainer a {
+    /*color: #eee !important;*/
+}
+#Footer.LanguageRedesign {
+    color:#555 !important;
+    background-color: #6F3800 !important;
+}
+#Footer.LanguageRedesign div.legal { 
+    border-color:white !important;
+} 
+#Footer.LanguageRedesign p.Legalese {
+    color: #999 !important;
+}
+html 
+{
+    background-color:#6F3800 !important;
+}
+    

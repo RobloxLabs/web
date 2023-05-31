@@ -1,0 +1,248 @@
+/* Please use icon-variant-v2 instead */
+/* Legacy CSS file - Please do not copy */
+body {
+  overflow: hidden;
+  margin: 0; }
+
+.bc-box {
+  border: 1px solid #9EC7FF;
+  background-color: #CFE3FE; }
+
+.bc-box .header {
+  background-image: url(/Images/MobileApp/Upgrades/Hats_BC_Fixed.png); }
+
+.bc-box .upgrade-button {
+  background: -webkit-linear-gradient(top, #B5D3FF 0%, #6AA7FD 2%, #0353C4 100%);
+  /* Chrome10+,Safari5.1+ */
+  border: 1px solid #0353C4; }
+
+.bc-box a, .tbc-box a, .obc-box a {
+  display: inline-block;
+  width: 49%;
+  padding: 2%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box; }
+
+.tbc-box {
+  border: 1px solid #FF4E00;
+  background-color: #FEF0CF;
+  margin-top: 5px; }
+
+.tbc-box .header {
+  background-image: url(/Images/MobileApp/Upgrades/Hats_TBC_Fixed.png); }
+
+.tbc-box .upgrade-button {
+  background: -webkit-linear-gradient(top, #fed89b 0%, #ff8f00 2%, #ff6700 100%);
+  /* Chrome10+,Safari5.1+ */
+  border: 1px solid #FF4E00; }
+
+.tbc-box .separator {
+  color: #FF4E00;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.obc-box {
+  border: 1px solid #020202;
+  background-color: #DCDCDC;
+  margin-top: 5px; }
+
+.obc-box .header {
+  background-image: url(/Images/MobileApp/Upgrades/Hats_OBC.png); }
+
+.obc-box .upgrade-button {
+  background: -webkit-linear-gradient(top, #dcdcdc 0%, #737373 2%, #010101 100%);
+  /* Chrome10+,Safari5.1+ */
+  border: 1px solid #000; }
+
+.obc-box .separator {
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.upgrade-button {
+  font-family: Myriad Pro, Trebuchet MS, sans-serif;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px -2px 0px rgba(60, 60, 60, 0.45);
+  text-decoration: none; }
+
+.upgrade-value {
+  color: #FFFF97;
+  font-size: 20px; }
+
+.upgrade-price {
+  color: #fff;
+  font-size: 24px; }
+
+.upgrade-price sup {
+  font-size: 14px; }
+
+.bc-box .header, .compare-col-header.bc {
+  color: #0053C6; }
+
+.tbc-box .header, .compare-col-header.tbc {
+  color: #FF4E00; }
+
+.obc-box .header, .compare-col-header.obc {
+  color: #000; }
+
+.upgrade-box {
+  padding: 6px;
+  padding-right: 0px;
+  margin: 10px;
+  font: 3.0vh Arial; }
+
+.compare-header {
+  text-align: left;
+  height: 40px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold; }
+
+.upgrade-box .header {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 48px;
+  background-repeat: no-repeat;
+  background-size: 41px 34px;
+  min-height: 34px;
+  margin-left: 4px;
+  padding-top: 6px; }
+
+.upgrade-box a.oldimage {
+  display: inline-block;
+  height: 75px;
+  width: 49%;
+  background-repeat: no-repeat; }
+
+.upgrade-box .desc {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-left: 4px; }
+
+div.checkmark {
+  height: 14px;
+  width: 15px;
+  background-image: url("/Images/MobileApp/Upgrades/green_check.png");
+  background-size: 15px 14px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  top: 2px;
+  position: relative; }
+
+table.compare-options {
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-family: Arial, Sans-Serif;
+  font-weight: bold; }
+
+table.compare-options th, table.compare-options td {
+  padding: 8px;
+  border: 1px solid #d2d2d2;
+  text-align: center;
+  font-size: 1.0vw;
+  height: 33px; }
+
+table.compare-options th {
+  font-weight: bold;
+  font-size: 1.2vw;
+  height: 33px;
+  vertical-align: top; }
+
+table.compare-options th img {
+  height: 30px;
+  padding-bottom: 5px; }
+
+table.compare-options th.nbc {
+  padding-top: 43px; }
+
+table.compare-options td:first-child {
+  text-align: left;
+  width: auto; }
+
+/*
+.compare-col-header:before {
+    height:30px;display:block;background-position:top center;background-repeat:no-repeat;background-size:32px 28px;content:"";
+}
+.compare-col-header.bc:before {
+    background-image:url('/Images/MobileApp/Upgrades/Hats_BC_Fixed.png');
+}
+*/
+.upgradeHeader {
+  font: 24px arial;
+  font-weight: bold;
+  color: #363636;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  margin-left: 20px; }
+
+/* buying robux */
+.robux-box {
+  border: 1px solid #9dd99d;
+  background-color: #E4FFE4;
+  padding: 6px;
+  padding-right: 0px;
+  font: 3.0vh Arial; }
+
+.robux-box .desc {
+  background-image: url("/Images/MobileApp/Upgrades/img-robux.png");
+  background-repeat: no-repeat;
+  background-position: left 21%;
+  background-size: 40px 27px;
+  padding-left: 46px;
+  margin-left: 4px; }
+
+.robux-box .header {
+  color: #006900;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3px; }
+
+.robux-box a {
+  display: inline-block;
+  width: 49%;
+  float: left;
+  box-sizing: border-box; }
+
+.robux-box img {
+  width: 100%; }
+
+.clear {
+  clear: both; }
+
+a.left-image {
+  margin-right: 1%; }
+
+.leftContainer {
+  float: left;
+  width: 43%; }
+
+.rightContainer {
+  float: left;
+  width: 55%; }
+
+.descText {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 4px; }
+
+.separator {
+  color: blue; }
+
+.centeredContainer {
+  margin-left: auto;
+  margin-right: auto; }
+
+.legal-text-container {
+  max-width: 970px;
+  margin: 0 auto;
+  margin-top: 48px;
+  text-align: center; }

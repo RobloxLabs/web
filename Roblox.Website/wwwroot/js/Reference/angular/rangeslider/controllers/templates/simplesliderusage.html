@@ -1,0 +1,35 @@
+<h5>HTML code example:</h5>
+<pre>
+<code class="language-html">
+<script type="text/ng-template" id="slider-sample">    
+    <rzslider rz-slider-model="slider.value"
+              rz-slider-options="slider.options"
+              rz-slider-tpl-url="range-slider-template"> //note: this tpl url is needed.
+    </rzslider>
+</script>
+</code>
+</pre>
+
+<h5>Angular code example:</h5>
+<pre>
+<code class="language-javascript">
+    //angular js controller.
+
+    app.controller("myPageController", ['$scope', 
+        function ($scope) {
+            $scope.slider = {
+                value: 100,
+                options: {
+                    hidePointerLabels: true,
+                    hideLimitLabels: true,
+                    showSelectionBar: true,
+                    step: 5,
+                    ceil: 105,
+                    floor: 90,
+                    ticksArray: [95, 100]
+                }
+            };
+        }
+    ]);
+</code>
+</pre>

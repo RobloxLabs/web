@@ -1,0 +1,186 @@
+/* Legacy CSS file - Please do not copy */
+#navbar {
+  float: left;
+  width: 157px;
+  /* Must match #content margin-left */ }
+
+#navbar.basicSettingsTab {
+  height: 275px; }
+
+#navbar.thumbnailTab {
+  height: 410px; }
+
+#content {
+  margin-left: 157px;
+  /* Must match #navbar width */
+  padding-left: 20px;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative; }
+
+#animationForm .field-validation-error {
+  width: auto;
+  position: relative;
+  *top: -2px;
+  *display: inline-block;
+  color: #C00; }
+
+span[for=Description] {
+  vertical-align: top; }
+
+#animationForm #basicSettings span#nameRow .field-validation-error {
+  *top: -10px; }
+
+#animationForm .tool-tip img {
+  *margin-top: -5px; }
+
+#animationForm #descriptionRow span {
+  vertical-align: top; }
+
+#animationForm select.form-select.last-form-element {
+  margin-bottom: 0; }
+
+#animationForm select.form-select.no-margins {
+  margin: 0; }
+
+#animationForm select.form-select.SelectRank {
+  margin-top: 5px;
+  width: 150px; }
+
+#animationForm label {
+  display: block;
+  margin-bottom: 5px; }
+
+#animationForm select.form-select {
+  margin: 5px 0 20px 0; }
+
+#animationForm .footnote {
+  text-transform: none; }
+
+#animationForm .headline {
+  margin-bottom: 20px; }
+
+#animationForm .headline h2 {
+  display: inline;
+  margin-right: 4px; }
+
+#animationForm h2 {
+  margin: 0;
+  padding: 0; }
+
+#animationForm div.tab-content {
+  padding-top: 20px;
+  padding-left: 10px; }
+
+#animationForm .form-text-box {
+  resize: none; }
+
+#animationForm .text-box {
+  margin-bottom: 10px; }
+
+#animationForm .text-box#Name {
+  width: 372px; }
+
+#animationForm .radio-button-label {
+  margin-bottom: 10px; }
+
+#animationForm .check-box-label {
+  margin-bottom: 10px; }
+
+#animationForm label.radio-selection {
+  margin-bottom: 10px; }
+
+#animationForm label.radio-selection-last {
+  margin-bottom: 30px; }
+
+#animationForm div.TabContent h2 {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+#animationForm .subsection {
+  margin-bottom: 20px; }
+
+#animationForm td {
+  border: 10px solid white;
+  /* Or any color which matches table's bgcolor */
+  border-width: 10px 0; }
+
+#animationForm fieldset {
+  padding-bottom: 5px; }
+
+#animationForm span.tooltip-margin {
+  margin-right: 5px; }
+
+#animationForm textarea {
+  width: 372px; }
+
+#animationForm label.associate-group-label {
+  float: none; }
+
+#animationForm label.has-tooltip {
+  display: inline-block; }
+
+#animationForm #buttonRow {
+  margin: 20px 20px 0 0;
+  overflow: hidden;
+  position: relative; }
+
+#animationForm #buttonRow a {
+  margin-right: 10px; }
+
+#animationForm .h2-tooltip {
+  margin-bottom: 1px; }
+
+#animationForm img.copylock-tooltip {
+  width: 12px;
+  height: 13px;
+  margin-left: 4px; }
+
+#animationForm span.invalid-name {
+  display: none; }
+
+#animationForm span.nameRow {
+  *line-height: 15px; }
+
+#animationForm input[type='checkbox'] {
+  margin: 3px 7px 3px 0; }
+
+#animationForm input[type='radio'] {
+  margin-right: 9px; }
+
+#animationForm .TipsyImg {
+  vertical-align: middle;
+  margin-top: -10px; }
+
+#animationForm .checkboxListItem {
+  position: relative;
+  float: none; }
+
+#animationForm #groupPlace {
+  margin-bottom: 20px; }
+
+#animationForm div.placetype-warning {
+  margin-top: -20px;
+  margin-bottom: 30px; }
+
+#animationForm a.tooltip {
+  float: none;
+  position: inherit;
+  margin-left: 1px; }
+
+#animationForm img.h2_tooltip {
+  width: 12px;
+  height: 13px;
+  margin-left: 4px; }
+
+#animationForm #TabsContentContainer {
+  min-height: 300px; }
+
+#animationForm div.spacing {
+  margin-bottom: 10px; }
+
+#animationForm .defaultText {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px; }

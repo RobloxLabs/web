@@ -1,0 +1,18 @@
+<pre>
+<code class="language-javascript">    
+    app.controller("myPageController", ['$scope', 'modalService', 
+        function ($scope, modalService) {
+            $scope.showSimple = function () { 
+                var modal = modalService.open({ 
+                    titleText: "Simple Modal", 
+                    bodyText: "I am a simple modal, and this is my body.", 
+                    actionButtonShow: true, 
+                    actionButtonText: "Cool Beans", 
+                    neutralButtonText: "Close Me",
+                    imageUrl: "/images/NextStyleGuide/temp/example-bg.png"
+                }); 
+            };
+        }
+    ]);
+</code>
+</pre>

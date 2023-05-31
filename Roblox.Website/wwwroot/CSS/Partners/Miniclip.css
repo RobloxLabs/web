@@ -1,0 +1,47 @@
+﻿body
+{
+    background-image: none;
+    background-color: #333;
+}
+#ChatContainer
+{
+    height: 0px;
+}
+#MiniClipHeaderOuter
+{
+    margin-top:-3px;
+    width:100%;
+    height:173px;
+    background: url(/images/MiniclipHeader_BG.PNG) white bottom repeat-x;
+}
+#MiniClipHeaderInner
+{
+    width:960px;
+    overflow:hidden;
+    margin:-1px auto 0px;
+    padding:0px;
+}
+#MiniClipHeaderIFrame
+{
+    position:relative;
+    left:-8px;
+    top:-2px;
+    padding:0px;
+    border:none;
+    height:175px;
+    width:975px;
+}
+#MiniClipFooterContainer
+{
+    width:100%;
+    background-color:#333;
+    border-top:2px solid #333;
+}
+#MiniClipFooterIFrame
+{
+    border:none;
+    margin:0 auto;
+    height:600px;
+    width:974px;
+    display:block;
+}

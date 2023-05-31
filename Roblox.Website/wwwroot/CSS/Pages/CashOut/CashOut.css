@@ -1,0 +1,201 @@
+﻿.bc-page-cashout {
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+/* ----------------- WIDGET ------------------ */
+
+#CashOutWidget {
+    padding: 10px;
+    text-align: center;
+    width: 210px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+#CashOutWidget .percent-column {
+    float: left;
+    width: 125px;
+    font-size: 50px;
+    padding: 70px 10px 0 0;
+}
+#CashOutWidget .percent-column span {
+    font-size: 28px;
+    position: relative;
+    top: -15px;
+}
+#CashOutWidget .graphic-column 
+{
+    float: left;
+    height: 200px;
+    position: relative;
+    width: 60px;
+}
+#CashOutWidget .graphic-grey {
+    height: inherit;
+    background: #ccc;
+    width: 60px;
+    position: absolute;
+}
+#CashOutWidget .graphic-green {
+    height: inherit;
+    background: green;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+}
+#CashOutWidget .subtitle {
+    margin: 3px 0;
+}
+#CashOutWidget .robux-name-text
+{
+    position: absolute;
+    bottom: 0px;
+    font-size: 11px;
+    color: #fff;
+    font-weight: normal;
+    left: 13px;
+}
+#CashOutWidget .cash-out {
+    position: relative;
+    top: -13px;
+    font-size: 11px;
+    color: #ccc;
+    text-align: center;
+}
+#CashOutWidget .graphic-container {
+    margin-top: 20px;
+}
+#CashOutWidget .divider-top {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* ------------------ FORM ------------------- */
+#CashOutForm {
+    padding: 10px;
+}
+#CashOutForm .billing {
+    float: left;
+    width: 350px;
+}
+#CashOutForm .cash-out-robux {
+    float: left;
+    margin-left: 80px;
+    font-size: 14px;
+    width: 320px;
+}
+#CashOutForm .form-label {
+    width: 150px;
+}
+#CashOutForm .form-label, #CashOutForm .form-element {
+    float: left;
+}
+#CashOutForm .form-row {
+    clear: both;
+    margin-bottom: 15px;
+}
+#CashOutForm input[type=text],#CashOutForm input[type=password] {
+    padding: 2px;
+}
+#CashOutForm .field-validation-error {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+}
+#CashOutForm select {
+    margin-left: 0px;
+    height: 25px;
+}
+#CashOutForm .status-error {
+    margin-bottom: 20px;
+}
+#CashOutForm .cash-out-robux .form-label,#CashOutForm .cash-out-robux .form-element {
+    float: none;
+}
+#CashOutForm .cash-out-robux .row-content h2 {
+    color: green;
+    line-height: 1em;
+    font-size: 24px;
+}
+#CashOutForm .tos {
+    margin: 20px 0px 10px 0px;
+}
+#CashOutForm .tos input {
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+}
+#CashOutForm .robux-selection {
+    margin-top: 20px;
+}
+#CashOutForm .robux-selection .row {
+    border: 2px solid #fff;
+    padding-left: 8px;
+}
+#CashOutForm .robux-selection .row:hover {
+    cursor: pointer;
+}
+#CashOutForm .robux-selection .row.selected 
+{
+    border: 2px solid green;    
+}
+#CashOutForm h1 {
+    margin-bottom: 20px;
+}
+#CashOutForm .form-element {
+    width: 200px;
+}
+#CashOutForm .form-element input {
+    width: 100%;
+}
+#CashOutForm .general-message {
+    text-align: center;
+    font-size: 14px;
+}
+#CashOutForm .success-message {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#CashoutYTDAndTaxInfo {
+    width: 320px;
+    margin-top: 20px;
+}
+#CashoutYTD {
+    margin-bottom: 10px;
+}
+#CashOutForm span.highlight {
+    font-weight: bold;
+}
+
+.space-above {
+    padding-top: 7px;
+}
+
+h3 {
+    display: block;
+}
+
+/* matches buy robux page */
+.cash-out-robux .row-title {
+    font-size: 52px;
+    color: #ccc;
+    float: right; 
+    line-height: 52px;
+    letter-spacing: -3px;
+    padding-bottom: 6px;
+}
+/* matches buy robux page */
+.cash-out-robux .row-content {
+    width: 160px;
+    float: right;
+    margin-left: 15px;
+    position: relative; /* I added this */
+    top: 5px; /* I added this */
+}
+
+.field-validation-error /* class should be added to .status-error */
+{
+    background-color: #FAE5E5;
+    border: 1px solid #C00;
+    padding: 3px 3px;
+}

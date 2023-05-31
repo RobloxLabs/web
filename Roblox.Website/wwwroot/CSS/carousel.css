@@ -1,0 +1,243 @@
+        /* override 2 column layout classes for this page only because the front page requires a wider right column */
+        .Column1c
+        {
+        	font-family: Verdana;
+            width: 570px;
+            float: left;
+        }
+
+        .Column2c
+        {
+        	font-family: Verdana;
+            width: 310px;
+            float: right;
+        }
+
+        .Column1c .ShadowedStandardBox
+        {
+            width:561px;
+        }
+
+        .Column1c .ShadowedStandardBoxHeader
+        {
+            width:551px;
+        }
+
+        .Column2c .ShadowedStandardBox
+        {
+            width:310px;
+        }
+
+        .Column2c .ShadowedStandardBoxHeader
+        {
+            width:300px;
+        }
+        
+        .DontLogout
+        {
+            float:right; 
+            margin-left:80px;
+        }
+        
+        #homeJoinCntr 
+        {
+	        float: left;
+	        width: 290px;
+	        margin: 0 5px 0 0;
+	    }
+
+        #homeJoinContent 
+        {
+	        min-height: 203px;
+	    }
+
+        #homeParentsCntr 
+        {
+	        float: left;
+	        width: 285px;
+	    }
+        #ad 
+        {
+	        float: right;
+	        width: 300px;
+	    }
+	    .inlineGrfkCntr 
+	    {
+	        float: left;
+	        width: 44px;
+	        margin: 0 auto;
+	        text-align: center;
+	    }
+
+        .inlineGrfkCntr img 
+        {
+	        margin-bottom: 15px;
+	    }
+        .indent55 
+        {
+	        padding-left: 55px;
+	        margin-top: -10px;
+	    }
+	    .indent55 p
+	    {
+	        margin-bottom: 25px;
+	    }
+	    #btnSet_parents 
+	    {
+	        text-align: center;
+	        width: 206px;
+	        margin: 46px auto 0;
+	    }
+	    ul.checkStyle 
+	    {
+	        list-style-position: outside;
+	        list-style-type: none;
+	    }
+
+        ul.checkStyle li 
+        {
+	        background: transparent url("/images/greenCheck2.png") no-repeat left 3px;
+	        padding-left: 20px;
+	        margin-bottom: 7px;
+	    }
+        ul#homeFunList 
+        {
+	        margin-top: 13px;
+	        line-height: 15px;
+	    }
+	    ul
+	    {
+	        margin-left:0;
+	        padding-left: 5px;
+	    }
+	   .FeaturedGameButtonABTest,.FeaturedGameButtonABTest:hover
+        { 
+            right: 50px;
+        }
+
+        #carousel {
+            width: 659px; height: 286px;
+            position: absolute;
+            display: block;
+            left: 218px;
+            top: 0px;
+            background: #ddd;
+		    overflow: hidden;
+        }
+        #carousel:hover 
+        {
+		    cursor: pointer;
+		    cursor: hand;
+        }
+	    #carousel .navContainer {
+		    position:absolute;
+		    top: 251px; left: 255px;
+		    width: 150px; height:30px;
+	    }
+	
+        #carousel .navContainer .nav {
+            position: absolute;
+            top: 0px; left: 0px;
+            display: block;
+            width: 29px; height: 29px;
+            background: url(/images/GameCarousel/carousel_navOff.png);
+        }
+	
+        #carousel .navContainer .nav:hover {
+            background: url(/images/GameCarousel/carousel_navOver.png);
+	    }
+        
+        #carousel .navContainer .navActive, #carousel .navActive:hover {
+            background: url(/images/GameCarousel/carousel_navOn.png) !important;
+        }
+	
+	    #carousel .image {
+		    position: absolute;
+		    top: 0px; left: 0px;
+	    }
+
+        * html #carousel .caption { 
+           width: 232px; /* set min-width for IE */
+        }
+	    #carousel .caption {
+		    position: relative;
+		    float: right;
+		    min-width: 232px;
+		    _width: 232px;
+		    height: 145px;
+		    top: 55px;
+		    font-family: Arial, Helvetica, sans-serif;
+		    font-weight: bold;
+		    color: #fff;
+		    text-align: right;
+	        text-shadow: 0px 1px 2px #000;
+	        overflow: visible;
+	    }
+	
+	    #carousel .caption .bkg {
+		    position: absolute;
+		    width: 100%; height: 130px;
+		    background: #000;
+		    opacity:0.6; filter:alpha(opacity=60);
+		    float: left;
+		    z-index: 0;
+	    }
+	
+	    #carousel .caption .title {
+		    position: relative; top: 10px;
+		    padding: 0px 10px 10px 10px;
+		    margin-top: -5px;
+		    font-size: 32px;
+		    line-height: 40px;
+		    text-align: right;
+		    zbackground: orange;
+	    }
+	
+	    #carousel .caption .by {
+		    position: relative; top: 0px; left: 0px;
+		    padding: 0px 10px 0px 10px;
+		    margin-top: -5px;
+		    font-size: 12px;
+		    line-height: 20px;
+		    font-style: italic;
+		    color: #b2b2b2;
+		    text-align: right;
+		    zbackground: green;
+	    }
+	
+	    #carousel .caption .more {
+		    position: relative; top: 0px;
+		    padding: 0px 10px 0px 10px;
+		    font-size: 14px;
+		    line-height: 16px;
+		    font-weight: normal;
+		    text-align: right;
+		    zbackground: red;
+	    }
+	
+	    #carousel .captionLeft {
+		    float: left;
+		    text-align: left;
+	    }
+	    #carousel .captionLeft .title {
+		    text-align: left;
+	    }
+	    #carousel .captionLeft .by {
+		    text-align: left; left: -1px;
+	    }
+	    #carousel .captionLeft .more {
+		    text-align: left;
+	    }
+	    #carousel .hidden {
+		    display:none;
+	    }
+	    #carousel .tooltip .preview {
+	        position: relative;
+	        background: black;
+	        width: 80px;
+	        height: 80px;
+	    }
+	    #carousel #carouselbutton 
+	    {
+	        z-index: 1;
+	    }

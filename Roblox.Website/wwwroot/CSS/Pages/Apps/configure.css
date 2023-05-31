@@ -1,0 +1,41 @@
+﻿.mode-selector {
+	margin-bottom: 20px;
+}
+.template-actions-dropDown {
+	margin-right: 10px
+}
+.template-actions {
+	margin-bottom: 10px;
+}
+.edit-template-box {
+	margin-top: 10px
+}
+.actions-dropdown-container {
+	margin: 20px 0;
+}
+.code-input {
+	margin-bottom: 10px;
+}
+.action-types {
+	margin-bottom: 5px
+}
+.template-holder {
+	margin-bottom: 10px;
+	padding-top:10px;
+}
+.template-image-container {
+	margin: 5px;
+	float: left;
+	width:160px;
+	text-align: center;
+}
+.delete-template-button {
+	margin-top: 5px;
+}
+.thumbnail-purchase-container {
+	float: left;
+	margin-left: 30px;
+}
+.thumbnail-display-container {
+	float: left;
+}

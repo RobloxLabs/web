@@ -1,0 +1,34 @@
+<pre>
+<code class="language-javascript">
+    //Code to trigger modal in your controller.
+    app.controller("myPageController", ['$scope', '$uibModal', 
+        function myPageController($scope, $uibModal) {
+
+            $scope.showComplex = function () {
+                $uibModal.open({
+                    templateUrl: 'modal-complex-with-data-sample',
+                    controller: 'modalComplexSampleController',
+                    resolve: {
+                        myInjectedData: {
+                            name: "Roblox",
+                            type: "Game"
+                        }
+                    }
+                });
+            }
+        }
+    ]);
+                    
+    //Controller for the modal
+    app.controller("modalComplexSampleController", ['$scope', '$uibModalInstance', 'myInjectedData',
+        function modalComplexSampleController($scope, $uibModalInstance, myInjectedData) {
+
+            $scope.close = function () {
+                $uibModalInstance.dismiss();
+            }
+    
+            $scope.extraData = myInjectedData;
+        }
+    ]);
+</code>
+</pre>

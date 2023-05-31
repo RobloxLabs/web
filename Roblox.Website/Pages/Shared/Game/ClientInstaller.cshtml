@@ -1,0 +1,173 @@
+﻿@using Roblox.TranslationResources.Common
+@using Roblox.TranslationResources.CommonUI
+
+@inject IStringLocalizer<VisitGame> VisitGameResources
+@inject IStringLocalizer<Controls> ControlsResources
+
+@model ClientInstallerModel
+@if (Model.UseUpdatedModal)
+{
+    <!-- New InstallationInstructions go here -->
+}
+else
+{
+    <style>
+        #win_firefox_install_img .activation {
+        }
+
+        #win_firefox_install_img .installation {
+            width: 869px;
+            height: 331px;
+        }
+
+        #mac_firefox_install_img .activation {
+        }
+
+        #mac_firefox_install_img .installation {
+            width: 250px;
+        }
+
+        #win_chrome_install_img .activation {
+        }
+
+        #win_chrome_install_img .installation {
+        }
+
+        #mac_chrome_install_img .activation {
+            width: 250px;
+        }
+
+        #mac_chrome_install_img .installation {
+        }
+    </style>
+    <div id="InstallationInstructions" class="modalPopup blueAndWhite" style="display:none;overflow:hidden">
+        <a id="CancelButton2" onclick="return Roblox.Client._onCancel();" class="ImageButton closeBtnCircle_35h ABCloseCircle"></a>
+        <div style="padding-bottom:10px;text-align:center">
+	    @if (Model.IsSupportedPlatform)
+	    {
+		    switch (Model.Platform)
+		    {
+			    case "Windows":
+				    if (Model.UseBrowserSwitch)
+				    {
+					    switch (Model.Browser)
+					    {
+						    case "IE":
+                                <img class="InstallInstructionsImage" data-modalwidth="597" data-delaysrc="https://images.rbxcdn.com/0852ee45fa7fe93903d81a3c5edf6f6c.jpg" alt="Installation Instructions" />
+							    break;
+						    case "IE9+":
+                                <img class="InstallInstructionsImage" data-modalwidth="970" data-delaysrc="https://images.rbxcdn.com/7ef5098802dda8626306b541559592f1.png" alt="Installation Instructions" />
+							    break;
+						    case "Chrome":
+							    if (Model.BrowserVersion >= 32)
+							    {
+                                    <img id="win_chrome_install_img" class="InstallInstructionsImage" data-modalwidth="890" data-delaysrc="https://images.rbxcdn.com/0e5c6e93201539a0d2e72beed1590602.png" data-activationsrc="https://images.rbxcdn.com/3edc01b73bf1e1b27b83b0ab46408d2f.jpg" alt="Installation Instructions" />
+							    }
+							    else
+							    {
+                                    <img id="win_chrome_install_img" class="InstallInstructionsImage" data-modalwidth="597" data-delaysrc="https://images.rbxcdn.com/ed0d14e6d52d6aebb75371710c7e21c9.jpg" alt="Installation Instructions" />
+							    }
+							    break;
+						    case "Firefox":
+                                <img id="win_firefox_install_img" class="InstallInstructionsImage" data-modalwidth="975" data-delaysrc="https://images.rbxcdn.com/55c68d5e8fd74403ea5cbf31a6d490c7.png" data-activationsrc="https://images.rbxcdn.com/902418cdd45d3d443800c55cabbf21d3.jpg" alt="Installation Instructions" />
+                                <div style="margin-bottom:-30px">Having trouble installing Roblox? <a href='https://www.roblox.com/Download'>Click here!</a></div>
+							    break;
+						    case "Safari":
+                                <img style="width:587px" class="InstallInstructionsImage" data-modalwidth="597" data-delaysrc="https://images.rbxcdn.com/f1143353ba0e03464f204920184b796b.jpg" alt="Installation Instructions" />
+							    break;
+						    case "Opera":
+                                <img style="width:370px" class="InstallInstructionsImage" data-modalwidth="400" data-delaysrc="https://images.rbxcdn.com/d8d93872294ce8724c583dc8f357763e.jpg" alt="Installation Instructions" />
+							    break;
+					    }
+				    }
+				    else
+				    {
+					    <!-- Legacy InstallInstructions go here -->
+				    }
+				    break;
+			    case "Mac":
+				    switch (Model.Browser)
+				    {
+					    case "Chrome":
+                            <img id="mac_chrome_install_img" class="InstallInstructionsImage" data-modalwidth="970" data-delaysrc="https://images.rbxcdn.com/09527e321b8b4343b26b6d04946a9419.png" data-activationsrc="https://images.rbxcdn.com/ed75b0d882d1a89362c6f841b0edcaee.jpg" data-oldmacdelaysrc="https://images.rbxcdn.com/2896428c8d2b5d9742f28407e615254f.jpg" alt="Installation Instructions" />
+						    break;
+					    case "Firefox":
+                            <img id="mac_firefox_install_img" class="InstallInstructionsImage" data-modalwidth="970" data-delaysrc="https://images.rbxcdn.com/82357b42023dbc217c1ab4fe450f4e9e.png" data-activationsrc="https://images.rbxcdn.com/d0be427e01859ba14e111b20e17c8c9e.jpg" data-oldmacdelaysrc="https://images.rbxcdn.com/3b7c1af143e81751ce2db1982b40e136.jpg" alt="Installation Instructions" />
+						    break;
+					    case "Safari":
+                            <img id="mac_safari_install_img" class="InstallInstructionsImage" data-modalwidth="970" data-delaysrc="https://images.rbxcdn.com/ae1f3e739c2780e760c9688f44a80152.png" data-oldmacdelaysrc="https://images.rbxcdn.com/5550e9e8645ad97bf11d9a209fddb32e.jpg" alt="Installation Instructions" />
+						    break;
+					    case "Opera":
+						    <div class="mac-install-steps" style="width:869px;">
+							    1) A window will open. Click <b>Open</b>.<br />2) Doubleclick the Roblox icon.
+							    <br />
+						    </div>
+						    <img id="mac_opera_install_img" style="width:869px" class="InstallInstructionsImage" data-modalwidth="869" data-delaysrc="https://images.rbxcdn.com/60e29f4bd1bab656eb71ee4099948770.jpg" data-oldmacdelaysrc="https://images.rbxcdn.com/60e29f4bd1bab656eb71ee4099948770.jpg" alt="Installation Instructions" />
+						    break;
+				    }
+				    break;
+		    }
+	    }
+            <br /><br />
+        </div>
+    </div>
+if (Model.IsIE)
+{
+    <div id="IEMetroInstructions" class="ConfirmationModal unifiedModal" style="padding:5px;display:none">
+        <div class="Title">@VisitGameResources["Heading.SwitchToDesktopToPlay"]</div>
+        <div style="background:#fff;padding:10px">
+            <img data-delaysrc="https://images.rbxcdn.com/d54d2aaebc53f81707286632ff0dfe41.jpg" alt="@VisitGameResources["Label.SwitchToDesktopMode"]" />
+            <div style="margin:15px 0 5px" class="GenericModalButtonContainer">
+                <a class="ImageButton btn-neutral btn-large roblox-ok" onclick="$.modal.close()">@ControlsResources["Action.OK"]</a>
+            </div>
+        </div>
+    </div>
+}
+}
+
+<div id="pluginObjDiv" style="height:1px;width:1px;visibility:hidden;position: absolute;top: 0;"></div>
+<iframe id="downloadInstallerIFrame" style="visibility:hidden;height:0;width:1px;position:absolute"></iframe>
+
+<script src="~/js/m/clientinstaller.js"></script>
+
+<script type="text/javascript">
+    Roblox.Client._skip = @Html.Raw(Model.SkipUrl != null ? $"'{Model.SkipUrl}'" : "null");
+    Roblox.Client._CLSID = '@Model.CLSID';
+    Roblox.Client._installHost = '@Model.InstallHost';
+    Roblox.Client.ImplementsProxy = @Model.ImplementsProxy.ToString().ToLower();
+    Roblox.Client._silentModeEnabled = @Model.SilentModeEnabled.ToString().ToLower();
+    Roblox.Client._bringAppToFrontEnabled = @Model.BringAppToFrontEnabled.ToString().ToLower();
+    Roblox.Client._currentPluginVersion = '@Model.CurrentPluginVersion';
+    Roblox.Client._eventStreamLoggingEnabled = @Model.EventStreamLoggingEnabled.ToString().ToLower();
+    @if (Model.IsGameLaunchAttemptLoggingEnabled)
+    {
+<text>
+        
+        Roblox.Client._installSuccess = function() {
+            if(GoogleAnalyticsEvents){
+                GoogleAnalyticsEvents.ViewVirtual('InstallSuccess');
+                GoogleAnalyticsEvents.FireEvent(['Plugin','Install Success']);
+                if (Roblox.Client._eventStreamLoggingEnabled && typeof Roblox.GamePlayEvents != "undefined") {
+                    Roblox.GamePlayEvents.SendInstallSuccess(Roblox.Client._launchMode, play_placeId);
+                }
+            }
+        }
+        </text>
+        if (Model.Browser == "Chrome" || Model.Browser == "Safari")
+        {
+            <text>
+        if ((window.chrome || window.safari) && window.location.hash == '#chromeInstall') {
+            window.location.hash = '';
+            var continuation = '(' + $.cookie('chromeInstall') + ')';
+            play_placeId = $.cookie('chromeInstallPlaceId');
+            Roblox.GamePlayEvents.lastContext = $.cookie('chromeInstallLaunchMode');
+            $.cookie('chromeInstallPlaceId', null);
+            $.cookie('chromeInstallLaunchMode', null);
+            $.cookie('chromeInstall', null);
+            RobloxLaunch._GoogleAnalyticsCallback = function() { var isInsideRobloxIDE = 'website'; if (Roblox && Roblox.Client && Roblox.Client.isIDE && Roblox.Client.isIDE()) { isInsideRobloxIDE = 'Studio'; };GoogleAnalyticsEvents.FireEvent(['Plugin Location', 'Launch Attempt', isInsideRobloxIDE]);GoogleAnalyticsEvents.FireEvent(['Plugin', 'Launch Attempt', 'Play']);EventTracker.fireEvent('GameLaunchAttempt_Win32', 'GameLaunchAttempt_Win32_Plugin'); if (typeof Roblox.GamePlayEvents != 'undefined') { Roblox.GamePlayEvents.SendClientStartAttempt(null, play_placeId); }  }; 
+            Roblox.Client.ResumeTimer(eval(continuation));
+        }
+        </text>
+        }
+    }
+</script>

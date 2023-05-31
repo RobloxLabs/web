@@ -1,0 +1,17 @@
+/* Legacy CSS file - Please do not copy */
+.boxed-body h1 {
+  margin: 0; }
+
+.divider-bottom, .divider {
+  padding-top: 20px; }
+
+.divider-bottom > .btn-medium,
+.divider > .btn-medium {
+  float: right;
+  position: relative;
+  top: -50px; }
+
+#gameLink {
+  display: block;
+  margin-top: 5px;
+  width: 475px; }

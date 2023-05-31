@@ -1,0 +1,42 @@
+﻿#RightColumnWrapper {
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+#RightColumnWrapper .cellDivider {
+    border-bottom: 1px solid #ccc;
+}
+#RightColumnWrapper .cell {
+    width: 90%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+#RightColumnWrapper .giftCardImage {
+    padding-left: 50px;
+}
+#RightColumnWrapper .giftCardButton {
+    float: left;
+    margin-right: 50px;
+}
+#RightColumnWrapper .redeemLink {
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+#RightColumnWrapper .cancelLink {
+    font-size: 12px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 7px;
+}
+#RightColumnWrapper .gameCardButton {
+    float: left;
+    margin-right: 25px;
+}
+#RightColumnWrapper .gameCardControls {
+    margin-top: 10px;
+}
+
+#BCPageContainer #CashOutWidget
+{
+    border: none;
+}

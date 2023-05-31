@@ -1,0 +1,16 @@
+/* Legacy CSS file - Please do not copy */
+div.plugin-info {
+  padding-bottom: 15px;
+  display: inline-block; }
+
+div.plugin-info-image {
+  float: left;
+  margin-right: 15px; }
+
+div.plugin-info-text {
+  display: inline-block;
+  min-width: 400px;
+  width: 400px; }
+
+a.adjust {
+  display: none; }

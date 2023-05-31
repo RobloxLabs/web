@@ -1,0 +1,17 @@
+﻿@using System.Net
+@using Roblox.TranslationResources.CommonUI
+
+@inject IStringLocalizer<Features> Resources
+
+<div id="header-login-container">
+    <div id="header-login-wrapper" class="iframe-login-signup" data-display-opened="">
+        <a id="header-signup" href="/Login/NewAge.aspx">@Resources["Label.sSignUp"]</a>
+        <span id="header-or">@Resources["Label.sOr"]</span>
+        <span id="login-span">
+            <a id="header-login" class="btn-control btn-control-large">@Resources["Label.sLogin"] <span class="grey-arrow">▼</span></a>
+        </span>
+        <div id="iFrameLogin" style="display:none">
+            <iframe class="login-frame" src="/Login/iFrameLogin.aspx?loginRedirect=True&parentUrl=@WebUtility.UrlEncode(Context.Request.Path.Value)" scrolling="no" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,155 @@
+﻿html
+{
+    background-color: #fff;
+}
+
+#loginBody 
+{
+    margin-top: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+    font-family: Arial, Verdana, sans-serif;
+}
+    
+#loginPanel {
+    float: left;
+}
+    
+#loginPanel label 
+{
+    padding-right: 5px;
+}
+    
+#loginPanel input[type="text"], input[type="password"] 
+{
+    width: 242px;       
+}
+    
+#loginPanel input[type="password"] {
+    margin-left: 1px;
+}
+    
+#username 
+{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+    
+#password 
+{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+    
+#forgotPasswordPanel {
+    float: left;
+    line-height: 38px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #095FB5;
+    margin-top: 2px;
+}
+    
+#signInButtonPanel {
+    float: right;
+    text-align: center;
+    margin-bottom: 10px;
+}
+ 
+div .clearFloats {
+    height:0;
+    line-height:0;
+    display:block;
+    clear: both;
+}
+    
+#SplashPageConnect {
+    border-top: 1px solid;
+    border-color: #c0c0c0;
+    text-align: center;
+    padding-top: 20px;
+}
+    
+#signUpPanel {
+    float:right;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 2px;
+    margin-right: 0;
+}
+    
+#signUpPanel p {
+    margin-top: 9px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+    
+#signUpPanel h2 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+    
+#signUpPanel select {
+    margin-top: 5px;
+    border: 1px solid #A7A7A7;
+}
+    
+#signUpPanel input {
+    margin-top: 15px;
+}
+    
+p#disclaimer 
+{
+    margin-top: 5px;
+    padding-top: 2px;
+    color: #666;
+    display: block;
+    font-size: 11px;    
+}
+    
+div.validation-summary-errors {
+    background-color: #FAE5E5;
+    border: 1px solid #C00;
+    margin-top: 22px;
+    padding: 5px 0 5px 5px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 1px;
+}
+    
+a.btn-primary 
+{
+    margin-top: 14px;
+    margin-bottom: 13px;   
+}
+    
+div.validation-summary-errors ul 
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+    
+div.validation-summary-errors ul li {
+    list-style-type: none;
+}
+    
+div#recaptcha_widget_div {
+    margin-top: -3px;
+    margin-bottom: 9px;
+}
+    
+#signUpPanel select {
+        font-size: 12px;
+}
+
+#logintable td {
+    padding-bottom: 20px;
+    padding-right: 0;
+}

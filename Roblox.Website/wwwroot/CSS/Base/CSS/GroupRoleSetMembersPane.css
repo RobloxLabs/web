@@ -1,0 +1,119 @@
+.GroupMember
+{
+    float:left;
+    display:block;
+    width:50px;
+    margin:0 3px;
+}
+    
+#mid-column .FooterPager
+{
+    clear:both;
+    text-align:center;
+    margin: 0;
+    padding-top:10px;
+    *padding:0px;
+}
+#mid-column .FooterPager input
+{
+    width:30px;
+}
+#mid-column .FooterPager span
+{
+    display:inline-block;    
+}
+#mid-column .FooterPager span span, #mid-column .FooterPager span a
+{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+#mid-column .FooterPager span span, #mid-column .FooterPager span a, #mid-column .FooterPager span div
+{
+    float:left;
+}
+#mid-column .FooterPager span a:hover
+{
+    background-color:#fff;
+    text-decoration:none;    
+}
+#mid-column .FooterPager input
+{
+    text-align:center;
+}
+.pagerbtns
+{
+    background: url('/images/Groups/blue_arrow_btns_12x12_sprite.png') no-repeat;
+    position: relative;
+    top: 4px;   
+}
+.pagerbtns.previous
+{
+    background-position:0px -24px;
+}
+a.pagerbtns.previous:hover
+{
+    background-position:0px -36px;
+}
+span.pagerbtns.previous
+{
+    background-position:0px -60px;
+}
+.pagerbtns.next
+{
+    background-position:0 0;
+}
+a.pagerbtns.next:hover
+{
+    background-position:0 -12px;
+}
+span.pagerbtns.next
+{
+    background-position:0 -48px;
+}
+.previous
+{
+    *position:relative;
+    *top:18px;   
+}
+#mid-column .FooterPager div.paging_pagenums_container
+{
+    display:inline;
+    float:none;
+}
+#mid-column .FooterPager .paging_wrapper
+{
+    margin:0 5px;
+    position: relative;
+    top: 2px;
+    *top:0px;
+    *margin-left: 17px;
+}
+#mid-column .FooterPager .paging_wrapper input, #mid-column .FooterPager .paging_wrapper span, #mid-column .FooterPager .paging_wrapper div, #mid-column .FooterPager .paging_wrapper
+{
+    font-size:11px;
+    height:11px;
+    line-height:1em;
+}
+#mid-column .FooterPager .paging_wrapper input
+{
+    *vertical-align
+}
+.Members_DropDown
+{
+    text-align: right;
+    margin-bottom: 5px;
+}
+.Members_DropDown .ReportAbuse
+{
+    margin-right: 6px;    
+}
+.Members_DropDown select
+{
+    margin-right:5px;    
+}
+.GroupMember .OnlineStatus
+{
+    position: absolute;
+    padding: 2px;    
+}

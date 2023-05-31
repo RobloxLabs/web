@@ -1,0 +1,30 @@
+﻿.best-friends 
+{
+    font-family:Arial,sans-serif;
+    font-size:12px;
+}
+.best-friends .user
+{
+    margin:10px 0;
+}
+.best-friends .user .roblox-avatar-image
+{
+    float:left;
+}
+.best-friends .user .info
+{
+    float:left;
+    width:144px;
+    margin-left:5px;
+}
+.best-friends .user .name
+{
+    font-weight:bold;
+}
+.best-friends .user .status 
+{
+    color:#000;
+    margin-top:5px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+}

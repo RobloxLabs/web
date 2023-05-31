@@ -1,0 +1,44 @@
+<!--Cannot put this in ng-template because of the js code inside <code> tags which will break the templatecache of angular-->
+<div class="row">
+    <div class="col-xs-12" role="main">
+        <h3 class="doc-heading" id="angular-sliders">Angular Sliders</h3>
+
+        <h4>Files that need loading.</h4>
+        <pre><code class="language-javascript">
+        RobloxCSS.PageCSS.Add("~/CSS/Vendors/angularRangeSlider/rzSliderMain.css");
+        RobloxScripts.PageScripts.Add("~/viewapp/vendors/rangeSlider/rzslider.min.js");
+            
+        //and make sure to load the template in your page
+        RobloxAngularTemplates.PageTemplates.Add("~/viewapp/vendors/rangeSlider/templates/rangeSliderTemplate.html");
+        </code></pre>
+
+        <h4>Js module file</h4>
+        <pre><code class="language-javascript">
+        var app = angular.module("appName", ['rzModule']);
+        </code></pre>
+
+        <h5>Slider Parameters</h5>
+
+        <p>For a full list of parameters, please visit the 
+            <a class="text-link" href="https://github.com/angular-slider/angularjs-slider">plugin documentation.</a>
+        </p>
+
+        <h4 class="doc-heading" id="simple-slider">Sliders</h4>
+        <p>
+            A generic example of a range slider that has ticks to indicate steps in the range.
+        </p>
+        <div class="doc-section">
+            <div class="hint-text">Example: </div>
+            
+            <span class="font-bold">Slider value: {{slider.value}}</span>
+            <rzslider 
+                rz-slider-model="slider.value" 
+                rz-slider-options="slider.options"
+                rz-slider-tpl-url="range-slider-template">
+            </rzslider>
+
+            <h5>Usage: </h5>
+            <div ng-include="'/js/Reference/angular/rangeSlider/controllers/templates/simpleSliderUsage.html'"></div>
+        </div>
+    </div>
+</div>

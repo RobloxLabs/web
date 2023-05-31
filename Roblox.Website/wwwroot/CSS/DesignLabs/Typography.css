@@ -1,0 +1,23 @@
+/* Legacy CSS file - Please do not copy */
+.currency {
+  color: green; }
+
+.deemphasized,
+div.deemphasized {
+  font-size: 10px;
+  color: #999; }
+
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: -1px; }
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 1.428; }
+
+h5 {
+  font-size: 16px;
+  font-weight: 600; }

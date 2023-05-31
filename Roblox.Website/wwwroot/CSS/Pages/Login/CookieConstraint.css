@@ -1,0 +1,107 @@
+/* Legacy CSS file - Please do not copy */
+html {
+  height: 100%; }
+
+.cookie-constraint-body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  height: 100%;
+  line-height: 24px;
+  margin: 0;
+  min-width: 320px;
+  text-align: center;
+  overflow: hidden; }
+
+.cookie-constraint-body .nav-container .nav-content,
+.cookie-constraint-body #Body.simple-body {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden; }
+
+.cookie-constraint-body,
+.cookie-constraint-body #Body {
+  background-color: #000;
+  color: #fff; }
+
+.cookie-constraint-body #Body {
+  max-width: 970px;
+  width: 100%; }
+
+.header {
+  padding: 50px 0 20px; }
+
+.header img {
+  width: auto;
+  margin: 0 auto; }
+
+@media (max-width: 800px) {
+  .header img {
+    width: 100%;
+    height: auto; } }
+
+.content {
+  text-align: center; }
+
+.notification {
+  width: auto;
+  height: auto;
+  padding: 12px 20px 24px;
+  margin: 0 auto;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff; }
+
+.cookie-constraint-form {
+  margin: 0 auto 24px; }
+
+.cookie-constraint-input,
+.cookie-constraint-btn {
+  -webkit-appearance: none;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #b8b8b8;
+  display: inline-block;
+  font-size: 22px;
+  padding: 0; }
+
+.cookie-constraint-input {
+  width: 40%;
+  height: 38px;
+  font-weight: 400; }
+
+.cookie-constraint-btn {
+  width: 40px;
+  height: 40px;
+  vertical-align: top; }
+
+@media (max-width: 480px) {
+  .cookie-constraint-form {
+    padding: 0 20px; }
+  .cookie-constraint-input {
+    width: 100%;
+    margin: 0 auto 20px; } }
+
+.cookie-constraint-btn:hover {
+  cursor: pointer; }
+
+.count-down {
+  display: none; }
+
+.count-down h1 {
+  color: #f68802;
+  font-weight: 300;
+  font-size: 48px;
+  display: block; }
+
+.count-down h1.timer {
+  font-weight: 600; }
+
+.privacy-policy-link {
+  position: fixed;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 16px; }

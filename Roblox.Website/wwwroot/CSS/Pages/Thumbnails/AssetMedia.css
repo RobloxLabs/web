@@ -1,0 +1,94 @@
+﻿.item-thumbnail {
+	height: 230px; 
+	width: 420px;
+}
+.big-main-thumb {
+	position: absolute;
+}
+.youtube-video-player {
+	z-index: -1
+}
+.scroll-container {
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.small-gallery-container {
+	width: 420px;
+	height: 100px;
+	position: relative;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.youTubeVideoOverlay 
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 120px;
+    height: 70px;
+    z-index:5;
+    cursor: pointer;
+    background: white;
+    opacity: 0.0;
+    filter: alpha(opacity=0.0);
+}
+.SelectedYouTubeGalleryIcon
+{
+	top: -3px; 
+	margin: 2px !important;  /** !important makes sure we override the margin in divSmallGalleryItem **/ 
+	border: 3px solid black; /** If you change this border size, you need to change the margin, as well as the top value **/
+}
+.RemoveYouTubeGalleryImage
+{
+    cursor: pointer; 
+    position: absolute; 
+    top: -10px; 
+    right: -10px; 
+    z-index: 6; /** Make sure this is higher than z-index of youTubeVideoOverlay **/
+}
+.RemoveYouTubeGalleryImage.close-btn-tiny {
+    background: url('/images/Buttons/btn-x-sm.png') top left;
+    height: 13px;
+    width: 13px;
+    top: -6px;
+    right: -8px;
+}
+.RemoveYouTubeGalleryImage.close-btn-tiny:hover {
+    background-position: 0px 13px;
+}
+.divSmallGalleryItem
+{
+    height: 70px; 
+    width: 120px; 
+    float: left;
+    position:relative;
+    margin: 5px;
+}
+.smallGalleryThumbItem
+{
+    float: left; 
+}
+.small-image-item {
+	height: 70px;
+	width: 120px;
+}
+.thumbnail-purchase-container {
+	float: left;
+	margin-left: 30px;
+
+}
+.thumbnail-display-container {
+	float: left;
+	border-right: 1px solid #ccc;
+	padding-right: 20px;
+	height: 350px;
+	position: relative;
+}
+.add-image-button {
+	margin-top: 10px;
+}
+.add-media-title {
+	margin-bottom: 10px;
+}

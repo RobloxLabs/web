@@ -1,0 +1,43 @@
+/* Legacy CSS file - Please do not copy */
+#StudioWidget {
+  width: 136px;
+  min-height: 90px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; }
+
+#StudioWidget #LeftColumn {
+  float: left;
+  width: 52px; }
+
+#StudioWidget #RightColumn {
+  width: 68px;
+  float: right;
+  padding-left: 3px; }
+
+.widget-name {
+  text-align: center;
+  background-color: #efefef; }
+
+.brand-name {
+  text-transform: uppercase; }
+
+#StudioWidget .content {
+  display: inline-block;
+  padding: 4px 4px 4px 9px; }
+
+.studio-icon {
+  float: left; }
+
+.studio-icon img {
+  width: 50px;
+  height: 50px;
+  padding-right: 5px; }
+
+#StudioWidget ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 4px; }
+
+#StudioWidget li {
+  list-style-type: none; }

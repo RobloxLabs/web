@@ -1,0 +1,545 @@
+html 
+{
+    background-color: #123f83;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+a:link, a:visited, a:active
+{
+    color: #0055B3;
+}
+
+/* this rule can be removed once reset.css is fully in use */
+a img {
+    border:none;
+}
+
+/* The abbr tag is not supported in IE 6 (it is in IE 7) Therefore, we're using acronym instead */
+abbr, acronym
+{
+    cursor: help;
+    border-bottom: 1px dotted #000;
+}
+
+input:focus {
+    outline:none;
+}
+
+#Body.simple-body
+{
+    margin-top: 35px;
+}
+
+/* Move to Error Page.css */
+#ErrorPage {
+    text-align: center;
+}
+
+#ErrorPage h1 {
+    display: block;
+}
+/* End Move to Error Page.css */
+
+.PrivacyPolicy h2
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.PrivacyPolicy h3 
+{
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+pre
+{
+    white-space: pre-wrap;                     /* css-3 */
+    white-space: -moz-pre-wrap !important;     /* Mozilla, since 1999 */
+    white-space: -pre-wrap;                    /* Opera 4-6 */
+    white-space: -o-pre-wrap;                  /* Opera 7 */
+    word-wrap: break-word;                     /* Internet Explorer 5.5+ */
+}
+
+input.Text
+{
+    border-color: #777;
+    border-style: dashed;
+}
+
+/* Used to put an easy-to-notice border around Admin controls */
+.ImageButton
+{
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    margin: 0;
+    display:inline-block;
+}
+.Button
+{
+    cursor: pointer;
+    background-color: #fff;
+    border: solid 1px #333;
+    color: #333;
+    font-size: 0.9em;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+.Button:link, .Button:visited
+{
+    border: solid 1px #777;
+    color: #777;
+}
+
+.Button:hover, .Button:active
+{
+    background-color: #6e99c9;
+    border: solid 1px #000;
+    color: #fff;
+}
+
+#Body {
+    min-height:550px;
+    padding: 5px 0px 25px 0px;
+    margin: 0 auto; 
+    width: 900px;
+    background-color: White;
+}
+#MasterContainer {
+    overflow: visible; 
+    width: 100%;    
+}
+
+.login-span
+{
+    top:17px;
+    position:relative;
+    float:left;
+}
+.login-span a 
+{
+    color: white;
+}
+
+#Banner #Options
+{
+    float: left;
+    height: 72px;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+}
+#Banner #Authentication
+{
+    top: 0px;
+    left: 0px;
+    padding: 4px;
+    position: absolute;
+    background: #6E99C9;
+}
+#Banner #Options #Settings
+{
+    bottom: 0px;
+    left: 0px;
+    padding: 4px;
+    position: absolute;
+}
+#Banner #Logo {
+    height:34px;
+    left:0px;
+    position:absolute;
+    top:5px;
+    width:140px;
+    margin:0;
+    float:none;
+    background: url("/images/cssthemes/base/img-robloxlogo.png") no-repeat;
+}
+
+.Panel
+{
+    border: solid 1px #000;
+}
+.Panel h4
+{
+    background-color: #ccc;
+    border-bottom: solid 1px #000;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+.TextBox
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.Label
+{
+    font-weight: bold;
+}
+
+.ErrorReporting, .ErrorReportingThanks
+{
+    width: 500px;
+    margin: 16px auto;
+    padding: 10px;
+}
+.YesNoButtons
+{
+    text-align: right;
+}
+
+/*Modal Popup*/
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+
+.modalPopup
+{
+    background-color: #ffffdd;
+    border-width: 3px;
+    border-style: solid;
+    border-color: Gray;
+    padding: 3px;
+}
+
+.Attention
+{
+    color: Red;
+}
+
+.OKCancelButton
+{
+    width: 80px;
+}
+
+.Toolbox
+{
+    background-color: ButtonFace;
+    padding: 2px;
+}
+.ToolboxItem
+{
+    border-color: Window;
+    border-style: solid;
+    border-width: 2px;
+    width: 52px;
+    height: 52px;
+}
+.Title
+{
+    font-size: 18px;
+}
+a.Title:link, a.Title:visited, a.Title:active
+{
+    text-decoration: none;
+}
+a.Title:hover
+{
+    text-decoration: underline;
+}
+.Header
+{
+    font-size: 14px;
+}
+.Banner
+{
+    padding: 8px;
+}
+
+/************************** System and User Alerts **************************/
+div.SystemAlert
+{
+    width:906px;
+    margin: 0 auto 5px;
+    border: 1px solid gray;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1px;
+}
+
+.SystemAlertText
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+}
+.SystemAlert a 
+{
+    color:White;
+}
+
+/*TODO: Move to Games.css */
+#LeftGutterAdContainer, #GamesTakeoverGutterAdLeft {
+    position:fixed;
+    top:0;
+    left:50%;
+    margin-left:-900px;
+}
+#RightGutterAdContainer, #GamesTakeoverGutterAdRight {
+    position:fixed;
+    top:0;
+    left:50%;
+    margin-left:500px;  
+}
+#RightGutterAdContainer.topMargin, #LeftGutterAdContainer.topMargin, #GamesTakeoverGutterAdLeft.topMargin, #GamesTakeoverGutterAdRight.topMargin {
+    top: 25px;
+}
+#GamesTakeoverGutterAdLeft, #GamesTakeoverGutterAdRight{
+    z-index: 1000;
+}
+/* END TODO */
+
+.facepile
+{
+    min-height:0px;
+}
+
+/* /js/DataPager.js */
+.JSPager_Container a 
+{
+    margin: 0px 2px;
+}
+.JSPager_Container a:hover
+{
+    cursor:pointer;
+}
+.JSPager_Container a.disabled:hover
+{
+    cursor:default;
+}
+.JSPager_Container a.disabled
+{
+    color:#000;
+    text-decoration:none;
+}
+#FreeGames .SEOLinksContainer {
+    margin:0px 60px 0px 0px;
+    float: left;
+    color: #666;
+    font-size: 11px;
+}
+#FreeGames ul {
+    list-style: none;
+}
+.SquareTabGray
+{
+    list-style: none;
+    float: left;
+    background-color: #D6D6D6;
+    padding:7px;
+    border: 1px solid #9e9e9e;
+    font-weight: bold;
+    font-size: 15px;
+    color: #363636;
+    margin: 4px 2px 0px 1px;
+    border-bottom-width:0px;
+    position:relative;
+    top:2px;
+}
+.SquareTabGray a
+{
+    text-decoration:none;
+    color:#363636;
+    cursor:pointer;
+}
+.SquareTabGray a:hover
+{
+    text-decoration:none;
+    background-color:#e9e9e9;
+}
+.SquareTabGray.selected a:hover,.SquareTabGray.ui-tabs-selected a:hover
+{
+    text-decoration:none;
+    background-color:#fff;
+}
+.SquareTabGray:hover
+{
+    background-color:#e9e9e9;
+    cursor:pointer;
+}
+.SquareTabGray.selected,.SquareTabGray.selected:hover,.SquareTabGray.ui-tabs-selected,.SquareTabGray.ui-tabs-selected:hover
+{
+    background-color:#fff;
+    margin-top:0px;
+    padding:9px 7px 12px 7px;
+    border-bottom:1px solid #fff;
+    position:relative;
+    top:1px;
+    border-color:#ccc;
+}
+.TabContent {
+    display: none;
+}
+.TabContent.selected {
+    display: block;
+}
+
+.StandardPanelContainer
+{
+    position: relative;
+    clear: both;
+    padding-left: 5px;
+}
+.StandardPanelContainer .StandardPanelWhite
+{
+    background-color:#fff;
+    position: relative;
+    left: -5px;
+    top: -1px;
+    width: 100%;
+    padding:6px;
+    margin-bottom: -6px;
+}
+.WhiteSquareTabsContainer
+{
+    background:url('/images/Icons/MyMoney_fakeborderbg2.png') bottom repeat-x;
+    width:100%;
+    position: relative;
+    padding: 0 0 0 5px;
+    display:inline-block;
+    margin: 0;
+}
+.SuperSafePanel {
+    position: relative;
+    display: block;
+    height: 0px;
+    z-index: 1001;
+}
+img.SuperSafePrivacyModeImg:hover {
+    cursor: pointer;
+}
+#CreateSetPopupContainerDiv .SuperSafePanel {
+    left: 324px;
+}
+/* Master page UI, fixing and unfixing header */
+#Container.unfixed, #MasterContainer.unfixed {
+    width: 970px;
+}
+.mySubmenuFixed.unfixed {
+    position: relative !important;
+    top:0px !important; 
+}
+.mySubmenuFixed.Redesign {
+    position: fixed;
+    top: 35px;
+}
+.forceSpaceUnderSubmenu {
+    height: 25px;
+    display: block;
+}
+.forceSpaceUnderSubmenu.unfixed {
+    display: none;
+}
+#Container #Banner.unfixed,
+#Container .site-header.unfixed {
+    position: relative;
+}
+#Container {
+    margin: 0 auto;
+    width:100%;
+    padding:0px;
+    border:0px;
+}
+.forceSpace {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding-top: 0px;
+}
+.forceSpace.unfixed {
+    height: 3px;
+}
+.Centered
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* CSSCleanup - remove from this file, use styleguide defined style instead - update in other locations using it*/
+.errorStatusBar {
+	color: black;
+	background-color: #FAE5E5;
+	border: solid 1px #c00;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-left: 10px;
+	height: inherit;
+	min-height: 26px;
+}
+/* CSSCleanup - same id used in login flows */
+#birthdayError {
+	float: left;
+	height: inherit;
+	left: 10px;
+	position: relative;
+}
+
+#UpdateCCButton
+{
+    width: 166px;
+    height:50px;
+    cursor:pointer;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url(/images/Buttons/btn-updatenow.png);
+}
+#UpdateCCButton:hover
+{
+    background-position:0px 50px;
+}
+
+.ReportAbuse 
+{
+    text-align:left;
+    font-size:11px;
+}
+.ReportAbuse .AbuseButton a {
+    color:#FF9999;
+    background:none;
+    padding-left: 16px;
+    padding-bottom: 2px;
+}
+.ReportAbuse .AbuseButton a:hover {
+    background:url("/images/cssspecific/rbx2/abuse.png") no-repeat scroll 0 2px transparent;
+    color:#FF0000;
+}
+.ReportAbuse img {
+    display:none;
+}
+
+#FrontPageRectangleAd
+{
+	margin: 5px 0px 5px 5px;
+	width: 300px;
+	height: 250px;
+	background-color: Transparent;
+}
+
+textarea {
+    resize: none;
+}
+.IncompleteFormField
+{
+    color: red;
+}
+input.default
+{
+    font-style:italic;
+    color:#888;
+}
+
+.previous /* Maybe only used for groups? */
+{
+    *top:18px;   
+}

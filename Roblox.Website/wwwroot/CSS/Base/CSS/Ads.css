@@ -1,0 +1,90 @@
+﻿/*
+    This file is for rules to style ad slots run on the website, NOT for styling content related to creating or managing user ads
+*/
+body.banner
+{
+    background-color: transparent;
+}
+.ad-annotations
+{
+    width: 100%;
+    height: 11px;
+    position: relative;
+    margin: 0 auto;
+    font-size: 11px;
+    z-index: 100;       /* fix so it's on top of the banner below it */
+}
+.ad-annotations.left-gutter-ad {
+    width: auto;
+}
+.ad-annotations.left-gutter-ad .ad-identification {
+    left: auto;
+    right: 0;
+}
+.ad-identification
+{
+    position: absolute;
+    left: 0;
+}
+.dark-theme-ad-annotation, .dark-theme-ad-annotation .BadAdButton:link
+{
+    color: #fff;
+}
+.BadAdButton
+{
+    position: absolute;
+    right: 0;
+}
+.BadAdButton:link
+{
+    color:#80ace6;
+}
+.Ads_WideSkyscraper
+{
+	float: right;
+	text-align: right;
+	width: 160px;
+	height: 611px;
+}
+#AdvertisingLeaderboard
+{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom:10px;    
+    /*width: 728px; /* smaller to account for the left positioning of the ad */
+	/* no -Brent Da Mage*/
+}
+
+.GPTAd.banner {
+    width: 745px;
+    height: 90px;
+}
+.GPTAd.skyscraper {
+    width: 160px;
+    height: 600px;
+}
+.GPTAd.rectangle {
+    width: 300px;
+    height: 250px;
+}
+.GPTAd.narrowskyscraper {
+    width: 120px;
+    width: 600px;
+}
+.GPTAd.gutter {
+    width: 400px;
+    height: 1180px;
+}
+.GPTAd.opapushdown {
+    width: 970px;
+    height: 96px;
+}
+.GPTAd {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#FloorAd {
+    height: 1px;
+}

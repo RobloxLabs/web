@@ -1,0 +1,171 @@
+﻿#MasterContainer.kreoBattleship 
+{
+    background-color:#000;
+}
+#BodyWrapper.kreoBattleship 
+{
+    background:#000;
+}
+#Body.kreoBattleship
+{
+    width:100%;
+    text-align:center;
+    background:url(/images/Contests/KreoBattleship/bg-main4.jpg) no-repeat center 1px;
+    position: relative;
+    top: -19px;
+    *top:-35px;
+}
+#Footer.kreoBattleship
+{
+    background:#000;
+}
+.kreoBattleship .ContentContainer
+{
+    width: 900px;
+    position: relative;
+    height:790px;
+    display:inline-block;
+    left: -65px;
+    top:30px;
+}
+.kreoBattleship .ContentContainerTwo
+{
+}
+.kreoBattleship .LeftColumn
+{
+    height:403px;
+    width:280px;
+    float:left;
+    margin-top:58px;
+    margin-left:74px;
+}
+.kreoBattleship .RightColumn
+{
+    float: right;
+    width: 500px;
+    position: relative;
+    top: 118px;
+    left: 72px;
+}
+.kreoBattleship .CTAPlay
+{
+    width:168px;
+    height:61px;
+    display:block;
+    background:url(/images/Contests/KreoBattleship/btn-call-to-action.png) no-repeat top left;
+}
+.kreoBattleship .CTAPlay:hover
+{
+    background-position:0px -62px;
+    text-decoration:none;
+}
+.kreoBattleship .CTAPlay.floating
+{
+    position: absolute;
+    bottom: 195px;
+    left: 230px;
+}
+.kreoBattleship .DescriptionContainer .CTAPlayContainer
+{
+    margin-top:10px;
+    text-align:center;
+}
+.kreoBattleship .DescriptionContainer .CTAPlayContainer .CTAPlay
+{
+    position:absolute;
+    top: -128px;
+    left: 25px;
+}
+.kreoBattleship .CTAButtonsContainer
+{
+    position: relative;
+    top: 116px;
+    left: 161px;
+    text-align:left;
+}
+.kreoBattleship a.CTA
+{
+    display:block;
+    background-repeat:no-repeat;
+    background-position:top left;
+    height:57px;
+}
+.kreoBattleship .CTA.Play
+{
+    background:url(/images/Contests/KreoBattleship/btn-play.png) top left;
+    width:114px;
+    position: relative;
+    left: 25px;
+}
+.kreoBattleship .CTA.Play:hover
+{
+    background-position:bottom left;
+}
+.kreoBattleship .CTA.Vote
+{
+    display:none;
+}
+.kreoBattleship .CTA.Contest
+{
+    display:none;
+}
+.kreoBattleship .CTA.Leaders
+{
+    display:none;
+}
+.kreoBattleship .CTA.Prizes
+{
+    background-image:url(/images/Contests/KreoBattleship/btn-prizes.png);
+    width:161px;
+}
+.kreoBattleship .CTA.Prizes:hover
+{
+    background-position:bottom left;
+}
+.kreoBattleship .CTA.Catalog
+{
+    background-image:url(/images/Contests/KreoBattleship/btn-stuff.png);
+    width:142px;
+    position: relative;
+    left: 10px;
+}
+.kreoBattleship .CTA.Catalog:hover
+{
+    background-position:bottom left;
+}
+.kreoBattleship .DescriptionContainer
+{
+    margin: 86px 0px 0px 40px;
+    *margin-left:10px;
+    width: 420px;  
+}
+.kreoBattleship p.Description
+{
+    margin:0px;
+    font-family:Arial;
+    font-size:13px;
+    color:White;
+    text-align:left;
+    line-height:17px;
+}
+.kreoBattleship .SpecialContestLink
+{
+    margin-top:18px;
+}
+#mediaspace /* positions nonyoutube video correctly */
+{
+    width: 460px;
+    position:relative;
+    left:15px;
+    top:5px;
+    *left:-5px;
+}
+.kreoBattleship .videoURL
+{
+    width:460px;
+    height:370px;
+}
+.kreoBattleship .SystemAlert
+{
+    display:none;
+}

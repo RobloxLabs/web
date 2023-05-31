@@ -1,0 +1,32 @@
+<pre>
+<code class="language-html">
+<script type="text/ng-template" id="modal-complex-sample">
+    <!-- Note: the header will be moved to a directive later so we don't have to copy/paste-->
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="$dismiss()">
+            <span aria-hidden="true"><span class="icon-close"></span></span><span class="sr-only">Close</span>
+        </button>
+        <h4>Simple Calculator</h4>
+    </div>
+
+    <div class="modal-body">
+        <span class="text-description">
+            Add numbers: 
+        </span>
+        <input class="form-control input-field input-number" type="number" ng-model="operands.first" />
+
+        <span class="text-description">
+            and
+        </span>
+        <input class="form-control input-field input-number" type="number" ng-model="operands.second" />
+
+        <span class="text-description">Your Result: {{operands.result}}</span>
+    </div>
+
+    <div class="modal-buttons">
+        <button class="modal-button btn-secondary-md" ng-click="calculate()">Calculate</button>
+        <button class="modal-button btn-control-md" ng-click="close()">Close</button>
+    </div>
+</script>
+</code>
+</pre>

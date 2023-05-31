@@ -1,0 +1,48 @@
+﻿/* Usage: wrap your form in a div that contains the class standardform 
+to access input colors, instruction colors, and the common validation bubbles and checkmarks. */
+
+.standardform span.instructions 
+{
+    padding-top: 2px;
+    color: #666;
+    display: block;
+    font-size: 11px;
+}
+.standardform div.validation {
+    color: #c00;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline;
+    float: left;
+    position: relative;
+}
+.standardform label 
+{
+    font-size: 13px;
+    color: black;
+    font-weight: bold;    
+}
+.standardform input
+{
+    border: 1px solid #999;
+    padding:3px;
+}
+.standardform select {
+    margin:0;
+    height: 21px;
+    margin-right: 5px;
+}
+
+.standardform .valid-container {position:absolute;width:180px;height: 48px;}
+.standardform .valid-top, .valid-bottom {background:url(/images/UI/bg-bubble.png) no-repeat right top;width:180px;height:3px;}
+.standardform .valid-bottom {background-position:right bottom;}
+.standardform .valid-main {width:165px;color:#a00;font:normal 11px arial;background:url(/images/UI/bg-bubble.png) no-repeat left center;padding-left:15px;}
+.standardform .valid-main p {margin:0px;}
+.standardform .valid {
+    width: 15px;
+    height: 13px;
+    background: url(/images/UI/img-check.png) no-repeat;
+    margin-top: 3px;
+    margin-left: 5px;
+    display: none;
+}

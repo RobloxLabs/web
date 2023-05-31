@@ -1,0 +1,36 @@
+.CarouselPager
+{
+    text-align:center;
+}
+.CarouselPager .arrow-prev, .CarouselPager .arrow-next
+{
+    height: 13px;
+    width: 36px;
+    background:url('/images/Groups/btn-arrowsprite-up_down.png');
+    margin: 5px 0;
+    display:inline-block;
+}
+.CarouselPager .arrow-prev
+{
+    background-position:left top;
+}
+.CarouselPager .arrow-next
+{
+    background-position:right top;
+}
+.CarouselPager .arrow-prev:hover
+{
+    background-position:left -13px;
+}
+.CarouselPager .arrow-next:hover
+{
+    background-position:right -13px;
+}
+.CarouselPager .arrow-prev.disabled
+{
+    background-position:left bottom;
+}
+.CarouselPager .arrow-next.disabled
+{
+     background-position:right bottom;
+}

@@ -1,0 +1,64 @@
+/* Legacy CSS file - Please do not copy */
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+/* Please use icon-variant-v2 instead */
+#visual-cart {
+  height: 325px;
+  width: 412px;
+  padding: 5px 40px 5px 35px;
+  float: left; }
+
+.product {
+  float: left;
+  text-align: center; }
+  .product .icon-robux-gold {
+    background-size: 100% auto;
+    width: 72px;
+    height: 72px;
+    background-position: 0px 0px;
+    background-size: 144px;
+    float: left; }
+
+.product-image {
+  margin-top: 9px;
+  float: left; }
+
+.product-detail {
+  float: left;
+  width: 300px;
+  margin-left: 22px;
+  text-align: left; }
+
+.product-name {
+  height: 36px; }
+
+.product-duration {
+  height: 27px; }
+
+#redeem-container {
+  float: left;
+  padding-left: 40px; }
+
+.recurring-description {
+  width: 356px;
+  clear: both; }
+
+.verbal-instructions {
+  margin-bottom: 10px; }
+
+#redeem {
+  width: 330px; }
+
+#rixty-account-link {
+  margin-top: 10px; }
+
+#pin-input {
+  margin-top: 20px; }
+
+#cart {
+  margin-top: 20px; }
+
+#cart .price {
+  float: right; }
+
+#submit-button-wrapper {
+  margin-top: 10px; }

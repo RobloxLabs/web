@@ -1,0 +1,659 @@
+﻿/* GAME PLACEITEM PAGE CSS, NOT GAMES LANDING PAGE */
+
+/* Rules Migrated from /Base/CSS/Place.css -- inserted to reserve execution order */
+.PlacePagePagersItem.template {
+    display: none;
+}
+.PlacePagePagersItem .roblox-item-image {
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin-right: 5px;
+}
+.PlacePagePagersItem .original-image {
+    height: 75px;
+    width: 75px;
+}
+.PlacePagePagersItem .InfoContainer {
+    float: left;
+    font-size: 11px;
+    height: 85px;
+    position: relative;
+    margin-left: 5px;
+}
+#GamePassesItemContainer .PlacePagePagersItem .InfoContainer {
+    height: 95px;
+}
+.PlacePagePagersItem .InfoContainer a, .PlaceProductPromotionItem .InfoContainer .TotalSales {
+    font-weight: bold;
+}
+.PlacePagePagersItem .InfoContainer .label {
+    color: #666;
+}
+.PlacePagePagersItem {
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+    text-align: left;
+}
+.PlacePagePagersItem .NameDiv {
+    width: 100px;
+    max-height:30px;
+    overflow: hidden;
+}
+.PlacePagePagersItem .prices-div {
+    height: 41px;
+}
+.PlacePagePagersItem .UserOwns {
+    display: none;
+}
+.PlaceProductPromotionsContainer h3, .GamePassesDisplayContainer h3 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.PlaceProductPromotionsContainer, .GamePassesDisplayContainer {
+    width: 720px;
+    text-align: left;
+}
+.PlaceProductPromotionItem {
+    position: relative;
+}
+.PlaceProductPromotionItem .DeleteProductPromotion {
+    height: 13px;
+    width: 13px;
+    display: block;
+    background: url('/images/Buttons/btn-x-sm.png') top left no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 55px;
+    top: 5px;
+}
+#DeleteProductPromotionModal .PurchaseModalMessage {
+    height: auto;
+}
+.PlaceProductPromotionItem .DeleteProductPromotion:hover {
+    background-position: bottom left;
+    cursor: pointer;
+}
+.GamePassesDisplayContainer {
+    margin-bottom: 30px;
+}
+#GamePassesItemContainer .Robux, #GamePassesItemContainer .Tickets, #GamePassesItemContainer .Free {
+    display: none;
+}
+#PromotionsItemContainer, #GamePassesItemContainer {
+    height: 95px;
+    overflow: hidden;
+}
+#PromotionsItemContainer.empty, #GamePassesItemContainer.empty {
+    height: inherit;
+}
+.PromotionsItemContainer.empty.template, .GamePassesItemContainer.empty.template {
+    display:none;
+}
+#PromotionsItemContainer .loading, #GamePassesItemContainer .loading {
+    height: 95px;
+    width: 100%;
+    background: url('/images/ProgressIndicator4.gif') no-repeat center;
+}
+.PlaceProductPromotionsContainer .divider-bottom,.GamePassesDisplayContainer .divider-bottom {
+    height: 10px;
+    width: inherit;
+    margin-top: 0px;
+    display: block;
+    clear: left;
+    margin-bottom: 10px;
+}
+/* END Rules Migrated from /Base/CSS/Place.css -- inserted to reserve execution order */
+
+/* Rules Migrated from /Base/CSS/PlaceItem.css -- inserted to reserve execution order */
+.GamePassesDisplayContainer .robux, .GamePassesDisplayContainer .tickets {
+    display: none;
+}
+#ItemContainer.PlaceItemContainer span.robux, 
+#ItemContainer.PlaceItemContainer span.tickets, 
+#ItemContainer.PlaceItemContainer span.robux-text {
+    margin-bottom: 2px;
+}
+
+#DeleteProductPromotionModal .thumbs-up-green {
+    width: 110px;
+    height: 110px;
+    background: url('/images/Icons/thumbs_up.png') no-repeat;
+    display: block;
+}
+#DeleteProductPromotionModal .thumbs-up-green {
+    width: 110px;
+    height: 110px;
+    background: url('/images/Icons/thumbs_up.png') no-repeat;
+    display: block;
+}
+
+#ItemContainer.PlaceItemContainer
+{
+    margin-top: 10px;
+}
+#ItemContainer.PlaceItemContainer.PlaceItemContainer .item-header
+{
+    padding-bottom: 5px;
+}
+.PlaceItemContainer .PlayGames
+{
+    border: none !important;
+    background: none !important;    
+}
+#ItemContainer.PlaceItemContainer #Thumbnail_Place
+{
+    border: solid 1px #eeeeee;
+	
+	padding: 0;
+	text-align: left;
+	min-width: 0;
+	width: 420px;
+}
+#ItemContainer.PlaceItemContainer #Actions
+{
+    background-color: #fff;
+	min-width: 0; /* peekaboo bug fix for IE7 */
+	overflow:hidden;
+	top:420px;
+	
+	width: 408px;
+	padding: 5px;
+	text-align: left;
+}
+#ItemContainer.PlaceItemContainer #Actions
+{
+    padding: 5px;
+    text-align: left;
+    width: 230px;
+}
+.PlaceItemHR
+{
+    background-color: #848484;
+    border: 0;
+    color: #848484;
+    height: 1px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#ItemContainer.PlaceItemContainer .PlayGames
+{
+    background-color: #ccc;
+	border: dashed 1px Green;
+	color: Green;
+	margin-top: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 408px;
+}
+#ItemContainer.PlaceItemContainer .Warning {
+    color: red;
+}
+#ItemContainer.PlaceItemContainer .BadgeStats
+{
+	width: 720px;
+	padding: 10px 0px;
+}
+
+#ItemContainer.PlaceItemContainer .RunningGames
+{
+    background-color: #ccc;
+	border: dashed 1px #555;
+	color: #555;
+	margin-top: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 408px;
+}
+
+#ItemContainer.PlaceItemContainer .GameInstances
+{
+    background-color: #fff;
+	border: solid 1px #000;
+	color: #555;
+	width: 408px;
+}
+
+#ItemContainer.PlaceItemContainer .RefreshRunningGames
+{
+    margin: 10px 0;
+    text-align: center;
+}
+/* Badges and Game Passes */
+.PlaceItemContainer #BadgeStats
+{
+    width: 720px;
+}
+#BadgeStats .BadgeTable
+{
+    border: 0px;
+    border-spacing:0px;
+    width: 100%;
+}
+#BadgeStats .BadgeTable a
+{
+    color: #496780
+}
+#BadgeStats .BadgeRow,
+#BadgeStats .AlternatingBadgeRow
+{
+    height:100px;
+}
+#BadgeStats .AlternatingBadgeRow
+{
+    background-color: #eeeeee;
+    color: #000;
+}
+#BadgeStats .BadgeIconColumn
+{
+    text-align:center;
+    width:100px;
+}
+#BadgeStats .BadgeDescriptionColumn
+{
+    width: 60%;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+#BadgeStats .BadgeStatsColumn
+{
+    width:26%;
+    padding-left: 5px;
+}
+#BadgeStats .BadgeEmptyTableColumn
+{
+    width:100%;
+}
+#BadgesShowContainer
+{
+    text-align: center;
+    margin-top: 5px;
+}
+#BadgesShowMore
+{
+    cursor: pointer;  
+}
+div.BadgeStats .divider-bottom 
+{
+    margin-bottom: 10px;
+}
+/* END Badges */
+#GamePassesPagerContainer {
+    margin-top: 10px;
+}
+
+/* Recommendations */
+.WideAspectRatio
+{
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0px 7px;
+    width:160px !important;
+    height: 165px;
+}
+.WideAspectRatio .AssetThumbnail
+{
+	background-color: #FFF;
+	border: 1px #000;
+	height: 100px;
+	width: 160px;
+}
+.WideAspectRatio .AssetDetails
+{
+	overflow: hidden;
+	padding: 5px;
+	height:90px;
+	width: 158px;
+}
+.WideAspectRatio .AssetName a
+{
+	line-height: 1.5em;
+	vertical-align: top;
+}
+/* END Recommendations */
+
+.DescriptionSeeMore
+{
+    cursor: pointer;    
+}
+.PlaceItemContainer .fblike 
+{
+    margin-left: 0px;
+}
+
+/* END Rules Migrated from /Base/CSS/PlaceItem.css -- inserted to reserve execution order */
+
+/* this should be styleguided, but I have no idea how to categorize it */
+.redesign.place-item .builder {
+    font-size: 15px;
+    font-weight: bold;
+}
+.redesign.place-item .description,.redesign.place-item .description pre {
+    font-size: 14px;
+    line-height: 1.4em;
+}
+#ItemContainer.PlaceItemContainer #Item.place-item {
+    width: 762px;
+}
+#ItemContainer.new-game-page {
+    margin-left: 15px;
+    width: 940px;
+    position: relative;
+    min-height: 580px;
+}
+.new-game-page .Ads_WideSkyscraper {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.new-game-page #JoinRoblox.Ads_WideSkyscraper {
+    position: relative;
+}
+.place-item.redesign .left-column {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+.place-item.redesign .right-column {
+    width: 240px;
+    float: left;
+}
+#ItemContainer.PlaceItemContainer h2 {
+    display: inline;
+    padding-right: 10px;
+}
+
+.redesign.place-item .builder {
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+.redesign.place-item .buttons {
+    float: left;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.redesign.place-item .buttons .btn-medium {
+    min-width: 150px;
+    margin-bottom: 5px;
+}
+#ItemContainer.PlaceItemContainer .voting {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 44px;
+}
+.redesign.place-item .favorite {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+#ItemContainer.PlaceItemContainer .builder .builder-image {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+#ItemContainer.PlaceItemContainer .builder .roblox-avatar-image img[title] {
+    width: 48px;
+    height: 48px;
+    margin: 1px;
+}
+#ItemContainer.PlaceItemContainer .builder .builder-name {
+    float: left;
+    margin-left: 10px;
+    width: 165px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #343434;
+    font-weight: 600;
+}
+#ItemContainer.PlaceItemContainer .builder .builder-name span {
+    display: block;
+}
+#ItemContainer.PlaceItemContainer .builder .builder-joined {
+    float: left;
+    margin-left: 10px;
+}
+
+.place-item.redesign .statistics {
+    margin-bottom: 8px;
+}
+
+#ItemContainer.PlaceItemContainer .details {
+    clear: both;
+    margin-bottom: 14px;
+    position: relative;
+    overflow: hidden;
+}
+.PlaceThumbOverlay {
+    position:absolute;
+    left: auto;
+    top: 242px;
+}
+.PlaceThumbOverlay.PersonalServer 
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 242px;
+    left: initial;
+}
+.place-item .item-media {
+    position: relative;
+    margin-bottom: 16px;
+    width: 500px;
+    float: left;
+    margin-right: 16px;
+}
+.place-item .actions {
+    clear: both;
+    position: relative;
+    height: 22px;
+}
+.place-item .description {
+    margin: 24px 0;
+}
+.redesign.place-item .description a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.redesign.place-item .description a:hover {
+    text-decoration: underline;
+}
+#PlaceDescription {
+    margin: 0;
+}
+.place-item .details .configure 
+{
+    padding-top: 8px;
+    margin-top: 16px;
+}
+.place-item .configure .form-label {
+    margin-bottom: 8px;
+}
+.place-item .configure div {
+    line-height: 1.5em;
+}
+.place-item .buttons {
+    text-align: center;
+}
+.place-item span.ReportAbuse {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.user-is-creator .ReportAbuse {
+    display: none;
+}
+.redesign.tab-container {
+    padding-left: 0;
+    width: 760px !important;
+}
+.PlaceProductPromotionsContainer, .GamePassesDisplayContainer {
+    width: 760px;
+}
+#ItemContainer.PlaceItemContainer .BadgeStats {
+    width: 760px;
+}
+/* NEW STYLEGUIDE CSS?? */
+.stat-label {
+    color: #000;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+/* THIS CSS OVERRIDES THE OLD GAME PAGE CSS. DELETE OR MOVE TO OFFICIAL FILE WHEN WE DELETE THE OLD PAGE / THE OLD CSS */
+#ItemContainer.PlaceItemContainer.PlaceItemContainer .redesign .item-header {
+    font: inherit;
+}
+
+/* ICONS */
+.redesign .AddRemoveFavorite {
+    background: url('/images/Icons/favorite.png') no-repeat 0 0;
+    height: 17px;
+    width: 21px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0px;
+}
+.redesign .AddRemoveFavorite:hover,.redesign .AddRemoveFavorite.Favorited:hover {
+    background-position: 0 -34px;
+    cursor: pointer;
+}
+.redesign .AddRemoveFavorite.Favorited {
+    background-position: 0 -17px;
+}
+.iUnlocked, .iLocked, .SharedIcon, .CopyLockedIcon, .GenreGearIcon, .NoGearIcon {
+    height: 17px;
+}
+.redesign .iLocked, .redesign .iUnlocked, .redesign .SharedIcon, .redesign .NoGearIcon, .redesign .CopyLockedIcon, .redesign .GenreGearIcon {
+    background: url('/images/Icons/place-access-sprite.png') no-repeat 0 0;
+}
+.redesign .iLocked {
+    background-position: 0 -89px;
+}
+.redesign .iUnlocked {
+    background-position: 0 -73px;
+}
+.redesign .SharedIcon {
+    background-position: 0px -11px;
+}
+.redesign .NoGearIcon {
+    background-position: 0 -58px;
+}
+.redesign .CopyLockedIcon {
+    background-position: 0px 6px;
+}
+.redesign .GenreGearIcon {
+    background-position: 0 -43px;
+    height: 15px;
+}
+.redesign .allowed-gear .category-icon {
+    background: url('/images/Icons/CategorySprite.png') no-repeat 1px 0px;
+    height: 17px;
+    width: 17px;
+    float: left;
+}
+.redesign .category-icon.MeleeWeapon {
+    background-position: -47px 0px;
+}
+.redesign .category-icon.RangedWeapon {
+    background-position: -31px -16px;
+}
+.redesign .category-icon.Explosive {
+    background-position: -16px 0px;
+}
+.redesign .category-icon.PowerUp {
+    background-position: -15px -17px;
+}
+.redesign .category-icon.NavigationEnhancer {
+    background-position: -80px 0px;
+}
+.redesign .category-icon.MusicalInstrument {
+    background-position: -64px 0px;
+}
+.redesign .category-icon.SocialItem {
+    background-position: -47px -16px;
+    margin: 0px 1px;
+}
+.redesign .category-icon.PersonalTransport {
+    background-position: 0px -16px;
+}
+.redesign .category-icon.all {
+    background: url('/images/Icons/place-access-sprite.png') no-repeat 0px -28px;
+    height: 16px;
+    margin-top: 1px;
+}
+.redesign .category-icon.no-gear {
+    background: url('/images/Icons/place-access-sprite.png') no-repeat 0 -58px;
+    height: 16px;
+    margin-top: 1px;
+}
+
+/* RESTYLE TABS */
+.redesign {
+    width: 720px; 
+    margin-bottom: 10px;    
+}
+
+.redesign .tab_white_31h_container .ajax__tab_tab {
+    background: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.redesign .tab_white_31h_container .ajax__tab_inner
+{
+    height: 21px;
+}
+.redesign .tab_white_31h_container .ajax__tab_body {
+    background: none;
+    border: none;
+    padding: 0;
+    top: 0px;
+}
+.redesign tab-container {
+    width: 709px !important; /*overwrite inline style*/
+}
+.redesign .tab_white_31h_container .ajax__tab_panel
+{
+    top: -1px; 
+    position: relative;    
+    background-color: #fff;
+    border-top: 1px solid #CCC;   
+    padding: 10px 5px 0px 5px;
+}
+.redesign .tab_white_31h_container .ajax__tab_header {
+    padding-left: 5px;
+    height: 40px;
+}
+.redesign .tab_white_31h_container .ajax__tab_outer {
+    overflow: hidden;
+}
+.redesign .AssetRecommenderContainer {
+    margin-left: -10px;
+    text-align: center;
+}
+.redesign .AssetRecommenderContainer td {
+    padding: 0 3px;
+}
+.redesign .AssetRecommenderContainer tr {
+    display: block;
+}
+#JoinRoblox {
+    margin: 0px 15px 10px 0px !important; /*override inline css*/
+}
+.universe-text {
+    float: left;
+    height: 25px;
+    padding-top: 9px;
+}
+.universe-play {
+    float: right;
+    margin-right: 37px;
+}
+.universe-play-button {
+    min-width: 125px;
+}

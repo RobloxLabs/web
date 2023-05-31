@@ -1,0 +1,71 @@
+/* Legacy CSS file - Please do not copy */
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+/* Please use icon-variant-v2 instead */
+.content {
+  max-width: 970px; }
+
+#report-container .container-header {
+  padding: 10px 0; }
+  @media (max-width: 991px) {
+    #report-container .container-header {
+      margin: 0 15px; } }
+
+.section-header {
+  border-bottom: 1px solid #E3E3E3;
+  padding-bottom: 3px;
+  margin-bottom: 12px; }
+
+.game-thumbnails-container {
+  margin-bottom: 20px;
+  width: 100%; }
+  .game-thumbnails-container .checkbox label::before {
+    left: calc(50% - 8px); }
+
+#categoryError {
+  display: none; }
+
+.basic-rules-list-container {
+  padding-left: 24px; }
+  .basic-rules-list-container .basic-rules-list li {
+    list-style: disc outside none;
+    margin-bottom: 6px; }
+
+.basic-rules-preface {
+  font-weight: bold;
+  margin-bottom: 6px; }
+
+.basic-rules-link {
+  margin: 12px 0; }
+
+.scroll-container {
+  height: 165px;
+  overflow-x: auto;
+  overflow-y: hidden; }
+
+.gallery-item {
+  height: 100px;
+  width: 160px;
+  float: left;
+  position: relative;
+  margin: 5px;
+  background-color: #F2F2F2;
+  text-align: center; }
+
+.youtube-video-player {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .youtube-video-player .no-javascript-label {
+    font-size: 12px;
+    color: #B8B8B8;
+    font-weight: 600; }
+
+.gallery-checkbox-container {
+  text-align: center;
+  margin-top: 10px;
+  width: 160px;
+  height: 15px; }
+
+.submit-group {
+  text-align: right; }

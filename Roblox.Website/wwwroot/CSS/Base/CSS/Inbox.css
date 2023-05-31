@@ -1,0 +1,112 @@
+﻿#InboxContainer
+{
+    margin-top: 10px;
+}
+
+#InboxContainer #InboxPane
+{
+    float: left;
+    position:relative;
+    top:-2px;
+    width: 700px;
+}
+
+.InboxDateField
+{
+    text-align:right;
+}
+
+#InboxContainer h2
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	letter-spacing: 0.5em;
+	line-height: 1em;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#InboxContainer #Inbox
+{
+	border: solid 1px #000;
+}
+
+#InboxContainer .Buttons
+{
+	margin: 10px 0;
+	text-align: center;
+}
+
+#InboxContainer .InboxHeader
+{
+	background: url(/images/topNav_black.png);
+    border: none;
+	color: #fff;
+	font: 1.2em/normal Verdana, sans-serif;
+	font-weight: lighter;
+	letter-spacing: 0.15em;
+    text-align: center;	
+}
+
+#InboxContainer .InboxRow
+{
+	cursor: pointer;
+	font: normal 1em/normal Verdana, sans-serif;
+}
+
+#InboxContainer .InboxRow_Unread
+{
+	cursor: pointer;
+	font: bold 1em/normal Verdana, sans-serif;
+}
+
+#InboxContainer .InboxRow:hover,
+#InboxContainer .InboxRow_Unread:hover,
+#InboxContainer .SystemAlertMessage:hover,
+#InboxContainer .SystemAlertMessage_Unread: hover
+{
+	background-color: #6e99c9;
+	color: #fff;
+}
+
+#InboxContainer .InboxHeader a,
+#InboxContainer .InboxPager a,
+#InboxContainer .InboxRow:hover a,
+#InboxContainer .InboxRow_Unread:hover a,
+#InboxContainer .SystemAlertMessage:hover a,
+#InboxContainer .SystemAlertMessage_Unread:hover a
+{
+	color: #fff;
+}
+
+#InboxContainer .InboxPager
+{
+	background-color: #999;
+	font: bold 1.2em/normal Verdana, sans-serif;
+	letter-spacing: 0.15em;
+	text-align: center;
+}
+
+#InboxContainer .SystemAlertMessage,
+#InboxContainer .SystemAlertMessage_Unread
+{
+    cursor: pointer;
+	font: normal 1em/normal Verdana, sans-serif;
+}
+#InboxContainer .SystemAlertMessage_Unread
+{
+	font: bold 1em/normal Verdana, sans-serif;
+}
+#Messages .SystemAlertMessage div.RobloxMailIcon, #InboxContainer .SystemAlertMessage_Unread div.RobloxMailIcon
+{
+    background : url(/images/Icons/roblox_16x15.png) no-repeat;
+    height:15px;
+    width:16px;
+    float:left;
+    margin-right:3px;
+}
+#Messages .InboxRow_Unread div.RobloxMailIcon, #Messages .InboxRow div.RobloxMailIcon 
+{
+    display:none;
+}

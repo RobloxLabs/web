@@ -1,0 +1,207 @@
+﻿legend span
+{
+	color:#777;
+	line-height:6px;
+}
+
+#EditProfileContainer
+{
+	background-color: #eee;
+	border: solid 1px #000;
+	color: #555;
+	margin: 0 auto;
+	width: 620px;
+}
+
+#EditProfileContainer h2
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	font-size: x-large;
+	margin: 0;
+	text-align: center;
+}
+
+#EditProfileContainer h3
+{
+	text-align: center;
+}
+
+#EditProfileContainer fieldset
+{
+	font-size: 1.2em;
+	margin: 15px 0 0 0;
+}
+
+#EditProfileContainer .MultilineTextBox
+{
+	width: 250px;
+}
+
+#EditProfileContainer .TextBox
+{
+	vertical-align: middle;
+	width: 150px;
+}
+
+#EditProfileContainer .Label
+{
+	vertical-align: middle;
+}
+
+#EditProfileContainer #Confirmation
+{
+	border: dashed 1px #ff0000;
+	background-color: #ccc;
+	color: #ff0000;
+	font-family: Verdana, Sans-Serif;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 410px;
+}
+
+#EditProfileContainer #AgeGroup,
+#EditProfileContainer #ChatMode,
+#EditProfileContainer #PrivacyMode,
+#EditProfileContainer #ResetPassword,
+#EditProfileContainer #Blurb
+{
+    margin: 0 auto;
+    width: 60%;
+}
+
+#EditProfileContainer #EnterEmail
+{
+    margin: 0 auto;
+    width: 60%;
+	text-align: left;
+}
+
+#EditProfileContainer .Buttons
+{
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+#EditProfileContainer .AgeGroupRow,
+#EditProfileContainer .ChatModeRow
+{
+	font-size: .9em;
+	margin: 10px 0 10px 100px;
+}
+
+#EditProfileContainer .ResetPasswordRow
+{
+	margin: 10px 0;
+	text-align: center;
+}
+
+#EditProfileContainer .BlurbRow
+{
+    padding: 10px 4px 10px 4px;
+    text-align: right;
+}
+
+#EditProfileContainer .Legend
+{
+	color: Blue;
+	margin-left: 9px;
+}
+
+#EditProfileContainer .Suggestion
+{
+	font: normal .8em/normal Verdana, sans-serif;
+	padding-left: 9px;
+}
+
+#EditProfileContainer .Validators
+{
+	margin-left: 9px;
+}
+.GrayButton, .GrayButton:link, .GrayButton:visited, .GrayButton:active
+{
+	background:url(/images/buttons/bg-form_btn_lg-tile.png) repeat-x top left;
+	border:1px solid #777;
+	padding:4px 8px 0;
+	height:21px;
+	font:13px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+	display:block;
+	float:left;
+}
+.GrayButton:hover
+{
+	background-position:bottom left;
+	border-color:#888;
+	text-decoration:none;
+}
+.GrayButton.Disabled {
+	border:1px solid #ccc;
+	color:#a7a7a7;
+	cursor:default;
+}
+.GrayButton.Disabled:hover 
+{
+    background-position:top left;
+}
+.GrayDropdown
+{
+	position:relative;
+	text-align:left;
+	display:block;
+	float:left;
+}
+.GrayDropdown .Button
+{
+	background:url(/images/buttons/bg-drop_down_btn.png) no-repeat right top;
+	border:1px solid #777;
+	padding:4px 17px 0px 8px;
+	height:21px;
+	font:13px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+	display:block;
+	position:relative;
+	z-index:2;
+}
+.GrayDropdown .Button:hover
+{
+	background-position:right center;
+	border-color:#888;
+	text-decoration:none;
+}
+.GrayDropdown .Button.Active
+{
+	background-position:right bottom;
+	border-bottom:none;
+	height:22px;
+}
+.GrayDropdown .Menu
+{
+	background-color:#efefef;
+	border:1px solid #777;
+	position:absolute;
+	top:26px;
+	z-index:1;
+	font:12px normal Arial, Helvetica, sans-serif;
+	width:100px;
+	display:none;
+}
+.GrayDropdown .Menu .Item
+{
+	display:block;
+	text-decoration:none;
+	color:#000;
+	padding:2px 8px;
+	margin:4px 0px;
+	cursor:pointer;
+}
+.GrayDropdown .Menu .Item:hover
+{
+	background-color:#095fb5;
+	color:#fff;
+}

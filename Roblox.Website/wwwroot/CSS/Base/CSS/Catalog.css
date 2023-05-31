@@ -1,0 +1,153 @@
+﻿#CatalogContainer
+{
+	font-family: Verdana, Sans-Serif;
+	min-width: 0; /* peekaboo bug fix for IE7 */
+	position: relative; /* peekaboo bug fix for IE6 */
+}
+
+#CatalogContainer h2
+{
+	font-family: Verdana, Sans-Serif;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 24px;
+	padding: 0;
+	color: #555555;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#BrowseMode ul li h3 a
+{
+    font-weight: normal;
+    font-size: 14px;
+}
+#CatalogContainer ul
+{
+	font-family: Verdana, Sans-Serif;
+	list-style: none;
+	margin: 0px 0 20px 0;
+	padding-left: 0;
+}
+
+#CatalogContainer ul li
+{
+	margin: 5px 0 5px 10px;
+	font-family: Arial,Helvetica,sans-serif;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+#CatalogContainer .Selected
+{
+    background: url('/images/gamesPage_filterArrow.png') no-repeat scroll 0 1px transparent;
+}
+
+#CatalogContainer .DisplayFilters
+{
+	width: 185px;
+	background-color:White;
+	border:solid 2px #6e99c9;
+}
+
+#CatalogContainer .Assets
+{
+	float: left;
+	min-width: 0; /* peekaboo bug fix for IE7 */
+	overflow: hidden;
+	padding-bottom: 10px;
+	padding-left:0;
+	padding-right: 0;
+	position: relative; /* peekaboo bug fix for IE6 */
+	width: 680px;
+}
+
+#CatalogContainer .Assets .HeaderPager,
+#CatalogContainer .Assets .FooterPager
+{
+	padding: 2px 0;
+	text-align: right;
+}
+
+#CatalogContainer .Assets .HeaderPager
+{
+	margin-bottom: 10px;
+}
+
+#CatalogContainer .Assets .HeaderPager .Label,
+#CatalogContainer .Assets .FooterPager .Label
+{
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+#CatalogContainer .Asset
+{
+	margin: -1px 0px 15px -1px;
+	vertical-align: top;
+	width: 122px;
+}
+
+#CatalogContainer .Asset .AssetThumbnail
+{
+	border: solid 1px #EEEEEE;
+	height: 110px;
+	text-align: center;
+	width: 110px;
+	background-color: #FFFFFF;
+}
+
+#CatalogContainer .Asset .AssetDetails
+{
+	font-family: Verdana, Sans-Serif;
+	overflow: hidden;
+	padding: 2px 0 6px 0;
+	width: 110px;
+}
+
+#CatalogContainer .AssetName a
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1.5em;
+	vertical-align: top;
+}
+
+.AssetsBullet
+{
+	padding-right: 3px;
+}
+
+#CatalogContainer .Label,
+#CatalogContainer .Detail,
+#CatalogContainer .DetailHighlighted,
+#CatalogContainer .PriceInRobux,
+#CatalogContainer .PriceInTickets
+{
+	font-size: 0.8em;
+}
+
+#CatalogContainer .PriceInRobux
+{
+	color: Green;
+	font-weight: bold;
+}
+
+#CatalogContainer .PriceInTickets
+{
+	color: #fbb117;
+	font-weight: bold;
+}
+
+#CatalogContainer .AssetsDisplaySet
+{
+	float: left;
+	font-family: Comic Sans MS, Arial, Sans-Serif;
+	font-size: 1.5em;
+}
+.Assets .StandardBoxHeader {
+    width:660px;   
+}
+.Assets .StandardBox {
+    width:660px;   
+}

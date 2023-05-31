@@ -1,0 +1,49 @@
+/* Legacy CSS file - Please do not copy */
+#build-new-button {
+  margin-bottom: 20px;
+  padding: 4px 10px 0 10px;
+  /*width: 110px;*/ }
+
+#build-new-dropdown-menu {
+  position: absolute;
+  margin-top: -21px;
+  /*width: 136px;*/
+  /* + 2px for border */
+  display: none;
+  /* hidden by default */
+  background-color: #EFEFEF;
+  border: 1px solid #777777;
+  padding: 5px 0;
+  *margin-top: 34px; }
+
+#build-new-dropdown-menu a {
+  font-size: 14px;
+  color: Black;
+  display: block;
+  padding: 6px 10px 6px 35px;
+  background: url("/images/BuildPage/ico-build-5.png") no-repeat; }
+
+#build-new-dropdown-menu a:hover {
+  background-color: #D8D8D8;
+  text-decoration: none; }
+
+/* asset or game drop down menu (drops from the gear  button) */
+#build-dropdown-menu {
+  width: 125px;
+  background-color: #EFEFEF;
+  border: 1px solid #777;
+  font: 12px normal Arial, Helvetica, sans-serif;
+  position: absolute;
+  display: none;
+  text-align: left;
+  z-index: 1000; }
+
+#build-dropdown-menu a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 4px 8px;
+  margin: 0; }
+
+#build-dropdown-menu a:hover {
+  background-color: #d8d8d8; }

@@ -1,0 +1,95 @@
+<!--Cannot put this in ng-template because of the js code inside <code> tags which will break the templatecache of angular-->
+<div class="row">
+    <div class="col-xs-12" role="main">
+        <h3 class="doc-heading" id="angular-modals">Angular Modals</h3>
+        <h4>Js module file</h4>
+        <pre><code class="language-javascript">
+        var app = angular.module("appName", ['modal']);
+    </code></pre>
+
+        <h5>Modal Parameters</h5>
+
+        <div ng-include="'angular-modal-parameter-info'"></div>
+
+        <h4 class="doc-heading" id="simple-modal">Simple Modal</h4>
+        <p>
+            Simple modals are for modals that provide a simple message, prompt,
+            warning, confirmation, etc. The typical format is header, body, image,
+            buttons, and footer.
+        </p>
+        <div class="doc-section">
+            <div class="hint-text">Example: </div>
+            
+            <button type="button" 
+                    class="btn-control-md"
+                    ng-click="showSimple()">
+                Simple
+            </button>
+            <h5>Usage: </h5>
+            <div ng-include="'/js/Reference/angular/modals/controllers/templates/simpleModalJsUsage.html'"></div>
+            
+            <button type="button"
+                    class="btn-control-md"
+                    ng-click="showSimpleWithEvents()">
+                Simple with Callbacks
+            </button>
+            <div class="text-robux-lg" ng-show="simpleWithEvents.wasResolved">Modal was closed and promise RESOLVED</div>
+            <div class="text-robux-lg" ng-show="simpleWithEvents.wasRejected">Modal was closed and promise REJECTED</div>
+            <h5>Adding callbacks on modal close:</h5>
+            <p>
+                You can add callbacks when a modal is closed by chaining the modal "open" call
+                and listening for either a promise resolve or promis reject. The "actionBtn" is tied
+                to a promise "resolve" while the "closeBtn" and "neutralBtn" are tied to promise "reject". 
+            </p>
+            <div ng-include="'/js/Reference/angular/modals/controllers/templates/simpleModalWithEventsJsUsage.html'"></div>
+        </div>
+        
+        <h4 class="doc-heading" id="complex-modal">Complex Modal</h4>
+        <p>
+            Complex Modals are any modal that you cannot accomplish by using the simple
+            modal feature. These are modals with other elements than just text and image.
+            You will also be creating your own template and controller to handle logic
+            inside the modal.
+        </p>
+        <div class="doc-section">
+            <div class="hint-text">Example: </div>
+
+            <button type="button" 
+                    class="btn-control-md"
+                    ng-click="showComplex()">
+                Complex Modal
+            </button>
+            <h5>Usage: </h5>
+            <p>
+                This basically uses $uibModal which is angular bootstrap's service.
+                For documentation and more examples, head to
+                <a class="text-link" href="https://angular-ui.github.io/bootstrap/#!#modal">Angular bootstrap doc.</a>
+                Note: You are expected to use elements inside the modal that conform to style guide. Basically treat
+                the inside of modal the same as a page.
+            </p>
+            <h5>Javascript:</h5>
+            <div ng-include="'/js/Reference/angular/modals/controllers/templates/complexModalJsUsage.html'"></div>
+
+            <h5>HTML (template):</h5>
+            <div ng-include="'/js/Reference/angular/modals/controllers/templates/complexModalHtmlUsage.html'"></div>
+
+            <button type="button" 
+                    class="btn-control-md"
+                    ng-click="showComplexWithData()">
+                Complex Modal with injected data
+            </button>
+            <h5>Usage: </h5>
+            <p>
+                This example shows how you can pass in data to the controller of your modal. For a more detailed explanation,
+                you can check <a class="text-link" href="https://angular-ui.github.io/bootstrap/#!#modal">Angular bootstrap doc.</a>
+                The properties of <strong>"resolve"</strong> can also be function/promise that returns an object.
+            </p>
+            <h5>Javascript:</h5>
+            <div ng-include="'/js/Reference/angular/modals/controllers/templates/complexModalWithDataJsUsage.html'"></div>
+
+            <h5>HTML (template):</h5>
+            <div ng-include="'/js/Reference/angular/modals/controllers/templates/complexModalWithDataHtmlUsage.html'"></div>
+        </div>
+
+    </div>
+</div>

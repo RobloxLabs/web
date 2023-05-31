@@ -1,0 +1,87 @@
+﻿/* Box with a Dark Gradient Background
+
+	Important Note: Due to the gradient image, this box is currently limited to a skinny width of 150px.
+
+	Example Usage:
+       <div class="DarkGradientBox">
+            <div class="DGB_Header">
+                Box Title
+            </div>
+            <div class="DGB_Content">
+                <asp:Label CssClass="DGB_Label" ... />
+                <asp:TextBox CssClass="DGB_TextBox" ... />            
+                <asp:LinkButton CssClass="DGB_Button" ... />          
+			</div>
+        </div>	
+
+*/
+
+.DarkGradientBox
+{
+    background: none;
+    width: auto;
+    color: Black;
+    position: relative;
+    border: none;
+}
+
+.DarkGradientBox .DGB_Header
+{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: none;    
+    text-transform:uppercase;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding-top:8px;
+}
+
+.DarkGradientBox .DGB_Content
+{
+	/* This is intentionally empty. It is a placeholder for possible future styling, but currently none is needed. */
+}
+
+.DarkGradientBox .DGB_TextBox
+{
+    width:155px;
+    height:18px;
+    border: 1px solid #bcbcbc;
+}
+.DarkGradientBox .DGB_Label
+{
+	color: Black;
+	text-align: left;
+    font-family:Arial;
+    font-size:11px;
+}
+
+.DarkGradientBox .DGB_Button
+{
+    cursor:pointer;
+    
+    background-color:#435D77;
+    color: White;
+    text-decoration:none;
+    
+    border: solid 1px #777;
+    padding: 6px 10px 6px 10px;
+    
+    font-family:Verdana,Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;    
+    white-space: nowrap;
+}
+.DarkGradientBox .DGB_Button:link , .DarkGradientBox .DGB_Button:visited
+{
+    background-color: #435D77;    
+    color: White;
+    text-decoration:none;
+}
+.DarkGradientBox .DGB_Button:hover, .DarkGradientBox .DGB_Button:active
+{
+    background-color:#B6CCE4;
+    color: #435D77;
+    text-decoration:none;
+}

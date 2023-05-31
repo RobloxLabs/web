@@ -1,0 +1,32 @@
+/* Legacy CSS file - Please do not copy */
+.verification-container {
+  margin: 40px auto;
+  text-align: center; }
+
+.verification-image {
+  float: left;
+  margin-right: 4px;
+  margin-top: 8px; }
+
+.verification-result-text {
+  float: left; }
+
+.done-verification {
+  margin-top: 20px; }
+
+.verify-info-panel {
+  margin-top: 30px; }
+
+.verification-result {
+  width: 40%;
+  margin: auto; }
+
+.disabled-option {
+  font-style: italic;
+  color: #888; }
+
+.date-panel {
+  margin: 18px 0; }
+
+.child-privacy-level {
+  margin-bottom: 18px; }

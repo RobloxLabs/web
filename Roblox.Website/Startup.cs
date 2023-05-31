@@ -8,6 +8,9 @@ using Roblox.Platform.Membership;
 using Roblox.Platform.Roles;
 using Roblox.Platform.Email;
 using Roblox.Platform.Authentication;
+using Roblox.Platform.Security;
+
+using Roblox.Web.StaticContent;
 
 using Roblox.Website.Data;
 
@@ -84,6 +87,8 @@ namespace Roblox.Website
                 );
             });
 
+            services.AddLocalization();
+
             services.AddRazorPages(options =>
             {
                 // TODO: This is not all-good; do some role-checking
@@ -92,6 +97,7 @@ namespace Roblox.Website
             });
 
             ConfigureLogger(services);
+            ConfigureBundles(services);
             ConfigureDomainFactories(services);
         }
 
@@ -126,6 +132,12 @@ namespace Roblox.Website
             {
                 endpoint.MapRazorPages();
             });
+
+            app.UseRequestLocalization();
+
+            app.UseWebOptimizer();
+            var bundleConfig = app.ApplicationServices.GetService<BundleConfig>();
+            bundleConfig?.RegisterBundles();
         }
 
         /// <summary>
@@ -156,10 +168,22 @@ namespace Roblox.Website
         /// <param name="services"></param>
         private void ConfigureDomainFactories(IServiceCollection services)
         {
-            services.AddSingleton<MembershipDomainFactories>();
-            services.AddSingleton<RoleDomainFactories>();
-            services.AddSingleton<EmailDomainFactories>();
-            services.AddSingleton<AuthenticationDomainFactories>();
+            services.AddSingleton<MembershipDomainFactories>()
+            .AddSingleton<RoleDomainFactories>()
+            .AddSingleton<EmailDomainFactories>()
+            .AddSingleton<AuthenticationDomainFactories>()
+            .AddSingleton<SecurityDomainFactories>();
+        }
+
+        private void ConfigureBundles(IServiceCollection services)
+        {
+            services.AddSingleton<IStaticUrlResolver, StaticUrlResolver>();
+            services.AddSingleton<IScriptManager, RobloxScripts>()
+                    .AddSingleton<IStyleManager, RobloxCSS>();
+
+            services.AddSingleton<BundleConfig>();
+
+            services.AddWebOptimizer();
         }
     }
 }

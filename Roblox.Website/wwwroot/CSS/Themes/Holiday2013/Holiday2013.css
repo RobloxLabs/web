@@ -1,0 +1,20 @@
+﻿.BannerRedesign { 
+    background:url(/images/RevisedHeader/bg-rbx_header.png) repeat-x !important;
+}
+#NavigationRedesignBannerContainer {
+    background-image: url(/images/Themes/Holiday2013/snow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom center !important;
+}
+#NavigationRedesignBannerContainer a.btn-logo,#NavigationRedesignBannerContainer a.btn-logo:visited {
+    background:url(/images/Themes/Holiday2013/xmas-header-logo.png) !important;
+	width: 210px;
+	margin-left:-92px;
+}
+#NavigationRedesignBannerContainer a.btn-logo:hover 
+{
+    background:url(/images/Themes/Holiday2013/xmas-header-logo.png) !important;
+    background-position: 0 35px !important;
+	width: 210px;
+	margin-left:-92px;
+}

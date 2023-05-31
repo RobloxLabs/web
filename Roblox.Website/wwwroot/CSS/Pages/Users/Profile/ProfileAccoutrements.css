@@ -1,0 +1,157 @@
+/* Please use icon-variant-v2 instead */
+.profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a {
+  background-color: #fff; }
+  .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a.light-theme {
+    background-color: #bdbebe; }
+    .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a.light-theme.remove-panel {
+      background-color: transparent; }
+  .light-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a {
+    background-color: #bdbebe; }
+    .light-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a.remove-panel {
+      background-color: transparent; }
+  .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a.dark-theme {
+    background-color: #656668; }
+    .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a.dark-theme.remove-panel {
+      background-color: transparent; }
+  .dark-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a {
+    background-color: #656668; }
+    .dark-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a.remove-panel {
+      background-color: transparent; }
+
+.profile-accoutrements-container {
+  overflow: hidden;
+  height: 260px; }
+  .profile-accoutrements-container:before, .profile-accoutrements-container:after {
+    content: " ";
+    display: table; }
+  .profile-accoutrements-container:after {
+    clear: both; }
+  @media (max-width: 767px) {
+    .profile-accoutrements-container {
+      height: 155px;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch; } }
+  .profile-accoutrements-container .profile-accoutrements-slider {
+    -webkit-transition: margin-left 500ms ease;
+    -o-transition: margin-left 500ms ease;
+    transition: margin-left 500ms ease;
+    margin: 12px 0 6px;
+    height: 220px;
+    overflow: hidden; }
+    .profile-accoutrements-container .profile-accoutrements-slider:before, .profile-accoutrements-container .profile-accoutrements-slider:after {
+      content: " ";
+      display: table; }
+    .profile-accoutrements-container .profile-accoutrements-slider:after {
+      clear: both; }
+    @media (max-width: 991px) {
+      .profile-accoutrements-container .profile-accoutrements-slider {
+        margin: 12px 0 30px;
+        height: 180px; } }
+    @media (max-width: 767px) {
+      .profile-accoutrements-container .profile-accoutrements-slider {
+        margin: 12px 0 6px;
+        height: 95px;
+        width: 175%; } }
+    @media (max-width: 543px) {
+      .profile-accoutrements-container .profile-accoutrements-slider {
+        width: 250%; } }
+    .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container {
+      float: left; }
+      .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container:before, .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container:after {
+        content: " ";
+        display: table; }
+      .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container:after {
+        clear: both; }
+      @media (max-width: 991px) {
+        .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container {
+          max-width: 356px;
+          float: none;
+          margin: 0 auto; } }
+      @media (max-width: 767px) {
+        .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container {
+          padding-bottom: 7px;
+          display: inline-block;
+          height: 95px;
+          overflow: hidden;
+          max-width: none; } }
+    .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item {
+      float: left;
+      padding: 5px;
+      text-align: center;
+      opacity: 1;
+      position: relative; }
+      @media (max-width: 991px) {
+        .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item {
+          padding: 2px; } }
+      @media (max-width: 767px) {
+        .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item {
+          width: auto;
+          padding: 5px; } }
+      .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a {
+        display: inline-block;
+        border-radius: 8px; }
+      .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item .accoutrement-image {
+        border-radius: 4px;
+        width: 100%;
+        height: auto;
+        min-width: 85px;
+        min-height: 85px; }
+        @media (max-width: 991px) {
+          .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item .accoutrement-image {
+            width: 85px;
+            height: 85px; } }
+      .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item .asset-restriction-icon {
+        position: absolute;
+        bottom: 4px;
+        left: 4px; }
+        .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item .asset-restriction-icon .icon-label {
+          display: block;
+          border-bottom-left-radius: 3px; }
+  .profile-accoutrements-container .profile-accoutrements-page-container {
+    text-align: center; }
+    .profile-accoutrements-container .profile-accoutrements-page-container .profile-accoutrements-page {
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin: 0 6px; }
+      .profile-accoutrements-container .profile-accoutrements-page-container .profile-accoutrements-page:hover {
+        cursor: pointer;
+        background-color: #fff; }
+    .profile-accoutrements-container .profile-accoutrements-page-container .page-active {
+      background-color: #fff; }
+
+.touch .profile-accoutrements-container {
+  overflow-x: auto; }
+  @media (max-width: 991px) {
+    .touch .profile-accoutrements-container .profile-accoutrements-slider {
+      margin: 12px 0 6px;
+      height: 220px; } }
+  @media (max-width: 767px) {
+    .touch .profile-accoutrements-container .profile-accoutrements-slider {
+      max-width: none; } }
+  .touch .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container {
+    max-width: 440px; }
+    @media (max-width: 991px) {
+      .touch .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container {
+        float: left;
+        margin: 0; } }
+    @media (max-width: 767px) {
+      .touch .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container {
+        max-width: none; } }
+    @media (max-width: 991px) {
+      .touch .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container .accoutrement-item {
+        padding: 5px; } }
+    @media (max-width: 991px) {
+      .touch .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container .accoutrement-item .accoutrement-image {
+        width: 100%;
+        height: auto; } }
+    @media (max-width: 767px) {
+      .touch .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-items-container .accoutrement-item .accoutrement-image {
+        height: 85px;
+        width: 85px; } }
+
+.touch .profile-accoutrements-page-container {
+  display: none; }

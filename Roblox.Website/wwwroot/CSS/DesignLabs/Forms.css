@@ -1,0 +1,7 @@
+/* Legacy CSS file - Please do not copy */
+input[type="text"] {
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  height: 20px;
+  padding: 2px 5px;
+  line-height: normal; }

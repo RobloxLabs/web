@@ -1,0 +1,481 @@
+﻿textarea
+{
+    resize:none;
+}
+#MySets_Tab, #SubscribedSets_Tab
+{
+    float:left;    
+}
+#SetsContainer
+{
+    margin:15px;
+}
+#SetsPane
+{
+    position: relative;
+    top: -1px;
+    clear: both;
+    min-height: 300px;
+}
+#SetsPane.StandardBox
+{
+    background:url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x white;
+}
+#SetInfoPane
+{
+    float: left;
+    margin: 5px 5px 20px 5px;
+    *margin: 5px 5px 10px 5px;
+    width:775px;
+    position:relative;
+}
+#SetIconIMG {
+    margin: 1px;
+}
+#DeleteUnsubscribe_delete, #DeleteUnsubscribe_unsubscribe, #Edit_button, #SortButtonDiv, .setspage_subscribe_btn
+{
+    float: left;
+    margin-right: 3px;
+    top:0px;
+}
+#SetsPane #DeleteUnsubscribe_delete a:hover, #SetsPane #DeleteUnsubscribe_unsubscribe a:hover, #SortButtonDiv a:hover, .setspage_subscribe_btn a:hover
+{
+    cursor:pointer;
+}
+.setspage_subscribe_btn
+{
+    top:4px;
+}
+.ReportAbusePanel
+{
+    float:right;
+    clear: right;
+    margin: 8px;
+}
+.SetNameLong
+{
+    padding:0px;
+    padding-bottom:5px;
+    float:left;
+}
+#SetInfoPane .SetIcon
+{
+    float:left;
+}
+#SetInfoPane .SetInfo
+{
+    float:left;
+    padding-left:10px;
+}
+#SetSubscribersOwner
+{
+    clear: left;
+}
+#EditDeleteSubscribe_Container {
+    margin: 3px 1px;
+}
+#EditDeleteSubscribe_Container .button-container {
+    clear: left;
+}
+.DisplaySetInfo {
+    float:left;
+    width:604px;
+}
+#SelectedSetDescription
+{
+    float: left;
+    clear: left;
+    padding: 5px;
+    padding-left:0px;
+    width:500px;
+    overflow:hidden;
+    word-wrap:break-word;
+}
+#SetsList
+{
+    overflow:auto;
+    margin-top: 5px;
+}
+#SetsContainer .divider-left
+{
+    float:left;
+    width: 785px;
+}
+#AssetSetItems
+{
+    min-height:300px;
+    text-align:center;
+    position:relative;
+    clear: both;
+}
+#SetsListContainer
+{
+    float:left;
+    width: 150px;
+    position:relative;
+}
+.content.left
+{
+    float:left;
+    width:95px;
+}
+.content.right
+{
+    float:left;
+    width:480px;
+    padding:0 5px;
+}
+.content.right input,.content.right textarea {
+    width: 100%;
+}
+.content.right textarea {
+    height: 50px;
+}
+.SetList-Set
+{
+    margin:0;
+    list-style-type:none;
+    width:100%;
+    overflow:hidden;
+    padding-bottom:5px;
+    height:35px;
+}
+.SetList-Set:hover
+{
+    cursor:pointer;
+}
+.SetList-SetContainer
+{
+    clear:both;
+    padding:5px 13px;
+    position:relative;
+}
+.SetList-SetContainer img
+{
+    margin-right:5px;
+    background-color:#fff;
+}
+.SetList-SetContainer div
+{
+    float:left;
+}
+.SetList-SetContainer .name
+{
+    text-decoration:none;
+    text-align:left;
+    float:left;
+    position:relative;
+    top:6px;
+    width:85px;
+}
+.SetList-SetContainer .name a:hover
+{
+    text-decoration:none;
+}
+.SetList-Set.selected
+{
+    background-color: #EFEFEF;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    font-weight: bold;
+}
+.SetList-Set:hover
+{
+    background-color:#EFEFEF;
+}
+#SetsList ul
+{
+    margin:0;
+    padding:0;
+}
+#CreateFind_Button
+{
+    float:right;
+}
+#HasNoSubscribedSetsPanel, #HasNoOwnedSetsPanel
+{
+    text-align: center;
+    width: 100%;
+}
+#SetUrlDiv
+{
+    text-align:center;
+    padding:15px;
+}
+.editSetPanelPopup
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+}
+.editSetPanelPopup .mask
+{
+    background:#000;
+    -moz-opacity:.50;
+    filter:alpha(opacity=50);
+    opacity:.50;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+}
+.Paging_Input
+{
+    width: 20px;
+    text-align: center;
+}
+
+
+#editSetContainerDiv .sort-msg
+{
+    width:100%;
+    clear:both;
+    text-align:center;
+    position:relative;
+    top:20px;
+}
+.ButtonDiv
+{
+    text-align: right;
+    float:left;
+    position:relative;
+}
+.ButtonDiv.bottom
+{
+    float:none;
+    text-align:center;
+}
+#MoreDescButton:hover
+{
+    cursor:pointer;
+}
+#PagingContainerDivTop, #PagingContainerDivBottom
+{
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+#PagingContainerDivBottom
+{
+    margin:5px 0px 5px 0px;
+}
+#PagingContainerDivTop div, #PagingContainerDivBottom div
+{
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+.PagingContainerDivTop
+{
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+.PagingContainerDivTop div
+{
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+.paging_pagenums_container a
+{
+    padding: 0px 3px;
+}
+
+#AssetSetItems .item
+{
+    width: 115px; 
+    height:140px; 
+    float: left; 
+    margin: 10px;
+    border: 1px solid #E5E5E5;
+    position:relative;
+    text-align:center;
+    z-index:500;
+}
+.item .link_container
+{
+    overflow:hidden;
+    width: 110px;
+    height: 140px;
+    display: inline-block;
+    font-size: 12px;
+}
+#AssetSetItems .setitem_options
+{
+    position:absolute;
+    top:2px;
+    right:2px;
+    display:none;
+    height:20px;
+    width:20px;
+    background:url('/images/Sets/btn-gear_sprite.png') left -1px;
+}
+#AssetSetItems .setitem_options:hover
+{
+    background-position: left bottom;
+    cursor:pointer;
+    display:none;
+}
+#AssetSetItems .setitem_options:hover
+{
+    display:block;
+}
+#AssetSetItems .item:hover .setitem_options, #AssetSetItems .setitem_options.true, #AssetSetItems .setitem_options.true2
+{
+    display:block;
+}
+.setitem_options .spacer
+{
+    position:absolute;
+    top:0px;
+    right:-2px;
+    width:115px;
+    height:75px;
+    display:none;
+    background:#fff;
+    opacity: 0; /* standard: ff gt 1.5, opera, safari */
+    -ms-filter: â€œalpha(opacity=0)â€; /* ie 8 */
+    filter: alpha(opacity=0); /* ie lt 7 */
+    -khtml-opacity: 0; /* safari 1.x */
+    -moz-opacity: 0; /* ff lt 1.5, netscape */
+}
+.setitem_options .container.outer
+{
+    position:absolute;
+    top:20px;
+    right:-2px;
+    width:115px;
+    overflow:hidden;
+    display:none;
+}
+.setitem_options .container.inner
+{
+    position:relative;
+    text-align:left;
+    border: 1px solid #aaa;
+    background-color:#fff;
+    top: -75px;
+    font-size:11px;
+}
+.setitem_options .container .setlist
+{
+}
+#AssetSetItems .item:hover
+{
+    background-color: #F5F5F5;
+    border-color:#C2C2C2;
+}
+#AssetSetItems .link_container.handle:hover
+{
+    cursor:move;
+}
+#AssetSetItems .item a
+{
+    text-decoration:none;
+}
+#AssetSetItems .item img
+{
+    width:100px;
+    height:100px;
+    margin-top:8px;
+}
+.newversion_banner
+{
+    height:14px;
+    width:93px;
+    background:url('/images/Sets/update_available.png') top left no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+}
+.NewVersionDropDown
+{
+    position: absolute;
+    border: 1px solid gray;
+    background-color: #fff;
+    display: none;
+    width: 113px;
+    z-index: 900;
+}
+.NewVersionDropDownItem
+{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    padding:2px;
+}
+.NewVersionDropDownItem:hover
+{
+    background-color:#6e99c9;
+}
+
+/* create a set? */
+.SetsPagePopupContainer .PurchaseModalMessage
+{
+    height: auto;
+}
+.SetsPagePopupContainer p
+{
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+.SetsPagePopupContainer textarea
+{
+    width:408px;
+    height:100px;
+    resize:none;
+}
+.CreateEditSetTitle, .MoveItemModalTitle
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px 0px 10px;
+}
+.moveItemContainerDiv
+{
+    text-align:center;
+    width: 380px;
+    padding: 20px 10px;
+    float: left;
+}
+#SetsPane .loading
+{
+    width: 788px;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    background: url('/images/ProgressIndicator4.gif') center no-repeat #fff;
+    margin: 5px;
+    z-index:5000;
+    opacity: .75; /* standard: ff gt 1.5, opera, safari */
+    -ms-filter: â€œalpha(opacity=75)â€; /* ie 8 */
+    filter: alpha(opacity=75); /* ie lt 7 */
+    -khtml-opacity: .75; /* safari 1.x */
+    -moz-opacity: .75; /* ff lt 1.5, netscape */
+}
+#SetsList.CarouselPager .arrow-prev, #SetsList.CarouselPager .arrow-next {
+    display: none;
+}
+#SetsContainer .StandardPanelWhite {
+    padding-top: 0px;
+    background-color: #fff;
+    width: 100%;
+    padding-left: 5px;
+}
+.ButtonDiv input {
+    float: left;
+    margin: 0;
+    margin-right: 3px;
+}
+#SetsContainer .message-container {
+    margin-bottom:0;
+    margin-top:50px;
+}

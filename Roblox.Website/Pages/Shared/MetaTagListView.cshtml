@@ -1,0 +1,6 @@
+﻿@model Roblox.Website.Pages.Shared.MetaTagListViewModel
+@foreach (KeyValuePair<string, string> metaTag in Model.GetMetaTags())
+{
+    @Html.Raw(String.Format("<meta name=\"{0}\" content=\"{1}\" />\n", metaTag.Key, metaTag.Value));
+}
+<partial name="_StructuredPageView.cshtml" model="Model.StructuredDataTags" />

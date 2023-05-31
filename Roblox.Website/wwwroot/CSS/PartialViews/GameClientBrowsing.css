@@ -1,0 +1,10 @@
+/* Legacy CSS file - Please do not copy */
+#GameClientBrowsing {
+  position: fixed;
+  bottom: 0px;
+  padding: 5px;
+  background: #fff;
+  width: 100%; }
+
+#BodyWrapper {
+  padding-bottom: 50px; }

@@ -1,0 +1,20 @@
+<pre>
+<code class="language-javascript">
+    $scope.showSimpleWithCallback = function () { 
+        var modal = modalService.open({ 
+            titleText: "Simple Modal", 
+            bodyText: "I am a simple modal, and this is my body.", 
+            actionButtonShow: true, 
+            actionButtonText: "Resolve Promise", 
+            neutralButtonText: "Reject Promise",
+            imageUrl: "/images/NextStyleGuide/temp/example-bg.png"
+        }); 
+                        
+        modal.result.then(function() {
+            //do something when actionButton clicked and modal closed.
+        }, function() {
+            //do something when neutralButton clicked and modal closed.
+        })
+    };
+</code>
+</pre>

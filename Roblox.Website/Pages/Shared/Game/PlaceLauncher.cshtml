@@ -1,0 +1,151 @@
+﻿@using Roblox.TranslationResources.Common
+@using Roblox.TranslationResources.Feature
+
+@inject IStringLocalizer<VisitGame> VisitGameResources
+@inject IStringLocalizer<GameLaunchGuestMode> GuestModeResources
+
+@inject IStaticUrlResolver StaticContent
+
+<div id="PlaceLauncherStatusPanel" style="display:none;width:300px">
+    <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
+        <div id="Spinner" class="Spinner" style="margin:0 1em 1em 0; padding:20px 0;">
+            <img src="@StaticContent.GetUrl("~/Images/ProgressIndicator3.gif")" height="32" width="32" alt="Progress" />
+        </div>
+        <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
+            <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
+                @VisitGameResources["Label.StartingRoblox"]
+            </div>
+            <div id="Waiting" class="PlaceLauncherStatus MadStatusField">@VisitGameResources["Label.ConnectingToPlayers"]</div>
+            <div id="StatusBackBuffer" class="PlaceLauncherStatus PlaceLauncherStatusBackBuffer MadStatusBackBuffer"></div>
+        </div>
+        <div style="text-align:center;margin-top:1em">
+            <input type="button" class="Button CancelPlaceLauncherButton translate" value="@VisitGameResources["Label.Cancel"]" />
+        </div>
+    </div>
+</div>
+<partial name="~/Pages/Shared/Game/VideoPreRoll.cshtml" />
+<div id="GuestModePrompt_BoyGirl" class="Revised GuestModePromptModal" style="display:none;">
+    <div class="simplemodal-close">
+        <a class="ImageButton closeBtnCircle_20h" style="cursor: pointer; margin-left:455px;top:7px; position:absolute;"></a>
+    </div>
+    <div class="Title">
+        @GuestModeResources["HeadingChooseCharacter"]
+    </div>
+    <div style="min-height: 275px; background-color: white;">
+        <div style="clear:both; height:25px;"></div>
+
+        <div style="text-align: center;">
+            <div class="VisitButtonsGuestCharacter VisitButtonBoyGuest" style="float:left; margin-left:45px;"></div>
+            <div class="VisitButtonsGuestCharacter VisitButtonGirlGuest" style="float:right; margin-right:45px;"></div>
+        </div>
+        <div style="clear:both; height:25px;"></div>
+        <div class="RevisedFooter" >
+            <div style="width:200px;margin:10px auto 0 auto;">
+                <a href="#" onclick="redirectPlaceLauncherToRegister(); return false;"><div class="RevisedCharacterSelectSignup"></div></a>
+                <a class="HaveAccount" href="#" onclick="redirectPlaceLauncherToLogin();return false;">@GuestModeResources["LabelHaveAccount"]</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function checkRobloxInstall() {
+        return RobloxLaunch.CheckRobloxInstall('/install/download.aspx');
+    }
+    if (typeof MadStatus === "undefined") {
+        MadStatus = {};
+    }
+
+    MadStatus.Resources = {
+        //<sl:translate>
+        accelerating: "Accelerating",
+        aggregating: "Aggregating",
+        allocating: "Allocating",
+        acquiring: "Acquiring",
+        automating: "Automating",
+        backtracing: "Backtracing",
+        bloxxing: "Bloxxing",
+        bootstrapping: "Bootstrapping",
+        calibrating: "Calibrating",
+        correlating: "Correlating",
+        denoobing: "De-noobing",
+        deionizing: "De-ionizing",
+        deriving: "Deriving",
+        energizing: "Energizing",
+        filtering: "Filtering",
+        generating: "Generating",
+        indexing: "Indexing",
+        loading: "Loading",
+        noobing: "Noobing",
+        optimizing: "Optimizing",
+        oxidizing: "Oxidizing",
+        queueing: "Queueing",
+        parsing: "Parsing",
+        processing: "Processing",
+        rasterizing: "Rasterizing",
+        reading: "Reading",
+        registering: "Registering",
+        rerouting: "Re-routing",
+        resolving: "Resolving",
+        sampling: "Sampling",
+        updating: "Updating",
+        writing: "Writing",
+        blox: "Blox",
+        countzero: "Count Zero",
+        cylon: "Cylon",
+        data: "Data",
+        ectoplasm: "Ectoplasm",
+        encryption: "Encryption",
+        event: "Event",
+        farnsworth: "Farnsworth",
+        bebop: "Bebop",
+        fluxcapacitor: "Flux Capacitor",
+        fusion: "Fusion",
+        game: "Game",
+        gibson: "Gibson",
+        host: "Host",
+        mainframe: "Mainframe",
+        metaverse: "Metaverse",
+        nerfherder: "Nerf Herder",
+        neutron: "Neutron",
+        noob: "Noob",
+        photon: "Photon",
+        profile: "Profile",
+        script: "Script",
+        skynet: "Skynet",
+        tardis: "TARDIS",
+        virtual: "Virtual",
+        analogs: "Analogs",
+        blocks: "Blocks",
+        cannon: "Cannon",
+        channels: "Channels",
+        core: "Core",
+        database: "Database",
+        dimensions: "Dimensions",
+        directives: "Directives",
+        engine: "Engine",
+        files: "Files",
+        gear: "Gear",
+        index: "Index",
+        layer: "Layer",
+        matrix: "Matrix",
+        paradox: "Paradox",
+        parameters: "Parameters",
+        parsecs: "Parsecs",
+        pipeline: "Pipeline",
+        players: "Players",
+        ports: "Ports",
+        protocols: "Protocols",
+        reactors: "Reactors",
+        sphere: "Sphere",
+        spooler: "Spooler",
+        stream: "Stream",
+        switches: "Switches",
+        table: "Table",
+        targets: "Targets",
+        throttle: "Throttle",
+        tokens: "Tokens",
+        torpedoes: "Torpedoes",
+        tubes: "Tubes"
+        //</sl:translate>
+    };
+</script>

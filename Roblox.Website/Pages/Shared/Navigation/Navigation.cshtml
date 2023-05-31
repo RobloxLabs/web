@@ -1,0 +1,70 @@
+﻿@using Roblox.TranslationResources.CommonUI
+
+@inject IStringLocalizer<Features> Resources
+@inject IStyleManager RobloxCSS
+@inject IWebAuthenticator WebAuthenticator
+
+@{
+    RobloxCSS.PageCSS.Add("PartialViews/Navigation.css");
+}
+
+<div class="site-header" >
+    <div id="navigation-container">
+        <a href="/Default.aspx" class="btn-logo" data-se="nav-logo"></a>
+        <div id="navigation-menu">
+            <ul>
+                <li><a href="/home" ref="nav-myroblox" data-se="nav-myhome">@Resources["Label.sHome"]</a></li>
+                <li><a data-se="nav-games" href="/games" ref="nav-games" title="@Resources["Label.sGames"]">@Resources["Label.sGames"]</a> </li>
+                <li><a data-se="nav-catalog" href="/Catalog" ref="nav-catalog" title="@Resources["Label.sCatalog"]">@Resources["Label.sCatalog"]</a></li>
+                
+                <li><a data-se="nav-leaderboards" href="/leaderboards" title="@Resources["Label.sLeaderboards"]" ref="nav-leaderboards">@Resources["Label.sLeaderboards"]</a></li>
+                
+                <li><a data-se="nav-upgrade" href="/Upgrades/BuildersClubMemberships.aspx" title="@Resources["Label.sBuildersClub"]" ref="nav-buildersclub">@Resources["Label.sBuildersClub"]</a></li>
+                <li><a data-se="nav-forum" onclick='' href="/Forum/Default.aspx" style='' title="@Resources["Label.sForum"]" ref="nav-forum">@Resources["Label.sForum"]</a></li>
+                <li class="more-list-item" drop-down-nav-button="more-list-item">
+                    <div class="more-link-container">
+                        <a id="nav-more" title="@Resources["Label.sMore"]" data-se="nav-more" ref="nav-more">@Resources["Label.sMore"]<span id="more-menu-toggle"></span></a> 
+                    </div>
+                    <div class="dropdownnavcontainer" style="display:none;" drop-down-nav-container="more-list-item">
+                        <div class="dropdownmainnav" style="z-index:1023">
+                            <a class="dropdownoption" data-se="nav-more-browse" href="/Browse.aspx" title="@Resources["Label.sPeople"]" ref="nav-people"><span>@Resources["Label.sPeople"]</span></a>
+                            <a class="dropdownoption roblox-interstitial" data-se="nav-more-blog" href="http://blog.roblox.com" title="@Resources["Label.sBlog"]" ref="nav-news"><span>@Resources["Label.sBlog"]</span></a>
+                            <a class="dropdownoption" data-se="nav-more-help" href="/Help/Builderman.aspx" title="@Resources["Label.Help"]" ref="nav-help"><span>@Resources["Label.Help"]</span></a>
+                            <div style="clear:both;"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        @if (WebAuthenticator.IsAuthenticated())
+        {
+            <partial name="~/Pages/Shared/Navigation/AlertsAndOptions.cshtml" model='new AlertsAndOptionsModel(WebAuthenticator.GetAuthenticatedUser())' />
+        }
+        else
+        {
+            <partial name="~/Pages/Shared/Navigation/SignupOrLogin.cshtml" />
+        }
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $('.more-list-item').bind('showDropDown', function () {
+            var maxWidth = $('#navigation-menu .dropdownnavcontainer').width();
+            $('a.dropdownoption span').each(function (index, elem) {
+                elem = $(elem);
+                if (elem.outerWidth() > maxWidth) {
+                    maxWidth = elem.outerWidth();
+                }
+            });
+            maxWidth = maxWidth + 5;
+            $('#navigation-menu .dropdownoption').each(function (index, elem) {
+                elem = $(elem);
+                if (elem.width() < maxWidth) {
+                    elem.width(maxWidth);
+                }
+            });
+        });
+    });
+    
+    
+</script>

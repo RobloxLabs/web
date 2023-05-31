@@ -1,0 +1,63 @@
+﻿/** Primary **/
+.btn-primary,
+a.btn-primary {
+    color: white;
+    background: #00B259;
+    border: 1px solid #008C46;
+}
+.btn-primary:hover {
+    text-decoration:none;
+    background: #008C46;
+}
+.btn-disabled-primary,
+a.btn-disabled-primary {
+    background: #93DBAF;
+}
+
+/** Default **/
+.btn-default,
+a.btn-default {
+    float: right;
+    color: black;
+    background: #FFF;
+    border: 1px solid #CCCCCC;
+}
+.btn-default:hover {
+    color: white;
+    background: #4479D4;
+    border: 1px solid #0059B2;
+    text-decoration:none;
+}
+
+/** Box **/
+.btn-small {
+    cursor: pointer;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 40px;
+    height: 20px;
+    line-height: 18px;
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-medium {
+    cursor: pointer;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 75px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}

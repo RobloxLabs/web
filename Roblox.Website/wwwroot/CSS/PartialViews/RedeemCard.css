@@ -1,0 +1,15 @@
+/* Legacy CSS file - Please do not copy */
+#pin {
+  width: 125px;
+  text-transform: uppercase; }
+
+#busy, #success {
+  height: 22px;
+  width: 22px;
+  vertical-align: middle; }
+
+#busy {
+  visibility: hidden; }
+
+#success, #error {
+  display: none; }

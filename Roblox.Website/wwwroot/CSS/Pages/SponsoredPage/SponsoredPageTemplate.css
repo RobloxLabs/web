@@ -1,0 +1,111 @@
+﻿#BodyWrapper, #RepositionBody, #Body {
+    width: 100% !important;
+    padding: 0;
+}
+
+#SponsoredPage {
+    background-size: 1920px 3398px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    min-height: 3398px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    height: 66px;
+    width: 100%;
+    min-width: 750px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #5e9eb2;
+    background-color: rgba(0,0,0,0.35);
+    color: white;
+    font-size: 14px;
+    z-index: 200;
+}
+
+.headerLeft {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    font-weight: 400;
+}
+
+    .headerLeft > .rlogo {
+        width: 36px;
+        height: 36px;
+        margin-top: 3px;
+        margin-left: 20%;
+    }
+
+    .headerLeft > div {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+
+.coverSprite {
+    background-repeat: no-repeat;
+    background-image: url('http://images.rbxcdn.com/20e7d1543d2c5caf201184d86530fc35.png');
+}
+
+.logo-link {
+    display: block;
+    width: 37px;
+    height: 37px;
+    margin: 0 !important;
+}
+
+#TopLeftNav {
+    padding-top: 5px;
+    display: inline-block;
+}
+
+#TopLeftNavLinks {
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+}
+
+    #TopLeftNavLinks li {
+        display: inline-block;
+    }
+
+li {
+    list-style: none;
+}
+
+#TopLeftNavLinks li a {
+    display: block;
+    float: left;
+}
+
+.header a {
+    font-size: 18px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.headerLeft > .rlogo {
+    margin-left: 0 !important;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+#magic-line {
+    position: absolute;
+    left: 0;
+    width: 75px;
+    height: 2px;
+    background: #fff;
+    top: 30px;
+}

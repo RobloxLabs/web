@@ -1,0 +1,71 @@
+﻿@using Roblox.Website.Pages.Shared.Tracking
+
+@inject IScriptManager ScriptManager
+@inject IStyleManager CSSManager
+
+@{ 
+    ScriptManager.PageScripts.Add("Landing/BlueCity/Animation.js");
+    ScriptManager.PageScripts.Add("Landing/BlueCity/Animated.js");
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- MachineID: @ViewData["MachineID"] -->
+    <title>@(!string.IsNullOrEmpty(ViewData["Title"] as string) ? ViewData["Title"] + " - ROBLOX" : "ROBLOX")</title>
+    <link rel="stylesheet" href="~/CSS/m/reset.css" />
+    <link rel="stylesheet" href="~/CSS/m/main.css" />
+    <partial name="PageCSS" />
+    <partial name="~/Pages/Shared/Tracking/GoogleAnalytics.cshtml" />
+    <partial name="~/Pages/Shared/Tracker/GoogleAnalytics.cshtml" />
+    @* Function that creates AJAX and jQuery HTML goes here *@
+    <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js'></script>
+    <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.7.2.min.js'><\/script>")</script>
+    <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js'></script>
+    <script type='text/javascript'>window.Sys || document.write("<script type='text/javascript' src='/js/Microsoft/MicrosoftAjax.js'><\/script>")</script>
+    @* No tabs here *@
+    <script src="~/js/m/base.js"></script>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/CSS/PartialViews/Navigation.css" />
+    <partial name="PageMetaTags" model="new MetaTagListViewModel()" />
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="Container">
+        <partial name="~/Pages/Shared/Navigation/Banner.cshtml" />
+        <div style="clear:both"></div>
+        <div id="Body" style="width:970px">
+            @RenderBody()
+            <partial name="~/Pages/Shared/Tracking/GoogleAdWordsConversionTracker.cshtml" />
+            <partial name="~/Pages/Shared/Modals/ConfirmationModal.cshtml" />
+        </div>
+        <partial name="~/Pages/Shared/Experimental/_Footer.cshtml" />
+    </div>
+
+    <partial name="~/Pages/Shared/Tracking/EventManager.cshtml" />
+    <partial name="~/Pages/Shared/Tracker/GoogleAnalytics.cshtml" />
+
+    <partial name="~/Pages/Shared/Tracking/JavascriptErrorTracker.cshtml" model='new JavascriptErrorTrackerModel()' />
+    <script src="~/js/m/simple-mvc.js"></script>
+    <partial name="PageScripts" />
+    <partial name="~/Pages/Shared/Tracking/VendorSpecificSignupTrackingPixel.cshtml" />
+    <script type="text/javascript">
+        $(function () {
+            $('.tooltip').tipsy();
+            $('.tooltip-top').tipsy({ gravity: 's' });
+            $('.tooltip-right').tipsy({ gravity: 'w' });
+            $('.tooltip-left').tipsy({ gravity: 'e' });
+            $('.tooltip-bottom').tipsy({ gravity: 'n' });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+/* Legacy CSS file - Please do not copy */
+.field-validation-error {
+  color: #a00;
+  width: auto;
+  position: relative; }
+
+a:link, a:visited, a:active {
+  color: inherit; }
+
+.neutral, .active, .disabled {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image: url(/images/IDE/bg-steps-arrow.png);
+  height: 33px;
+  margin-right: -19px;
+  position: relative;
+  padding: 15px 20px 0px 24px;
+  line-height: 12px;
+  text-decoration: none; }
+
+a.neutral:hover {
+  background-position: right bottom; }
+
+.neutral, .disabled {
+  background-position: right top;
+  color: #000;
+  border-color: #777;
+  cursor: pointer; }
+
+.active {
+  background-position: right center;
+  border-color: #000;
+  color: #fff;
+  cursor: default; }
+
+.disabled {
+  color: #888;
+  cursor: default; }
+
+.number {
+  background-image: url(/images/IDE/bg-number.png);
+  width: 18px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  text-align: center;
+  margin-right: 4px;
+  line-height: 12px;
+  padding-top: 3px; }
+
+.neutral > span.number {
+  background-position: left top;
+  color: #fff; }
+
+.active > span.number {
+  background-position: left center;
+  color: #444; }
+
+.disabled > span.number {
+  background-position: left bottom;
+  color: #fff; }
+
+.label {
+  height: 18px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+.first {
+  margin-left: 0px;
+  padding-left: 10px;
+  border-left-style: solid;
+  border-left-width: 1px; }
+
+.last {
+  margin-right: 0px;
+  padding-right: 10px;
+  background-image: url(/images/IDE/bg-steps-no_arrow.png);
+  background-repeat: repeat-x;
+  border-right-style: solid;
+  border-right-width: 1px; }
+
+#stepArrows {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #e6e6e6; }
+
+#arrow1 {
+  z-index: 4; }
+
+#arrow2 {
+  z-index: 3; }
+
+#arrow3 {
+  z-index: 2; }
+
+#arrow4 {
+  z-index: 1; }
+
+#partialView {
+  background-color: white;
+  border-top: 1px solid;
+  border-color: #a7a7a7;
+  padding: 20px 20px 20px 20px; }
+
+.form-text-box {
+  resize: none; }
+
+#partialView h2 {
+  margin: 0;
+  margin-bottom: 20px; }
+
+#partialView label {
+  font-size: 13px;
+  font-weight: bold;
+  float: left;
+  width: 100px; }
+
+#partialView #descriptionRow label {
+  vertical-align: top; }
+
+#partialView input[type="text"], textarea {
+  width: 242px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+#partialView input[type="radio"], #copyLock, .model #genreRow {
+  margin-bottom: 17px; }
+
+#partialView select {
+  position: relative;
+  top: -2px;
+  border: 1px solid #A7A7A7;
+  margin: 0; }
+
+#partialView input[type="radio"] {
+  position: relative;
+  top: -2px; }
+
+#partialView input[type="checkbox"] {
+  margin-left: 0px; }
+
+#partialView #gearTypes {
+  padding-bottom: 20px; }
+
+#partialView #otherSettings {
+  padding-top: 20px; }
+
+#buttonRow {
+  border-top: 1px solid;
+  border-color: #a7a7a7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white; }
+
+#buttonRow a {
+  margin-right: 10px; }
+
+.whiteBackground {
+  background-color: white; }
+
+div#gearTypes {
+  border-bottom: 1px solid;
+  border-color: #a7a7a7; }
+
+#gearTypes ul {
+  list-style-type: none;
+  width: 350px;
+  overflow: hidden;
+  padding-left: 5px;
+  margin: 0; }
+
+li.gearCheckbox {
+  float: left;
+  display: inline;
+  width: 50%; }
+
+.TipsyImg {
+  vertical-align: middle;
+  margin-top: -6px; }
+
+#partialView div#chatType {
+  margin-bottom: 12px; }
+
+.checkboxListItem {
+  position: relative; }
+
+#playerAccessForm {
+  padding-bottom: 247px; }
+
+#basicSettingsForm {
+  padding-bottom: 95px; }
+
+a.tooltip {
+  float: none;
+  position: inherit; }
+
+img.h2_tooltip {
+  margin-top: -12px; }
+
+.input-validation-error {
+  color: black; }
+
+.model .field-validation-valid {
+  display: none; }
+
+/* Thumbnail Tab */
+.thumbnail-container {
+  width: 420px;
+  height: 230px;
+  float: left;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  text-align: center; }
+
+.snapshot-container {
+  float: right; }
+
+.take-snapshot-button {
+  margin-top: 100px;
+  margin-right: 100px; }
+
+.preview-image {
+  display: none;
+  height: 230px;
+  width: 420px; }
+
+.file-input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 1px; }
+
+.error-msg-disable-pbs {
+  color: red;
+  display: none;
+  margin: 6px 0; }

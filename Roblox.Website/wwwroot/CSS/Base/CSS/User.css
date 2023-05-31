@@ -1,0 +1,49 @@
+﻿/* CSSCleanup - also used in my/stuff.aspx */
+#UserAssetsPane
+{
+	margin-bottom: 10px;
+}
+
+/* CSSCleanup Class used many, many places */
+.NoResults
+{
+    line-height: 1.3em;
+	padding: 10px;
+	text-align: center;
+}
+.Badge
+{
+	margin: 10px 10px;
+	text-align: center;
+}
+.Friend
+{
+	width: 125px;
+	height: 180px;
+	overflow:hidden;
+}
+.Friend .Avatar
+{
+	text-align: center;
+}
+.Friend .Summary,
+.Friend .Options
+{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.AdPanel
+{
+	position:relative;
+	margin: 0 auto;
+    z-index: 999;
+}
+
+#BadgesDisplayPane input[disabled],
+#UserGroupsPane input[disabled],
+#FriendRequests input[disabled]
+{
+    background-position: 0 -27px;
+    cursor: default;
+}

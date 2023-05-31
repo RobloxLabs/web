@@ -1,0 +1,72 @@
+/* Legacy CSS file - Please do not copy */
+#DeveloperProductsLoading {
+  min-height: 460px;
+  display: none;
+  text-align: center; }
+
+#DeveloperProductsError {
+  min-height: 460px;
+  display: none; }
+
+#DeveloperProductsInnerContainer {
+  min-height: 460px; }
+
+.developerProductsContainer {
+  width: 60%; }
+
+.developerProductModificationForm {
+  width: 60%; }
+
+.developerProductUpdateStatus {
+  margin-bottom: 10px; }
+
+.developerProductsTableContainer {
+  min-height: 350px; }
+
+.developerProductpagerContainer {
+  margin-top: 10px;
+  text-align: center; }
+
+.developerProductsLoadingImage {
+  margin-top: 215px; }
+
+.createNewButtonSection {
+  margin-top: 16px;
+  position: relative;
+  top: -5px; }
+
+#DeveloperProductsTable {
+  width: 100%; }
+
+#DeveloperProductsTable td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+  margin: 0;
+  text-align: left; }
+
+.validationMessageInvalid {
+  color: Red; }
+
+.imageUpload {
+  height: 22px; }
+
+.nameColumn {
+  min-width: 117px; }
+
+.priceBox {
+  width: 85px; }
+
+.nameBox {
+  width: 372px; }
+
+#ImageUploadForm {
+  padding-bottom: 10px; }
+
+.developerProductsImageUploadIframe {
+  width: 450px;
+  height: 220px; }
+
+.hideTicket {
+  display: none; }

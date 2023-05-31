@@ -1,0 +1,55 @@
+﻿#BCCompareModal
+{
+    background-color: White;
+    border: solid 2px #6e99c9;
+    margin: 5px;
+    padding: 10px;
+}
+#BuyBCComparePanelTopInfo
+{
+    text-align: center;
+    padding: 10px 40px;
+    width: 340px;
+}
+.BuyBCComparePanelTable
+{
+	font-size: 12px;
+	background: #fff;
+	width: 340px;
+	margin: 0px 40px;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+.BBCCompareRow td,
+.BCCompareHeaderRow
+{
+	color: #2163A5;
+	border-bottom: 1px solid #D3D3D3;
+}
+.BCCompareHeaderRow
+{
+	padding: 10px 8px;
+	text-align:left;
+}
+.BBCCompareRow td
+{
+    padding: 10px;
+    padding-right: inherit;
+}
+.BCCompareModalRow
+{
+    width:130px;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    background-color:#DFEFFF; 
+}
+#BCCompareButtons
+{
+    text-align: center;
+    width: 340px;
+    margin: 0px 40px;
+}
+.daysConversion
+{
+    color: Red;
+}

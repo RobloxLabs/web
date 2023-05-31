@@ -1,0 +1,168 @@
+﻿#ItemContainer #Summary {
+    background-color:Transparent;
+    border: none;
+    font-size:11px;
+    color:Black;
+}
+#ItemContainer #Summary .label {
+    color:#888888;
+}
+#ItemContainer #Summary .box {
+    
+}
+
+#ItemContainer #Summary .box .head {
+    color:Black;
+}
+
+#ItemContainer #Summary .box .body {
+    border: 1px solid #CCCCCC;
+    padding: 4px 8px 8px;
+    color: #000;
+}
+
+#ItemContainer h3 {
+    font-size:11px;
+    color:#888888;
+    letter-spacing: normal;
+}
+
+.ReportAbuse {
+    text-align:right;
+}
+
+.ReportAbuse .AbuseButton a {
+    color:#FF9999;
+    background:none;
+    padding-left: 16px;
+    padding-bottom: 2px;
+}
+
+.ReportAbuse .AbuseButton a:hover {
+    background:url("/images/cssspecific/rbx2/abuse.png") no-repeat scroll 0 2px transparent;
+    color:#FF0000;
+}
+
+.ReportAbuse img {
+    display:none;
+}
+.MultiplayerVisit:hover {
+	background-position: 0px 54px;
+}
+.MultiplayerVisit, .MultiplayerVisitDisabled {
+    width:212px;
+    height:54px;
+    background: url(/images/cssspecific/rbx2/btn_play_54h.png);   
+}
+.MultiplayerVisitHover {
+    width:212px;
+    height:54px;
+    background: url(/images/cssspecific/rbx2/btn_play_54h.png);   
+	background-position: 0px 54px;
+}
+div.VisitButtonsLeft a.MultiplayerVisit
+{
+	float:right;
+	display:inline;
+}
+div.VisitButtonsLeftCentered
+{
+    width:100%;
+    float:none;
+    text-align:center;
+    display:block;
+}
+.SoloVisit:hover {
+    color:#00CC00;
+}
+.SoloVisit {
+    background:none;
+    color:#008800;
+    font-size:14px;
+    width:auto;
+    height:auto;
+}
+span.SoloVisitText {
+	display:block;
+	padding: 15px 0px 10px 15px;
+}
+
+#ItemContainer .PlayGames {
+    background-color:Transparent;
+    border:none;
+    padding:0px;
+    width:100%;
+    margin: 4px 0 0px 0;
+}
+.PlaceItemContainer .PlayGames
+{
+    border: none !important;
+    background: none !important;
+    margin: 4px 0 0;
+}
+
+.PlaceInfoIcons {
+    margin:4px 0 0 1px;
+    text-align:right;
+}
+.iPublic, .iUnlocked, .iLocked,
+.SharedIcon, .CopyLockedIcon,
+.AllGearIcon, .GenreGearIcon, .NoGearIcon
+{
+    width:20px;
+    height:20px;
+}
+.iPublic, .iUnlocked {
+    background:url(/images/cssspecific/rbx2/icon_public.png);
+}
+.iLocked {
+    background:url(/images/cssspecific/rbx2/icon_public.png);
+    background-position:-20px;
+}
+.CopyLockedIcon {
+    background:url(/images/cssspecific/rbx2/icon_locked.png);
+}
+.SharedIcon {
+    background:url(/images/cssspecific/rbx2/icon_locked.png);
+    background-position:-20px;
+}
+.AllGearIcon {
+    background:url(/images/cssspecific/rbx2/icon_gear.png);
+}
+.GenreGearIcon {
+    background:url(/images/cssspecific/rbx2/icon_gear.png);
+    background-position: 0 -20px;
+}
+.NoGearIcon {
+    background:url(/images/cssspecific/rbx2/icon_gear.png);
+    background-position: 0 -40px;
+}
+#ItemContainer .ajax_tab_label {
+    color:#333;
+    font-size:16px;
+    font-weight:bold;
+    font-family:Arial,Helvetica,sans-serif;
+    letter-spacing:normal;
+}
+
+#ItemContainer #Thumbnail,
+#ItemContainer #Thumbnail_Place {   
+    border:none;
+}
+#ItemContainer .CommentsContainer .Comments {
+     border: 0px none;
+}
+#ItemContainer .CommentsContainer .Comment {
+     background:none;
+}
+#ItemContainer .CommentsContainer .Avatar {
+     border: 0px none;
+}
+#ItemContainer .CommentsContainer .Post .Audit {
+     color: #888;
+}
+
+#BadgeStatsHeader
+{
+    width: auto;
+}

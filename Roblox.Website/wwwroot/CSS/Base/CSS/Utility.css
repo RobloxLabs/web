@@ -1,0 +1,151 @@
+/* Legacy CSS file - Please do not copy */
+/* Basic styles for new social features (boxes, headers, text, etc.) */
+.NoResults {
+  line-height: 1.3em;
+  padding: 10px;
+  text-align: center; }
+
+.MyRobloxContainer {
+  margin: 0 auto;
+  width: 970px; }
+
+.MyRobloxContainer h1 {
+  display: block; }
+
+.StandardBox,
+.StandardBoxGray {
+  float: none;
+  border: 1px solid #aaa;
+  background-color: White;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block; }
+
+.StandardBoxHeader,
+.StandardTabGrayActive {
+  float: none;
+  background-color: #6e99c9;
+  text-align: center;
+  color: White;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 12px 5px 12px;
+  display: block; }
+
+.StandardTabGrayActive {
+  display: inline-block;
+  height: 26px;
+  z-index: 2;
+  position: relative; }
+
+.StandardTabGrayActive {
+  margin-right: 4px; }
+
+.StandardTabGrayActive a {
+  color: #333; }
+
+.StandardTabGrayActive a:hover {
+  text-decoration: none; }
+
+.StandardTabGrayActive {
+  background-color: #6c98cb;
+  color: White; }
+
+/* Ported from RBX2 */
+.StandardTabGrayActive,
+.StandardTabGray:hover {
+  background: url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+  background-position: left 0px;
+  height: 31px;
+  padding: 0px;
+  text-align: left;
+  cursor: pointer;
+  margin: 0px; }
+
+.StandardTabGrayActive {
+  background-position: left -62px; }
+
+.StandardTabGrayActive span {
+  background: url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+  background-position: right 0px;
+  height: 25px;
+  padding: 6px 16px 0 8px;
+  margin: 0 0 0 4px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  display: block; }
+
+.StandardTabGrayActive span {
+  background-position: right -62px; }
+
+.StandardBox {
+  padding: 5px;
+  margin-bottom: 8px;
+  background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x #fff;
+  border: 1px solid #aaa;
+  z-index: 0; }
+
+.StandardBoxHeader {
+  height: 33px;
+  padding: 0 7px 0 5px;
+  text-align: left;
+  z-index: 2;
+  background: url(/images/cssspecific/rbx2/tab_black_33h_t1.png) no-repeat left top;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 0; }
+
+.StandardBoxHeader span {
+  display: block;
+  width: 100%;
+  height: 29px;
+  padding: 5px 5px 0 2px;
+  background: url(/images/cssspecific/rbx2/tab_black_33h_t2.png) no-repeat right top;
+  overflow: hidden; }
+
+/** Wall / Feed / Repeater text/icon list **/
+.Repeater {
+  border: 0px;
+  width: 100%; }
+
+.Repeater .AlternatingItemTemplateOdd {
+  background-color: #F3F3F3;
+  padding: 5px; }
+
+.Repeater .AlternatingItemTemplateEven {
+  background-color: #fff;
+  padding: 5px; }
+
+.Repeater thead {
+  font-size: 15px;
+  font-weight: normal;
+  color: #2163A5;
+  border-bottom: 1px solid #D3D3D3; }
+
+/** End Wall / Feed / Repeater text/icon list **/
+/************************ OTHER *************************/
+.Money {
+  /* CSSCleanup Gamecard/Default and RixtyPin/Default */
+  color: #090; }
+
+/* CSSCleanup - Minimal Use */
+.SuccessBox, .ResultSuccessBox {
+  border: solid 2px #a6dba6;
+  color: #090;
+  font-weight: bold;
+  padding: 5px; }
+
+.SuccessBox, .ErrorBox {
+  margin: 10px 0; }
+
+.SuccessBox p {
+  margin: 0; }
+
+.BoxTextAligned {
+  margin-left: 10px;
+  position: relative;
+  top: -20px; }
+
+/* END CSSCleanup - Minimal Use */

@@ -1,0 +1,9 @@
+/* Legacy CSS file - Please do not copy */
+label[for=description] {
+  vertical-align: top; }
+
+#description {
+  margin-left: 0; }
+
+#description-error {
+  vertical-align: top; }

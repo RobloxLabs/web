@@ -1,0 +1,262 @@
+/* Legacy CSS file - Please do not copy */
+#placeForm .field-validation-error {
+  color: #a00;
+  width: auto;
+  position: relative; }
+
+#placeForm div.validation-summary-errors {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+#placeForm select.form-select.last-form-element {
+  margin-bottom: 0; }
+
+#placeForm select.form-select.no-margins {
+  margin: 0; }
+
+#placeForm select.form-select.SelectRank {
+  margin-top: 5px;
+  width: 150px; }
+
+#placeForm label {
+  display: block;
+  margin-bottom: 5px; }
+
+#placeForm .privacy-label {
+  margin-top: 5px; }
+
+#placeForm select.form-select {
+  margin: 5px 0 30px 0;
+  border: 1px solid #A7A7A7; }
+
+#placeForm .footnote {
+  font-weight: normal;
+  text-transform: none; }
+
+#placeForm .headline {
+  margin-bottom: 30px; }
+
+#placeForm #StudioGameTemplates {
+  margin-bottom: 10px; }
+
+#placeForm .headline h2 {
+  display: inline;
+  margin-right: 4px; }
+
+#placeForm h2 {
+  margin: 0;
+  padding: 0; }
+
+#placeForm div.tab-content {
+  padding-top: 20px;
+  padding-left: 10px; }
+
+#placeForm .form-text-box {
+  resize: none; }
+
+#placeForm .text-box {
+  margin-bottom: 10px; }
+
+#placeForm .text-box#Name {
+  width: 372px; }
+
+#placeForm .radio-button-label {
+  margin-bottom: 10px; }
+
+#placeForm .check-box-label {
+  margin-bottom: 10px; }
+
+#placeForm label.radio-selection {
+  margin-bottom: 10px; }
+
+#placeForm label.radio-selection-last {
+  margin-bottom: 30px; }
+
+#placeForm div.TabContent h2 {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+#placeForm #access_tab table {
+  border-collapse: collapse; }
+
+#placeForm .subsection {
+  margin-bottom: 20px; }
+
+#placeForm td {
+  border: 10px solid white;
+  /* Or any color which matches table's bgcolor */
+  border-width: 10px 0; }
+
+#placeForm fieldset {
+  padding-bottom: 5px;
+  border: none; }
+
+#placeForm span.tooltip-margin {
+  margin-right: 5px; }
+
+#placeForm textarea {
+  width: 372px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+#placeForm label.associate-group-label {
+  float: none; }
+
+#placeForm label.has-tooltip {
+  display: inline-block; }
+
+#placeForm #buttonRow {
+  margin: 20px 20px 0 10px;
+  overflow: hidden; }
+
+#placeForm #buttonRow a {
+  margin-right: 10px; }
+
+#placeForm fieldset#gearTypes {
+  border-bottom: 1px solid;
+  border-color: #a7a7a7; }
+
+#placeForm .h2-tooltip {
+  margin-bottom: 1px; }
+
+#placeForm img.copylock-tooltip {
+  width: 12px;
+  height: 13px;
+  margin-left: 4px; }
+
+#placeForm div.roleset-name {
+  font-weight: bold; }
+
+#placeForm div.username-listitem {
+  color: gray;
+  margin-top: 5px;
+  float: left; }
+
+#placeForm span.invalid-name {
+  color: Red;
+  font-weight: bold;
+  display: none; }
+
+#placeForm a.roleset-tooltip {
+  margin-left: 1px; }
+
+#placeForm img.roleset-tooltip {
+  position: relative;
+  top: -3px;
+  vertical-align: middle; }
+
+#placeForm div.GroupAccess {
+  margin-top: 15px; }
+
+#placeForm div#AssignPermissions {
+  margin-bottom: 20px; }
+
+#placeForm div.GroupRoleSets {
+  margin-left: 20px; }
+
+#placeForm input[type='checkbox'] {
+  margin: 3px 7px 3px 0; }
+
+#placeForm input[type='radio'] {
+  margin-right: 9px; }
+
+#placeForm #gearTypes ul {
+  list-style-type: none;
+  width: 350px;
+  overflow: hidden;
+  margin: 0; }
+
+#placeForm a.roleset-tooltip {
+  vertical-align: middle; }
+
+#placeForm ul#gearTypes {
+  list-style-type: none;
+  width: 500px;
+  overflow: hidden;
+  margin-bottom: 10px; }
+
+#placeForm li.gearCheckbox {
+  float: left;
+  display: inline;
+  width: 33%; }
+
+#placeForm .TipsyImg {
+  vertical-align: middle;
+  margin-top: -5px; }
+
+#placeForm .checkboxListItem {
+  position: relative;
+  float: none; }
+
+#placeForm #groupPlace {
+  margin-bottom: 20px; }
+
+#placeForm a.tooltip {
+  float: none;
+  position: inherit;
+  margin-left: 1px; }
+
+#placeForm img.h2_tooltip {
+  width: 12px;
+  height: 13px;
+  margin-left: 4px; }
+
+#placeForm #TabsContentContainer {
+  min-height: 300px; }
+
+#placeForm div.spacing {
+  margin-bottom: 10px; }
+
+#placeForm .defaultText {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#placeForm .defaultTextActive {
+  color: #a1a1a1;
+  font-style: italic; }
+
+.ProcessingModalBody {
+  margin: 15px auto;
+  text-align: center;
+  vertical-align: middle;
+  background: none; }
+
+.ProcessingModalBody .processing-indicator {
+  margin: 0; }
+
+.ProcessingModalBody .processing-text {
+  margin: 7px 0; }
+
+.chzn-container {
+  width: 300px;
+  position: relative;
+  left: 100px;
+  bottom: 125px;
+  *bottom: 155px; }
+
+#customlist_chzn {
+  width: 550px; }
+
+#customlist_chzn .chzn-choices {
+  overflow: auto;
+  width: 300px; }
+
+#customlist_chzn .chzn-drop {
+  width: 300px; }
+
+.customlist-error {
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  *zoom: 1;
+  *display: inline; }
+
+.deviceTypeSection {
+  padding-bottom: 25px; }
+
+#device-type-error {
+  width: 270px; }
+
+#PrivateServersError {
+  display: none; }

@@ -1,0 +1,443 @@
+﻿div#NavRedesign
+{
+    display:inline-block;
+    min-height: 36px;
+	z-index:1000;
+	float: left;
+	*zoom: 1;
+    *display: inline;
+}
+.NavigationRedesign
+{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+    text-decoration: none;
+}
+.NavigationRedesign {
+	height:30px;
+	text-align:left;
+	line-height:20px;
+}
+#NavigationRedesignBannerContainer {
+    text-align:left;
+    position: relative;
+    height: 36px;
+    z-index: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.NavigationRedesign ul {
+	margin: 0px auto;
+	padding:0px;
+}
+.NavigationRedesign li {
+	float: left;
+    list-style: none;
+	margin: 0px; 
+	padding:7px 8px 0px 8px; 
+	height: 28px;
+	font-size: 14px;
+    cursor: pointer;
+	font-weight: bold;
+}
+
+.NavigationRedesign li:hover, #NavigationRedesignBannerContainer #AuthenticatedUserNameWrapper:hover, #AlertSpace #SettingsButtonContainer:hover{
+	background: url(/images/RevisedHeader/bg-main_menu_hover.png) repeat-x;
+}
+#NavigationRedesignBannerContainer #AuthenticatedUserNameWrapper {
+    min-height: 30px;
+    width: auto;
+    cursor: pointer;
+    float: right;
+    padding: 5px 5px 0 5px;
+    margin-top: -10px;
+    *margin-right: 2px;
+}
+.NavigationRedesign a {
+	display: inline-block;
+	color: #fff;
+	*zoom: 1;
+    *display: inline;
+}
+#NavigationRedesignBannerContainer a:hover {
+	text-decoration:none;
+}
+
+#NavigationRedesignBannerContainer ul li a, .NavigationRedesign ul li a:visited {
+    border:0px solid black;
+    font-size:13px;
+    padding:0px;
+    text-decoration: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#NavigationRedesignBannerContainer  span.loginSpan {
+    top: 0px;
+    max-width: 110px;
+    white-space: nowrap;
+}
+#NavigationRedesignBannerContainer img#over13icon {
+    top: 1px;
+}
+#NavigationRedesignBannerContainer a.btn-logo, .NavigationRedesign a.btn-logo:visited, #NavigationRedesignBannerContainer  a.btn-logo:hover
+{
+    background:url(/images/RevisedHeader/btn-rbx_logo.png) no-repeat top;
+    display:inline-block;
+    width:116px;
+    height:35px;
+    float:left;
+    margin-right: 4px;
+    *zoom: 1;
+    *display: inline;
+}
+#NavigationRedesignBannerContainer  a.btn-logo:hover
+{
+    background-position: bottom;
+}
+#NavigationRedesignBannerContainer #AuthenticatedUserName {
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    margin-top: 5px;
+    max-width: 85px;
+    overflow: hidden;
+    font-weight: normal;
+    *margin-top: 10px;
+}
+.BannerRedesign {
+    background: url(/images/RevisedHeader/bg-rbx_header.png) repeat-x;
+    height: 36px;
+    background-color: #114081;
+    position: fixed;
+    width: 100%;
+    z-index: 10001;
+    top: 0px;
+}
+#NavigationRedesignBannerContainer #AlertSpace {
+    background: none;
+    display: inline-block;
+    float: right;
+    height: 20px;
+    margin-top: 10px;
+    *zoom: 1;
+    *display: inline;
+}
+#NavigationRedesignBannerContainer .iFrameLoginSignUp {
+    margin-top: 4px;
+}
+#NavigationRedesignBannerContainer #SiteWideHeaderLogin {
+    display: inline;
+}
+#NavigationRedesignBannerContainer  .AlertItem {
+    float: right;
+    margin-top: -10px;
+    padding: 10px 5px 0 5px;
+    cursor: pointer;
+    min-height: 25px;
+}
+#NavigationRedesignBannerContainer  .AlertItem .friends_icon, #NavigationRedesignBannerContainer  .AlertItem .message_icon {
+    float: right;
+}
+#NavigationRedesignBannerContainer  .AlertItem a {
+    color: white;
+} 
+#NavigationRedesignBannerContainer #Alerts {
+    margin-top: -20px;
+}
+#NavigationRedesignBannerContainer .message_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: top;
+}
+#NavigationRedesignBannerContainer .MessageAlert:hover .message_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0 -20px;
+}
+#NavigationRedesignBannerContainer .friends_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0px 160px;
+}
+#NavigationRedesignBannerContainer .FriendsAlert:hover .friends_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0 140px;
+}
+#NavigationRedesignBannerContainer .AlertItem:hover {
+	background: url(/images/RevisedHeader/bg-main_menu_hover.png) repeat-x;
+}
+
+#NavigationRedesignBannerContainer .robux_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0px 120px;
+}
+#NavigationRedesignBannerContainer .RobuxAlert:hover .robux_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0 100px;
+}
+
+#NavigationRedesignBannerContainer div.tickets_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0px 80px;
+    margin-left: 0px;
+}
+#NavigationRedesignBannerContainer .TicketsAlert:hover .tickets_icon {
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0 60px;
+}
+
+#NavigationRedesignBannerContainer .icons {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: -3px 2px -15px 2px;
+    
+}
+#NavigationRedesignBannerContainer .MessageAlertCaption {
+    float: left;
+}
+#NavigationRedesignBannerContainer #AuthenticationButton {
+    top: -10px;
+}
+#NavigationRedesignBannerContainer #SettingsButton
+{
+    background: url(/images/RevisedHeader/bg-icon_sprites.png);
+    background-position: 0 40px;
+    height: 19px;
+    width: 20px;
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+}
+#NavigationRedesignBannerContainer #SettingsButtonContainer.active #SettingsButton
+{
+    background: url(/images/RevisedHeader/bg-icon_sprites.png) repeat-y;
+    background-position: 0 20px;
+    
+}
+#NavigationRedesignBannerContainer .HeaderDivider 
+{
+    margin: -5px 5px 0 5px;
+    float:right;
+    height:25px;
+    width:0px;
+    Border-left:1px solid #7394c1;
+}
+.moreLink {
+    cursor: pointer;
+    width: 43px;
+    text-decoration: none;
+    outline: none;
+}
+.NavigationRedesign li.moreLink {
+    background: none;
+}
+.moreLink .LinkContainer {
+    height: 35px;
+    top: -8px;
+    position: relative;
+}
+#hlMore {
+    margin-top: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.moreLink.active #hlMore {
+    color: black;
+    margin-top: 0px;
+    background-color: #efefef;
+}
+.moreLink span#moreMenuToggle, .moreLink span#moreMenuToggle:hover 
+{
+    text-decoration: none;
+    outline: none;
+    padding:0 2px;
+    cursor:pointer;
+    border:none;
+    background: url(/images/Buttons/bg-drop_down_arrow.png) top no-repeat;
+    height:5px;
+    width:7px;
+    display:inline-block;
+    margin-left: 2px;
+    top: -1px;
+    position: relative;
+    *zoom: 1;
+    *display: inline;
+    *margin-bottom:3px;
+}
+.moreLink.active span#moreMenuToggle, .moreLink.active span#moreMenuToggle:hover {
+    background:url(/images/Buttons/bg-drop_down_arrow.png) bottom no-repeat;
+    top: -1px;
+}
+#NavRedesign .dropdownnavcontainer {
+    margin-top: -8px;
+    margin-left: -8px;
+    color: black;
+    min-height: 100px;
+}
+ .dropdownnavcontainer .dropdownoption {
+    position: relative;
+    cursor: pointer;
+ }
+#NavRedesign .dropdownmainnav {
+    background-color: #efefef;
+    border: 1px solid #777;
+    display: inline-block;
+    *display: inline;
+    zoom:1    
+}
+#NavRedesign .dropdownmainnav a {
+    color: black;
+    font-size: 13px;
+    line-height: 23px;
+    display:block;
+}
+.settingsmainnav a,  .settingsmainnav a:hover{
+    display: inline-block;
+    font-size: 13px;
+    font-family: Arial;
+    *zoom: 1;
+    *display: inline;
+}
+#NavRedesign .dropdownnavcontainer a:hover, .settingsmainnav a:hover {
+      background-color: #d8d8d8;
+}
+.NavigationRedesign .moreLink.active:hover .LinkContainer, .NavigationRedesign li.moreLink.active .LinkContainer{
+    background-color: #EFEFEF;
+    border: 1px solid #777;
+    border-bottom: none;
+    background-image: none;
+    height: 35px;
+    top: -7px;
+    line-height: 33px;
+    left: -8px;
+    position: relative;
+    padding: 0 5px 0 7px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+#NavigationRedesignBannerContainer .settingsnavcontainer {
+    position: absolute;
+    background-color: #efefef;
+    border: 1px solid #777;
+    color: black;
+    width: 115px;
+    height: 52px;
+    right: 0px;
+    top: 35px;
+    z-index: -1;
+    line-height: 23px;
+}
+#NavigationRedesignBannerContainer .settingsmainnav div {
+    color: black;
+    padding: 2px 5px;
+}
+#NavigationRedesignBannerContainer #AlertSpace #SettingsButtonContainer.active {
+    background-color: #efefef;
+    border: 1px solid #777;
+    border-bottom: none;
+}
+#NavigationRedesignBannerContainer #AlertSpace #SettingsButtonContainer{
+    height: 15px;
+    width: 20px;
+    float: right;
+    padding: 10px 5px;
+    margin-top: -10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#NavigationRedesignBannerContainer .AlertBox {
+    background: url(/images/RevisedHeader/bg-alerts-v2.png) no-repeat left;
+    float:left;height:11px;
+    font:bold 10px Arial, Helvetica, sans-serif
+}
+#NavigationRedesignBannerContainer .AlertBox.Left {
+    width:3px;
+    height:11px;
+    background-position:left;
+    *padding-top:0px;
+}
+#NavigationRedesignBannerContainer .AlertBox.Right {
+    background-position:right;
+    padding-right:3px
+}
+.AlertItem .AlertTextWrapper {
+    margin-left: 17px;
+}
+#NavigationRedesignBannerContainer .AlertCaption {
+    text-align: center;
+    float: left;
+    color: white;
+    font-weight: normal;
+    font-size: 11px;
+}
+.Redesign .subMenu ul li:hover{
+    background: url(/images/RevisedHeader/bg-sub_menu_hover.png) repeat-x;
+    background-repeat: repeat no-repeat;
+}
+.Redesign .subMenu {
+    background: #191919;
+    height: 25px;
+}
+.Redesign .subMenu ul {
+    margin: 0 0 0 10px;
+}
+.Redesign .subMenu ul li a {
+    font-size: 12px;
+}
+.dropdownmainnav .dropdownoption span {
+    margin-left: 1px;
+    font-weight: normal;
+    padding: 1px 10px 1px 5px;
+}
+#NavigationRedesignBannerContainer .AlertText  {
+    height:7px;
+    margin-top: 2px;
+    color: black;
+    line-height: 7px;
+}
+.mySubmenuFixed.Redesign {
+    position: fixed;
+    top: 35px;
+}
+#NavigationRedesignBannerContainer .logoutButton {
+    display: inline-block;
+    font-size: 11px;
+    color:white;
+    float:right;
+    position:relative;
+    bottom:2px;    
+}
+#iFrameLogin {
+    position:absolute;top:26px;right:0;width:340px;height:128px;border:1px solid #0C3060;border-top:none;
+}
+.fbSplashPageConnect {
+    margin:5px 0;
+}
+#facebookSignIn {
+    text-align:center;margin-top:8px;margin-bottom:10px;
+}
+#headerLogin .grey-arrow {
+    color:#666;font-size:12px;
+}
+#headerLogin.btn-control.btn-control-large.active {
+    background-image:none;background-color:#e1e1e1;border-color:#000;
+}
+#headerLogin {
+    font-weight:bold;display:inline-block;width:62px;position:relative;cursor:pointer;letter-spacing:-1px;
+}
+#HeaderSignUp {
+    font-family:Arial;font-weight:bold;color:#fff;font-size:13px;position:relative;*top:-6px;
+}
+#HeaderOr {
+    font-family:Arial;font-weight:normal;color:#9Ec3E7;font-size:13px;position:relative;margin:0 6px;*top:-6px;
+}
+.loginFrame {
+    height:100%;width:100%;
+}
+.iFrameLoginSignUp
+{ 
+    float: right;
+    position:relative;
+}

@@ -1,0 +1,148 @@
+﻿.voting-panel .loading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('/images/ProgressIndicator4.gif') #fff no-repeat center;
+    z-index: 1;
+    display: none;
+}
+.voting-panel {
+    max-width: 370px;
+}
+.users-vote .upvote,
+.users-vote .downvote {
+    height: 21px;
+    width: 22px;
+    background: url('/images/Icons/thumbsup.png?1') no-repeat 0 0;
+    float: left;
+}
+.voting-panel .users-vote,
+.voting-panel .vote-summary {
+    float: left;
+    font-size: 11px;
+}
+.voting-panel .vote-summary {
+    margin-left: 10px;
+}
+.users-vote .downvote {
+    background-position: 5px -85px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.users-vote.has-voted .upvote:hover,
+.users-vote .upvote:hover {
+    background-position: 0 -21px;
+    cursor: pointer;
+}
+.users-vote.has-voted .upvote.selected {
+    background-position: 0 -41px;
+}
+.users-vote.has-voted .upvote {
+    background-position: 0 -63px;
+}
+.users-vote.has-voted .downvote:hover,
+.users-vote .downvote:hover {
+    background-position: 5px -106px;
+    cursor: pointer;
+}
+.users-vote.has-voted .downvote.selected {
+    background-position: 5px -149px;
+}
+.users-vote.has-voted .downvote {
+    background-position: 5px -128px;
+}
+
+.users-vote .upvote.tiny {
+    background-position: 0 -170px;
+}
+.users-vote .upvote.tiny:hover, .users-vote.has-voted .upvote.tiny:hover, .users-vote.has-voted .upvote.tiny.selected:hover {
+    background-position: 0 -183px;
+    cursor: pointer;
+}
+.users-vote.has-voted .upvote.tiny.selected {
+    background-position: 0 -196px;
+}
+.users-vote.has-voted .upvote.tiny {
+    background-position: 0 -210px;
+}
+.users-vote .downvote.tiny {
+    background-position: 0 -223px;
+}
+.users-vote .downvote.tiny:hover, .users-vote.has-voted .downvote.tiny:hover, .users-vote.has-voted .downvote.tiny.selected:hover {
+    background-position: 0 -236px;
+    cursor: pointer;
+}
+.users-vote.has-voted .downvote.tiny.selected {
+    background-position: 0 -264px;
+}
+.users-vote.has-voted .downvote.tiny {
+    background-position: 0 -251px;
+}
+
+.voting-panel .total-upvotes {
+    padding-right: 5px;
+    display: inline;
+}
+.voting-panel .total-upvotes span {
+    border: 0;
+}
+.voting-panel .total-upvotes-text span {
+    border: 0;
+}
+.voting-panel .total-downvotes {
+    padding-left: 5px;
+    display: inline;
+}
+.voting-panel .total-downvotes-text span {
+    border: 0;
+}
+.voting-panel .visual-container {
+    position: relative;
+    height: 5px;
+    margin-top: 5px;
+}
+.voting-panel .percent,
+.voting-panel .background {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0px;
+}
+.voting-panel .percent {
+    width: 0px;
+}
+.tiny-thumbs-up, .tiny-thumbs-down,
+.upvote.tiny, .downvote.tiny {
+    background: url('/images/Icons/thumbsup.png?1') no-repeat 0 -170px;
+    width: 12px;
+    height: 13px;
+    padding-right: 5px;
+    zoom: 1;
+    display: inline-block;
+    *display: inline;
+    position: relative;
+    top: 2px;
+    *top: -2px;
+}
+.tiny-thumbs-down {
+    background-position: 0 -224px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 5px;
+    top: 2px;
+    *top: 0px;
+    *left: 5px;
+}
+
+.voting-panel .visual-container .background {
+    background-color: #ccc;
+}
+.voting-panel .visual-container .background.votes {
+    background-color: #CE645B;
+}
+.voting-panel .visual-container .percent {
+    background-color: #52A846;
+}
+.voting-panel .voting-details {
+    text-align: center;
+}

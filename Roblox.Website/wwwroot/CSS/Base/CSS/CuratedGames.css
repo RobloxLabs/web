@@ -1,0 +1,50 @@
+﻿/* HEADER */
+#HeaderOuter
+{
+	background: #114081;
+	border-bottom: 1px solid #002049;
+}
+#HeaderInner
+{
+	height:40px;
+	padding:10px 20px 0px;
+	color:#999;
+	margin:0px auto;
+}
+.LoginButton
+{
+	background-image: url(/images/Games/CuratedGames/btn_25px_white.png);
+	color: black !important;
+	border: 1px solid #666;
+	height: 25px;
+	padding: 5px 6px;
+	cursor: pointer;
+    font-weight: bold;
+}
+.LoginButton:hover
+{
+	background-position: 0 -25px;
+	border: 1px solid #b2b2b2;
+	text-decoration: none !important;
+}
+.SignupButton
+{
+	background: url(/images/Buttons/btn_25px_blue.png) top;
+	color: white !important;
+	border: 1px solid #029;
+	height: 25px;
+	padding: 5px 6px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.SignupButton:hover
+{
+    background: url(/images/Buttons/btn_25px_blue.png) bottom;
+	border: 1px solid #029;
+	text-decoration: none !important;
+}
+.Legalese
+{
+    padding: 0px 0px 12px;
+    margin: 0px;
+}

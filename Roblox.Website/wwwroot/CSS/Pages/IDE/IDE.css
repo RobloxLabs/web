@@ -1,0 +1,58 @@
+/* Legacy CSS file - Please do not copy */
+/* General */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white; }
+
+a {
+  text-decoration: none; }
+
+input, textarea, button, a {
+  outline: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+
+select {
+  border: 1px solid;
+  border-color: #A7A7A7; }
+
+.Message a:link, .Message a:visited, .Message a:active {
+  color: #095fb5;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+/* Page Structures */
+.boxed-body {
+  padding: 20px 20px 59px 20px; }
+
+.footer-button-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px 20px;
+  height: 38px; }
+
+a.tooltip {
+  float: none;
+  position: inherit; }
+
+/* Updating SimpleModal */
+#ProcessingView {
+  width: 200px;
+  text-align: center; }
+
+.processing-text {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold; }

@@ -1,0 +1,625 @@
+﻿body {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 30px 460px 0px 30px;
+}
+a {
+    color:#095FB5;
+}
+.left-nav-menu 
+{
+    float: left;
+    width: 150px;
+    border-right: 1px solid #CCC;
+    z-index:7;
+    position:relative;
+}
+.left-nav-menu .filter-title
+{
+    margin:5px 0;
+    font-weight:bold;
+    font-size: 14px;
+}
+.left-nav-menu h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 5px 0px;
+}
+.left-nav-menu li
+{
+    list-style-type: none;
+    padding: 0;margin: 0;
+}
+
+.left-nav-menu ul {
+    padding: 0;margin: 0;
+    padding-left: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    line-height: 17px;
+}
+.left-nav-menu ul.separatorForLegend {
+    margin-bottom:0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.left-nav-menu ul li input {
+    border: 1px solid #a7a7a7;
+}
+.left-nav-menu ul li input.genreFilter {
+    border: 0px;
+}
+.right-content
+{
+    float: left;
+    width: 770px;    
+    margin-left: -1px;
+    border-left: 1px solid #CCC;
+    padding-left: 20px;
+    z-index:1;position: relative;
+}
+    
+.catalog-item 
+{
+    float:left;
+    width:110px;
+    height:170px;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    padding: 5px;
+    margin: 5px;
+}
+.catalog-item .name
+{
+    white-space:nowrap;
+}
+.CatalogItemInner .robux-price
+{
+    font-weight:bold;
+    color:green;
+}
+.CatalogItemInner .tickets-price
+{
+    font-weight:bold;
+    color:#FBB117;
+}
+
+div#catalog .selected {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+div#catalog .bolded {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div#catalog div#dropdown {
+    font-size: 14px;
+}
+div#catalog div#dropdown ul li {
+	position: relative;
+    height: 31px;
+    float: left;
+    width: 134px;
+}
+div#catalog div#dropdown ul.slideOut li {
+    width: 150px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+div#catalog div#dropdown ul li.subcategories:hover 
+{
+    background: #d8d8d8 url(/images/UI/catalog/img-right_arrow.png) no-repeat 118px 11px;
+}
+div#catalog div#dropdown ul li:hover {
+    background: #d8d8d8;
+}
+div#catalog div#dropdown ul li.subcategories {
+    background: url(/images/UI/catalog/img-right_arrow.png);
+    background-position: 118px 11px;
+    background-repeat: no-repeat;
+    
+}
+	
+div#catalog div#dropdown li ul {
+	position: absolute;
+	left: 134px;
+	top: 0;
+	display: none;
+}
+
+div#catalog div#dropdown ul li span {
+    font-weight: bold;
+}	
+
+div#catalog div#dropdown ul li a, div#catalog div#dropdown ul li span {
+    display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 7px;
+    padding-left: 6px;
+    padding-bottom: 7px;
+}	
+div#catalog div#dropdown ul li:hover {
+	background: #d8d8d8;
+}
+div#catalog div#dropdown ul li ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #777;
+	background: #efefef;
+}
+div#catalog div#dropdown ul#dropdownUl {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 134px;
+	border: 1px solid #777;
+	background: #efefef;
+    width: 134px;
+    height: 282px;
+}
+div#catalog div#dropdown li:hover ul {
+     display: block;
+}
+div#catalog div#dropdown ul#dropdownUl ul.slideOut {
+    height: 282px;
+    z-index: 7;
+    width: 150px;
+}
+div#catalog .browseDropdownButton {
+    background: url(/images/UI/catalog/btn-browse_categories.png);
+    background-position: top left;
+    width: 136px;
+    height: 34px;
+    cursor: pointer;
+    display: block;
+}
+div#catalog .browseDropdownButton.hover  {
+    background-position: bottom left;
+}
+div#catalog span#catalogHeader, div#catalog span#catalogHeader a#CatalogLink {
+    font-size: 40px;
+    float: left;
+    color: #363636;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+a#CatalogLink:hover {
+    text-decoration: none;
+}
+div#catalog li#priceInputs input {
+    padding: 0px;
+}
+div#catalog .CatalogSearchBar {
+    padding-left:20px;float:right;
+    padding-top: 5px;
+    padding-right: 6px;
+}
+div#catalog #keywordTextbox {
+    height: 23px;
+    border: solid 1px #A7A7A7;
+    width:325px;float:left;padding-left:5px;
+    margin-right: 4px;
+}
+div#catalog #SortOptions {
+    float:right;padding-left:10px;
+    font-weight: bold
+}
+div#catalog #submitSearchButton {
+    background: url(/images/UI/catalog/bg-27px_silver_btn.png) repeat-x;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #777;
+    background-position: bottom;
+    padding-top: 4px;
+    width: 64px;
+    text-align: center;
+    height: 21px;
+    float: left;
+    background-position: top left;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#catalog #submitSearchButton:hover {
+    background-position: bottom left;
+}
+div#catalog #submitCreatorButton, div#catalog #submitPxButton {
+    background: url(/images/UI/catalog/bg-27px_silver_btn.png) repeat-x;
+    font: bold 11px Arial,Helvetica,sans-serif;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #aaa;
+    background-position: top left;
+    padding-top: 3px;
+    width: 26px;
+    text-align: center;
+    height: 17px;
+    cursor: pointer;
+    position: relative;
+    top: -1px;
+    margin-left: 3px;
+}
+div#catalog #submitCreatorButton:hover, div#catalog #submitPxButton:hover {
+    background-position: bottom left;
+}
+div#catalog .CatalogItemInner span.Robux {
+    background: url('/images/Icons/img-robux.png') no-repeat 0px 1px;
+    padding: 0px 0px 2px 20px;
+    color: #060;    
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+div#catalog .CatalogItemInner span.Tickets {
+    background: url('/images/Tickets.png') no-repeat 0px 1px;
+    padding: 2px 0 2px 20px;
+    color: #A61;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 14px;    
+}
+div#catalog .CatalogItemInner span.NotAPrice {
+    color: #505050;
+    font-size: 12px;
+    font-weight: bold;
+}
+div#catalog .CatalogItemInner div.roblox-item-image {
+    text-align: center;
+}
+div#catalog .CatalogItemInner div.image-small {
+    height: 110px;
+}
+div#catalog .CatalogItemInner div.image-large { 
+    height: 150px;
+    width: 150px;
+}
+div#catalog .CatalogItemInner span.Remaining {
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+div#catalog .catalog-item span.title {
+    color: #ccc;
+}
+/* Hover effects with items */
+div.roblox-item-image {
+    width: 120px;
+}
+.CatalogItemInner:hover div.roblox-item-image {
+    position: relative;
+    left: 9px;
+    top: -1px;
+}
+.CatalogItemOuter {
+    float:left;
+    padding:24px 9px
+}
+
+.SmallCatalogItemView {
+background:#FFF;
+/*border:1px solid #ccc;*/
+height:140px;
+position:relative;
+width: 110px;
+}
+.SmallCatalogItemView .CatalogItemInner {
+height:110px;
+position:relative;
+width:120px
+}
+.SmallCatalogItemView:hover .CatalogItemInner {
+border:1px solid #ccc;
+height:240px;
+left:-10px;
+top:-20px;
+width:140px;
+z-index: 6;
+padding-top: 10px;
+}
+.SmallCatalogItemView:hover .CatalogItemInner {
+    margin-top: 10px;
+}
+.SmallCatalogItemView:hover .InnerInnerCatalog {
+    margin-top: 10px;
+}
+.SmallCatalogItemView:hover #textDisplay {
+    position: relative;
+    top: -1px;
+    left: 9px;
+}
+.CatalogItemInner .CatalogItemName {
+    font-weight: bold;width:110px;max-height:29px;overflow:hidden;
+}
+.SmallCatalogItemView .CatalogInventoryItemName {
+display:none;
+height:25px;
+padding: 0 2px;
+overflow: hidden;
+margin:auto
+}
+.CatalogItemInner {
+width:60px;
+z-index:1
+}
+
+.CatalogItemInner,.CatalogItemInner:hover {
+background:#FFF;
+border:0;
+outline:0;
+overflow:visible;
+position:absolute;
+margin:0;
+padding:0;
+padding-left:2px;
+}
+
+.CatalogItemInner:hover {
+position:absolute
+}
+
+.CatalogItemInner:hover .CatalogInventoryItemName {
+display:block;
+text-align:center;
+width:96%;
+margin:0
+}
+
+.CatalogItemInfoLabel,.CatalogItemInner:hover .CatalogItemInfoLabel {
+color:#666;
+display:none;
+font:11px Arial, sans-serif;
+margin-left:6px;
+margin-right:3px;
+text-align:left;
+padding:0
+}
+
+.HoverInfo,.CatalogItemInner:hover .HoverInfo {
+color:black;
+display:none;
+font:11px Arial, sans-serif;
+text-align:left;
+padding:0
+}
+
+
+.ItemInfoData,.CatalogItemInner:hover .ItemInfoData {
+color:#006c00;
+display:none;
+font:bold 9px Arial, sans-serif;
+margin-left:2px;
+padding:0
+}
+
+.CatalogItemInner .CatalogHoverContent {
+display:block;
+line-height: 15px;
+padding-left: 3px;
+}
+
+.CatalogItemInner .ItemImg {
+border:0;
+height:160px;
+outline:0;
+text-align:center;
+width:160px;
+margin-left: -1px;
+padding: 0;
+}
+
+.CatalogItemInner:hover .HoverInfo, .CatalogItemInner:hover .CatalogItemInfoLabel,.CatalogItemInner:hover .ItemInfoData,.CatalogItemInner:hover .InventoryItemSerial,.CatalogItemInner:hover .SerialNumberTotal,.CatalogItemInner:hover .RBXImg {
+display:inline
+}
+.CatalogItemInner .InventoryItemLink,#TradeRequest .roblox-avatar-image div,#TradeRequest .OfferHeader {
+text-align:center
+}
+.CatalogInventoryItemName {
+color:#000;
+font:bold 10px Arial, sans-serif;
+text-align:center;
+width:69px;
+}
+
+.SmallCatalogItemView .CatalogInventoryItemName {
+display:none;
+height:25px;
+padding: 0 2px;
+overflow: hidden;
+margin:auto
+}
+
+.CatalogItemInner .RBXImg,div.FooterButtonPlaceHolder,.HeaderButtonPlaceHolder {
+display:none
+}
+.RBXImg {
+margin:0 2px
+}
+
+div#catalog #legend {
+    padding-right: 20px;
+    padding-top: 18px;
+}
+div#catalog #legendcontent {
+    width: 140px;
+    margin-top: 17px;
+}
+div#catalog span#headertext {
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    top: -5px;
+    position: relative;
+}
+div#catalog #legend .header {    
+	background: url(/images/UI/catalog/sprite-arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    height: 3px;    
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 5px;
+    display: block;
+    width: 20px;
+}
+div#catalog #legend span#headertext:hover, div#catalog #legend .header:hover {
+    cursor: pointer;
+}
+div#catalog #legend .header.expanded {
+	background: url(/images/UI/catalog/sprite-arrow.png);
+    background-position: bottom left;
+	background-repeat: no-repeat;
+}
+div#catalog #gearSecondColumn {
+    left: 150px;
+    position: absolute;
+    width: 150px;
+    top: -1px;
+    height: 251px;
+    border: 1px solid #777;
+    background: #EFEFEF;
+    border-left: 0px;
+    padding-top: 31px;
+}
+div#catalog #dropdownCover {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+}
+div#catalog .splashdropdown {
+    display: block;
+}
+div#catalog .browsedropdown {
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+div#dividerForDropdown {
+    border-bottom: 1px solid #ccc;width: 90%;margin: 0 auto;margin-top: 2px;margin-bottom: 2px;
+}
+div#catalog #dropdown li.slideHeader:hover {
+    background: #efefef;
+}
+div#catalog #dropdown li.GreyDivider {
+   height:1px;border-bottom:1px solid #ccc;float:left;margin-bottom:1px;margin-left:5px;width:92% 
+}
+#catalog .BigView {
+    height: 190px;
+    width: 160px;
+}
+#catalog .BigInner {
+    height: 280px;
+    width: 171px;
+}
+.BigInner .CatalogItemName {
+    width: 160px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.BigOuter {
+    padding: 15px 15px 0px 15px;
+}
+#catalog ul li a#AllGenresLink {
+    padding-left: 5px;
+    line-height: 17px;
+}
+.left-nav-menu ul#genresUl {
+    line-height: 15px;
+}
+.left-nav-menu ul#genresUl li label {
+    top: -2px;
+    position: relative;
+}
+.left-nav-menu ul#genresUl li label:hover, .left-nav-menu ul#genresUl li input:hover, .left-nav-menu input#includeNotForSaleCheckbox:hover, .left-nav-menu li.NotForSale label:hover {
+    cursor: pointer;
+}
+input.Watermark {
+    color: #888;
+    font-style: italic;
+}
+#catalog .PagingContainerDivTop {
+    clear: both;
+    padding-top: 40px;
+    text-align: center;
+}
+#catalog .PagingContainerDivTop .Paging_Input {
+    height: 17px;
+    padding-top: 2px;
+    top: 3px;    
+    border: 1px solid #a7a7a7;
+}
+#catalog li.NotForSale {
+    font-size: 11px;
+}
+#catalog .left-nav-menu ul li.NotForSale input#includeNotForSaleCheckbox {
+    position: relative;top: 3px;margin-right: 3px;margin-left: 0px;
+    border: 0px;
+}
+div#catalog .image-large div img[alt='Limited'] {
+    width: 72px;
+    height: 14px;
+}
+div#catalog .image-large div img[alt='Limited Unique'] {
+    width: 93px;
+    height: 14px;
+}
+div#catalog .image-large div img[alt='Builders Club'] {
+    width: 72px;
+    height: 20px;
+}
+div#catalog .image-large div img:first-child {
+    width: 150px;
+    height: 150px;
+}
+#catalog #SortOptions select {
+    border: 1px solid #a7a7a7;
+}
+#catalog .left-nav-menu input#creatorTextbox {
+    width: 97px;
+    padding-left: 3px;
+}
+#catalog .left-nav-menu input.pxInput {
+    width: 37px;
+    padding-left: 3px;
+}
+#catalog div.CatalogHoverContent div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div#catalog .CatalogSearchBar input#keywordTextbox {
+    padding-top: 4px;
+    height: 20px;
+}
+div#catalog .CatalogItemInner #textDisplay .PrivateSales {
+    font-style:italic;
+    color: #666;
+    font-size: 11px;
+    border-top: none;
+    padding-top: 0px;
+}
+div#catalog .CatalogItemInner #textDisplay div {
+    padding-top: 2px;
+}
+div#catalog div#PrivateSales {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 14px;
+    width: 100px;
+    white-space: nowrap;
+}

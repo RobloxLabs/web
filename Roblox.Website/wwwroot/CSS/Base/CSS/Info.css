@@ -1,0 +1,25 @@
+﻿#InfoContainer
+{
+	background-color: #eee;
+	border: solid 1px #000;
+	color: #555;
+	margin: 0 auto;
+	width: 620px;
+}
+
+#InfoContainer h2
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	font-size: x-large;
+	margin: 0;
+	text-align: center;
+}
+
+#InfoContainer #Content
+{
+	font: normal 1em/normal Verdana, sans-serif;
+	line-height: 1.5em;
+	padding: 10px 20px 10px 20px;
+}

@@ -1,0 +1,29 @@
+﻿.GPTAd.banner {
+    width: 745px;
+    height: 90px;
+}
+.GPTAd.skyscraper {
+    width: 160px;
+    height: 612px;
+    display: block;
+}
+.GPTAd.rectangle {
+    width: 300px;
+    height: 250px;
+}
+.GPTAd.narrowskyscraper {
+    width: 120px;
+    width: 600px;
+}
+.GPTAd.gutter {
+    width: 400px;
+    height: 1180px;
+}
+.GPTAd.opapushdown {
+    width: 970px;
+    height: 96px;
+}
+.GPTAd {
+    overflow: hidden;
+    margin: 0 auto;
+}

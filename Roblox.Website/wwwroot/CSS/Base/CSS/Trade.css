@@ -1,0 +1,540 @@
+/* Legacy CSS file - Please do not copy */
+#ButtonCancel, #ButtonCancel:hover, #ButtonYes, #ButtonYes:hover {
+  cursor: pointer;
+  width: 176px;
+  float: left;
+  height: 50px; }
+
+#ButtonYes, #ButtonYes:hover {
+  background: url(/images/Buttons/yes-gray2.png) top;
+  margin-right: 10px;
+  width: 100px; }
+
+#ButtonYes:hover {
+  background: url(/images/Buttons/yes-gray2.png) bottom; }
+
+#ButtonCancel, #ButtonCancel:hover {
+  background: url(/images/Buttons/cancel-blue2.png) top;
+  width: 101px; }
+
+#ButtonCancel:hover {
+  background: url(/images/Buttons/cancel-blue2.png) bottom; }
+
+.InventoryItemContainerInner {
+  width: 60px;
+  z-index: 1; }
+
+.InventoryItemContainerInner, .InventoryItemContainerInner:hover {
+  background: #FFF;
+  border: 0;
+  outline: 0;
+  overflow: visible;
+  position: absolute;
+  margin: 0;
+  padding: 0; }
+
+.InventoryItemContainerInner:hover {
+  position: absolute; }
+
+.SmallInventoryItem {
+  background: #FFF;
+  border: 1px solid #ccc;
+  height: 60px;
+  position: relative;
+  width: 60px; }
+
+.SmallInventoryItem .InventoryItemContainerInner {
+  height: 60px;
+  position: relative;
+  width: 60px; }
+
+.SmallInventoryItem .BuildersClubOverlay {
+  width: 40px; }
+
+.SmallInventoryItem:hover .InventoryItemContainerInner {
+  border: 1px solid #ccc;
+  height: 178px;
+  left: -25px;
+  top: -28px;
+  width: 109px;
+  z-index: 6; }
+
+.LargeInventoryItem .InventoryItemContainerInner {
+  height: 94px;
+  width: 76px; }
+
+.LargeInventoryItem:hover .InventoryItemContainerInner {
+  border: 1px solid #ccc;
+  height: 205px;
+  left: -17px;
+  top: -25px;
+  width: 109px;
+  z-index: 6; }
+
+.LargeInventoryItem, .RobuxTradeRequestItem {
+  background: #FFF;
+  border: 1px solid #ccc;
+  height: 94px;
+  position: relative;
+  width: 76px; }
+
+.RobuxTradeRequestItem {
+  float: left;
+  top: 4px;
+  height: 94px;
+  margin: 0 2px; }
+
+#TradeRequest .LargeInventoryItem:hover .InventoryItemContainerInner {
+  border: 1px solid #ccc;
+  height: 185px;
+  left: -17px;
+  top: -25px;
+  width: 109px;
+  z-index: 6; }
+
+.InventoryItemName {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: 69px; }
+
+.BuildersClubOverlay {
+  position: relative;
+  left: 0px;
+  top: -20px; }
+
+.SmallInventoryItem .InventoryItemName {
+  display: none;
+  height: 30px;
+  padding: 0 2px;
+  overflow: hidden;
+  margin: auto; }
+
+.LargeInventoryItem .InventoryItemName {
+  display: block;
+  height: 30px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 14px; }
+
+.InventoryItemContainerInner:hover .InventoryItemName {
+  display: block;
+  text-align: center;
+  width: 96%;
+  margin: 0; }
+
+.InventoryItemContainerInner:hover .BuildersClubOverlay {
+  top: -110px;
+  left: 5px; }
+
+.ItemInfoLabel, .InventoryItemContainerInner:hover .ItemInfoLabel {
+  color: #666;
+  display: none;
+  font-size: 9px;
+  margin-left: 6px;
+  margin-right: 3px;
+  text-align: left;
+  padding: 0; }
+
+.ItemInfoData, .InventoryItemContainerInner:hover .ItemInfoData {
+  color: #006c00;
+  display: none;
+  font-size: 9px;
+  margin-left: 2px;
+  padding: 0; }
+
+.InventoryItemContainerInner .InventoryItemSerial,
+.InventoryItemContainerInner .SerialNumberTotal {
+  color: #000;
+  display: none;
+  font-size: 9px;
+  margin: 0;
+  padding: 0; }
+
+.InventoryItemContainerInner .HoverContent {
+  display: block; }
+
+.InventoryItemContainerInner .ItemImg {
+  border: 0;
+  height: 60px;
+  outline: 0;
+  text-align: center;
+  width: 60px;
+  padding: 0; }
+
+.LargeInventoryItem:hover .ItemImg {
+  height: 83px;
+  width: 83px;
+  margin: 5px 5px 5px 2px; }
+
+.SmallInventoryItem:hover .ItemImg {
+  margin-left: -1px;
+  margin-top: -3px; }
+
+.InventoryItemContainerOuter {
+  float: left;
+  padding: 4px 2px; }
+
+div.ItemLinkDiv {
+  height: 60px;
+  width: 60px;
+  margin: auto; }
+
+#TradeConfirmModal {
+  padding: 5px; }
+
+.LargeInventoryItem:hover div.ItemLinkDiv {
+  height: 88px;
+  width: 88px; }
+
+div.TradeItemSilverButtonContainer, .InventoryItemContainerInner:hover div.TradeItemSilverButtonContainer {
+  display: none;
+  left: 5px;
+  padding-top: 6px;
+  width: 94px;
+  margin: auto; }
+
+.InventoryItemContainerInner:hover div.TradeItemSilverButtonContainer {
+  display: block; }
+
+a.TradeItemSilverButton, a.TradeItemSilverButton:hover, a.TradeItemSilverButtonDisabled {
+  background: url(/images/Buttons/btn-small_silver_tile.png) repeat-x top;
+  border: 1px solid #a7a7a7;
+  color: #000;
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+  height: 15px;
+  padding-top: 1px;
+  text-align: center;
+  text-decoration: none !important; }
+
+a.TradeItemSilverButton:hover {
+  background-position: bottom;
+  border-color: #777; }
+
+a.TradeItemSilverButtonDisabled {
+  border: 1px solid #CCC;
+  color: #A7A7A7;
+  cursor: default; }
+
+.SendTrade, .SendTrade:hover {
+  background: url(/images/Buttons/sendTrade2.png) top;
+  cursor: pointer;
+  height: 50px;
+  width: 176px;
+  margin: 50px auto 10px; }
+
+.SendTrade:hover {
+  background: url(/images/Buttons/sendTrade2.png) bottom; }
+
+.TradeDivider {
+  border-top: 1px solid #A7A7A7;
+  height: 15px;
+  margin-left: 5px;
+  width: 574px; }
+
+.ErrorText {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left; }
+
+.ErrorTextContainer {
+  background-color: #FAE5E5;
+  border: 1px solid #C00;
+  width: 258px;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 5px;
+  display: none;
+  float: left; }
+
+.ModalButtonContainer {
+  margin: 0px 102px 0px 102px;
+  height: 60px; }
+
+.BlankItem {
+  background: #FFF;
+  border: 1px solid #ccc;
+  float: left;
+  height: 60px;
+  width: 60px;
+  margin: 4px 2px 0; }
+
+.BlankItem.LargeInventoryItem {
+  background: #FFF;
+  border: 1px solid #ccc;
+  height: 94px;
+  position: relative;
+  width: 73px;
+  margin: 4px 2px 0; }
+
+.MissingItemContainer {
+  border: 1px solid #ccc;
+  height: 93px;
+  position: relative;
+  width: 73px;
+  float: left;
+  margin: 4px 2px 0; }
+
+.MissingItem {
+  height: 80px;
+  width: 60px;
+  background: url(/images/missing_user_asset.png) no-repeat;
+  margin: 5px auto; }
+
+.MissingItem.Deleted {
+  background: url(/images/deleted_user_asset.png) no-repeat; }
+
+.RBXImg {
+  margin: 0 2px;
+  position: relative;
+  top: 2px; }
+
+.OfferValue, .RobuxCost {
+  color: #006800;
+  margin-right: 5px;
+  font-weight: bold; }
+
+.OfferValueContainer {
+  clear: both;
+  font-size: 11px;
+  text-align: right;
+  display: inline;
+  float: right;
+  margin-top: 2px; }
+
+.Offer .OfferValueContainer {
+  margin-right: 5px; }
+
+.OpenTradeButton, .OpenTradeButton:hover {
+  background: url(/images/Buttons/tradeItems.png) top;
+  cursor: pointer;
+  float: right;
+  height: 23px;
+  margin-right: 10px;
+  width: 91px; }
+
+.OpenTradeButton:hover {
+  background: url(/images/Buttons/tradeItems.png) bottom; }
+
+#ButtonAcceptTrade, #ButtonAcceptTrade:hover, #ButtonDeclineTrade, #ButtonDeclineTrade:hover {
+  margin-right: 5px;
+  cursor: pointer; }
+
+#ButtonCancelTrade, #ButtonCancelTrade:hover {
+  cursor: pointer;
+  margin-left: 5px; }
+
+div#TradeRequest {
+  width: 593px;
+  padding: 5px; }
+
+#TradeRequest div.ActionButtonContainer {
+  padding-bottom: 10px;
+  margin: 30px auto -3px auto;
+  text-align: center; }
+
+#TradeRequest .ButtonOK, #TradeRequest .ButtonOK:hover {
+  float: left;
+  cursor: pointer;
+  position: relative; }
+
+#TradeRequest div.ReviewButtonContainer {
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 30px auto -3px auto; }
+
+#TradeRequest .ViewButtonContainer {
+  padding-bottom: 10px;
+  width: 100px;
+  margin: 30px auto -3px auto; }
+
+.TradePartnerName {
+  color: #095fb5; }
+
+#TradeRequest .TradeExpiration {
+  color: #666;
+  font-size: 11px;
+  text-align: center; }
+
+#TradeRequest .TradeRequestText {
+  color: #343434;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center; }
+
+#TradeRequest .roblox-avatar-image img[Title] {
+  height: 126px;
+  width: 126px; }
+
+#TradeRequest .roblox-avatar-image img[style] {
+  left: 11px !important;
+  bottom: 6px !important; }
+
+#TradeRequestExpiration.Red {
+  color: #C00; }
+
+#TradeRequest .roblox-avatar-image {
+  margin: 12px auto -12px; }
+
+#TradeRequest .LeftContentContainer {
+  border-right: 1px solid #CCC;
+  display: inline;
+  float: left;
+  height: 321px;
+  width: 148px;
+  margin: 12px 0 0 0; }
+
+#TradeRequest .closeBtnCircle_20h {
+  cursor: pointer;
+  margin-left: 573px;
+  position: absolute;
+  top: 5px; }
+
+#TradeRequest .OfferHeaderWrapper {
+  padding: 5px 0 5px 5px;
+  width: 410px; }
+
+.InventoryContainer .InventoryDropDowns, .TradeWindowContainer .Inventories {
+  float: right; }
+
+.Inventories {
+  width: 580px; }
+
+.InventoryItemContainerInner .RBXImg, div.FooterButtonPlaceHolder, .HeaderButtonPlaceHolder {
+  display: none; }
+
+div.InventoryItemContentContainer {
+  text-align: center;
+  position: relative;
+  margin-left: -2px;
+  padding: 0 2px; }
+
+div.InventoryDropDownContainer.noItems {
+  text-align: center;
+  font-size: 11px; }
+
+div.LargeInventoryItem div.InventoryNameWrapper {
+  overflow: hidden;
+  text-align: center;
+  height: 30px;
+  padding: 0 2px; }
+
+.InventoryItemContainerInner:hover .ItemInfoLabel, .InventoryItemContainerInner:hover .ItemInfoData, .InventoryItemContainerInner:hover .InventoryItemSerial, .InventoryItemContainerInner:hover .SerialNumberTotal, .InventoryItemContainerInner:hover .RBXImg {
+  display: inline; }
+
+a.ViewTradeLink, .AddToOffer, .RequestFor {
+  cursor: pointer; }
+
+.InventoryItemContainerInner .InventoryItemLink, #TradeRequest .roblox-avatar-image div {
+  text-align: center; }
+
+.Offer .OfferRobuxWrapper {
+  height: 50px;
+  margin: 5px auto;
+  text-align: center; }
+
+.Offer img.OfferRobux {
+  position: relative;
+  top: 2px; }
+
+.Offer.TradeSystemRobux .AddRobuxBox {
+  font-weight: normal;
+  font-size: 11px;
+  width: 80px;
+  border: 1px solid #A7A7A7;
+  height: 17px;
+  padding: 1px 0px 0px 3px; }
+
+.Asterisk {
+  font-size: 17px;
+  line-height: 14px;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+  padding-left: 1px; }
+
+.ValueEntered {
+  display: none;
+  color: #006800;
+  font-weight: bold; }
+
+#TradeRequest .OfferContainer {
+  min-height: 290px;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  width: 417px;
+  float: left; }
+
+#TradeRequest.TradeSystemRobux .RobuxItemAsterisk {
+  display: none;
+  margin-left: 3px; }
+
+#TradeRequest .RobuxAmountWrapper {
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  height: 27px;
+  padding: 0 2px 10px 2px; }
+
+.FeeNote {
+  margin-left: 5px;
+  font-weight: normal; }
+
+.TradeWindowContainer .FeeNote {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 10px;
+  float: left; }
+
+.Offer .RobuxTopLinePositionElement {
+  display: inline;
+  position: relative;
+  margin: 0 auto; }
+
+#TradeRequest .FeeNote {
+  font-size: 11px; }
+
+#TradeRequest .FeeNoteContainer {
+  padding-top: 40px;
+  height: 17px;
+  padding-bottom: 5px; }
+
+.paging_previous:hover {
+  cursor: pointer;
+  background-position: left 72px; }
+
+.paging_next:hover {
+  cursor: pointer;
+  background-position: left 120px; }
+
+.paging_pagenums_container .selected {
+  font-weight: bold; }
+
+.paging_previous, .paging_next {
+  height: 24px;
+  width: 24px;
+  background: url("/images/Sets/blue_arrow_btns_sprite.png");
+  background-position: left top;
+  display: inline-block; }
+
+.InventoryContainer .paging_previous, .InventoryContainer .paging_next {
+  display: inline-block; }
+
+.paging_previous {
+  background-position: left 96px; }
+
+.paging_previous.disabled {
+  cursor: default;
+  background-position: left 24px; }
+
+.paging_next.disabled {
+  background-position: left 48px;
+  cursor: default; }
+
+.paging_wrapper {
+  position: relative;
+  top: -6px;
+  margin: 0px 10px;
+  display: inline-block; }

@@ -1,0 +1,61 @@
+﻿.friend-container {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 130px;
+    position: relative;
+}
+
+.friend-avatar {
+    margin: 0 0 8px 0;
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
+
+.friend-name {
+    margin: 0 0 5px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.requests-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+}
+
+#AcceptAllButton {
+    margin-right: 10px;
+}
+
+.friends-pager {
+    text-align: center;
+}
+
+.friends-container {
+    display: inline-block;
+    width: 850px;
+}
+
+.friend-dropdown {
+    position: absolute;
+    right: 0px;
+    display: none;
+    z-index: 1;
+}
+.find-friends {
+	margin-top: 10px;
+}
+.search-widget {
+	float: left;
+	width: 200px;
+	margin-top: -2px;
+	margin-left: 5px;
+}
+.find-friend {
+	margin-left: 20px;
+	float: left;
+	margin-top: -2px
+}

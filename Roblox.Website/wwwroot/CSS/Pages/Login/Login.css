@@ -1,0 +1,64 @@
+﻿div#loginarea {
+    display: block;
+    overflow: hidden;
+}
+
+td {
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+div#leftArea 
+{
+    float: left;
+    width: 465px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#signUpPanel {
+    float: none;
+    margin: 0 auto;
+}
+
+div#rightArea 
+{
+    width: 484px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+div#guestarea {
+    clear: both;
+}
+
+div#guestarea h2 {
+    padding-top: 18px;
+}
+
+div#guestarea p {
+    display: inline-block;
+}
+
+div#guestarea a {
+    
+}
+
+a[roblox-js-oncancel] {
+    display: none;
+}
+
+input[type="text"], input[type="password"] {
+    margin-bottom: 0;
+}
+
+#SplashPageConnect {
+    border: none;
+        border-color: #c0c0c0;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+#Body {
+        width: 970px;
+    }

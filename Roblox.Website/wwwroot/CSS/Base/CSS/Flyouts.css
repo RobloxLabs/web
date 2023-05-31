@@ -1,0 +1,73 @@
+/* Legacy CSS file - Please do not copy */
+div.flyout {
+  background: #fff;
+  box-shadow: 0 0 10px 0 #3d3737;
+  box-shadow: 0 0 10px 0 rgba(61, 55, 55, 0.57);
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: #444;
+  padding: 10px;
+  border: 1px solid #999;
+  height: auto; }
+
+div.flyout-container {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  padding: 0 45px;
+  opacity: 0;
+  -ms-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  transition-timing-function: ease-out; }
+
+div.flyout-container.large {
+  width: 250px;
+  left: -107px; }
+
+div.flyout-container.small {
+  width: 150px;
+  left: -57px; }
+
+div.flyout-container.xsmall {
+  width: 100px;
+  left: -76px; }
+
+div.notch-top,
+div.notch-shadow,
+div.notch-top-right,
+div.notch-shadow-right {
+  position: absolute;
+  width: 0;
+  height: 0 !important;
+  top: -9px;
+  left: 50%;
+  border: 10px solid transparent;
+  margin-left: -10px;
+  /* match width of border */
+  border-bottom-color: #fff;
+  float: none; }
+
+div.notch-top-right,
+div.notch-shadow-right {
+  left: 77%; }
+
+div.notch-shadow,
+div.notch-shadow-right {
+  top: -10px;
+  border-bottom-color: #999; }
+
+div.flyout-open-indicator:hover .flyout-container.large,
+div.flyout-open-indicator:hover .flyout-container.small,
+div.flyout-open-indicator:hover .flyout-container.xsmall,
+div.flyout-open-indicator.nav-open .flyout-container.large,
+div.flyout-open-indicator.nav-open .flyout-container.small,
+div.flyout-open-indicator.nav-open .flyout-container.xsmall {
+  height: auto;
+  padding: 0 10px 10px 10px;
+  opacity: 1; }
+
+div.flyout-open-indicator.nav-open .flyout-container.small {
+  height: auto; }

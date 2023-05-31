@@ -1,0 +1,36 @@
+<pre>
+<code class="language-javascript">
+    //Code to trigger modal in your controller.
+    app.controller("myPageController", ['$scope', '$uibModal', 
+        function myPageController($scope, $uibModal) {
+
+            $scope.showComplex = function () {
+                $uibModal.open({
+                    templateUrl: 'modal-complex-sample',
+                    controller: 'modalComplexSampleController',
+                });
+            }
+        }
+    ]);
+                    
+    //Controller for the modal
+    app.controller("modalComplexSampleController", ['$scope', '$uibModalInstance', 
+        function modalComplexSampleController($scope, $uibModalInstance) {
+
+            $scope.operands = {
+                first: 0,
+                second: 0,
+                result: 0
+            };
+
+            $scope.calculate = function () {
+                $scope.operands.result = $scope.operands.first + $scope.operands.second;
+            };
+
+            $scope.close = function () {
+                $uibModalInstance.dismiss();
+            }
+        }
+    ]);
+</code>
+</pre>

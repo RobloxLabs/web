@@ -1,0 +1,110 @@
+﻿@using Roblox.Web.Code.Util
+@using Roblox.TranslationResources.Common
+
+@inject IStaticUrlResolver UrlResolver
+@inject IStringLocalizer<AlertsAndOptions> Resources
+
+@model AlertsAndOptionsModel
+
+@{
+    // HACK: Why does this look ugly as fuck?
+    if (Model.Friends > 0)
+        Model.FriendsMessage = string.Format(Resources["Label.sFriendInvitationsMessage"], Model.Friends.ToString("N0"));
+    else
+        Model.FriendsMessage = Resources["Label.sFriendInvitations"];
+
+    if (Model.Messages > 0)
+        Model.MessagesMessage = string.Format(Resources["Label.sMessagesMessage"], Model.Messages.ToString("N0"));
+    else
+        Model.MessagesMessage = Resources["Label.sMessages"];
+}
+<div id="AlertSpace">
+    <div class="AlertItem" style="max-width: 50px;text-align:center;">
+        <a id="lsLoginStatus" data-se="nav-logout" class="logoutButton">@Resources["Label.sLogout"]</a>
+    </div>
+    <div class="HeaderDivider"></div>
+    
+    <a data-se="nav-tickets" href="/My/Money.aspx?tab=MyTransactions">
+    <div id="TicketsWrapper" class="TicketsAlert AlertItem tooltip-bottom" original-title="@Resources["Label.sTickets"]">
+        <div class="icons tickets_icon">
+        </div>
+        <div id="TicketsAlertCaption" class="AlertCaption">@Abbreviate.GetTruncValue(Model.TicketsBalance)</div>
+    </div>
+    </a>
+
+    <a data-se="nav-robux" href="/My/Money.aspx?tab=MyTransactions">
+    <div id="RobuxWrapper" class="RobuxAlert AlertItem tooltip-bottom" original-title="@Resources["Label.sRobux"]">
+        <div class="icons robux_icon">
+        </div>
+        <div id="RobuxAlertCaption" class="AlertCaption">@Abbreviate.GetTruncValue(Model.RobuxBalance)</div>
+    </div>
+    </a>
+
+    <div class="HeaderDivider"></div>
+    
+    <a data-se="nav-friends" href="/friends.aspx">
+    <span id="FriendsTextWrapper" class="FriendsAlert AlertItem tooltip-bottom" original-title="@Model.FriendsMessage">
+        <div class="icons friends_icon" style="float:none;">
+        </div>    
+        @if (Model.Friends > 0)
+        {
+            <div id="FriendsBubble" class="AlertTextWrapper" runat="server">
+                <div class="AlertBox Left"></div>
+                <div class="AlertBox" style="background-position: right; padding-right: 3px">
+                    <div class="AlertText">@Abbreviate.GetTruncValue(Model.Friends)</div>
+                </div>
+            </div>
+        }
+    </span>
+    </a>
+
+    <a data-se="nav-messages" href="/my/messages">
+    <span id="MessagesTextWrapper" class="MessageAlert AlertItem tooltip-bottom" original-title="@Model.MessagesMessage">
+        <div class="icons message_icon" style="float:none;">
+        </div>
+        @if (Model.Messages > 0)
+        {
+            <div id="MessagesBubble" class="AlertTextWrapper" runat="server">
+                <div class="AlertBox Left"></div>
+                <div class="AlertBox" style="background-position: right; padding-right: 3px">
+                    <div class="AlertText">@Abbreviate.GetTruncValue(Model.Messages)</div>
+                </div>
+            </div>
+        }
+    </span>
+    </a>
+    <a data-se="nav-login" href="/User.aspx">
+        <div id="AuthenticatedUserNameWrapper">
+            <div id="AuthenticatedUserName">
+                
+                <span class="login-span notranslate">
+                    @if (Model.IsAge13OrOver)
+                    {
+                    <img id="over13icon" src="@UrlResolver.GetUrl("~/Images/Icons/over13.png")" alt="" style="vertical-align:middle;padding-right:5px;padding-left:0px;" original-title="@Resources["Label.OverThirteen"]">
+                    }
+                    @Model.UserName
+                </span>
+            </div>
+        </div> 
+
+    </a>
+
+    <script type="text/javascript">
+        ;$(function () {
+            $('#over13icon').tipsy({ gravity: 'n' });
+
+            $("#lsLoginStatus").click(
+                    function () {
+                        var form = $(this).closest('form');
+                        if (form.length == 0) {
+                            form = $("<form></form>").appendTo("body");
+                        }
+                        form.attr('action', '/authentication/logout');
+                        form.attr('method', 'post');
+                        form.submit();
+                    }
+                );
+        });
+
+    </script> 
+</div>

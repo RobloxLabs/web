@@ -1,0 +1,47 @@
+﻿.place-selector {
+    float: left;
+    margin-right: 5px;
+    width: 110px;
+    cursor: pointer;
+}
+.place-selector-container {
+    width: 575px;
+}
+.place-image {
+    width: 110px;
+    height: 75px;
+}
+.item-image {
+    width: 110px;
+    height: 68px;
+}
+.place-selector-item-container {
+    margin-top: 5px;
+    text-align: left
+}
+.place-selector-pager-container {
+    margin-top: 10px;
+}
+.place-name {
+    width: 100px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    height: 36px;
+}
+.game-name {
+    width: 100px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    height: 54px;
+}
+.PlaceSelectorModal {
+    padding: 5px;
+}
+.PlaceSelectorModal .Title{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 27px;
+    color: #363636;
+    margin: 5px;
+    letter-spacing: -1px;
+}

@@ -1,0 +1,21 @@
+﻿/*Intro Section*/
+
+.sponsored-product-text {
+    color: #fff;
+    font-size: 26px;
+    height: 320px;
+    left: 356px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: left;
+    top: 210px;
+    width: 535px;
+}
+
+.sponsored-logo-image {
+    height: 290px;
+    left: 0px;
+    top: 140px;
+    width: 270px;
+    position: absolute;
+}

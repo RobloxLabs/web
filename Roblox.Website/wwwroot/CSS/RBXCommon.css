@@ -1,0 +1,2352 @@
+/* Legacy CSS file - Please do not copy */
+/************************** Modal Popups **************************/
+.blueAndWhite {
+  border: 2px solid #6e99c9;
+  background-color: #ffffff;
+  color: #000000; }
+
+.blueAndWhite .titleBar {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 2px 2px 2px 2px;
+  margin-bottom: 5px;
+  font-size: 13px; }
+
+#ResetPassword, #ResetPassword input
+{
+    font-size: 16px;
+}
+#ResetPassword #ResetPasswordTable td
+{
+    padding: 5px;
+}
+
+
+/************************** Parent Edition **************************/
+/* set the header links in the parents section white */
+div.ParentsLearningContent div.StandardBoxLightHeader a 
+{
+    color:White !important;
+    cursor:pointer;
+}
+.ParentsLearningContent
+{
+    font-size: 14px;
+}
+.ParentsLearningContent .ParentsLearningHeader
+{
+    text-decoration: none;
+}
+.StandardBoxLight
+{
+    float: inherit;
+    border: 1px solid #3B526B;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.StandardBoxLightHeader
+{
+    float: inherit;
+    background-color: #3B526B;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px 5px 20px;
+    display: block;
+}
+.ParentsLearningContent .StandardBoxLightHeader
+{
+    margin: 10px 0px;
+}
+.LoginParentAccount
+{
+    text-align: left;
+}
+.ParentsControlPanel, .ParentsControlPanel input
+{
+    font-size: 14px;
+}
+.ParentsControlPanelTable table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.ParentsControlPanelTable table td, .ParentsControlPanelTable table th
+{
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+}
+.ParentsControlPanelTable table tr:first-child td, .ParentsControlPanelTable table tr:first-child th
+{
+    border-top: 0;
+}
+
+.ParentsControlPanelTable table tr:last-child td
+{
+    border-bottom: 0;
+}
+.ParentsControlPanelTable table tr td:first-child, .ParentsControlPanelTable table tr th:first-child
+{
+    border-left: 0;
+}
+.ParentsControlPanelTable table tr td:last-child, .ParentsControlPanelTable table tr th:last-child
+{
+    border-right: 0;
+}
+
+
+.ContinueButtonFix
+{
+    text-align: center;
+}
+.ParentCenterAlignedTable table
+{
+    margin: 0px auto;
+}
+
+.JustWhiteBox
+{
+    float: inherit;
+    background-color: White;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/************************** Buttons **************************/
+
+.MediumButton
+{
+    background-color: #F5CD2F;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #6E99C9;
+    text-align: center;
+    cursor: pointer;
+}
+.MediumButton:hover
+{
+    background-color: #FF9D2F;
+}
+
+/***********************CATALOG NAVIGATION**************************/
+.bc_iconset,
+#BuildersClubContainer div.icons
+{
+    background-image: url(/images/bc_page_icon_sprites.png?v=2); /* v= should force cache reload with new css */
+    background-repeat: no-repeat;
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+}
+#BuildersClubContainer div.maps_icon
+{
+    background-position: 0 1px;
+    height: 30px;
+}
+#BuildersClubContainer div.money_icon
+{
+    background-position: 0 -28px;
+    height: 28px;
+}
+#BuildersClubContainer div.paid-games-icon {
+    background: url(/images/Upgrades/BuildersClubBenefitsGrid/paid-access.png) no-repeat;
+    height: 27px;
+    width: 42px;
+}
+#BuildersClubContainer div.shirt_icon
+{
+    background-position: 0 -55px;
+    height: 30px;
+}
+#BuildersClubContainer div.ads_icon
+{
+    background-position: 0 -85px;
+    height: 30px;
+}
+.bc_icon,
+#BuildersClubContainer div.bc_icon
+{
+    background-position: 0 -115px;
+    height: 31px;
+}
+#BuildersClubContainer div.gear_icon
+{
+    background-position: 0 -146px;
+    height: 30px;
+}
+#BuildersClubContainer div.groups_icon
+{
+    background-position: 0 -173px;
+    height: 23px;
+}
+#BuildersClubContainer div.badges_icon
+{
+    background-position: 0 -196px;
+    height: 30px;
+}
+#BuildersClubContainer div.beta_icon
+{
+    background-position: 0 -228px;
+    height: 31px;
+}
+#BuildersClubContainer div.tbc_icon
+{
+    background-position: 0 -263px;
+    height: 31px;
+}
+#BuildersClubContainer div.obc_icon
+{
+    background-position: 0 -297px;
+    height: 31px;
+}
+#BuildersClubContainer div.personalserver_icon
+{
+    background-position: 0 -329px;
+    height: 30px;
+}
+#BuildersClubContainer div.tradesystem_icon
+{
+    background-image: url(/images/Icons/tradeicon.png?v=2);
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 23px;
+    display: inline-block;
+}
+#BuildersClubContainer div.upgrades_enabled
+{
+    background-image: url(/images/buybc/bc_sprites_math_enabled.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 95px;
+    width: 128px;
+}
+#BuildersClubContainer div.upgrades_disabled
+{
+    background-image: url(/images/buybc/bc_sprites_math_disabled.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 95px;
+    width: 128px;
+}
+#BuildersClubContainer div.bcmonthly
+{
+    background-position: 0 0;
+}
+#BuildersClubContainer div.bc6
+{
+    background-position: -128px 0;
+}
+#BuildersClubContainer div.bc12
+{
+    background-position: -256px 0;
+}
+#BuildersClubContainer div.bclife
+{
+    background-position: -384px 0;
+}
+#BuildersClubContainer div.tbcmonthly
+{
+    background-position: 0 -95px;
+}
+#BuildersClubContainer div.tbc6
+{
+    background-position: -128px -95px;
+}
+#BuildersClubContainer div.tbc12
+{
+    background-position: -256px -95px;
+}
+#BuildersClubContainer div.tbclife
+{
+    background-position: -384px -95px;
+}
+#BuildersClubContainer div.obcmonthly
+{
+    background-position: 0 -191px;
+}
+#BuildersClubContainer div.obc6
+{
+    background-position: -128px -191px;
+}
+#BuildersClubContainer div.obc12
+{
+    background-position: -256px -191px;
+}
+#BuildersClubContainer div.obclife
+{
+    background-position: -384px -191px;
+}
+#BuildersClubContainer .bctotbcconversion
+{
+    background-image: url(/images/BuyBC/bc_lifetime_tbc_lifetime_discount.png);
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 128px;
+}
+#BuildersClubContainer .bctoobcconversion
+{
+    background-image: url(/images/BuyBC/bc_lifetime_obc_lifetime_discount.png);
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 128px;
+}
+#BuildersClubContainer .tbctoobcconversion
+{
+    background-image: url(/images/BuyBC/tbc_lifetime_obc_lifetime_discount.png);
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 128px;
+}
+#BuildersClubContainer upgrade_button
+{
+    cursor: pointer;
+}
+
+.hoverover
+{
+    cursor: pointer;
+}
+
+/*Modifying the Alerts into a Bar*/
+/*.AlertSpace
+{
+    color: #6e99c9;
+    margin: 0 auto;
+}
+*/
+.AlertSpace {
+    float:none;
+    border:2px solid #7196CA;
+    margin: 0px;
+    color: #6e99c9;
+    height:22px;
+    position:relative; 
+    top:0px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	width:auto;
+	padding-right:60px;
+	background-color:White;
+}
+
+.AlertSpace a {
+    padding-left:18px;
+    padding-right:10px;
+    margin-left:3px;
+}
+.AlertSpace a:hover, #Header .AlertSpace a:active {
+	text-decoration: none;
+}
+
+.AlertSpace .MessageAlert
+{
+    display:inline;
+    float:left;
+    margin-top:4px;
+}
+.AlertSpace .MessageAlert a {
+     color:#6E99C9;
+}
+
+.AlertSpace .MessageAlert a:hover {
+	color: #1874CD;
+}
+
+.AlertSpace .RobuxAlert {
+    display:inline;
+    float:left;
+    margin-top:4px;
+}
+.AlertSpace .RobuxAlert a 
+{
+     color: Green;
+}
+
+.AlertSpace .RobuxAlert a:hover 
+{
+    color: #49b745;    
+}
+
+.AlertSpace .FriendsAlert {
+    display:inline;
+    float:left;
+    margin-top:4px;
+}
+.AlertSpace .FriendsAlert a {
+	color: #883000;
+}
+.AlertSpace .FriendsAlert a:hover {
+	color: #0000DD;
+}
+
+.AlertSpace .TicketsAlert {
+    display:inline;
+    float:left;
+    margin-top:4px;
+}
+.AlertSpace .TicketsAlert a {
+	color:#FBB117;
+}
+.AlertSpace .TicketsAlert a:hover {
+	color: #FF3000;
+}
+
+
+.AlertSpace .icons, .AlertSpace .icons a
+{
+    background-image: url(/images/master_page_image_sprites.png?v=1202010);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    position:absolute;
+}
+
+.AlertSpace .message_icon
+{
+    background-position: -65px 0;
+    height: 11px;
+    width: 13px;
+    margin: 2px 3px 3px;
+    float: left;
+}
+.AlertSpace .robux_icon
+{
+    background-position: -33px 0;
+    height: 12px;
+    width: 16px;
+    margin: 2px 3px 3px;
+    float: left;
+}
+.AlertSpace .tickets_icon
+{
+    background-position: -49px 0;
+    height: 16px;
+    width: 16px;
+    margin: -1px 3px 3px;
+    float: left;
+}
+.AlertSpace .friends_icon
+{
+    background-position: -78px 0;
+    height: 14px;
+    width: 12px;
+    margin: 1px 3px 3px;
+    float: left;
+}
+
+a.rss_icon
+{
+    background-position: 0 0;
+    height: 14px;
+    width: 14px;
+    position:relative;
+}
+a.twitter_icon
+{
+    background-position: -14px 0;
+    height: 16px;
+    width: 19px;
+}
+
+
+
+/*Alerts for My Home*/
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace
+{
+    color: #6e99c9;
+    margin: 0 auto;
+    background:none;
+    float :none;
+    width:155px;
+    height:50px;   
+    border:none;
+    padding-right:0;
+     
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace a
+{
+    position :static; 
+    margin:0;   
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .message_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:13px;
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .friends_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:16px;
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .robux_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:16px;
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .tickets_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:16px;
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .FriendsAlert
+{
+    background :#FFFFFF;
+    border-left :1px solid #6E99C9;
+    width:49%;
+    margin-top:0;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .MessageAlert
+{
+    background :#FFFFFF;
+    width:49%;
+    margin-top:0;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .RobuxAlert
+{
+    background :#FFFFFF;
+    border-top :1px solid #6E99C9;
+    width:49%;
+    margin-top:0;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .TicketsAlert
+{
+    background :#FFFFFF;
+    border-top :1px solid #6E99C9;
+    border-left :1px solid #6E99C9;
+    width:49%;
+    margin-top:0;
+}
+
+/*Alerts for New My Home*/
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .AlertSpace
+{
+    color: #6e99c9;
+    margin: 0 auto;
+    background:none;
+    float :none;
+    width:155px;
+    height:50px;   
+    border:none;
+    padding-right:0;
+     
+}
+
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .AlertSpace a
+{
+    position :static; 
+    margin:0;   
+}
+
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .message_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:13px;
+}
+
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .friends_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:16px;
+}
+
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .robux_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:16px;
+}
+
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .tickets_icon
+{
+    position :static;
+    height:16px;
+    margin:3px;
+    width:16px;
+}
+
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .FriendsAlert
+{
+    background :#FFFFFF;
+    border-left :1px solid #6E99C9;
+    width:49%;
+    margin-top:0;
+}
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .MessageAlert
+{
+    background :#FFFFFF;
+    width:49%;
+    margin-top:0;
+}
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .RobuxAlert
+{
+    background :#FFFFFF;
+    border-top :1px solid #6E99C9;
+    width:49%;
+    margin-top:0;
+}
+.ProfileAlertPanel .UserProfile .SmallHeaderAlertSpaceLeft .TicketsAlert
+{
+    background :#FFFFFF;
+    border-top :1px solid #6E99C9;
+    border-left :1px solid #6E99C9;
+    width:49%;
+    margin-top:0;
+}
+
+#Authentication span a
+{
+    color: #FFFFFF;
+}
+
+.MySetsDisplayInfo
+{
+    padding: 10px 20px 10px 20px;
+    background: #8bc2ff url(/images/catalog_options_back.png) repeat-x;
+    border: 0;
+    margin-bottom: 0px;
+    overflow: hidden;
+    height: 125px;
+}
+.MySetsDisplayInfo h1
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: White;
+    font-size: 16px;
+    font-weight: bold;
+}
+.MySetsDisplayInfo h1 > a
+{
+    cursor: pointer;
+    color: Blue;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.CreateSetButton {
+  cursor: pointer;
+  text-decoration: none; }
+
+.CreateSetButton:hover {
+  background-color: Gray; }
+
+.SetAddButtonAlreadyContainsItem {
+  background: url(/images/accept.png) no-repeat right 2px; }
+
+.CantAddToSetLabel
+{
+    float: left;
+    width: 75px;
+}
+
+.CantAddToSetHelpImg
+{
+    float: left;
+    vertical-align: text-top;
+    cursor: pointer;
+}
+
+.SetDescription {
+  float: left;
+  overflow-y: auto scroll;
+  overflow-x: hidden; }
+
+.SetList {
+  height: 30px;
+  width: 0px;
+  display: block;
+  position: relative; }
+
+.SetList > img {
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 20px;
+  cursor: pointer;
+  top: 5px;
+  left: 5px; }
+
+.CantAddToSetLabel
+{
+    float: left;
+    position: relative;
+    top: -18px;
+    left: 20px;
+    z-index: 11;
+    display: block;
+    background: #6e99c9;
+    width: 100px;
+    border: 3px solid #C6D9FD;
+    padding: 3px;
+}
+
+.SetList .NewVersionAvailableBanner {
+  background: url(/images/Sets/img-update_available-left.png) no-repeat;
+  height: 14px;
+  width: 87px;
+  position: absolute;
+  left: 105px;
+  z-index: 2;
+  top: 7px; }
+
+.SetList a.btn-dropdown, a.btn-dropdown-active {
+  background: url(/images/Sets/bg-drop_down_btn.png) no-repeat right top;
+  border: 1px solid #777;
+  padding: 6px 17px 0px 8px;
+  height: 19px;
+  font: bold 11px Arial, Helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 10;
+  width: 70px; }
+
+.SetList a.btn-dropdown:hover {
+  background-position: right center;
+  border-color: #888;
+  text-decoration: none; }
+
+.SetList a.btn-dropdown-active:hover,
+.SetList a.btn-dropdown-active:link {
+  text-decoration: none; }
+
+.SetList a.btn-dropdown-active {
+  background-position: right bottom;
+  border-bottom: none;
+  height: 20px; }
+
+.SetListDropDownList {
+  position: absolute; }
+
+.SetListDropDownList .menu {
+  width: 140px;
+  background-color: #e1e1e1;
+  border: 1px solid #777;
+  position: relative;
+  bottom: 1px;
+  z-index: 1;
+  clear: both;
+  font: 12px normal Arial, Helvetica, sans-serif; }
+
+.SetListDropDownList .menu a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 2px 8px;
+  margin: 4px 0px;
+  width: 124px; }
+
+.SetListDropDownList .menu a:hover, .ui-autocomplete .ui-menu-item a:hover {
+  background-color: #095fb5;
+  color: #fff;
+  cursor: pointer; }
+
+.SetListDropDownList .menu p {
+  font: 11px normal Arial, Helvetica, sans-serif;
+  color: #666;
+  padding: 0px 8px;
+  margin: 5px 0px 0px 0px; }
+
+.SetListDropDownList .menu p.hr {
+  height: 1px;
+  background-color: #a7a7a7;
+  margin: 5px; }
+
+.SetListDropDown {
+  position: relative;
+  z-index: 9;
+  left: 0px;
+  top: 0px;
+  *top: -14px; }
+
+.ItemOptions .SetListDropDown {
+  *top: 0px; }
+
+.SetList.SetOptions {
+  z-index: 1; }
+
+.ItemOptions .SetListDropDown {
+  left: -102px; }
+
+.SetListDropDownList.invisible, .NewVersionAvailableBanner.invisible, .SetList.ItemOptions.invisible {
+  display: none; }
+
+.ui-autocomplete {
+  padding: 0;
+  background-color: #e1e1e1;
+  border: 1px solid #777;
+  font: 12px normal Arial, Helvetica, sans-serif;
+  width: 201px; }
+
+.ui-autocomplete .ui-menu-item {
+  list-style: none;
+  display: block; }
+
+.ui-autocomplete .ui-menu-item a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 2px 8px;
+  margin: 4px 0px; }
+
+.product-promo-dropdown {
+  width: 200px;
+  margin: 5px; }
+
+#PlaceProductPromotionSelectionPanel .PurchaseModalMessage {
+  height: 100%; }
+
+#PlaceProductPromotionInput {
+    width: 200px;
+}
+.friendBarDropDownList
+{
+    display: none;
+    float: left;
+    z-index: 10;
+    height: 0px;
+}
+.friendBarDropDownList
+{
+    position: relative;
+    height: 100%;
+    width: 120px;
+    border: 1px solid black;
+}
+.friendBarDropDownList > ul
+{
+    list-style: none outside none;
+    margin: 0; 
+    padding-left: 0; 
+}
+.friendBarDropDownList li
+{
+    background-color: White;
+    color: Black;
+    cursor: default;
+    float: left;
+    position: relative;
+    list-style: none;
+    display: block;
+    z-index: 11;
+    height: 18px;
+}
+.friendBarDropDownList li > div
+{
+    margin: 2px;
+    width: 116px;
+}
+.friendBarDropDownList li:hover
+{
+    background-color: Black;
+    color: White;
+}
+.friend_dropdownbutton20
+{
+     background: url(/images/friendsbar/friend_dropdownBtn20h.jpg);
+     float: left; 
+     cursor: pointer;
+     height: 20px;
+     width: 20px;
+     background-position: top left;    
+}
+.friend_dropdownbutton20:hover
+{
+    background-position: bottom left;
+}
+
+.ContestButton
+{
+    float: left;
+    font-size: 20px;
+    padding: 4px 10px;
+    background: url(/images/Contests/contestbutton.png) repeat-x;
+    color: #FFFFFF;
+    border: 2px solid #193441;
+    cursor: pointer;
+    text-align: center;
+}
+.ContestButton:hover
+{
+    background: #5d90a6;
+}
+.ContestButtonSkip
+{
+    font-size: 20px;
+    padding: 4px 10px;
+    background-color: #283d47;
+    color: #FFFFFF;
+    border: 2px solid #193441;
+    cursor: pointer;
+    text-align: center;
+}
+.ContestButtonSkip:hover
+{
+    background: #5d90a6;
+}
+ul.ContestPrizes
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a.slider_next
+{
+    color: #444444;
+    font-size: 20px;
+    font-weight: bold;
+}
+a.slider_prev
+{
+    color: #444444;
+    font-size: 20px;
+    font-weight: bold;
+}
+a.invertedcontesttab
+{
+    float: left;
+    background: #bebebe;
+    padding: 3px 6px;
+    color: black;
+    margin-right: 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 11px;
+    font-family: Arial;
+    border-bottom: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+    border-left: 1px solid #9e9e9e;
+}
+a.invertedcontesttab:hover
+{
+    background: #d6d6d6;
+    border-bottom: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+    border-left: 1px solid #9e9e9e;
+    color: black;
+}
+a.invertedcontesttabselected
+{
+    float: left;
+    background: white;
+    margin-bottom: -1px;
+    z-index: 6;
+    border-bottom: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+    border-left: 1px solid #9e9e9e;
+    color: #363636;
+    margin-right: 4px;
+    text-decoration: none;
+    display: block;
+}
+a.contesttab
+{
+    float: left;
+    background: #bebebe;
+    padding: 5px;
+    color: black;
+    margin-left: 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    height:14px;
+    position: relative;
+    margin-top:3px;
+    font-family: Arial;
+    border-top: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+    border-left: 1px solid #9e9e9e;
+}
+a.contesttab:hover
+{
+    background: #d6d6d6;
+    color: black;
+}
+a.contesttabselected
+{
+    float: left;
+    background: white;
+    margin-bottom: -1px;
+    z-index: 6;
+    border-top: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+    border-left: 1px solid #9e9e9e;
+    padding: 5px;
+    color: #363636;
+    height:17px;
+    margin-left: 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+div.ContestBox
+{
+    border: 1px solid #9e9e9e;
+    background:white;
+    width: 868px;
+    float: left;
+    margin: 0px 5px 5px 5px;
+    padding: 10px;
+}
+.Contests {
+    float: left; width: 900px; margin: 10px auto 0px auto; min-height:760px;background-color:#F2F2F2;
+}
+.ContestTitle
+{
+    color: #363636;
+    float: left;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:27px;
+}
+.Contests h1
+{
+    margin: 0;
+    color: #363636;
+    float: left;
+    width: 100%;
+}
+.FullSubmissions
+{
+    width: 300px;
+    padding: 5px;
+    float: left;
+    margin-left: 3px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #000000;
+}
+
+.ContestShowcase
+{
+    width: 90%;
+    padding: 2px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin: 2px auto;
+    background: #d5dec2;
+}
+.ContestShowcase:hover
+{
+    border: 2px solid #AAAAAA;
+}
+.VibModalBack
+{
+    z-index: 665;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    background-repeat: repeat;
+    top: 0%;
+    left: 0%;
+}
+.VibModal
+{
+    z-index: 666;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+.VibModalBox
+{
+    z-index: 667;
+    width: 500px;
+    margin: 7% auto;
+    background: #FFFFFF;
+    border: 5px solid #6E99C9;
+}
+.VibModalContents
+{
+    padding: 10px;
+}
+.VibModalHeader
+{
+    width: 96%;
+    padding: 1% 2%;
+    font-size: 20px;
+    font-weight: bold;
+    background: #6E99C9;
+    text-align: center;
+    color: #FFFFFF;
+}
+.VibModalClose
+{
+    font-size: 25px;
+    color: #FF0000;
+    font-weight: bold;
+    float: right;
+    line-height: 17px;
+    cursor: pointer;
+}
+div.cannot_vote
+{
+    height: 30px;
+    width: 30px;
+    background: url(/images/Contests/not_checked_box.png);
+    vertical-align: text-top;
+    margin-right: 7px;
+    float: left;
+}
+div.can_vote
+{
+    height: 30px;
+    width: 30px;
+    background: url(/images/Contests/checked_box.png);
+    vertical-align: text-top;
+    margin-right: 7px;
+    float: left;
+}
+div.vote_text
+{
+    font-size: 18px;
+    float: left;
+    color: #00FF00;
+}
+div.no_vote_text
+{
+    font-size: 18px;
+    float: left;
+    color: #FF0000;
+}
+.Contests .StatCounters
+{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #444444;
+    text-align: left;
+    margin-left: 10px;
+    z-index: 4000;
+}
+.Contests .StatType
+{
+    font-size: 14px;
+    margin-left: 4px;
+    margin-top: -7px;
+    display: block;
+}
+.Contests .PlaceOpaqueName
+{
+    width: 148px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 6px;
+    font-size: 10px;
+    color: #444444;
+    background: #FFFFFF;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 1px auto 7px auto;
+    height: 24px;
+    overflow: hidden;
+    word-wrap: none;
+}
+.Contests .FifthPlaceHolder
+{
+    float: left;
+    width: 20%;
+    margin-top: 5px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+ div.friend_dock_chatbox
+{
+	float:left;
+	background-color:#E5E3E4;
+	width:200px;
+	/*height:320px;*/
+	margin-right:10px;
+	border: solid 1px #7F7F7F;
+	padding-bottom: 10px;
+}
+div.friend_dock_chatsettings
+{
+	/*float:right;*/
+	color: Black;
+	background-color:#E5E5E5;
+	border:solid 1px black;
+	width:150px;
+	/*height:140px;*/
+	margin-right:10px;
+	font-size: 11px;
+	z-index: 1200;
+	position:fixed;
+	bottom:110px;
+	right:0;
+}
+div.chat_settings_group_header
+{
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+div#friend_dock_chatholder
+{      
+    position:absolute;
+    bottom:5px;
+	z-index:1022;
+}
+
+div#friend_dock_container
+{
+    width: 100%;
+    z-index:1022;
+}
+
+div#friend_dock_titlebar ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+div#friend_dock_thumb_container
+{
+    border: solid 1px #7F7F7F;
+    background-color: White;
+    height: 74px;
+    padding: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+div#friend_dock_thumbnails
+{
+    float:left;
+}
+div#friend_dock_titlebar
+{
+    height: 18px;
+    position: relative;
+}
+div#friend_dock_titlebar a
+{
+    color: Black;
+}
+div#friend_dock_minimized_container
+{
+    width: 100%;       
+    z-index:1022;
+}
+
+div#friend_dock_friendzone,
+div#friend_dock_chatzone
+{
+	float:left;
+	height:65px;
+	margin-top:5px;
+	margin-right:10px;
+	margin-left:10px;
+}        
+div.friend_dock_chatbox_closebutton
+{
+	float:right; padding-right:5px; font-weight:bold; font-size:14px;
+}
+div.friend_dock_chatbox_closebutton a.hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+div.blinkoffheader,
+div.blinkonheader
+{
+	background-repeat: repeat-x;    
+    border: none;
+    /*width:192px;*/
+	height:16px;
+	padding: 2px;
+}
+div.blinkoffheader
+{
+	background-image: url('/images/chat/HeaderBarRepeat1x1.jpg');   
+}
+div.blinkonheader
+{
+    background-image: url('/images/chat/HeaderBarRepeat1x1_orange.jpg');
+}
+
+div.friend_dock_chatbox_username
+{
+	width:150px;
+	float:left;
+    font-size:14px;
+	color:White;	
+}
+div.friend_dock_chatbox_chat
+{
+	background-color:White; 
+	border: solid 1px black; 
+	margin-left:10px; 
+	margin-top:5px; 
+	margin-bottom:10px; 
+	width:176px; 
+	padding:2px;
+	height:196px;
+	overflow:auto;
+}
+textarea.friend_dock_chatbox_entry
+{
+	margin-left:10px;
+	width:176px;
+	padding: 2px;
+	overflow:auto;
+	overflow-x: hidden;
+}
+span.friend_dock_onlinestatus,
+span.friend_dock_offlinestatus
+{
+	position:absolute;
+	margin-left:16px;
+	width:16px;
+	height:16px;
+	 background-repeat:no-repeat;
+	background-image:url(/images/online.png);
+}
+span.friend_dock_offlinestatus
+{
+	background-image:url(/images/offline.png);
+}
+div.friend_dock_onlinestatus,
+div.friend_dock_offlinestatus
+{
+	position:absolute;
+	margin-top:5px;
+	margin-left:5px;
+	width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-image:url(/images/online.png);
+}
+div.friend_dock_offlinestatus
+{
+    background-image:url(/images/offline.png);
+}
+div.friend_dock_newmessage
+{
+	position:absolute;
+	margin-top:-5px;
+	margin-left:42px;
+	width:16px;
+	height:16px;
+	background-image:url(/images/newmessage.png);
+	background-repeat:no-repeat;
+}
+div.friend_dock_friend
+{
+	width:50px; 
+	height:70px;
+	overflow:hidden; 
+	margin-right:10px; 
+	margin-bottom:10px; 
+	float:left;
+}
+div.friend_dock_pager
+{
+	width:16px;
+	height:16px;
+	margin:25px 10px 10px 0px;
+}
+
+.Navigation {
+  height: 35px;
+  z-index: 1022; }
+
+.Navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 930px;
+  margin: 0px auto; }
+
+.Navigation ul li {
+  float: left;
+  position: relative; }
+
+.Navigation ul li a, .Navigation ul li a:visited {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 0px 9px;
+  border-left: 1px solid #FFFFFF;
+  font-size: 18px; }
+
+.Navigation ul li a h1, .Navigation ul li a h2 {
+  cursor: pointer; }
+
+.Navigation ul li:first-child a {
+  border-left: none; }
+
+.friend_dock_username
+{
+	height:15px; 
+	overflow:hidden;
+	float:left;
+	width: 55px;
+}
+div#chatbar
+{
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    height: 0px;
+    font-size: 11px;
+    margin: 0px 1%;
+    z-index:1022;
+}
+div#statusbar
+{
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    height: 30px;
+    background: url(chatbarback.jpg);
+    border-left: 3px solid #E5E5E5;
+    border-right: 3px solid #E5E5E5;
+    font-size: 11px;
+    margin: 0px 1%;
+    z-index:1022;
+}
+
+#chat
+{
+    float:left;
+}
+.chat_box
+{
+    width: 217px;
+    float: left;
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: none;
+    background: #eeeeee;
+    font-size: 11px;
+}
+.chat_text
+{
+    width: 80%;
+    padding: 4px;
+    float: left;
+    font-size: 11px;
+    font-family: Verdana;
+}
+.chat_name
+{
+    border-bottom: 1px solid #CCCCCC;
+    font-weight: bold;
+    padding: 3px;
+    float: left;
+    font-size: 11px;
+    width: 75%;
+}
+.chat_header
+{
+    width: 211px;
+    float:left;
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px;
+    padding: 5px;
+}
+.chat_options
+{
+    width: 219px;
+    float:left;
+    background: #6E99C9;
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px;
+    padding: 1px;
+}
+.chat_wrapper
+{
+    width: 221px;
+    background: #eeeeee;
+    position: absolute;
+    bottom: 0px;
+    float:left;
+    z-index: 1022;
+    margin-left: 3px;
+}
+.chat_input
+{
+    float: left;
+    background: #eeeeee;
+    width: 217px;
+}
+.chat_contents 
+{
+    bottom: 27px;
+    display: none;
+}
+#chat_friends,
+#chat_friends:hover
+{
+    float:left;
+    height: 20px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 33px;
+    padding-top: 7px;
+    width:119px;
+    cursor: pointer;
+}
+#chat_friends:hover
+{
+    background: #d8e0e9;
+}
+#statusbar_wrapper
+{
+    padding-top: 3px;
+    float:left;
+}
+#chat_status
+{
+
+}
+#long-wrapper
+{
+    float:left;
+}
+#chatlog
+{
+    float:left;
+    padding: 3px;
+    color: Green;
+    
+}
+.chat-available,
+.chat-unavailable
+{
+    background: url(available.png);
+
+    height: 15px;
+    width: 15px;
+    float:left;
+}
+.chat-unavailable
+{
+    background: url(unavailable.png);    
+}
+.chat-default
+{
+    height: 15px;
+    width: 15px;
+    float:left;
+}
+.chat_send_button, .chat_send_button:hover
+{
+    background: #eeeeee;
+    border: 0px solid #FFFFFF;
+    float: left;
+    line-height: 17px;
+    height: 18px;
+    border-left: 2px solid #CCCCCC;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 3px;
+    cursor: pointer;
+}
+.chat_send_button:hover
+{
+    background: #D8E0E9;
+}
+.chat_send_input
+{
+    border: 0px solid #FFFFFF;
+    float: left;
+    height: 22px;
+    font-size: 12px;
+    padding: 2px;
+}
+.chat_close,
+.chat_close:hover
+{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 11px;
+    padding-right: 8px;
+    float:left;
+    padding-top: 6px;
+}
+.chat_close:hover
+{
+    color: #000000;
+}
+.chat_entry_click
+{
+    cursor: pointer;
+    padding: 6px 10px 7px 10px;
+}
+.chat_entry
+{
+    float:left;
+    background: #d8e0e9;
+    height: 27px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    width: 221px;
+}
+#chat_login
+{
+    margin-top: 1px;
+    margin-left: 2px;
+    float:left;
+}
+#chat_logout
+{
+    margin-top: 1px;
+}
+#chat-availability
+{
+    float:left;
+}
+#partycontainer
+{
+    position:absolute;
+    bottom:5px;
+    right:0;
+	z-index:1022;	
+}
+
+.ActiveChatThumb
+{
+    z-index: 10;
+    cursor: pointer;
+}
+.RemoveActiveChat
+{
+    position:absolute;
+    z-index: 10;
+    cursor: pointer;
+    margin-left:40px;
+}
+
+/*************************************  BUTTONS **********************************/
+.clear {
+  /* generic container (i.e. div) for floating buttons */
+  overflow: hidden;
+  width: 100%;
+  font-size: 0px;
+  clear: both; }
+
+.followme_green19h
+{
+    background-image: url('/images/Buttons/followme_19h.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 19px;
+    cursor: pointer;
+    width: 65px;
+    float: left;
+    text-align: center;
+}
+.followme_green19h:hover
+{
+    background-position: left bottom;    
+}
+
+.followme_gray19h
+{
+    background-image: url('/images/Buttons/followme_19h-gray.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 19px;
+    cursor: pointer;
+    width: 65px;
+    float: left;
+    text-align: center;
+}
+.followme_gray19h:hover
+{
+    background-position: left bottom;    
+}
+
+.tab_white19h,
+.tab_white19hselected
+{
+    background: transparent url('/images/friendsbar/tab_white19h_l2.gif') no-repeat left top;
+    color: #444;
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding-left: 2px;
+    height: 19px;
+    outline: none; /* hide dotted outline in Firefox */
+    cursor: pointer;
+}
+
+.tab_white19h span,
+.tab_white19hselected span
+{
+    background: transparent url('/images/friendsbar/tab_white19h_r2.gif') no-repeat right top;
+    display: block;
+    height: 15px;
+    padding: 2px 15px 2px 7px;
+    text-decoration: none;
+}
+.tab_white19h:hover,
+.tab_white19hselected
+{
+    background-position: left bottom;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+    text-decoration: none;
+}
+.tab_white19h a,
+.tab_white19hselected a
+{
+    text-decoration: none;
+    outline: none;    
+}
+.tab_white19h:hover span,
+.tab_white19hselected span
+{
+    background-position: right bottom;
+    text-decoration: none;
+}
+
+.tab_white19h_flash
+{
+    background: transparent url('/images/friendsbar/tab_blue19h_l.gif') no-repeat left top;
+}
+.tab_white19h_flash span
+{
+    background: transparent url('/images/friendsbar/tab_blue19h_r.gif') no-repeat right top;
+    color:White;   
+}
+
+.bold
+{
+    font-weight:bold;   
+}
+
+.clear
+{
+   clear:both;
+}
+
+.alignCenter {
+  text-align: center; }
+
+.hidden {
+  display: none; }
+
+.InGamePopup
+{
+    background: url(/images/cssspecific/rbx2/containerBkg_01.png);
+	_overflow:hidden;   /* IE6 SUX */
+}
+
+.voteYes
+{
+    background: url(/images/cssspecific/rbx2/button_vote.jpg);
+    width: 24px;
+    height: 23px;
+    background-position: top left;
+}
+
+.voteYes:hover
+{
+    background-position: bottom left;
+}
+
+.voteNo
+{
+    background: url(/images/cssspecific/rbx2/button_vote.jpg);
+    width: 24px;
+    height: 23px;
+    background-position: top right;
+}
+
+.voteNo:hover
+{
+    background-position: bottom right;
+}
+
+/*Default.aspx formatting */
+/* override 2 column layout classes for this page only because the front page requires a wider right column */
+.overrideColumn1c
+{
+    font-family: Verdana;
+    float: left;
+    padding: 5px 0px 0px;
+    border-right: 1px solid #ccc;
+    width: 659px;
+}
+
+.overrideColumn2c
+{
+    font-family: Verdana;
+    width: 310px;
+    float: right;
+    padding-top: 8px;
+}
+
+.overrideColumn1c .ShadowedStandardBox
+{
+    width:561px;
+}
+
+.overrideColumn1c .ShadowedStandardBoxHeader
+{
+    width:551px;
+}
+
+.overrideColumn1c .GiftCardLink
+{
+    background: url(/images/Buttons/btn-get_gift_card.jpg) no-repeat;
+    width: 560px;
+    height: 90px;
+}
+.overrideColumn1c .GiftCardLink:hover
+{
+    background-position: 0px -90px;
+}
+
+.overrideColumn2c .ShadowedStandardBox
+{
+    width:310px;
+}
+
+.overrideColumn2c .ShadowedStandardBoxHeader
+{
+    width:300px;
+}
+
+.overrideDontLogout
+{
+    float:right; 
+    margin-left:80px;
+}
+
+.videoURL {
+  width: 380px;
+  height: 250px; }
+  
+  .HLinkFormat
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.HomeHeader
+{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight:bold;
+    color:#363636;
+}
+.HomeMiddle
+{
+    font-family:Arial;
+    font-size: 18px;
+    font-weight:bold;
+    color:#363636;
+    padding:5px;
+    margin:0px;
+}
+.HomeSide
+{
+    font-family: Arial;
+    font-weight:bold;
+    font-size: 14px;
+    color:#363636;
+}
+#GiftCardCrossLink
+{
+    background: url(/images/Gifting/img-gifting160-1.jpg) no-repeat;
+    width: 160px;
+    height: 600px;
+}
+#GiftCardCrossLink:hover
+{
+    background-position: bottom;
+}
+#BCGiftCardXLink
+{
+    background: url(/images/Gifting/img-gifting270_2.png) no-repeat;
+    background-color: White;
+    margin-bottom:10px;
+}
+#BCGiftCardXLink:hover
+{
+    background-position: bottom;
+}
+/* Homepage */
+div.FrontPageLoginBox {
+    float: left;
+    padding: 0px 48px;
+    background: #e1e1e1;
+    border: 1px solid #bcbcbc;
+    height: 248px;
+    width: 160px;
+    margin-right: 5px;
+    text-align:center;
+}
+div.FrontPageVideoIntro 
+{
+    display:inline; padding: 0px 5px;
+}
+a.ControlLoginButton 
+{
+    padding: 6px 0px !important; 
+    margin: 0 auto;
+    background:url("/images/UI/btn-big_silver_tile.png") top left;
+    display:block;
+    width:88px;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    color:#000;
+    height: 18px;
+    border: 1px solid #bcbcbc;
+}
+a.ControlLoginButton:hover, a.ControlLoginButton:active
+{
+    background-position:bottom left;
+    text-decoration: none;
+}
+div.DGBContainerLong, div.DGBContainerShort 
+{
+    height:auto;
+}
+div.TextInputLogin {
+    margin:0px;
+    padding:0 0 0 2px; /* hack: need to center */
+    height: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.BannerAndFeaturedGamesBox 
+{
+    height: 390px; padding: 0px 0px 0px 0px;
+}
+div.TopPanel 
+{
+    min-height: 252px; 
+    float:left;
+    margin: 0px;
+    width: 970px;    
+    border-bottom:1px solid #ccc;
+    padding: 5px 0px;
+}
+.SidePanel #RobloxNews 
+{
+    font-size: 12px;
+}
+#RobloxNews a 
+{
+    margin-right:5px;
+}
+.FeaturedGameButton
+{
+    background: url(/images/buttons/btn-playnow_big2.png) no-repeat;
+    height: 214px;
+    width:214px;
+    height:214px;
+    overflow:hidden;
+}
+.FeaturedGameButton:hover
+{
+    background-position: 0px -214px;
+}
+.GiftCards #GiftForm span#remainingCharacters 
+{
+    color:Black;
+    font-size:10px;
+}
+div.FeaturedGameInfo 
+{
+    font-size:10px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    float:left;
+    padding-left: 14px;
+    line-height: 140%;
+    width:155px;
+}
+a.BadAdButton
+{
+    color:#808080;
+    font-family: Arial,Helvetica,sans-serif;
+}
+a.BadAdButton:hover 
+{
+    border:0px;
+    text-decoration:underline;
+}
+div.VisitButtonsRight {
+	text-align:left; /* to align play solo */
+}
+#ItemContainer .SellCollectible .StandardBoxHeader,
+#ItemContainer .SellCollectible .StandardBox 
+{
+    width: auto;
+}
+div.FeaturedGameImage 
+{
+    float:left;
+}
+.separateSignUpFromLoginWithBorder 
+{
+    margin-top:10px;
+    border-top:1px solid #bdbdbd;
+}
+div.ParentsSpacing a 
+{
+    font-weight:bold;
+    margin:0px 10px;
+}
+div.SidePanel h2
+{
+    display:block;
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+    text-transform:uppercase;
+    margin: 0px 0px 10px 0px;
+}
+div.SidePanel 
+{
+    border-top: 1px solid #CCC;
+    font-family: Arial;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+}
+div.SidePanel p 
+{
+    color:#000;
+    margin: 0px 0 8px;
+}
+div.SidePanel img 
+{
+    margin-right: 10px;
+}
+div.FeaturedGameInfo .PlaceStatValue {
+    margin: 0px 0px 8px;
+    font-size:12px;
+}
+div.FeaturedGameInfo .PlaceStatLabel {
+    color: #464646;
+    font-size: 10px;
+}
+div.FeaturedGame 
+{
+    padding: 10px 0px;
+}
+span.placeName
+{
+    font-size:16px;font-weight:bold;color:#000;
+    text-transform:uppercase;
+}
+.FeaturedGameBox
+{
+    border-bottom:1px solid #ccc;
+    height: 320px;
+    font-family:Arial;
+    padding-top: 5px;
+}
+.FeaturedGameBox h2
+{
+    font-size:40px;
+    font-weight:bold;
+    color:#363636;
+    letter-spacing:-2px;
+    display:block;
+    margin: 0px;
+}
+.FeaturedGameAssetImage 
+{
+    float:left;
+}
+a.PlayThisFeaturedGame 
+{
+    background:url("/images/UI/btn-play_this.png") top left;
+    display:block;
+    width:112px;
+    height:34px;
+    margin: 0 0 15px;
+}
+a.PlayThisFeaturedGame:hover 
+{
+    background-position:bottom left;    
+}
+
+a.RobloxFreeBuildingBanner
+{
+    display:block;
+    height:90px;
+    width:648px;
+}
+a.RobloxFreeBuildingBanner:hover
+{
+    background-position:bottom left;
+}
+.loginNewStyle 
+{
+    padding-top:63px;height:655px; /*550px + 105 missing ad space */
+}
+div.testingSitePanel
+{
+    margin: 5px auto 8px;
+    width: 870px;
+    text-align: center;
+    border: 3px #FFE066 solid;
+    padding: 10px 5px;
+    background: white; /* to stand against obc background */
+}
+div.mySubmenuFixed {
+	position:fixed;
+	top:68px;
+	width:100%;
+	z-index:10000;
+}
+
+div#Body div#GamesContainer {
+  padding-top: 5px; }
+
+div#Body #BrowseContainer {
+  padding: 5px 20px; }
+  
+  /* Viewing alerts from user profile page */
+/* when important is not included, it is being overridden by... something.  */
+div.ProfileAlertPanel .SmallHeaderAlertSpaceLeft {
+	background: none !important;
+	float: none !important;
+	height:50px !important;
+}
+div.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace {
+	height: 50px !important;
+	background: none !important;
+}
+
+/* Masterpage layout changes */
+.BannerCenterContainer 
+{
+    width:970px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align:center;
+}
+div#Nav 
+{
+    position:fixed;
+    display:block;
+    top:38px;
+	z-index:1000;
+}
+
+img#over13icon {
+  float: left;
+  padding-left: 7px;
+  padding-top: 1px;
+  position: relative;
+  top: 18px;
+  height: 11px;
+  width: 20px; }
+
+a.loginButton
+{
+    margin-left: 7px;
+}
+
+/* space the button differently depending on logged out or logged in */
+a.logoutButton {
+  margin-left: -2px;
+  padding-top: 2px;
+  /* ie7 */
+  position: static;
+  top: auto; }
+
+a.btn-logo, a.btn-logo:visited 
+{
+    background:url("/images/btn-logo.png?v=2") top left;
+    display:inline-block;
+    width:123px;
+    height:38px;
+    float:left;
+}
+a.btn-logo:hover 
+{
+    background-position:bottom left;
+}
+a.btn-playnow, a.btn-playnow:visited 
+{
+    background-position:top left;
+    display:block;
+    width:117px;
+    height:34px;
+    float:right;
+    position:relative;
+    top:2px;
+}
+a.btn-playnow:hover 
+{
+    background-position:bottom left;
+}
+#SmallHeaderContainer #Banner .LoggedOutAuthenticationButton 
+{
+    top: 0px;
+    margin-top:0;
+    left:0 !important; /* override left:390px when logged out */
+	width: 60px;
+	height: 28px;
+}
+/* miniclip browsing */
+div#containerWrapper 
+{
+    width:970px;
+    background:white;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div#ErrorPage {
+  text-align: center;
+  margin-bottom: 20px; }
+
+div#ErrorPage pre {
+  text-align: left;
+  font: normal 12pt Courier; }
+
+div#ErrorPage h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #363636;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+  display: block; }
+
+img.ErrorAlert {
+  display: block;
+  margin: 25px auto 10px; }
+
+div#ErrorPage h3 {
+  color: #363636;
+  font-weight: bold;
+  font-size: 16px; }
+  
+div#ErrorPage .divideTitleAndBackButtons 
+{
+    margin:20px auto;
+    height:1px;
+    width:55%;
+    border-top:1px solid #ccc;
+}
+div#ErrorPage div.CenterNavigationButtonsForFloat 
+{
+    /*width: 253px;*/
+    margin: 0 auto;
+}
+/* Asp.net legacy panel in forums */
+a.menuTextLink {
+    padding: 0px 5px;
+    border-left: 1px solid black;
+}
+
+
+/* Modified login form on homepage */
+div.FrontPageLoginBox {
+    padding: 0 5px 0px 5px;
+    width: 250px;
+}
+div.FrontPageLoginBox div.UsernameRowLogin {
+    margin-bottom: 10px;
+}
+div.FrontPageLoginBox .LoginViewContainer {
+	padding-left: 10px;
+}
+
+div.FrontPageLoginBox .DarkGradientBox .DGB_Label { 
+    font-weight: bold;
+    position: relative;
+    height:20px;
+    line-height:20px;
+    padding:1px 0;
+}
+
+div.FrontPageLoginBox .TextInputLogin label.passwordInput {
+	padding-right: 1px;
+}
+div.FrontPageLoginBox .DarkGradientBox .DGB_TextBox {
+    left: 8px;
+    right: 40px;
+    width: 95%;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+span#ForgetPasswordPrompt {
+    font-size: 11px;
+    padding-left: 5px;
+    display: none; /* only show this if on the front page */
+}
+div.FrontPageLoginBox span#ForgetPasswordPrompt {
+    display: block;
+    text-align: left;
+    padding:3px 0px 0px 0px
+}
+div.FrontPageLoginBox .fbSplashPageConnect 
+{
+    padding-top: 6px;
+}
+div.FrontPageLoginBox a.SignupButtonImage {
+    float: left;
+    margin: inherit;
+}
+div.FrontPageLoginBox div.CenterSignupText {
+    margin: 0 auto;
+    padding-top:0px;
+    margin-top:12px
+    
+}
+span.not-a-member {
+    position:relative;
+    top:-7px;
+    line-height:12px;
+    *top:12px;
+}
+
+.fbSplashPageConnect {
+  margin: 5px 0; }

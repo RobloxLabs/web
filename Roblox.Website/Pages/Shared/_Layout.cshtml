@@ -1,52 +1,137 @@
-﻿<!DOCTYPE html>
+﻿@using Roblox.Website.Pages.Shared.Tracking
+@using Roblox.Website.Pages.Shared.Game
+
+@inject IWebAuthenticator WebAuthenticator
+@inject IScriptManager ScriptManager
+@inject IStyleManager CSSManager
+
+@{
+    var clientInstallerModel = new ClientInstallerModel(Context.Request.Headers["User-Agent"].ToString());
+
+}
+@{
+    @* CSS and JS needed for views on the layout page *@
+    CSSManager.PageCSS.Add("PartialViews/Navigation.css");
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Roblox.Website</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- MachineID: @ViewData["MachineID"] -->
+    <partial name="PageMetaTags" model="new MetaTagListViewModel()" />
+
+    <title>@(!string.IsNullOrEmpty(ViewData["Title"] as string) ? ViewData["Title"] + " - ROBLOX" : "ROBLOX.com")</title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="~/CSS/m/main.css" />
+    <!-- Page CSS bundle goes here -->
+    @* Practically throwing the built-in implementation away because it doesn't allow you to share CSS files between views...*@
     <link rel="stylesheet" href="~/Roblox.Website.styles.css" asp-append-version="true" />
+    @* This is usless due to the lifecycle of MVC unless moved downwards. Additionally, this needs to be up here to prevent flashing for Navigation.cshtml's CSS *@
+    <partial name="PageCSS" />
+
+    <partial name="~/Pages/Shared/Tracking/GoogleAnalytics.cshtml" />
+    <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js'></script>
+    <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.7.2.min.js'><\/script>")</script>
+    <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js'></script>
+    <script type='text/javascript'>window.Sys || document.write("<script type='text/javascript' src='/js/Microsoft/MicrosoftAjax.js'><\/script>")</script>
+    <script src="~/js/m/base.js"></script>
+    <script type='text/javascript'>Roblox.config.externalResources = ['/js/jquery/jquery-1.7.2.min.js', '/js/json2.min.js']; Roblox.config.paths['jQuery'] = '/js/modules/jQuery.js'; Roblox.config.paths['Pagelets.BestFriends'] = '/js/modules/Pagelets/BestFriends.js'; Roblox.config.paths['Pages.Catalog'] = '/js/modules/Pages/Catalog.js'; Roblox.config.paths['Pages.Messages'] = '/js/modules/Pages/Messages.js'; Roblox.config.paths['Resources.Messages'] = '/js/modules/Resources/Messages.js'; Roblox.config.paths['Widgets.AvatarImage'] = '/js/modules/Widgets/AvatarImage.js'; Roblox.config.paths['Widgets.DropdownMenu'] = '/js/modules/Widgets/DropdownMenu.js'; Roblox.config.paths['Widgets.GroupImage'] = '/js/modules/Widgets/GroupImage.js'; Roblox.config.paths['Widgets.HierarchicalDropdown'] = '/js/modules/Widgets/HierarchicalDropdown.js'; Roblox.config.paths['Widgets.ItemImage'] = '/js/modules/Widgets/ItemImage.js'; Roblox.config.paths['Widgets.PlaceImage'] = '/js/modules/Widgets/PlaceImage.js'; Roblox.config.paths['Widgets.Suggestions'] = '/js/modules/Widgets/Suggestions.js'; Roblox.config.paths['Widgets.SurveyModal'] = '/js/modules/WidgWebtApplicationURLs/SurveyModal.js';</script>
+    <!-- Page JS bundle goes here -->
+    @* This is usless due to the lifecycle of MVC unless moved downwards *@
+    <partial name="PageScripts" />
+
+    <partial name="~/Pages/Shared/Tracking/JavascriptErrorTracker.cshtml" model='new JavascriptErrorTrackerModel()' />
+    <script type="text/javascript">
+        $(function () {
+            RobloxEventManager.triggerEvent('rbx_evt_newuser', {});
+        });
+    </script>
+    <script type="text/javascript">
+        var Roblox = Roblox || {};
+        Roblox.UpsellAdModal = Roblox.UpsellAdModal || {};
+
+        Roblox.UpsellAdModal.Resources = {
+            //<sl:translate>
+            title: "Remove Ads Like This",
+            body: "Builders Club members do not see external ads like these.",
+            accept: "Upgrade Now",
+            decline: "No, thanks"
+            //</sl:translate>
+        };
+    </script>
+    <script type="text/javascript">
+        Roblox.XsrfToken.setToken('');
+    </script>
+    <script type="text/javascript">
+        Roblox.FixedUI.gutterAdsEnabled = false;
+    </script>
+    
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Roblox.Website</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
+
+    <!-- Used for execution that must happen before page load -->
+
+    <div id="MasterContainer">
+        <script type="text/javascript">
+            if (top.location != self.location) {
+                top.location = self.location.href;
+            }
+        </script>
+        <partial name="~/Pages/Shared/Tracking/EventManager.cshtml" />
+        <div>
+            <!--header>
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                    <div class="container">
+                        <a class="navbar-brand" asp-area="" asp-page="/Index">Roblox.Website</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                                </li>
+                            </ul>
+                            <partial name="_LoginPartial" />
+                        </div>
+                    </div>
+                </nav>
+            </header-->
+            <partial name="~/Pages/Shared/Navigation/Navigation.cshtml" />
+            <style>
+                html {
+                    background: #123f83;
+                }
+            </style>
+            @if (WebAuthenticator.IsAuthenticated())
+            {
+                <partial name="~/Pages/Shared/Navigation/UserSubmenu.cshtml" />
+            }
+            <div class="forceSpace">&nbsp;</div>
+            <noscript><div class="SystemAlert"><div class="SystemAlertText">Please enable Javascript to use all the features on this site.</div></div></noscript>
+
+            <div id="BodyWrapper">
+                <div id="RepositionBody">
+                    <div id="Body" style="width:970px">
+                        @RenderBody()
+                        <div style="clear:both"></div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+            <partial name="~/Pages/Shared/Navigation/Footer.cshtml" />
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Roblox.Website - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
+    @* Chat UserControl should go here *@
+    <partial name="~/Pages/Shared/Tracker/GoogleAnalytics.cshtml" />
+    <partial name="~/Pages/Shared/Game/PlaceLauncher.cshtml" />
+    <partial name="~/Pages/Shared/Game/ClientInstaller.cshtml" model='clientInstallerModel' />
+    <partial name="~/Pages/Shared/Modals/ConfirmationModal.cshtml" />
+    <partial name="~/Pages/Shared/Tracking/VendorSpecificSignupTrackingPixel.cshtml" />
 </body>
 </html>

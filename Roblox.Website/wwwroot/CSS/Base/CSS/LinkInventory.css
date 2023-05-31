@@ -1,0 +1,10 @@
+﻿.LinkCountContainer
+{
+	width: 200px;
+	margin: 0;
+	padding: 5px;
+}
+.LinkStatusImage
+{
+	float: left;
+}

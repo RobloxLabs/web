@@ -1,0 +1,211 @@
+﻿#AccountPageLeft
+{
+	float: left;
+	width: 659px;
+	border-right: 1px solid #CCCCCC;
+}
+#AccountPageRight
+{
+	float: right;
+	width: 310px;
+}
+#AccountSettings
+{
+	border-bottom: 1px solid #CCCCCC;
+}
+.SettingsTitle
+{
+	font: normal bold 16px arial;
+	margin: 10px;
+}		
+.SettingSubTitle
+{
+	font: normal bold 13px arial;
+	margin-left: 10px;
+	padding-bottom: 15px;
+}
+#AccountPageContainer
+{
+	font-family:Arial;
+	padding-bottom: 10px;
+}
+#UpdateSettings
+{
+	margin: 30px 10px;
+}
+#AdvertisementRight
+{
+	border-top: 1px solid #CCCCCC;
+}
+.btn-update 
+{
+	width : 99px;
+	height : 34px;
+	background: url("/images/Accounts/btn-update-blue-m.png") no-repeat;
+	display: inline-block;
+	cursor: pointer;
+}
+.btn-update.inactive
+{
+	background-position: 0px -34px;
+	cursor: default;
+}
+.btn-update.inactive:hover
+{
+	background-position: 0px -34px;
+}
+.btn-update:hover
+{
+	background-position: 0px -68px;
+}
+a.btn-small_silver 
+{
+	background:url(/images/Accounts/btn-small_silver_tile.png) repeat-x top left;
+	border:1px solid #a7a7a7;
+	padding-top:1px;
+	height:15px;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+}
+a.btn-small_silver:hover 
+{
+	background-position:bottom left;
+	border-color:#777;
+	text-decoration:none;
+}
+.blurbDefaultText{}
+.blurbGreyText { color: #666; font:italic normal normal 12px arial; }
+#blurbDesc
+{
+	float:left;
+	position: relative;
+}
+#emailBlock
+{
+	float:left;
+	position: relative;
+}
+.joinBC
+{
+	width : 196px;
+	height : 34px;
+	background: url("/images/Accounts/btn-joinbuildersclub-green-m.png") no-repeat;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.joinBC:hover
+{
+	background-position: 0px -34px;
+}
+.upgradeBC
+{
+	width : 196px;
+	height : 34px;
+	background: url("/images/Accounts/btn-upgradebc-green-m.png") no-repeat;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.upgradeBC:hover
+{
+	background-position: 0px -34px;
+}
+.buyRobux
+{
+	width : 196px;
+	height : 34px;
+	background: url("/images/Accounts/btn-buyrobux-gray-m.png") no-repeat;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.buyRobux:hover
+{
+	background-position: 0px -34px;
+}
+.verifiedEmail
+{
+	width : 52px;
+	height : 13px;
+	background: url("/images/Accounts/img-verified.png") no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.font12pxStyle
+{
+	font:normal 12px arial;
+}
+.lightGreyInfoText { color: #666; font:normal 11px arial; }
+.settingsStatusBar
+{
+	font:normal 12px arial;
+	height:24px;
+	background-color:#e5effa;
+	border: 1px solid #06C;
+	width: 649px;
+}
+.statusText
+{
+	display: inline-block;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+.settingLabel
+{
+	width: 128px;
+	display: inline-block;
+}
+.privacySettingLabel
+{
+	width: 237px;
+	display: inline-block;
+}
+.errorStatusBar {
+	color: black;
+	background-color: #FAE5E5;
+	border: solid 1px #c00;
+	margin-bottom: 10px;
+	text-align: left;
+	padding-left: 10px;
+	height: inherit;
+	min-height: 26px;
+}
+.btn-cancel-m
+{
+	width : 92px;
+	height : 34px;
+	background: url("/images/Accounts/btn-gray-cancel-m.png") no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.btn-cancel-m:hover {
+	background-position: 0px -34px;
+}
+.emailInput {
+	width: 170px;
+	height: 15px;
+}
+#birthdayError {
+	float: left;
+	height: inherit;
+	left: 10px;
+	position: relative;
+}
+.fixParentEmail {
+	position: relative;
+	right:28px;
+}
+.btn_blue_ok_l 
+{
+    cursor: pointer;
+    width: 102px;
+    height: 50px;
+    background: url(/images/Accounts/btn_blue_ok_l.png);   
+}
+.btn_blue_ok_l:hover 
+{
+	background-position: 0px 50px;
+}

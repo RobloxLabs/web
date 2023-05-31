@@ -1,0 +1,133 @@
+﻿/*Item Section*/
+
+.prizes-container {
+    left: 444px;
+    margin: 0 auto;
+    position: absolute;
+    width: 96px;
+}
+
+    .prizes-container .pager-container {
+        position: relative;
+        width: 600px;
+    }
+
+.related-items-container {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 96px;
+}
+
+.related-items-container .pager-container .item-container {
+    height: 300px;
+}
+
+.related-items-container .pager-container {
+    position: relative;
+    width: 320px;
+}
+
+    .related-items-container .pager-container .item-container .name {
+        position: relative;
+        font-size: 18px;
+        line-height: 1em;
+    }
+
+        .related-items-container .pager-container .item-container .name a {
+            color: #d0892e;
+        }
+
+.related-items-container .roblox-item-image {
+}
+
+.buy-link:hover {
+    background-color: #05bb65;
+    cursor: pointer;
+}
+.buy-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1em;
+    border-radius: 5px;
+    background-color: #00b259;
+    width: 153px;
+    height: 45px;
+    position: relative;
+    top: -29px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.pager-container .item-container {
+    width: 153px;
+    height: 180px;
+    float: left;
+    margin-right: 17px;
+}
+
+    .pager-container .item-container img {
+        height: 153px;
+        width: 153px;
+    }
+
+    .pager-container .item-container .name {
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1em;
+        margin: 3px 0;
+        width: 153px;
+        height: 2em;
+        overflow: hidden;
+    }
+
+        .pager-container .item-container .name a {
+            color: #d0892e;
+        }
+
+
+            .pager-container .item-container .name a:hover {
+                text-decoration: none;
+                cursor: default;
+            }
+
+.pager-container .content-outer {
+    float: left;
+}
+
+.arrow-prev, .arrow-prev.disabled:hover,
+.arrow-next, .arrow-next.disabled:hover {
+    height: 36px;
+    width: 31px;
+    float: left;
+    position: relative;
+    top: 97px;
+    cursor: pointer;
+}
+
+    .arrow-prev.disabled:hover,
+    .arrow-next.disabled:hover {
+        cursor: default;
+    }
+
+    .arrow-prev,
+    .arrow-prev.disabled:hover {
+        background-position: bottom left;
+        margin-right: 44px;
+    }
+
+        .arrow-prev:hover {
+            background-position: top left;
+        }
+
+    .arrow-next,
+    .arrow-next.disabled:hover {
+        background-position: bottom right;
+        margin-left: 28px;
+    }
+
+        .arrow-next:hover {
+            background-position: top right;
+        }

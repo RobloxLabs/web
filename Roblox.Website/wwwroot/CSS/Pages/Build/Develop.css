@@ -1,0 +1,240 @@
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+/* Please use icon-variant-v2 instead */
+.icon-default-games, .icon-inventory, .icon-games, .icon-catalog, .icon-like, .icon-like.selected, .icon-dislike, .icon-dislike.selected, .icon-playaudio, .icon-copylocked, .icon-nocopylocked, .icon-publicserver, .icon-privateserver, .icon-allgears, .icon-partialgears, .icon-nogear, .icon-Melee, .icon-Ranged, .icon-PowerUp, .icon-Explosive, .icon-Musical, .icon-Navigation, .icon-Building, .icon-Social, .icon-Transport, .icon-experimental-white, .icon-experimental-gray2, .icon-experimental-gray1, .icon-experimental-black, .icon-share-game-to-chat, .icon-votes-gray, .icon-playing-counts-gray {
+  background-image: url(/images/Shared/games_08302018.svg);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.dark-theme .icon-default-games, .dark-theme .icon-inventory, .dark-theme .icon-games, .dark-theme .icon-catalog, .dark-theme .icon-like, .dark-theme .icon-dislike, .dark-theme .icon-playaudio, .dark-theme .icon-copylocked, .dark-theme .icon-nocopylocked, .dark-theme .icon-publicserver, .dark-theme .icon-privateserver, .dark-theme .icon-allgears, .dark-theme .icon-partialgears, .dark-theme .icon-nogear, .dark-theme .icon-Melee, .dark-theme .icon-Ranged, .dark-theme .icon-PowerUp, .dark-theme .icon-Explosive, .dark-theme .icon-Musical, .dark-theme .icon-Navigation, .dark-theme .icon-Building, .dark-theme .icon-Social, .dark-theme .icon-Transport, .dark-theme .icon-experimental-white, .dark-theme .icon-experimental-gray2, .dark-theme .icon-experimental-gray1, .dark-theme .icon-experimental-black, .dark-theme .icon-share-game-to-chat, .dark-theme .icon-votes-gray, .dark-theme .icon-playing-counts-gray {
+  background-image: url("/images/Shared/games_dark_11062018.svg"); }
+
+.light-theme .icon-default-games, .light-theme .icon-inventory, .light-theme .icon-games, .light-theme .icon-catalog, .light-theme .icon-like, .light-theme .icon-dislike, .light-theme .icon-playaudio, .light-theme .icon-copylocked, .light-theme .icon-nocopylocked, .light-theme .icon-publicserver, .light-theme .icon-privateserver, .light-theme .icon-allgears, .light-theme .icon-partialgears, .light-theme .icon-nogear, .light-theme .icon-Melee, .light-theme .icon-Ranged, .light-theme .icon-PowerUp, .light-theme .icon-Explosive, .light-theme .icon-Musical, .light-theme .icon-Navigation, .light-theme .icon-Building, .light-theme .icon-Social, .light-theme .icon-Transport, .light-theme .icon-experimental-white, .light-theme .icon-experimental-gray2, .light-theme .icon-experimental-gray1, .light-theme .icon-experimental-black, .light-theme .icon-share-game-to-chat, .light-theme .icon-votes-gray, .light-theme .icon-playing-counts-gray {
+  background-image: url("/images/Shared/games_light_10232018.svg"); }
+
+.icon-default-games-16x16, .icon-like-gray-16x16, .icon-like-gray-16x16.selected, .icon-dislike-gray-16x16, .icon-dislike-gray-16x16.selected {
+  background-image: url(/images/Shared/games_08302018.svg);
+  background-repeat: no-repeat;
+  background-size: 32px auto;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.dark-theme .icon-default-games-16x16, .dark-theme .icon-like-gray-16x16, .dark-theme .icon-dislike-gray-16x16 {
+  background-image: url("/images/Shared/games_dark_11062018.svg"); }
+
+.light-theme .icon-default-games-16x16, .light-theme .icon-like-gray-16x16, .light-theme .icon-dislike-gray-16x16 {
+  background-image: url("/images/Shared/games_light_10232018.svg"); }
+
+.icon-inventory {
+  background-position: 0px 0px; }
+
+.icon-games {
+  background-position: 0px -28px; }
+
+.icon-catalog {
+  background-position: 0px -56px; }
+
+.icon-like {
+  background-position: 0px -84px; }
+  .icon-like:hover {
+    background-position: -28px -84px; }
+
+button:hover .icon-like,
+a:hover .icon-like {
+  background-position: -28px -84px; }
+
+.icon-like.selected {
+  background-position: -28px -84px; }
+
+.icon-dislike {
+  background-position: 0px -112px; }
+  .icon-dislike:hover {
+    background-position: -28px -112px; }
+
+button:hover .icon-dislike,
+a:hover .icon-dislike {
+  background-position: -28px -112px; }
+
+.icon-dislike.selected {
+  background-position: -28px -112px; }
+
+.icon-playaudio {
+  background-position: 0px -140px; }
+
+.icon-copylocked {
+  background-position: 0px -168px; }
+
+.icon-nocopylocked {
+  background-position: 0px -196px; }
+
+.icon-publicserver {
+  background-position: 0px -224px; }
+
+.icon-privateserver {
+  background-position: 0px -252px; }
+
+.icon-allgears {
+  background-position: 0px -280px; }
+
+.icon-partialgears {
+  background-position: 0px -308px; }
+
+.icon-nogear {
+  background-position: 0px -336px; }
+
+.icon-Melee {
+  background-position: 0px -364px; }
+
+.icon-Ranged {
+  background-position: 0px -392px; }
+
+.icon-PowerUp {
+  background-position: 0px -420px; }
+
+.icon-Explosive {
+  background-position: 0px -448px; }
+
+.icon-Musical {
+  background-position: 0px -476px; }
+
+.icon-Navigation {
+  background-position: 0px -504px; }
+
+.icon-Building {
+  background-position: 0px -532px; }
+
+.icon-Social {
+  background-position: 0px -560px; }
+
+.icon-Transport {
+  background-position: 0px -588px; }
+
+.icon-like-gray-16x16 {
+  background-position: 0px -352px; }
+  .icon-like-gray-16x16:hover {
+    background-position: -16px -352px; }
+
+button:hover .icon-like-gray-16x16,
+a:hover .icon-like-gray-16x16 {
+  background-position: -16px -352px; }
+
+.icon-like-gray-16x16.selected {
+  background-position: -16px -352px; }
+
+.icon-dislike-gray-16x16 {
+  background-position: 0px -368px; }
+  .icon-dislike-gray-16x16:hover {
+    background-position: -16px -368px; }
+
+button:hover .icon-dislike-gray-16x16,
+a:hover .icon-dislike-gray-16x16 {
+  background-position: -16px -368px; }
+
+.icon-dislike-gray-16x16.selected {
+  background-position: -16px -368px; }
+
+.icon-experimental-white {
+  background-position: 0px -672px; }
+
+.icon-experimental-gray2 {
+  background-position: -28px -672px; }
+
+.icon-experimental-gray1 {
+  background-position: 0px -700px; }
+
+.icon-experimental-black {
+  background-position: -28px -700px; }
+
+.icon-share-game-to-chat {
+  background-position: 0px -812px; }
+
+.icon-votes-gray {
+  background-position: 0px -840px; }
+
+.icon-playing-counts-gray {
+  background-position: 0px -868px; }
+
+/* Legacy CSS file - Please do not copy */
+body .nav-container #MasterContainer #BodyWrapper {
+  width: 1015px; }
+
+#Body {
+  width: 995px !important;
+  padding: 10px; }
+
+.columnar-container {
+  display: inline-block; }
+
+#DevExLeftColumn {
+  width: 675px;
+  margin-right: 20px; }
+
+#DevExRightColumn {
+  float: right; }
+
+#DevExLeftColumn li {
+  list-style-type: disc;
+  list-style-position: inside; }
+
+.columnar-container p {
+  padding-bottom: 10px; }
+
+#DevExLeftColumn li {
+  list-style-position: outside; }
+
+#LibraryTab {
+  width: 967px; }
+
+#LibraryLoadingIndicatorContainer {
+  text-align: center;
+  position: relative;
+  top: 150px; }
+
+#MyCreationsTab {
+  width: 970px;
+  padding-right: 0; }
+
+.develop-experimental-label {
+  background-color: #F68802;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1em;
+  padding: 2px 3px;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 3px; }
+
+.develop-experimental-label-text {
+  color: #fff; }
+
+.icon-experimental-white {
+  background-position: 0px -288px;
+  height: 12px;
+  width: 12px;
+  background-size: 24px auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2px;
+  margin-top: 1px; }
+
+#clothing-upload-fun-captcha-container {
+  display: none; }
+  #clothing-upload-fun-captcha-container #clothing-upload-fun-captcha-backdrop {
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1041; }
+  #clothing-upload-fun-captcha-container #clothing-upload-fun-captcha-modal {
+    position: fixed;
+    z-index: 1042;
+    top: calc(50% - 145px);
+    left: calc(50% - 151px); }

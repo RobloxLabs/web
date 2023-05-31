@@ -1,0 +1,135 @@
+﻿#UserPlacesPane
+{
+    clear: both;
+    background-color: #FFF;
+}
+#UserBadgesPane,
+#UserStatisticsPane
+{
+	margin: 10px 0 0;
+}
+#UserStatisticsPane
+{
+	text-align: left;
+}
+#FriendsPane,
+#FavoritesPane
+{
+	clear: right;
+	margin: 10px 0 0 0;
+}
+#UserBadgesPane #UserBadges
+{
+	background-color: #fff;
+	text-align: center;
+}
+#UserStatisticsPane #UserStatistics
+{
+	background-color: #eee;
+	padding-bottom: 10px;
+}
+#UserStatisticsPane #UserStatistics .Statistic
+{
+	line-height: 1.8em;
+	margin: 0 auto;
+	width: 385px;
+}
+#UserStatisticsPane #UserStatistics .Label
+{
+	float: left;
+	text-align: right;
+	width: 178px;
+}
+#UserStatisticsPane #UserStatistics .Value
+{
+	float: right;
+	width: 177px;
+}
+/* Places List */
+#UserPlaces .Place .PlayStatus
+{
+	margin: 5px 0 0 0;
+	display: inline;
+}
+#UserPlaces .Place .PlayOptions
+{
+	margin: 10px 0 0 0;
+	display: block;
+	min-height: 48px;
+}
+#UserPlaces .Place .Statistics
+{
+	line-height: 1.7em;
+	border:none;
+}
+#UserPlaces .Place .Thumbnail
+{
+	border: solid 1px #555;
+	margin: 0;
+}
+#UserPlaces .Place .Configuration {
+    border:none;
+}
+.UserOnlineMessage
+{
+	color: Red;
+}
+.UserOfflineMessage
+{
+	color: Gray;
+}
+.UserBlurb
+{
+    overflow: hidden;
+    width:348px;
+    padding: 5px;
+    line-height:20px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+#OwnedSetsContainerDiv, #SubscribedSetsContainerDiv
+{
+    text-align:center;
+    padding-bottom:25px;
+    height:auto;
+}
+#OwnedSetsContainerDiv .TiledSets, #SubscribedSetsContainerDiv .TiledSets
+{
+    width:110px;
+    height:90px;
+}
+.TiledSets
+{
+	float: left;
+	margin: 10px 0;
+	text-align: center;
+}
+#OwnedSetsContainerDiv .AssetCreator, #SubscribedSetsContainerDiv .AssetCreator
+{
+    font-size: .8em;
+}
+#OwnedSetsContainerDiv .SetsPager_Container, #SubscribedSetsContainerDiv .SetsPager_Container
+{
+    clear: both;
+    text-align: center;
+    position: absolute;
+    bottom: 11px;
+    width: 100%;
+    *left:0px;
+}
+#OwnedSetsContainerDiv .loading, #SubscribedSetsContainerDiv .loading
+{
+    text-align: center;
+    height:350px;
+    position:relative;
+    background: url('/images/ProgressIndicator4.gif') center  no-repeat;
+}
+#OwnedSetsContainerDiv .NoSets, #SubscribedSetsContainerDiv .NoSets
+{
+    position: relative;
+    top: 10px;
+}
+#ToggleBetweenOwnedSubscribedSets:hover
+{
+    cursor:pointer;
+}

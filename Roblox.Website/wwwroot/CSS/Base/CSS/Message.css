@@ -1,0 +1,209 @@
+﻿.MessageContainer
+{
+}
+
+.MessageContainer .MultilineTextBox
+{
+	min-height: 50px;
+}
+
+.MessageContainer #AdsPane
+{
+	float: left;
+	width: 160px;
+}
+
+.MessageContainer #MessagePane
+{
+	float: left;
+	margin: 0 0 0 60px;
+	width: 650px;
+}
+
+.MessageContainer h3
+{
+	text-align: left;
+	width: 622px;
+}
+
+.MessageContainer #MessagePane .Buttons
+{
+	width: 622px;
+}
+
+.MessageContainer #MessagePane .Buttons .Button
+{
+	margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.MessageContainer .TextBox
+{
+}
+
+.MessageContainer .Label
+{
+	font-weight: bold;
+	padding: 6px 0 3px 0;
+}
+
+.MessageContainer .MessageReaderContainer
+{
+	border: solid 1px #000;
+	padding: 10px;
+	width: 95%;
+}
+
+.MessageReaderContainer #Message
+{
+	text-align: left;
+}
+
+#Message #DateSent
+{
+	text-align: left;
+}
+
+#Message #Author
+{
+	margin: 0;
+	text-align: left;
+}
+
+#Message #Subject
+{
+	display:inline-block;
+	*display: inline;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+	overflow: hidden;
+	width:350px;
+	*zoom: 1;
+}
+
+#Message .Body
+{
+	text-align: left;
+	vertical-align: top;
+}
+
+#MessageEditorContainer
+{
+	border: solid 1px #000;
+	padding: 10px;
+	width: 95%;
+}
+.EmptyInbox
+{
+    text-align:center;
+    margin:20px 0px;
+}
+.MessageEditor
+{
+	text-align: left;
+}
+
+.MessageEditor #From
+{
+	text-align: left;
+	width: 39%;
+}
+
+.MessageEditor #To
+{
+	margin: 5px 0 0 0;
+	text-align: left;
+	width: 39%;
+}
+
+.MessageEditor .CannedResponsesPanel
+{
+	background-color: #eee;
+	border: solid 1px #000;
+	margin: 30px 0;
+	width: 200px;
+}
+
+.MessageEditor .CannedResponsesPanel h4
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	font-size: 1.3em;
+	margin: 0;
+	text-align: center;
+	display: block;
+}
+
+.MessageEditor #CannedResponses
+{
+	margin: 0;
+	padding: 5px 0;
+	width: 200px;
+}
+
+.MessageEditor .CannedResponse
+{
+	margin: 0;
+	padding: 7px 5px;
+	text-align: center;
+	width: 190px;
+}
+
+.MessageEditor #CannedResponses .Button
+{
+	padding: 3px 5px;
+}
+
+
+.MessageEditor .Body
+{
+	text-align: left;
+	vertical-align: top;
+}
+
+.MessageContainer #Confirmation h3
+{
+	text-align: left;
+	width: 422px;
+}
+
+.MessageContainer #Confirmation .Buttons
+{
+	width: 422px;
+}
+
+.MessageContainer #Confirmation #Message
+{
+	border: solid 1px #000;
+	padding: 10px;
+	width: 95%;
+}
+
+
+.MessageReaderContainer #Message
+{
+	float: left;
+	text-align: left;
+}
+
+.ReportAbuse 
+{
+    text-align:left;
+}
+
+.ReportAbuse .AbuseButton a {
+    color:#FF9999;
+    background:none;
+    padding-left: 16px;
+    padding-bottom: 2px;
+}
+
+.ReportAbuse .AbuseButton a:hover {
+    background:url("/images/cssspecific/rbx2/abuse.png") no-repeat scroll 0 2px transparent;
+    color:#FF0000;
+}
+
+.ReportAbuse img {
+    display:none;
+}

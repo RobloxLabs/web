@@ -1,0 +1,6 @@
+﻿@model JavascriptErrorTrackerModel
+<script type="text/javascript">
+    $(function () {
+        Roblox.JSErrorTracker.initialize(@Html.Raw(Model.InitializeParameter));
+    });
+</script>

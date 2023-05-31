@@ -1,0 +1,21 @@
+﻿@model Roblox.Website.Pages.Shared.StructuredDataTags
+@{
+}
+<script type="application/ld+json">
+    {
+    "@@context" : "@Model.StructuredDataContext",
+    "@@type" : "@Model.StructuredDataType",
+    "name" : "@Model.StructuredDataName",
+    "url" : "@Model.RobloxUrl",
+    "logo": "@Model.RobloxLogoUrl",
+    "sameAs" : [
+    "@Model.RobloxFacebookUrl",
+    "@Model.RobloxTwitterUrl",
+    "@Model.RobloxLinkedInUrl",
+    "@Model.RobloxInstagramUrl",
+    "@Model.RobloxYouTubeUrl",
+    "@Model.RobloxGooglePlusUrl",
+    "@Model.RobloxTwitchTvUrl"
+    ]
+    }
+</script>

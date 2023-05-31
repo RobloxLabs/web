@@ -1,0 +1,385 @@
+﻿/* ----------------- Body ----------------- */
+.layout-2014.obc-theme #MasterContainer {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+#Body, #BodyWrapper {
+    margin: auto;
+}
+#BodyWrapper.responsive {
+    width: 100%;
+}
+#leaderboards-body {
+    position: relative;
+    width: 970px;
+    margin: 0 auto;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+    color: #343434;
+}
+#leaderboards-body.responsive {
+    width: 100%;
+}
+#leaderboards-rows-container div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#leaderboards-rows a:link,
+#leaderboards-rows a:active,
+#leaderboards-rows a:visited {
+    color: #343434;
+}
+/* ----------------- Ads ----------------- */
+.top-ad-728 {
+    margin: 0 auto;
+    height: 110px;
+    width: 728px;
+}
+
+/* ----------------- Fixed Buttons ----------------- */
+#fixed-leaderboards-buttons {
+    position: absolute;
+    z-index: 1;
+    top: 323px;
+    left: 2000px;
+    width: 57px;
+}
+#fixed-leaderboards-buttons.fixed {
+    position: fixed;
+}
+#fixed-leaderboards-buttons.game {
+    top: 115px;
+    left: 720px;
+}
+#fixed-leaderboards-buttons.responsive {
+    position: fixed;
+    opacity: 0;
+    right: -57px;
+}
+#fixed-leaderboards-buttons div {
+    cursor: pointer;
+    background: #ffffff;
+}
+#fixed-leaderboards-buttons div:hover {
+    background: #fcfcfc;
+}
+#my-rank-button {
+    border: 1px solid #ccc;
+    width: 55px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.my-rank-image {
+    margin-top: 19px;
+    margin-left: 18px;
+    width: 20px;
+    height: 29px;
+}
+#top-leaders-button {
+    border: 1px solid #ccc;
+    width: 55px;
+    height: 70px;
+}
+.top-leaders-image {
+    width: 20px;
+    height: 12px;
+    margin-left: 18px;
+    margin-top: 26px;
+}
+
+/* ----------------- Top ----------------- */
+#leaderboards-top-container {
+    width: inherit;
+    height: 105px;
+    background: #fcfcfc;
+}
+#leaderboards-top-container div {
+    display: inline-block;
+}
+#leaderboards-top {
+    width: inherit;
+    height: 111px;
+}
+#leaderboards-top.fixed {
+    position: fixed;
+    overflow: visible;
+}
+#leaderboards-top.game {
+    max-width: 710px;
+}
+#leaderboards-top.responsive {
+    position: fixed;
+    opacity: 0;
+    overflow: visible;
+}
+/* ----------------- Controls ----------------- */
+#leaderboards-controls {
+    width: inherit;
+    height: 53px;
+    background: #ffffff;
+}
+/* Pills */
+#leaderboards-pills-container {
+    margin-left: 24%;
+    vertical-align: text-bottom;
+    width: 211px;
+    height: 48px;
+    cursor: pointer;
+}
+#leaderboards-top.game #leaderboards-pills-container {
+    margin-left: 20%;
+}
+#players-pill {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin: 0;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #343434;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+#players-pill.active {
+    border: 1px solid #3366cc;
+    color: white;
+}
+#clans-pill {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin: 0;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #343434;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+#clans-pill.active {
+    border: 1px solid #3366cc;
+    color: white;
+}
+/* Filter */
+#leaderboards-filter-container {
+    margin-left: 1%;
+    vertical-align: super;
+}
+#current-time-filter {
+    width: 110px;
+}
+#current-time-filter:after {
+    content: ">";
+    font: 25px "Consolas", monospace;
+    color: #777;
+    -webkit-transform: rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    position: relative;
+    pointer-events: none;
+    display: inline-block;
+    left: 6px;
+    top: 2px;
+}
+#current-time-filter:after:hover {
+    color: #343434;
+}
+.time-filter-text {
+    font-size: 18px;
+    color: #777;
+    cursor: pointer;
+}
+.time-filter-dropdown {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ccc;
+    color: #777;
+    cursor: pointer;
+    font-size: 14px;
+}
+#time-filter-flyout.mobile .time-filter-dropdown {
+    font-size: 18px;
+}
+#time-filter-flyout .time-filter-dropdown:nth-child(3) {
+    border-top: none;
+    padding-top: 0;
+}
+#time-filter-flyout .time-filter-dropdown:last-child {
+    padding-bottom: 5px;
+}
+#leaderboards-filter #time-filter-flyout div.time-filter-dropdown {
+    display: block;
+}
+.time-filter-dropdown:hover {
+    color: #343434;
+}
+.time-filter-text:hover {
+    color: #343434;
+}
+#leaderboards-filter div.flyout-container.small {
+    left: -1px;
+    width: auto;
+    z-index: 4;
+    display: block;
+}
+#leaderboards-filter .flyout {
+    padding: 0;
+    padding-top: 5px;
+    width: auto;
+}
+/* updated notification */
+.time-delay-notification {
+    color: #777;
+    float: right;
+    padding-top: 28px;
+    padding-right: 1%;
+}
+
+/* ----------------- Header ----------------- */
+.leaderboards-header {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #ffffff;
+    width: inherit;
+}
+#leaderboards-top-container div#clan-leaderboards-header {
+    display: none;
+}
+.header-column {
+    font-weight: 700;
+    font-size: 18px;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.points-icon {
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+    padding-left: 4px;
+    padding-bottom: 2px;
+}
+
+/* ----------------- Columns ----------------- */
+/* Rank */
+.rank-column {
+    width: 8%;
+    margin-left: 3%;
+}
+.rank-row-column {
+    padding-bottom: 4px;
+}
+.rank-row-text {
+    width: auto;
+}
+/* Name */
+.name-column {
+    width: 32%;
+    -moz-user-select: text;
+   -khtml-user-select: text;
+   -webkit-user-select: text;
+   -ms-user-select: text;
+   user-select: text;
+}
+.name-row-column {
+    height: 34px;
+}
+.user-avatar img {
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+    padding-top: 4px;
+}
+.user-name-text {
+    padding-bottom: 10px;
+}
+.user-name-text:hover {
+    text-decoration: underline;
+}
+/* Clan */
+.clan-column {
+    width: 43%;
+    -moz-user-select: text;
+   -khtml-user-select: text;
+   -webkit-user-select: text;
+   -ms-user-select: text;
+   user-select: text;
+}
+.clan-row-column {
+    height: 34px;
+}
+.clan-image {
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+.clan-name-text {
+    padding-bottom: 10px;
+}
+.clan-name-text:hover {
+    text-decoration: underline;
+}
+/* Points */
+.points-row-column {
+    padding-bottom: 4px;
+}
+.points-row-text {
+    width: auto;
+}
+
+/* ----------------- Rows ----------------- */
+#leaderboards-rows-container {
+    width: inherit;
+}
+#leaderboards-rows-container div {
+    display: inline-block;
+    vertical-align: bottom;
+}
+#leaderboards-rows {
+    width: inherit;
+    min-height: 600px;
+}
+.leaderboards-rows-page {
+    width: inherit;
+}
+.leaderboards-row {
+    width: inherit;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    font-size: 14px;
+    background: #ffffff;
+}
+.leaderboards-row:nth-child(odd) {
+    background-color: #fcfcfc;
+}
+div.my-row.leaderboards-row {
+    background-color: #00B259;
+    font-weight: 700;
+    color: white;
+}
+#leaderboards-rows div.my-row.leaderboards-row a:link,
+#leaderboards-rows div.my-row.leaderboards-row a:visited,
+#leaderboards-rows div.my-row.leaderboards-row a:active {
+    color: white;
+}
+
+/* ----------------- Templates ----------------- */
+#leaderboards-notification-template {
+    display: none;
+}
+
+/* ----------------- Notifications ----------------- */
+.leaderboards-row.notification .notification,
+.leaderboards-row .error {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 3%;
+}

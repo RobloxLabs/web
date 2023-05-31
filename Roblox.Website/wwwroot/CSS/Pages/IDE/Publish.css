@@ -1,0 +1,57 @@
+/* Legacy CSS file - Please do not copy */
+#build-page td.content-area {
+  border: none;
+  height: 320px;
+  padding: 4px 0 21px 21px !important; }
+
+#build-page td.menu-col {
+  position: relative;
+  top: 2px; }
+
+#build-page table.section-header {
+  margin-bottom: 10px;
+  line-height: 32px; }
+
+#build-page #items-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #EFEFEF;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px; }
+
+.clear {
+  clear: both; }
+
+#build-page table.section-header input[type="checkbox"] {
+  bottom: 0;
+  vertical-align: baseline; }
+
+#build-new-button {
+  display: none; }
+
+table.item-table a.game-image, table.item-table a.title:hover {
+  cursor: default; }
+
+table.item-table a.title {
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+  width: 280px;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+#build-page div.gear-button-wrapper {
+  top: 3px; }
+
+.menu-area a {
+  text-decoration: none; }
+
+.boxed-body #build-page td.content-area {
+  border-right: none; }
+
+.BuildPageContent.content {
+  float: none; }
+
+.privacy-label {
+  margin-top: 5px; }

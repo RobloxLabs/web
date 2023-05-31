@@ -1,0 +1,212 @@
+﻿#NewToolboxContainer 
+{
+	border: 1px solid #828790;
+	border-bottom: 0;
+}
+#NewToolboxContainer #ToolboxControls
+{
+	text-align: left;
+}
+
+#NewToolboxContainer #ToolboxSelector
+{
+	padding: 8px 7px 8px;
+	background-color: #F0F0F0;
+	height: 20px;
+	border-bottom: 1px solid #CCC;
+}
+
+#NewToolboxContainer #ToolboxSearch
+{
+	height: 19px;	
+	float: left;
+}
+
+#NewToolboxContainer #ToolboxItems
+{
+	min-height: 100px;
+	margin: 10px 2px;
+}
+#ToolBoxScrollWrapper 
+{
+	overflow-y: scroll; 
+	border-bottom: 1px solid #828790;
+	clear: both;
+}
+#NewToolboxContainer #Button
+{
+	background: url("/images/IDE/btn-search_glass.png") right no-repeat;
+	border: solid 1px #A7A7A7;
+	cursor: pointer;
+	float: left;
+	height: 18px;
+	width: 18px;
+	background: url("/images/IDE/btn-search_glass.png") right no-repeat;
+	border-left: 0px;
+	}
+
+#NewToolboxContainer .Navigation
+{
+	font-size: 8pt;
+	margin: 0 0 5px 5px;
+	height: 22px;
+}
+
+#ResultStatus
+{
+	padding: 2px;
+	font-size: 11px;
+	font-family: arial;
+	margin-left: 5px;
+}
+#NewToolboxContainer .Search
+{
+	border: solid 1px #A7A7A7;
+	float: left;
+	font-family: Arial;
+	font-size: 12px;
+	height: 16px;
+	padding: 1px 2px 1px 2px;
+	width: 86px;
+	margin-right: 0;
+	border-right: 0px;
+	color: black;
+}
+
+#NewToolboxContainer .Page
+{
+	font-family: Verdana, Sans-Serif;
+	margin: 0px;
+}
+
+#NewToolboxContainer .Toolboxes
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 8pt;
+	height: 20px;
+	border: 1px solid #A7A7A7;
+	float: left;
+	min-width: 135px;
+}
+
+#NewToolboxContainer .ToolboxItem
+{
+	height: 64px;
+	width: 64px;
+	vertical-align: middle;
+	margin: 10px;
+	float: left
+}
+
+#NewToolboxContainer .SearchError 
+{
+	clear: both; 
+	margin: 1px; 
+	float: none; 
+	padding: 1px; 
+	text-align: center;
+	color: Red; 
+	font-size: small;
+}
+
+.toolboxDisplayText {
+	font: normal normal bold 12px Arial;
+	color: #444;
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+#NewToolboxContainer #SetTabs
+{
+    background: url("/images/ide/bg-tab-inactive.png");
+    color: #fff;
+    height: 19px;
+    clear: both;
+    font-family: Arial;
+    font-size:11px;
+    border-bottom: 1px solid #828790;
+}
+#NewToolboxContainer #SetTabs div
+{
+    float:left;
+    padding:2px 8px 0px 6px;
+    cursor: pointer;
+    height:18px;
+	font: normal normal bold 12px Arial;
+	border-right: 1px solid #828790;
+	color: #363636;
+}
+#NewToolboxContainer #SetTabs div.Selected
+{
+    background: url("/images/ide/bg-tab-active.png");
+	color: #444;
+}
+#NewToolboxContainer #MySets
+{
+    margin:0px 4px 0px 2px;
+}
+#NewToolboxContainer .itemLink {
+	display:inline-block;
+	height:62px;
+	width:60px;
+	cursor:pointer;
+	border: 1px solid Window
+}
+#NewToolboxContainer .itemLink:hover {
+	border: solid 1px #ccc;
+	/*background: url("/images/ide/img-gear_icon.png") no-repeat 47px 2px; -- Wait for context menu support*/
+}
+#NewToolboxContainer .greyText {
+	color: #888;
+	font-style: italic;
+}
+.filterText {
+	font-size: 11px;
+	font-family: arial;
+	color: #000;
+	margin-top: 4px;
+}
+.searchFilter {
+	margin: 7px;
+}
+.dropdownImg {
+	background: url(/images/IDE/img-dropdown_arrow.png) no-repeat;
+	position: absolute;
+	width: 7px;
+	display: block;
+	height: 6px;
+	top: 7px;
+	right: 6px;
+	z-index: 11;
+}
+/* Override the Values set in RBXCommon.css for the Toolbox */
+#NewToolboxContainer .SetList a.btn-dropdown,#NewToolboxContainer  a.btn-dropdown-active {
+	background: url(/images/Sets/bg-drop_down_btn.png) no-repeat 0 -3px;
+	border: solid 1px #A7A7A7;
+	padding: 2px 16px 0px 6px;
+	height: 16px;
+	font: normal 11px Arial;
+	color: #666;
+	width:35px;
+	float:none;
+}
+	
+#NewToolboxContainer .SetList a.btn-dropdown:hover {
+	background-position:0 -29px;
+}
+#NewToolboxContainer .SetList a.btn-dropdown-active {
+	background-position:0 -54px;
+	border-bottom:none;
+	height:18px;
+}
+#NewToolboxContainer .SetListDropDownList .menu a {
+	width: 41px;
+}
+#NewToolboxContainer .SetListDropDownList .menu {
+	width: 57px;
+	border: solid 1px #A7A7A7;
+}
+#NewToolboxContainer .SetListDropDown {
+    *top: -19px;
+}

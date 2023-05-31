@@ -1,0 +1,9 @@
+﻿@inject IStyleManager CSSManager
+
+@{
+    var pageCSSBundle = CSSManager.PageCSS;
+}
+@if (CSSManager.DeclareBundle(pageCSSBundle))
+{
+    <link rel="stylesheet" href="@pageCSSBundle.Route" />
+}

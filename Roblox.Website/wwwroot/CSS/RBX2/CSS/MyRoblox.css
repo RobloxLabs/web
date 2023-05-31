@@ -1,0 +1,66 @@
+﻿.sbMini {
+    margin-top:5px;
+    font-family:Verdana, Sans-Serif;
+    font-size:16px;
+    margin-right: 7px;
+}
+.ProfileAlertPanel {
+    border:none;   
+}
+#UserPlaces .Place .Statistics, #UserPlaces .Place .Configuration {
+    border:none;
+}
+#GroupTitle {
+    width:888px;
+}
+.Column2b .StandardBoxGrey {
+    width:454px;   
+}
+.subMenu {
+    width:970px;
+    height:30px;
+    border:none;
+    text-align:center;
+    background:#363636;
+	z-index:200; 
+    margin: 0px auto;
+}
+.subMenu ul {
+    margin:0 0 0 105px;
+}
+.subMenu > ul > li {
+    height:30px;
+    margin:0 2px;
+}
+.subMenu ul ul 
+{
+    left: -104px;
+}
+.subMenu ul ul a,
+.subMenu ul ul a:visited
+{
+    background: #444;
+    border: none;
+}
+.subMenu ul ul a:hover
+{
+    background: #777;
+}
+
+.subMenu > ul > li:hover {
+    background: url(/images/topNav_black.png);
+    background-position: 0px 30px;
+}
+.subMenu :hover > a, .subMenu ul ul :hover > a {
+    text-decoration: none;
+}
+.subMenu a:hover {
+    background:none;
+    text-decoration:none;
+}
+.subMenu a, .subMenu a:visited {
+    border:none;
+}
+.subMenu .subMenuItemselected {
+    border:none;
+}

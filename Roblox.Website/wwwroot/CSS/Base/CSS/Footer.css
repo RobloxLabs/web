@@ -1,0 +1,106 @@
+﻿#Footer .legal
+{
+    text-align:left;
+    width:900px;
+    margin:0 auto;
+}
+#Footer .legal .left
+{
+    float:left;
+    margin:0 5px;
+}
+#Footer .legal .right
+{
+    float:left;
+    width:755px;
+}
+#Footer .legal #TrusteLogo
+{
+    vertical-align: top;
+}
+#Footer.footer-container
+{
+    background: #123f83;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+	margin:0px;
+    width:100%;
+    padding: 2em 0 0 0;
+}
+#Footer.footer-container a, #Footer.footer-container a, #Footer.footer-container a, #Footer.footer-container .FooterNav {
+	color: white;
+}
+#Footer.footer-container .FooterNav {
+    width: 970px;
+    margin: 0 auto;
+}
+#Footer.footer-container .Legalese 
+{
+	color: #899fc1;
+	font-size: 10px;
+    line-height: 17px;
+    margin: 0 0 10px 5px;
+}
+#Footer.footer-container .legal 
+{
+    border-top: 1px solid #355C95;
+    padding-top: 20px;
+}
+#Footer .LanguageOptionElement, #Footer.footer-container .dropuplanguagecontainer, #Footer .dropuplanguagecontainer 
+{
+    display: none;
+    white-space: nowrap;
+}
+#Footer.footer-container .LanguageOptionElement 
+{
+    display: inline;
+    cursor: pointer;
+    height: 12px;
+}
+#Footer.footer-container #Language
+{
+    color: white;
+    cursor: pointer; 
+}
+#Footer.footer-container .dropuplanguagecontainer
+{
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    background-color: #E6E6E6;
+    color: black;
+    padding: 5px 0px;
+    left: -9px;
+    border: 1px solid black;
+    white-space: nowrap;
+} 
+#Footer.footer-container .active .LanguageOption {
+    color: black;
+    padding: 0px 5px;
+    white-space: nowrap;
+    display: block;
+}
+#Footer.footer-container .active .LanguageOption:hover
+{
+    color: white;
+    background-color: #d6d6d6;
+}
+#Footer.footer-container .LanguageTrigger {
+    position: relative;
+}
+#Footer.footer-container .FooterArrow {
+    font-size: 10px;
+    position: relative;
+    top:-1px;   
+}
+#Footer .SEOGenreLinks 
+{
+    padding:1em 0 2em 0;    
+    font-size:11px;
+}
+.dropdownmainnav .dropdownoption span {
+    margin-left: 1px;
+    font-weight: normal;
+    padding: 1px 10px 1px 5px;
+}

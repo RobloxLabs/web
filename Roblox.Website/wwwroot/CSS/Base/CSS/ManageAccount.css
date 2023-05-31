@@ -1,0 +1,124 @@
+﻿#ManageAccountButton img,
+#CancelButtonImg,
+#ChangeCreditCardInfoImg
+{
+    border: none;
+}
+#ManageAccountButton
+{
+    text-align: center;
+}
+
+#GoTurboPopupPanel,
+#TurnOffTurboPopupPanel
+{
+    width: 550px;
+    text-align: center;  
+    
+}
+#CurrentAccountUpgrades
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#CurrentAccountUpgrades table
+{
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #d0d6e0;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#CurrentAccountUpgrades th
+{
+    border-bottom: solid 1px #999;
+    text-align: center;
+}
+
+.rightCellWall
+{
+    border: 1px solid #999;
+}
+
+.CancelBuildersClubMembership,
+.ChangeCreditCardInfo
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#BCCompareModal
+{
+    background-color: White;
+    border: solid 2px #6e99c9;
+    margin: 5px;
+    padding: 10px;
+}
+
+#BuyBCComparePanelTopInfo
+{
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    width: 340px;
+}
+
+.BuyBCComparePanelTable
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	width: 340px;
+	margin: 0px 40px 0px 40px;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+
+.BCCompareHeaderRow
+{
+	color: #2163A5;
+	padding: 10px 8px;
+	border-bottom: 1px solid #D3D3D3;
+	text-align:left;
+}
+
+.BBCCompareRow td
+{
+	color: #2163A5;
+	border-bottom: 1px solid #D3D3D3;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.BCCompareModalRow
+{
+    width:130px;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    background-color:#DFEFFF; 
+}
+#BCCompareButtons
+{
+    text-align: center;
+   width: 340px;
+    margin: 0px 40px 0px 40px;
+}
+
+
+#upgrades-membership-options .leftBorder
+{
+    border-left: 1px solid #D3D3D3;
+}
+#upgrades-membership-options .odd
+
+#upgrades-membership-options .LeftText
+{
+    text-align:left
+}
+
+.daysConversion
+{
+    color: Red;
+}

@@ -1,0 +1,354 @@
+﻿.foo {} /* W3C CSS validator likes CSS files to start with a class rather than a comment. Soooooo.... */
+
+/* This style sheet is intended to contain OFTEN CHANGED rules used when the Login control adapter is enabled. */
+/* Empty rules are provided merely as a convenience for your future use or experimentation. */
+
+.AspNet-Login
+{
+
+}
+
+.AspNet-Login label,
+.AspNet-Login input
+{
+}
+
+.AspNet-Login input
+{
+    font-size: 1em;  /* lets the form element scale */
+}
+
+.AspNet-Login div
+{
+}
+
+/* This rule is used when AutoAccessKey is true */
+.AspNet-Login label em
+{
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.AspNet-Login .AspNet-Login-TitlePanel
+{
+}
+
+.AspNet-Login .AspNet-Login-FailurePanel
+{
+    color: #FF0000;
+}
+
+.AspNet-Login .AspNet-Login-UserPanel,
+.AspNet-Login .AspNet-Login-PasswordPanel,
+.AspNet-Login .AspNet-Login-RememberMePanel,
+.AspNet-Login .AspNet-Login-SubmitPanel
+{
+    padding: 0.25em 0.1em 0 0;
+}
+
+.AspNet-Login .AspNet-Login-UserPanel,
+.AspNet-Login .AspNet-Login-PasswordPanel,
+.AspNet-Login .AspNet-Login-SubmitPanel
+{
+    text-align: left;
+}
+
+.AspNet-Login .AspNet-Login-UserPanel label,
+.AspNet-Login .AspNet-Login-PasswordPanel label,
+#PaneLogin .TextboxLabel	/* used by table-style */
+{
+    font-weight:bold;
+}
+
+.AspNet-Login .AspNet-Login-UserPanel input,
+.AspNet-Login .AspNet-Login-PasswordPanel input
+{
+    width: 9em;
+}
+
+.AspNet-Login .AspNet-Login-SubmitPanel input
+{
+
+}
+
+.AspNet-Login .AspNet-Login-InstructionPanel,
+.AspNet-Login .AspNet-Login-HelpPanel,
+.AspNet-Login .AspNet-Login-PasswordPanel,
+.AspNet-Login .AspNet-Login-RememberMePanel,
+.AspNet-Login .AspNet-Login-CreateUserPanel,
+.AspNet-Login .AspNet-Login-PasswordRecoveryPanel
+{
+}
+
+#PaneNewUser
+{
+	float: right;
+	width: 170px;
+	background-color: #dcdcdc;
+	padding: 0 22px 22px;
+}
+
+#PaneLogin
+{
+    width: 18em;
+    padding: 0;
+}
+
+#PaneLogin .AspNet-Login div
+{
+	margin: 10px;
+}
+
+#LoginView
+{
+	border: solid 1px Black;
+	width: 150px;
+	height: 250px;
+}
+
+#LoginView h5
+{
+	background-color: #cccccc;
+	border-bottom: solid 1px #000000;
+	margin: 0;
+}
+
+#LoginView #AlreadySignedIn
+{
+	background-color: #eeeeee;
+}
+
+#LoginView .Label
+{
+	font-weight: bold;
+}
+
+#LoginView .Text
+{
+	width: 133px;
+}
+
+#LoginView .AspNet-Login
+{
+	height: 225px;
+	background-color: #eeeeee;
+}
+
+#LoginView .AspNet-Login .AspNet-Login-InstructionPanel,
+#LoginView .AspNet-Login .AspNet-Login-HelpPanel,
+#LoginView .AspNet-Login .AspNet-Login-UserPanel,
+#LoginView .AspNet-Login .AspNet-Login-PasswordPanel,
+#LoginView .AspNet-Login .AspNet-Login-RememberMePanel
+{
+	padding: 3px 5px 3px 5px;
+	text-align: left;
+}
+
+#LoginView .AspNet-Login .AspNet-Login-SubmitPanel, 
+#LoginView .AspNet-Login .AspNet-Create-Account
+{
+	padding: 10px 5px 5px 10px;
+    text-align: center;
+}
+
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel
+{
+	padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel a
+{
+	color: #999999;
+	font: normal 9px/normal Verdana, sans-serif;
+	padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel a:hover
+{
+	color: Blue;
+}
+
+
+
+#Sidebars
+{
+	float: right;
+	width: 250px;
+	
+
+}
+
+#AlreadyRegistered,
+#TermsAndConditions
+{
+	background-color: #eee;
+	border: solid 1px #000;
+	color: #555;
+	font: normal 12px/normal Verdana, sans-serif;
+	margin-top: 10px;
+	padding: 0px 20px 10px 20px;
+}
+
+#AlreadyRegistered h3,
+#TermsAndConditions h3
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	font-weight: bold;
+	margin: 0 -20px 0 -20px;
+	padding: 4px;
+	text-align: center;
+}
+
+#TermsAndConditions
+{
+	margin-top: 20px;
+}
+
+.Registration
+{
+	background-color: #eee;
+	border: solid 1px #000;
+	color: #555;
+	float: left;
+	margin-top: 10px;
+	width: 620px;
+}
+
+.Registration h2
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	font-size: x-large;
+	margin: 0;
+	text-align: center;
+}
+
+.Registration h3
+{
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.Registration fieldset
+{
+	font-size: 1.2em;
+	margin: 15px 0 0 0;
+}
+
+.Registration .TextBox
+{
+	vertical-align: middle;
+	width: 150px;
+}
+
+.Registration .Label
+{
+	vertical-align: middle;
+}
+
+.Registration #EnterUsername,
+.Registration #EnterPassword,
+.Registration #EnterEmail,
+.Registration #EnterAgeGroup,
+.Registration #EnterChatMode
+{
+    margin: 0 auto;
+    width: 80%; /*originally 60%*/
+}
+
+.Registration .PasswordRow,
+.Registration .ConfirmPasswordRow,
+.Registration .EmailRow
+{
+	height: 5em;
+	line-height: 5em;
+    padding: 3px;
+    text-align: right;
+}
+.Registration .UsernameRow
+{
+    height: 5em;
+    line-height: 5em;
+    padding: 3px;
+    text-align: left;
+}
+.Registration .PasswordErrorMessage 
+{
+    font-size: 11px;
+    font-weight: bold;
+}
+.Registration .PasswordRow,
+.Registration .ConfirmPasswordRow
+{
+	height: 3em;
+	line-height: 3em;
+}
+
+.Registration .AgeGroupRow,
+.Registration .ChatModeRow
+{
+	font-size: .9em;
+	margin: 10px 0 10px 100px;
+}
+
+.Registration .Confirm
+{
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.Registration .Validators
+{
+	margin-left: 9px;
+}
+
+.Registration .Legend
+{
+	color: Blue;
+	margin-left: 9px;
+}
+
+.Registration .Suggestion
+{
+	font: normal .8em/normal Verdana, sans-serif;
+	padding-left: 9px;
+}
+
+.Registration label
+{
+    margin-right: 5px
+}
+
+.AgeOptions
+{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 490px;
+}
+
+.AgeOptions #Under13,
+.AgeOptions #Over12
+{
+    margin: 0;
+    padding: 0 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.AgeOptions #ParentAccount
+{
+	margin: 0;
+	padding: 0px 0px 0px 40px;
+	width: 400px;
+	text-align: center;
+}
+
+#AgeOptions .Label
+{
+    text-align: center;
+}

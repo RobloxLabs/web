@@ -1,0 +1,9 @@
+﻿@inject IScriptManager ScriptManager
+
+@{
+    var pageScriptBundle = ScriptManager.PageScripts;
+}
+@if (ScriptManager.DeclareBundle(pageScriptBundle))
+{
+    <script src="@pageScriptBundle.Route"></script>
+}

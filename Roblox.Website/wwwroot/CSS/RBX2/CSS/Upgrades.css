@@ -1,0 +1,55 @@
+﻿#CancelBuildersClubContainer h2,
+#PaymentMethodsContainer h2,
+#PaymentContainer h2,
+#PayPalContainer h2,
+#CashContainer h2,
+#UpgradeCompleteContainer h2,
+#ManageAccountUpgradesContainer h2,
+#CancelAccountUpgradeContainer h2,
+#AccountUpgradesConfirmationContainer h2
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #444;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+#BuildersClubContainer #LeftColumn
+{
+    margin-left: 5px;
+}
+#BuildersClubContainer #RightColumn
+{
+    margin-right:5px;
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-size:14px;
+    color:#000;
+    width:285px;
+}
+#BuildersClubContainer #RightColumn .StandardBox
+{
+    width:273px;
+}
+#BuildersClubContainer #RightColumn .StrongRed
+{
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#f00;
+}
+#BuildersClubContainer #RightColumn h3
+{
+    font-weight:bold;
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-size:18px;
+    color:#333;
+}
+#BuildersClubContainer #RightColumn .RefCode
+{
+    font-weight:bold;
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-size:30px;
+    color:#666;
+    display:block;
+    margin-bottom:16px;
+}

@@ -1,0 +1,63 @@
+﻿#ContentBuilderContainer
+{
+    margin-top: 10px;
+}
+
+#ContentBuilderContainer h2
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+#ContentBuilderContainer h3
+{
+    background-color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}
+
+#ContentBuilderContainer blockquote
+{
+    margin: 0 auto;
+}
+
+#ContentBuilderContainer .InstructionsPanel,
+#ContentBuilderContainer .UploaderPanel,
+#ContentBuilderContainer .UpsellPanel
+{
+
+}
+
+#ContentBuilderContainer .UploaderPanel,
+#ContentBuilderContainer .UpsellPanel
+{
+    text-align: center;
+}
+
+#ContentBuilderContainer .SelectorArea
+{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#ContentBuilderContainer .DisclaimerLink { z-index: 9; display: inline; font-size: 1.2em; }
+#ContentBuilderContainer .DisclaimerLink a span { display: none; }
+#ContentBuilderContainer .DisclaimerLink a:hover { text-decoration: none; border: none; }
+#ContentBuilderContainer .DisclaimerLink a:hover span  
+{
+   display: block;
+   position:  absolute; top: 50%; left: 12%; width: 75%;
+   padding: 5px; margin: 5px; z-index: 10;
+   color: white; background-color: #6e99c9; 
+   border-width: 1px; border-color: Gray; border-style: ridge;
+   text-decoration: none; line-height: 1.4em;
+   font: 12px Verdana, sans-serif; text-align: left; 
+} 

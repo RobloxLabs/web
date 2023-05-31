@@ -1,0 +1,190 @@
+/* Legacy CSS file - Please do not copy */
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+/* Please use icon-variant-v2 instead */
+#payment-error-message {
+  margin-bottom: 20px;
+  width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none; }
+
+#payment-error-message.error {
+  display: block; }
+
+#payment-container {
+  margin-left: 0; }
+
+#visual-cart {
+  width: 160px;
+  height: 500px;
+  float: left;
+  text-align: center; }
+
+.product-image {
+  height: 90px; }
+  .product-image .icon-robux-gold {
+    background-size: 100% auto;
+    width: 72px;
+    height: 72px;
+    background-position: 0px 0px;
+    background-size: 144px;
+    float: unset; }
+
+.RB_L {
+  background: url(/images/Upgrades/BuildersClubProductsGrid/RB_L.png) no-repeat;
+  width: 90px;
+  height: 90px;
+  *zoom: 1;
+  display: inline-block; }
+
+.BC_L {
+  background: url(/images/Upgrades/BuildersClubProductsGrid/BC_L.png) no-repeat;
+  width: 90px;
+  height: 90px;
+  *zoom: 1;
+  display: inline-block; }
+
+.TBC_L {
+  background: url(/images/Upgrades/BuildersClubProductsGrid/TBC_L.png) no-repeat;
+  width: 90px;
+  height: 90px;
+  *zoom: 1;
+  display: inline-block; }
+
+.OBC_L {
+  background: url(/images/Upgrades/BuildersClubProductsGrid/OBC_L.png) no-repeat;
+  width: 90px;
+  height: 90px;
+  *zoom: 1;
+  display: inline-block; }
+
+.product {
+  margin-bottom: 15px; }
+
+.product-name-wrapper {
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px; }
+
+.visual-addon {
+  display: none; }
+
+.hidden {
+  display: none; }
+
+#payment-section {
+  margin-left: 30px;
+  float: left;
+  padding-bottom: 15px;
+  height: 615px; }
+
+.billing-section {
+  padding-left: 40px;
+  padding-right: 40px;
+  float: left; }
+
+.billing-section-header {
+  margin-bottom: 15px; }
+
+#payment-info {
+  width: 300px; }
+
+#Country {
+  width: 210px; }
+
+#credit-card-type {
+  vertical-align: bottom;
+  margin-bottom: 2px;
+  width: 35px;
+  height: 21px;
+  display: none; }
+
+.visa {
+  background: url(/images/PaymentMethods/ccards.png) 0 0; }
+
+.masterCard {
+  background: url(/images/PaymentMethods/ccards.png) -37px 0; }
+
+.discover {
+  background: url(/images/PaymentMethods/ccards.png) -78px 0; }
+
+.americanExpress {
+  background: url(/images/PaymentMethods/ccards.png) -116px 0; }
+
+#supercharge {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+#supercharge-checkboxes {
+  margin-bottom: 15px; }
+
+#cart {
+  margin-bottom: 20px; }
+
+.added-product {
+  height: 40px; }
+
+#cart .price {
+  float: right; }
+
+#submit-button-wrapper {
+  text-align: center; }
+
+#submit-button-wrapper a {
+  width: 200px; }
+
+#submit-button-notes {
+  text-align: left; }
+
+#submit-button-notes-small-legal {
+  text-align: center; }
+
+#submit-button-notes span {
+  font-weight: 600; }
+
+#submit-button-notes .price-default-long {
+  display: none; }
+
+#submit-button-notes.long-legal-default .price-default-long {
+  display: inline-block; }
+
+#submit-button-notes.long-legal-default .price-info {
+  display: none; }
+
+/***DesignLabs/Forms*****/
+.form-row-checkbox {
+  margin-top: 10px; }
+
+.form-row {
+  margin-bottom: 10px; }
+
+/* For Vantiv */
+.unseen {
+  visibility: hidden; }
+
+#Body .loading {
+  left: 45%;
+  padding-top: 10%;
+  position: absolute; }
+
+#Body .loading-default {
+  border-radius: 50%;
+  height: 96px; }
+
+/* Xsolla */
+.xsolla-payment-default {
+  width: calc(100% - 180px);
+  height: 625px;
+  border: none;
+  padding-left: 20px; }
+
+.xsolla-payment-boleto {
+  width: calc(100% - 180px);
+  height: 900px;
+  border: none;
+  padding-left: 20px; }
+
+.addon-hidden {
+  padding-top: 20px; }

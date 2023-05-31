@@ -1,0 +1,175 @@
+﻿/* Shadowed Standard Boxes 
+
+    Example Usage:
+
+    <div class="ShadowedStandardBox">
+        <div class="Shadow"></div>
+        <div class="Header">Games</div>
+        <div class="Content">
+            Your content goes here.
+        </div>
+
+    </div>
+
+
+    Note:   If you want to hard-code a height for the box, do it in the Content div.
+            e.g. <div class="Content" style="height: 400px;">
+
+            A hard-coded height may be necessary if you float elements inside the Content div.
+
+
+    Note:   If you want to override the default padding for the interior of the box, also do it in the Content div.
+            e.g. <div class="Content" style="height: 400px; padding: 5px 5px 5px 5px;">
+
+*/
+
+/* TODO: make width classes for all .ColumnXX .ShadowedStandardBox's */
+
+.Centered
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* ShadowedStandardBox classes */
+.ShadowedStandardBox 
+{
+   position:relative;
+   z-index:0;
+   _padding-bottom:6px; /* IE6 fix - bounds Shadow's height */ 
+   _overflow-y:hidden;
+   margin-bottom:10px; 
+}
+
+.ShadowedStandardBox .Header
+{
+    /*background-color: #6e99c9;*/
+	background: url(/images/HeaderGradientW800.png) repeat-y top left;
+    text-align:center;
+    color: White;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight:bold;
+    display:block;
+    position:relative;
+    z-index:0;
+    white-space: nowrap;
+}      
+
+.ShadowedStandardBox .Content 
+{
+   position:relative;
+   z-index:0;
+   border: 2px solid #6e99c9;
+   background-color:White; 
+   height:100%;
+   _height:3000px;      /* IE6 can't do 100% of an unknown height */
+   padding: 10px 10px 10px 10px;       
+}
+
+.Shadow 
+{
+   display:block;
+   background: url(/images/ShadowAlpha.png) no-repeat bottom right !important;
+   background: #D3DEFF;
+   height:100%;
+   _height:3000px;      /* IE6 can't do 100% of an unknown height */ 
+   width:100%;
+   position:absolute;
+   top:6px;             /* offset the shadow */
+   left:6px;
+   z-index:-1;
+}
+
+/* Styles for other elements found within standard boxes */
+.ShadowedStandardBox .Button
+{
+    cursor:pointer;
+    
+    background-color:#B6CCE4;
+    color: #435D77;
+    text-decoration:none;
+    
+    border: solid 1px #ccc;
+    padding: 3px 10px 3px 10px;
+    
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;    
+    white-space: nowrap;
+}
+.ShadowedStandardBox .Button:link , .ShadowedStandardBox .Button:visited
+{
+    background-color: #B6CCE4;    
+    color: #435D77;
+    text-decoration:none;
+}
+.ShadowedStandardBox .Button:hover, .ShadowedStandardBox .Button:active
+{
+    background-color:#5F84A8;
+    color: White;
+    text-decoration:none;
+}
+
+
+
+/* Outline Box
+	
+	Please note that the header for this box requires two divs.
+
+	Example Usage:
+	    <div class="OutlineBox" style="height: 250px;">
+			<div class="OB_HeaderPositioner"><div class="OB_Header">Box Title</div></div>
+			<div class="OB_Content">
+				Your content goes here.
+			</div>
+		</div>
+ */
+ 
+.OutlineBox
+{
+	z-index: 0;
+	position: relative;
+	
+	margin-top: 16px;
+	padding-top: 14px;
+	margin-bottom: 10px;
+	
+	border: solid 2px #B6CCE4;
+}
+
+.OutlineBox .OB_HeaderPositioner
+{
+	z-index: 1;
+	position: absolute;
+	top: -16px;
+	left: 0px;	
+
+	width: 100%;
+}
+
+.OutlineBox .OB_Header
+{
+	z-index: 1;	
+	display: block;
+
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: White;
+	border: solid 2px #B6CCE4;
+	
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	
+	padding: 2px 2px 2px 2px;	
+}
+
+.OutlineBox .OB_Content
+{
+	padding-top: 5px;
+}

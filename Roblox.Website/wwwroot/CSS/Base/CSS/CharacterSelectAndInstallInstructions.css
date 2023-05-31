@@ -1,0 +1,83 @@
+﻿/* Style sheet for CharacterSelectAndInstallInstructions */
+
+.CharSelectCombined 
+{
+    width: 836px; 
+    padding: 25px;
+    display: none; 
+    /*overflow: hidden; */
+    background-color: #DDEEFF; 
+}
+
+.CharSelectCombined .closeBtnCircle_35h 
+{
+    cursor: pointer; 
+    margin-left:375px; 
+    position:absolute; 
+    top:-10px; 
+    right:-10px;
+}
+
+.CharSelectCombined .ChooseCharText 
+{
+    height: 28px; 
+    font-size: 23px; 
+    font-family: Arial, Sans-Serif; 
+    font-weight: bold; 
+    padding-bottom: 10px; 
+    width: 418px; 
+    clear: none; 
+    float: left;
+}
+
+.CharSelectCombined .AlreadyHaveText
+{
+    height: 20px; 
+    padding-top: 8px; 
+    font-family: Arial, Sans-Serif; 
+    font-size: 15px; 
+    vertical-align:baseline; 
+    font-weight: bold; 
+    padding-bottom: 10px; 
+    width: 418px; 
+    clear: right; 
+    text-align: right; 
+    float:right;
+}
+
+.CharSelectCombined .PlayAsButton
+{
+    width: 380px; 
+    height: 168px; 
+    background-position: 0px 336px; 
+    float: left; 
+    cursor:pointer;
+}
+
+.CharSelectCombined .Boy
+{
+    margin: 15px 12px 30px 22px; 
+    background-image: url(/images/Buttons/btn-play_as_boy_AB.png); 
+}
+
+.CharSelectCombined .Girl
+{
+    margin: 15px 0 30px 0;
+    background-image: url(/images/Buttons/btn-play_as_girl_AB.png);
+}
+
+.CharSelectCombined .PlayAsButton:hover
+{
+    background-position: 0px 168px;
+}
+
+.CharSelectCombined .PlayAsButton.Faded
+{
+    background-position: 0px 0px;
+    cursor: default;
+}
+
+.CharSelectCombined .PlayAsButton.Faded:hover
+{
+    background-position: 0px 0px;
+}

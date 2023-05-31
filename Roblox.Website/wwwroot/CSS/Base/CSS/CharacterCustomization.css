@@ -1,0 +1,170 @@
+﻿.CustomizeCharacterContainer
+{
+	font-family: Verdana, Sans-Serif;
+	margin: 0;
+}
+
+.CustomizeCharacterContainer h4
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	font-family: Comic Sans MS, Verdana, Sans-Serif;
+	margin: 0;
+	text-align: center;
+}
+
+.CustomizeCharacterContainer .NoResults
+{
+    /*padding: 15px;*/
+    text-align: center;
+}
+
+.CustomizeCharacterContainer .TileGroup
+{
+    clear: left;
+    text-align: center;
+}
+
+.CustomizeCharacterContainer .Asset
+{
+    float: left;
+	margin: 5px 7px 5px 0px;
+	text-align: left;
+	vertical-align: top;
+	width: 112px;
+}
+
+.CustomizeCharacterContainer .Asset .AssetThumbnail
+{
+	height: 110px;
+	position: relative;
+	text-align: center;
+	width: 110px;
+}
+
+.CustomizeCharacterContainer .Asset .AssetDetails
+{
+	overflow: hidden;
+	padding: 2px 0 6px 0;
+	text-align: left;
+	width: 110px;
+}
+
+.CustomizeCharacterContainer .AssetName a
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1.5em;
+	vertical-align: top;
+}
+
+.CustomizeCharacterContainer .Label,
+.CustomizeCharacterContainer .Detail,
+.CustomizeCharacterContainer .DetailHighlighted
+{
+	font-size: 0.8em;
+}
+
+.CustomizeCharacterContainer .FooterPager
+{
+    /*border-top: solid 1px #000;*/
+    clear: left;
+	margin: 10px 0 0 0;
+	/*padding: 3px 0;*/
+	text-align: center;
+}
+
+.AttireChooser
+{
+    border: solid 1px #000;
+	float: left;
+	margin: 0;
+	min-width: 0; /* peekaboo bug fix for IE7 */
+	padding: 0;
+	position: relative; /* peekaboo bug fix for IE6 */
+	text-align: left;
+	width: 530px;
+}
+
+.Accoutrements
+{
+    border: solid 1px #000;
+    clear: left;
+    margin-top: 10px;
+    min-width: 0; /* peekaboo bug fix for IE7 */
+	padding: 0;
+	position: relative; /* peekaboo bug fix for IE6 */
+    text-align: left;
+    width: 530px;
+}
+
+.AttireChooser .AttireCategory
+{
+    border-bottom: solid 1px #000;
+    margin: 0 0 10px 0;
+    padding: 3px 0;
+    text-align: center;
+}
+
+.AttireChooser .AttireOptions
+{
+    margin: 5px;
+}
+
+.AttireCategory .AttireCategorySelector,
+.AttireCategory .AttireCategorySelector_Selected
+{
+}
+
+.AttireCategory .AttireCategorySelector_Selected
+{
+    font-weight: bold;
+}
+
+.AttireChooser .HeaderPager,
+.AttireChooser .HeaderPager
+{
+	margin-bottom: 10px;
+}
+
+.AttireChooser .HeaderPager .Label,
+.AttireChooser .FooterPager .Label
+{
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+.CharacterViewer
+{
+    border: solid 1px #000;
+    float: right;
+    width: 354px;
+}
+
+.CharacterViewer .ReDrawAvatar
+{
+    font-size: 1em;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.Mannequin
+{
+    clear: right;
+    margin-top: 10px;
+    text-align: center;
+    width: 354px;
+}
+
+.Mannequin .ColorChooserFrame
+{
+    margin: 0 auto;
+}
+
+.TeeShirtBuilder
+{
+    border: solid 1px #000;
+    clear: both;
+    margin-top: 10px;
+}

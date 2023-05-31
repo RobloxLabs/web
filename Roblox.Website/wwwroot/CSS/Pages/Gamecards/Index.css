@@ -1,0 +1,117 @@
+/* Legacy CSS file - Please do not copy */
+#Body {
+  height: 805px; }
+
+#Gamecardnavbar {
+  float: left;
+  width: 166px;
+  height: 675px;
+  position: relative;
+  top: 25px;
+  margin-bottom: 100px; }
+
+.verticaltab > a {
+  position: relative;
+  top: 5px;
+  left: -10px; }
+
+.verticaltab > a > span {
+  position: relative;
+  top: -7px;
+  left: 6px; }
+
+#GamecardLeftColumn {
+  float: left;
+  width: 250px;
+  position: relative;
+  top: 108px; }
+
+#GamecardRightColumn {
+  float: right;
+  width: 150px;
+  position: relative;
+  top: 70px;
+  right: 20px; }
+
+#GamecardHeader {
+  float: right;
+  background-image: url("/images/Gamecards/game_cards_h2.png");
+  background-repeat: no-repeat;
+  background-position: 75px;
+  height: 168px;
+  width: 800px;
+  position: relative;
+  top: -64px;
+  left: 5px; }
+
+.gamecardItem {
+  display: inline-block;
+  height: 150px;
+  *height: 165px;
+  width: 250px;
+  margin: 0 -5px 15px 15px;
+  position: relative;
+  top: -45px;
+  zoom: 1;
+  *display: inline; }
+
+.gamecarditem-box {
+  width: 125px;
+  float: right;
+  overflow: hidden;
+  height: 50px;
+  *height: 65px;
+  position: relative; }
+
+.gamecarditem-box .gamecarditem-text {
+  width: 125px;
+  overflow: hidden;
+  line-height: 1; }
+
+.gamecarditem-box .gamecarditem-text:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1em;
+  bottom: 0px;
+  left: 0px; }
+
+.gamecarditem-box .gamecarditem-text:before {
+  content: '...';
+  text-align: right;
+  position: absolute;
+  display: block;
+  width: 2em;
+  height: 1em;
+  bottom: 1em;
+  right: 20px; }
+
+.flag-disabled {
+  display: none; }
+
+.itemtext {
+  font-size: 12px;
+  height: 60px;
+  *height: 75px; }
+
+.itemtextbox {
+  float: right;
+  width: 125px; }
+
+.itemimage {
+  float: left;
+  border: 1px solid #efefef; }
+
+.buysection {
+  margin-top: 3px; }
+
+.buytext {
+  font-weight: bold; }
+
+.specialDivider {
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+.locator-text {
+  font-size: 10px; }

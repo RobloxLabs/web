@@ -1,0 +1,177 @@
+/* Legacy CSS file - Please do not copy */
+.bodyStyle {
+  margin: 0 5px; }
+
+.Separator {
+  clear: both; }
+
+.GamesHeader {
+  height: 30px;
+  margin: 5px 0;
+  font: normal bold 25px Arial;
+  color: black;
+  clear: both;
+  position: relative; }
+
+.GamesHeader h2 {
+  float: left;
+  display: inline-block;
+  font: normal bold 25px Arial; }
+
+#GameSearch {
+  float: right;
+  display: inline-block;
+  margin: 1px 0 7px 0;
+  position: relative; }
+
+#GenreDropDown {
+  margin-top: 1px;
+  margin-bottom: 7px;
+  margin-left: 25px;
+  float: left; }
+
+.GamesContainer {
+  padding: 0;
+  width: 1020px; }
+
+.TitleButtonContainer {
+  background-color: #e5e5e5;
+  border: 1px solid #c3c3c3;
+  overflow: hidden;
+  width: 196px;
+  height: 40px; }
+
+.TitleButton {
+  color: #282828;
+  display: table-cell;
+  vertical-align: middle;
+  width: 186px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 5px; }
+
+.SeeMoreImage {
+  width: 198px;
+  height: 149px;
+  background-image: url("/images/MobileApp/Games/See-more.png");
+  background-size: 198px 149px;
+  overflow: hidden; }
+
+.ListBox {
+  height: 30px;
+  width: 148px; }
+
+.searchBox {
+  height: 24px;
+  float: right;
+  width: 180px;
+  padding: 0 20px 0 5px; }
+
+.SearchButtonTxt {
+  cursor: pointer;
+  height: 16px;
+  width: 15px;
+  background: url("/images/MobileApp/Games/Search-Icon.png") right no-repeat;
+  background-size: 15px 16px;
+  right: 4px;
+  position: absolute;
+  margin-top: 6px;
+  z-index: 10; }
+
+input::-webkit-input-placeholder {
+  color: #afafaf;
+  font: italic normal 15px Arial;
+  padding-left: 20px; }
+
+#NoMoreResults {
+  clear: both;
+  padding: 10px 0;
+  font: normal normal 15px Arial; }
+
+.loading {
+  clear: both;
+  padding: 10px 0;
+  font: normal normal 15px Arial;
+  text-align: center; }
+
+.GameItemAnchor {
+  text-decoration: none; }
+
+.GameItemImage {
+  width: 198px;
+  height: 108px;
+  float: left; }
+
+.GameItemContainer {
+  display: block;
+  width: 198px;
+  height: 150px;
+  margin-right: 6px;
+  float: left;
+  margin-bottom: 7px;
+  background-color: white;
+  text-decoration: none;
+  overflow: hidden; }
+
+.bcRequiredContainer {
+  float: left;
+  margin-left: 10px; }
+
+.upgrade-bc-box {
+  position: absolute;
+  left: 8px;
+  border: 1px solid #4A93F9;
+  background-color: #CFE3FE;
+  padding: 6px;
+  font: 12px Arial;
+  border-radius: 2px;
+  margin-top: 7px;
+  display: none; }
+
+.upgrade-bc-box .header {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  color: #005CCF;
+  padding-left: 38px;
+  background-repeat: no-repeat;
+  background-size: 30px 25px;
+  height: 24px;
+  margin-left: 4px;
+  background-image: url("/Images/MobileApp/Games/BC-Helmet.png");
+  padding-top: 7px; }
+
+.upgrade-bc-box .desc {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-left: 4px;
+  font: 12px Arial; }
+
+.popover-arrow {
+  position: absolute;
+  top: -9px;
+  left: 143px;
+  height: 9px;
+  width: 16px; }
+
+.upgradeNowButton {
+  width: 263px;
+  height: 27px; }
+
+.bcBadge {
+  width: 47px;
+  height: 15px;
+  margin-top: 9px; }
+
+#SearchPageGamesHeader {
+  float: left; }
+
+.mobile-filter {
+  margin-top: 1px;
+  margin-bottom: 7px;
+  margin-left: 25px;
+  float: left; }
+
+.dropdown-container {
+  margin-top: 5px; }

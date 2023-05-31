@@ -1,0 +1,923 @@
+﻿/* STRUCTURAL STYLING */
+html {
+    height: 100%;
+    background: #fff;
+}
+/* overwrites for footer/background color */
+#Footer.footer-container {
+    padding-bottom: 60px;
+    background: #dcdcdc;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,236,236,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(236,236,236,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom, rgba(236,236,236,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */    
+    left: 0;
+}
+#Footer.footer-container a, #Footer.footer-container a,
+#Footer.footer-container a, #Footer.footer-container .FooterNav,
+#Footer.footer-container .Legalese {
+	color: #2D528F;
+}
+#Footer.footer-container .legal {
+    border-top: 1px solid #aaa;
+}
+#MasterContainer,
+#Container {
+    background: #ffffff; /* page content background color */
+}
+#Body.simple-body {
+    margin-top: 0; /* overwrite rule */
+}
+#header-login {
+    color: #000;
+    background: #CCCCCC;
+}
+#header-login-container {
+    margin-right: 6px;
+}
+
+.nav-container {
+    overflow: hidden;
+}
+.nav-content {
+    width: 100%;
+    background: white;
+    margin-top: 40px;
+    overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+    z-index: 0;
+}
+/* END STRUCTURAL STYLING */
+
+/* HEADER STYLING */
+.header-2014 {
+    height: 40px;
+	position: fixed;
+	width: 100%;
+    min-width: 330px;
+	top: 0;
+	z-index: 10013;
+    -ms-user-select: none; /* IE9- uses the onselectstart js event */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.header-2014 .header-container {
+    width: 100%;
+}
+
+.header-2014,
+.header-2014 a,
+.header-2014 a:visited {
+	background-color: #2D528F;
+	color: #fff;
+	text-decoration: none;
+}
+.header-2014 div {
+	float: left;
+    height: 100%;
+}
+.header-2014 div.flyout-container {
+    height: 0;
+}
+.header-2014 .robux-amount,
+.header-2014 .tickets-amount {
+    line-height: 40px;
+}
+.header-2014 .robux-container,
+.header-2014 .tickets-container {
+	width: 82px;
+	position: relative;
+}
+.header-2014 .robux-container .flyout-container,
+.header-2014 .tickets-container .flyout-container {
+    left: -67px;
+}
+.header-2014 .settings-container {
+    width: 45px;
+    position: relative;
+}
+.header-2014 .settings-container .flyout-container .flyout {
+    padding: 10px 0 10px 10px;
+    width: 94%;
+}
+.header-2014 .avatar-container
+{
+    margin: 0 10px;
+    display: block;
+}
+.navigation .under-13 {
+    background: #989898;
+    position: relative;
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 10px;
+    margin-left: 4px;
+    top: -1px;
+}
+.header-2014 .right {
+	float: right;
+}
+
+/* HEADER LINKS*/
+.header-2014 .header-links {
+    font-size: 16px;
+}
+.header-2014 .header-links div {
+    margin-right: 24px;
+    margin-top: 5px;
+    height: 26px;
+    padding: 3px 10px 0;
+    border-radius: 4px;
+}
+.header-2014 .header-links div:hover {
+    background-color: #27487E;
+}
+.header-2014 .header-links .games {
+    margin-left: 10px;
+}
+.header-2014 .header-links .buy-robux {
+    margin-right: 0;
+}
+
+/* HEADER SEARCH */
+.header-2014 .search {
+	position: relative;
+	overflow: hidden;
+	min-width: 0;
+	padding: 0;
+	height: 100%;
+    background: inherit;
+    width: 300px;
+	-webkit-transition: width 0.15s;
+	transition: width 0.15s;
+	transition-timing-function: ease-out;
+    margin-right: 10px;
+}
+.header-2014 .search-icon {
+	background:url('/images/Icons/Navigation2014/Nav2014-icon-sprite-sheet.png') no-repeat; /* /images/Icons/Navigation2014/Nav2014-icon-sprite-sheet-sheet.png */
+	height: 58%;
+	display: block;
+	position: absolute;
+    right: 1px;
+    top: 0;
+    margin-top: 9px;
+    width: 37px;
+}
+.nav-container .header-2014 .search .search-icon {
+    background-position: -1px -349px;
+}
+.header-2014 .search-input-container {
+    background: #fff;
+    height: 60%;
+    padding: 0 10px;
+    float: none;
+    border-radius: 5px;
+    margin: 8px 0 7px 0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+
+}
+.header-2014 .search.universal-search-open .search-input-container {
+    border-radius: 5px 5px 0 0;
+    border-bottom: 0;
+}
+.header-2014 .universal-search-dropdown {
+    position: fixed;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width: inherit;
+    top: 32px;
+    height: auto;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    background: #fff;
+    display: none;
+    z-index: 1;
+}
+.header-2014 .search.universal-search-open .universal-search-dropdown {
+    display: block;
+}
+.header-2014 .universal-search-option {
+    width: 100%;
+    color: #444;
+    font-size: 16px;
+    border-top: 1px solid #ccc;
+    padding: 6px 0;
+}
+.header-2014 .universal-search-option.selected {
+    background: #e1e2e6;
+}
+.header-2014 .universal-search-option:hover {
+    cursor: pointer;
+}
+.header-2014 .universal-search-text {
+    margin: 1px 10px 0;
+}
+.header-2014 .universal-search-text .universal-search-string {
+    word-break: break-all;
+}
+.header-2014 .search input 
+{
+    background: none;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	padding: 0;
+	display: block;
+	float: right;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+}
+/* END HEADER SEARCH */
+
+/* HEADER ICONS */
+.nav-icon {
+	position: fixed;
+	height: 33px;
+	width: 46px;
+    margin: 4px 5px 4px 5px;
+	left: 5px;
+	top: 0;
+	z-index: 10014;
+    background: url('/images/Icons/Navigation2014/Nav2014-icon-sprite-sheet.png') no-repeat; /* /images/Icons/Navigation2014/Nav2014-icon-sprite-sheet-sheet.png */
+    -ms-user-select: none; /* IE9- uses the onselectstart js event */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    border-radius: 4px;
+}
+.nav-container .nav-icon {
+        background-position: 2px -317px;
+}
+.nav-icon:hover,
+.header-2014 .search-icon:hover {
+	cursor: pointer;
+}
+.nav-icon:hover {
+    background-color: #27487E;
+}
+.nav-icon .notification-icon {
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    height: 20px;
+    background: #FF3F3A;
+    padding: 0 7px;
+    border-radius: 15px;
+    margin-left: 18px;
+}
+.notification-icon .notification-text {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin-top: 1px;
+}
+.header-2014 .logo {
+    width: 35px;
+    height: 34px;
+    padding: 0;
+    background: url('/images/Logo/roblox_icon.png') no-repeat 4px center;
+    float: left;
+    margin: 3px 0 0 75px;
+    border-radius: 4px;
+}
+.header-2014 .logo:hover {
+    background-color: #27487E;
+}
+.header-2014 .settings-icon,
+.header-2014 .robux-icon,
+.header-2014 .tickets-icon {
+	width: 35px;
+	height: 30px;
+    margin-top: 4px;
+	background: url('/images/Icons/Navigation2014/Nav2014-icon-sprite-sheet.png') no-repeat; /* /images/Icons/Navigation2014/Nav2014-icon-sprite-sheet-sheet.png */
+}
+
+.nav-container .header-2014 .settings-container .settings-icon {
+    background-position: -4px -456px;
+    margin-top: 5px;
+    height: 29px;
+}
+.nav-container .header-2014 .robux-container .robux-icon {
+    background-position: -3px -393px;
+}
+.nav-container .header-2014 .tickets-container .tickets-icon {
+    background-position: -3px -424px;
+}
+/* END HEADER ICONS*/
+
+/* HEADER SPECIFIC FLYOUTS STYLING */
+.header-2014 .flyout-container {
+    top: 40px;
+}
+.nav-container .header-2014 .flyout a { /* overwrite styling inherited from links in the actual header */
+    background: none;
+    color: #000;
+}
+.header-2014 .settings-container .flyout .settings-option {
+    float: none;
+    position: relative;
+    left: -10px;
+    padding: 0 10px;
+    margin-right: -10px;
+}
+.header-2014 .settings-container .flyout a {
+        line-height: 40px;
+}
+.header-2014 .settings-container .flyout-container .flyout .settings-option:hover {
+    background: #e7e7e7;
+}
+.header-2014 .flyout {
+    padding: 0;
+}
+.header-2014 .flyout .empty {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+.header-2014 .robux-container .flyout,
+.header-2014 .tickets-container .flyout
+{
+	text-align: center;
+}
+.header-2014 .robux-container .flyout .currency-balance,
+.header-2014 .tickets-container .flyout .currency-balance {
+	display: block;
+    color: #888;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.header-2014 .robux-container .flyout .currency-balance:hover,
+.header-2014 .tickets-container .flyout .currency-balance:hover {
+    cursor: pointer;
+}
+.header-2014 .flyout .upsell-icon {
+    height: 20px;
+    width: 20px;
+    background: url('/images/Icons/Navigation2014/Nav2014-icon-sprite-sheet.png') no-repeat; /* /images/Icons/Navigation2014/Nav2014-icon-sprite-sheet-sheet.png */
+    padding: 5px 15px;
+}
+.header-2014 .flyout .upsell {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    height: 39px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border-radius: 0 0 10px 10px;
+}
+.header-2014 .flyout .upsell:hover {
+    background: #e1e2e6;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+.nav-container .header-2014 .robux-container .flyout .upsell-icon{
+    background-position: -8px -395px;
+}
+.nav-container .header-2014 .tickets-container .flyout .upsell-icon {
+    background-position: -8px -426px;
+}
+.header-2014 .settings-container .flyout a {
+    font-size: 16px;
+}
+/* END HEADER SPECIFIC FLYOUTS STYLING */
+/* END HEADER STYLING */
+
+/* MENU STYLING */
+.navigation {
+	position: fixed;
+	top: 40px;
+	left: 0;
+    width: 175px;
+	height: 100%;
+    font-size: 16px;
+	-webkit-transition: -webkit-transform 0.5s, left 0.5s;
+	transition: transform 0.5s, left 0.5s;
+    -ms-transform: translate(-100%, 0);
+	-webkit-transform: translate(-100%, 0);
+	transform: translate(-100%, 0);
+	overflow: hidden;
+    z-index: 12;
+    background: #e1e2e6;
+    /*display: none; /* for browsers that don't support media queries; otherwise nav defaults to open */
+    -ms-user-select: none; /* IE9- uses the onselectstart js event */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.navigation-container {
+    height: 95%;
+    height: calc(100% - 76px);
+    width: 175px;
+    overflow: auto;
+}
+.navigation-container .mCSB_container {
+    width: 100%;
+    margin-right: 0;
+}
+.navigation-container .mCSB_1_scrollbar {
+    z-index: 1000;
+    background-color: #e1e2e6;
+}
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+.navigation ul ul {
+    top: 0;
+}
+
+.navigation ul li .menu-item {
+	text-decoration: none;
+	display: block;
+	padding: 6px 7px;
+	text-shadow: 0 0 1px rgba(255,255,255,0.1);
+	font-weight: inherit;
+	color: #444;
+    position: relative;
+}
+.navigation.mobile ul li .menu-item {
+    padding: 14px 7px;
+}
+.navigation ul li .menu-item:hover {
+    color: #000;
+    background-color: #CACACA;
+}
+.navigation div.user .menu-item a,
+.navigation ul li .menu-item a {
+    color: #444;
+    text-decoration: none;
+}
+.navigation li.expand.nav-open .expand-icon {
+    background-position: right -981px;
+}
+.navigation ul ul li .menu-item:hover,
+.navigation ul .expand ul li .menu-item:hover,
+.navigation li .menu-item:hover {
+	cursor: pointer;
+}
+.nav-open .navigation 
+{
+    left: 0;
+    -ms-transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+    display: block;
+    z-index: 12;
+	margin-right: 15px;
+}
+.nav-open-static .navigation {
+    display: block;
+    margin-right: 15px;
+    left: 175px;
+}
+
+.navigation .user .username {
+    padding-left: 10px;
+    width: 175px;
+}
+.navigation .user .menu-item {
+    padding: 0;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc;
+}
+.navigation.mobile .user .menu-item {
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+.navigation .user a,
+.navigation .under-13 {
+    display: block;
+    float: left;
+}
+.navigation .under-13 {
+    line-height: initial;
+    margin-top: 17px;
+    color: white;
+}
+.navigation .upgrade-now {
+    margin: 15px 0;
+}
+.navigation .upgrade-now .nav-button {
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 20px 6px 20px;
+    height: auto;
+    text-decoration:none;
+}
+.navigation .upgrade-now #upgrade-now-button {
+    background-color: #00B259;
+}
+.navigation .upgrade-now #upgrade-now-button:hover {
+    text-decoration: none;
+    background: #008C46;
+}
+.navigation .upgrade-now #builders-club-button {
+    background-color: #2D528F;
+}
+.navigation .upgrade-now #builders-club-button:hover {
+    text-decoration: none;
+    background: #27487E;
+}
+
+
+/* MENU ICONS */
+.navigation .icon {
+    background: url('/images/Icons/Navigation2014/Nav2014-icon-sprite-sheet.png') no-repeat; /* /images/Icons/Navigation2014/Nav2014-icon-sprite-sheet.png */
+    padding: 5px 16px;
+    margin-right: 10px;
+}
+.navigation .notification-icon {
+    position: absolute;
+    top: 7px;
+    left: 121px;
+    height: 20px;
+    background: #2D528F;
+    padding: 0 7px;
+    border-radius: 15px;
+}
+.navigation.mobile .notification-icon {
+    top: 16px;
+}
+.nav-container #navigation .navigation-container .nav2014-my-roblox .icon {
+    background-position: -5px -3px;
+}
+.nav-container #navigation .navigation-container .nav2014-profile .icon {
+    background-position: -5px -32px;
+}
+.nav-container #navigation .navigation-container .nav2014-messages .icon {
+    background-position: -5px -59px;
+}
+.nav-container #navigation .navigation-container .nav2014-friends .icon {
+    background-position: -5px -90px;
+}
+.nav-container #navigation .navigation-container .nav2014-character .icon {
+    background-position: -5px -119px;
+}
+.nav-container #navigation .navigation-container .nav2014-inventory .icon {
+    background-position: -5px -147px;
+}
+.nav-container #navigation .navigation-container .nav2014-trade .icon {
+    background-position: -5px -176px;
+}
+.nav-container #navigation .navigation-container .nav2014-develop .icon {
+    background-position: -5px -206px;
+}
+.nav-container #navigation .navigation-container .nav2014-groups .icon {	
+    background-position: -5px -235px;
+}
+.nav-container #navigation .navigation-container .nav2014-blog .icon {
+    background-position: -5px -263px;
+}
+.nav-container #navigation .navigation-container .nav2014-forum .icon {
+    background-position: -5px -291px;
+}
+.navigation .nav2014-events .events-text {
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.navigation .nav2014-sponsor .menu-item span,
+.navigation .nav2014-sponsor .menu-item img {
+    margin-left: 7px;
+}
+
+/* END MENU ICONS */
+
+/* overwrites for gutter ads */
+#RightGutterAdContainer.topMargin, #LeftGutterAdContainer.topMargin {
+    z-index: 11;
+}
+.ad-annotations {
+    z-index: 10;
+}
+
+@media screen and (min-width: 1170px) {
+    .header-2014 .search {
+        width: 33%;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 970px) /* collapse search to toggleable */
+{
+    #RightGutterAdContainer, #LeftGutterAdContainer {
+        display: none;
+    }
+    #MasterContainer #Footer.footer-container {
+        width: 970px;
+    }
+    .header-2014 .search {
+        width: 29px;
+        float: right;
+        margin-right: 45px;
+    }
+    .header-2014 .search-input-container {
+        display: none;
+    }
+    .header-2014 .search.nav-open,
+    .header-2014 .search.closing {
+        position: absolute;
+        top: 100%;
+        width: 98%;
+        padding-left: 7px;
+        padding-right: 2%;
+    }
+    .nav-container .header-2014 .search .search-icon {
+        border-radius: 5px;
+        background-position: 1px -487px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .nav-container .header-2014 .nav-open .search-icon {
+        border-radius: 0 5px 5px 0;
+        background-color: #fff;
+        background-position: -1px -349px;
+        height: 58%;
+        margin: 9px 16px 0 0;
+    }
+    .header-2014 .nav-open .search-input-container {
+        display: block;
+    }
+    .header-2014 .nav-open.universal-search-open .search-icon {
+        border-radius: 0 5px 0 0;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    .header-2014 .nav-open .search-input-container {
+        left: 0;
+        background-color: #fff;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .header-2014 .search.nav-open .universal-search-dropdown {
+        top: 72px;
+    }
+    .header-2014 .nav-open.universal-search-open .search-input-container {
+        border-radius: 5px 5px 0 0;
+    }
+    .header-2014 .header-links div {
+        margin-right: 10px;
+    }
+    .header-2014 .header-links .games {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header-2014 .settings-container.flyout-open-indicator:hover .flyout-container.large,
+    .header-2014 .settings-container.flyout-open-indicator.nav-open .flyout-container.large {
+        left: -192px; 
+    }
+    .header-2014 .settings-container div.notch-top,
+    .header-2014 .settings-container div.notch-shadow {
+        right: 40px;
+        left: auto;
+    }
+}
+
+@media screen and (min-width: 970px) 
+{
+    .header-2014 .search {
+        width: 20%;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .header-2014 .logo {
+        display: block;
+    }
+    #LeftGutterAdContainer.topMargin {
+        left: auto;
+        margin-left: -399px;
+    }
+    #RightGutterAdContainer.topMargin {
+        left: auto;
+        margin-left: 979px;
+    }
+}
+
+@media screen and (min-width: 1480px) /* for browsing the website desktop */
+{
+    .nav-container .header-2014 .logo 
+    {
+        background: url('/images/Icons/Navigation2014/roblox_logo.png') no-repeat 6px;
+        margin: 5px 5px 0 17px;
+        width: 120px;
+        height: 30px;
+    }
+    .nav-container .nav-icon {
+        display: none;
+    }
+    .nav-container .nav-content,
+    .nav-container.nav-open-static .nav-content,
+    .nav-container.nav-open .nav-content {
+        margin-left: 175px;
+        z-index: 0;
+    }
+}
+
+@media 
+only screen and (min-width: 1480px) and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-width: 1480px) and (min-resolution: 192dpi) {
+    .nav-container .header-2014 .logo {
+        background: url('/images/Icons/Navigation2014/roblox_logo_retina.png') no-repeat 6px;
+        background-size: 111px 28px;
+    }
+}
+
+@media screen and (min-width: 1359px) /* for browsing the website desktop */ 
+{
+    .nav-container.nav-open-static .navigation {
+        left: 175px;
+        -webkit-transition: left 0s;
+        -moz-transition: left 0s;
+        transition: left 0s;
+    }
+    .nav-container .nav-content,
+    .nav-container.nav-open-static .nav-content,
+    .nav-container.nav-open .nav-content {
+        width: 90%;
+        width: calc(100% - 175px);
+        z-index: 0;
+    }
+    .nav-container.no-gutter-ads .nav-content,
+    .nav-container.no-gutter-ads.nav-open-static .nav-content,
+    .nav-container.no-gutter-ads.nav-open .nav-content {
+        margin-left: 175px;
+        z-index: 0;
+    }
+    .header-2014 .logo {
+        margin-left: 70px;
+    }
+    .nav-container.no-gutter-ads .header-2014 .logo {
+        background: url('/images/Icons/Navigation2014/roblox_logo.png') no-repeat 6px;
+        margin: 5px 5px 0 17px;
+        width: 120px;
+        height: 30px;
+    }
+    .nav-container.no-gutter-ads .nav-icon {
+        display: none;
+    }
+}
+
+@media 
+only screen and (min-width: 1359px) and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-width: 1359px) and (min-resolution: 192dpi) {
+    .nav-container .header-2014 .logo {
+        background: url('/images/Icons/Navigation2014/roblox_logo_retina.png') no-repeat 6px;
+        background-size: 111px 28px;
+    }
+
+}
+
+/* FOR PHONES */
+@media screen and (max-width: 780px) /* for browsing the website on phones */
+{
+    #Footer {
+        width: 970px;
+    }
+    .nav-content {
+        margin-top: 81px;
+        z-index: 0;
+    }
+    .navigation {
+        top: 80px;
+    }
+    .navigation-container {
+        height: calc(100% - 116px);
+    }
+    .header-2014 .flyout {
+        width: inherit;
+        z-index: 1;
+    }
+    .header-2014 .settings-container .flyout {
+        right: 3px;
+    }
+    .header-2014 .tickets-container .flyout-container.small {
+        width: 167px;
+        left: -67px;
+    }
+    .header-2014 .robux-container .flyout-container.small {
+        width: 167px;
+        left: -65px;
+    }
+    .header-2014 .tickets-container .flyout {
+        position: relative;
+        right: 6px;
+        margin-left: 8px;
+        width: 145px;
+    }
+    .header-2014 .robux-container .flyout {
+        position: relative;
+        right: 0;
+        width: 145px;
+    }
+    .header-2014 .flyout-container.xsmall .flyout {
+        position: relative;
+    }
+    .header-2014 .flyout .notch-shadow,
+    .header-2014 .flyout .notch-shadow-right {
+        top: -20px;
+    }
+    .header-2014 .flyout .notch-top,
+    .header-2014 .flyout .notch-top-right {
+        top: -19px;
+    }
+    .header-2014 .search {
+        width: 55%;
+        float: none;
+        margin-left: 130px;
+        margin-right: 0;
+    }
+    .nav-container .header-2014 .search .search-icon {
+        background-color: #fff;
+        background-position: -1px -350px;
+        height: 60%;
+        margin-top: 8px;
+    }
+    .header-2014 .search-input-container {
+        background-color: #fff;
+        display: block;
+    }
+    .header-2014 .logo {
+        background: url('/images/Logo/roblox_icon.png') no-repeat 4px center; /* /images/Logo/roblox_icon.png */
+        width: 35px;
+    }
+    .header-2014 .robux-container,
+    .header-2014 .tickets-container {
+        width: 50px;
+    }
+    .header-2014 .robux-amount,
+    .header-2014 .tickets-amount {
+        display: none;
+    }
+    .header-2014 .header-links {
+        background: #2D528F;
+        border-top: 1px solid #27487E;
+        position: fixed;
+        top: 40px;
+        height: 40px;
+        width: 100%;
+    }
+    .header-2014 .header-links div {
+        width: 15%;
+        text-align: center;
+        margin-right: 10%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header-2014 .header-links .games {
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width: 700px) /* Force fixed width at this point*/
+{
+    #Footer {
+        width: 970px;
+    }
+    .nav-container {
+        overflow: auto;
+        width: 970px;
+        background-color: #2D528F;
+    }
+    .header-2014,
+    .header-2014 .header-links {
+        width: 680px;
+        position: absolute;
+        padding-right: 290px;
+    }
+    .nav-icon {
+        position: absolute;
+    }
+    .nav-content {
+        width: 970px;
+        z-index: 0;
+    }
+}
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-resolution: 192dpi) {
+    .header-2014 .search-icon,
+    .nav-icon,
+    .header-2014 .settings-icon,
+    .header-2014 .robux-icon,
+    .header-2014 .tickets-icon,
+    .header-2014 .flyout .upsell-icon,
+    .navigation .icon {
+        background: url('/images/Icons/Navigation2014/Nav2014-icon-sprite-sheet-retina.png') no-repeat;
+        background-size: 42px 520px;
+    }
+}

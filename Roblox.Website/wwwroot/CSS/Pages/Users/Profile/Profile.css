@@ -1,0 +1,261 @@
+/* Please use icon-variant-v2 instead */
+.icon-default-badges, .icon-inviter, .icon-friendship, .icon-welcome-to-the-club, .icon-ambassador, .icon-combat-initiation, .icon-warrior, .icon-bloxxer, .icon-homestead, .icon-bricksmith, .icon-official-model-maker, .icon-builders-club, .icon-turbo-builders-club, .icon-outrageous-builders-club, .icon-administrator, .icon-veteran {
+  background-image: url(/images/Badges/badges_02192019.svg);
+  background-repeat: no-repeat;
+  background-size: 280px auto;
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.icon-inviter {
+  background-position: 0px 0px; }
+
+.icon-friendship {
+  background-position: -140px 0px; }
+
+.icon-welcome-to-the-club {
+  background-position: 0px -140px; }
+
+.icon-ambassador {
+  background-position: -140px -140px; }
+
+.icon-combat-initiation {
+  background-position: 0px -280px; }
+
+.icon-warrior {
+  background-position: -140px -280px; }
+
+.icon-bloxxer {
+  background-position: 0px -420px; }
+
+.icon-homestead {
+  background-position: -140px -420px; }
+
+.icon-bricksmith {
+  background-position: 0px -560px; }
+
+.icon-official-model-maker {
+  background-position: -140px -560px; }
+
+.icon-builders-club {
+  background-position: 0px -700px; }
+
+.icon-turbo-builders-club {
+  background-position: -140px -700px; }
+
+.icon-outrageous-builders-club {
+  background-position: 0px -840px; }
+
+.icon-administrator {
+  background-position: -140px -840px; }
+
+.icon-veteran {
+  background-position: 0px -980px; }
+
+.profile-container {
+  max-width: 970px;
+  margin: 0 auto; }
+  .profile-container .rbx-tab {
+    width: 50%; }
+  .profile-container .hide-game-items {
+    position: absolute;
+    width: 970px;
+    height: 200px; }
+  .profile-container .profile-game {
+    margin-bottom: 20px; }
+    .profile-container .profile-game .game-grid:before, .profile-container .profile-game .game-grid:after {
+      content: " ";
+      display: table; }
+    .profile-container .profile-game .game-grid:after {
+      clear: both; }
+  .profile-container .item-list {
+    overflow: hidden;
+    max-height: 170px; }
+    @media (max-width: 767px) {
+      .profile-container .item-list {
+        max-height: 115px; } }
+  .profile-container .badge-list {
+    overflow: hidden;
+    max-height: 170px; }
+    @media (max-width: 767px) {
+      .profile-container .badge-list {
+        max-height: 115px; } }
+  .profile-container .badge-list-more {
+    overflow: auto;
+    max-height: 100%; }
+  .profile-container .game-list-more {
+    overflow: auto;
+    max-height: 100%; }
+  .profile-container .game-container, .profile-container .group-container {
+    display: none;
+    width: 16.66667%;
+    min-width: 102px;
+    float: left;
+    text-align: center; }
+    @media (max-width: 991px) {
+      .profile-container .game-container, .profile-container .group-container {
+        width: auto; } }
+    .profile-container .game-container.shown, .profile-container .group-container.shown {
+      display: inline-block; }
+      @media (max-width: 991px) {
+        .profile-container .game-container.shown, .profile-container .group-container.shown {
+          white-space: nowrap;
+          float: none; } }
+  .profile-container .group-container .game-card-container:hover {
+    height: 100%; }
+  .profile-container .container-buttons {
+    float: right; }
+  .profile-container .asset-item {
+    padding: 5px 0;
+    text-align: center;
+    width: 16.66667%; }
+    @media (max-width: 991px) {
+      .profile-container .asset-item {
+        width: 25%; } }
+    @media (max-width: 767px) {
+      .profile-container .asset-item {
+        width: 33.33333%; } }
+    .profile-container .asset-item img {
+      width: 140px;
+      height: 140px; }
+      @media (max-width: 767px) {
+        .profile-container .asset-item img {
+          width: 85px;
+          height: 85px; } }
+    .profile-container .asset-item span[title] {
+      width: 140px;
+      height: 140px; }
+      @media (max-width: 767px) {
+        .profile-container .asset-item span[title] {
+          width: 85px;
+          height: 85px;
+          background-size: 170px auto; } }
+    .profile-container .asset-item .item-name {
+      display: block;
+      width: 140px;
+      text-align: left;
+      margin: auto;
+      line-height: 22px;
+      overflow-x: hidden;
+      white-space: nowrap; }
+      @media (max-width: 767px) {
+        .profile-container .asset-item .item-name {
+          width: 85px; } }
+      .profile-container .asset-item .item-name:hover {
+        color: #00A2FF; }
+    .profile-container .asset-item .collections-link .img-container {
+      position: relative; }
+      .profile-container .asset-item .collections-link .img-container .asset-restriction-icon {
+        position: absolute;
+        text-align: left;
+        left: 8px;
+        bottom: 0;
+        line-height: 1em; }
+        @media (max-width: 991px) {
+          .profile-container .asset-item .collections-link .img-container .asset-restriction-icon {
+            width: 138px;
+            left: 0;
+            right: 0;
+            margin: 0 auto; } }
+        @media (max-width: 767px) {
+          .profile-container .asset-item .collections-link .img-container .asset-restriction-icon {
+            width: 83px; } }
+        .profile-container .asset-item .collections-link .img-container .asset-restriction-icon .rbx-tooltip {
+          width: auto;
+          height: auto; }
+  .profile-container .collection-btns {
+    float: right; }
+    .profile-container .collection-btns .trade-link {
+      margin-right: 6px; }
+    @media (max-width: 543px) {
+      .profile-container .collection-btns .trade-link {
+        display: none; } }
+  @media (max-width: 543px) {
+    .profile-container .collections-item a,
+    .profile-container .clothing-item a,
+    .profile-container .model-item a {
+      max-width: 90px;
+      margin: 0 auto; } }
+  .profile-container .group-list {
+    overflow: hidden; }
+    .profile-container .group-list:before, .profile-container .group-list:after {
+      content: " ";
+      display: table; }
+    .profile-container .group-list:after {
+      clear: both; }
+    @media (max-width: 991px) {
+      .profile-container .group-list {
+        display: block;
+        overflow-y: hidden;
+        overflow-x: auto;
+        white-space: nowrap; } }
+
+.load-more-button {
+  width: 100%; }
+  @media (max-width: 991px) {
+    .load-more-button {
+      display: none; } }
+
+.load-more-badges {
+  display: none;
+  width: 100%;
+  margin-top: 12px; }
+  @media (max-width: 767px) {
+    .load-more-badges {
+      display: block; } }
+
+.profile-ads-container {
+  text-align: center; }
+  @media (max-width: 991px) {
+    .profile-ads-container {
+      display: none; } }
+  .profile-ads-container .profile-ad {
+    width: 350px;
+    display: inline-block; }
+
+.trade-link {
+  float: right;
+  margin-right: 12px; }
+
+@media (max-width: 767px) {
+  .container-header .assets-count {
+    display: none; }
+  .container-header .see-more-roblox-badges-button {
+    display: none; }
+  .icon-inviter {
+    background-position: 0px 0px; }
+  .icon-friendship {
+    background-position: -85px 0px; }
+  .icon-welcome-to-the-club {
+    background-position: 0px -85px; }
+  .icon-ambassador {
+    background-position: -85px -85px; }
+  .icon-combat-initiation {
+    background-position: 0px -170px; }
+  .icon-warrior {
+    background-position: -85px -170px; }
+  .icon-bloxxer {
+    background-position: 0px -255px; }
+  .icon-homestead {
+    background-position: -85px -255px; }
+  .icon-bricksmith {
+    background-position: 0px -340px; }
+  .icon-official-model-maker {
+    background-position: -85px -340px; }
+  .icon-builders-club {
+    background-position: 0px -425px; }
+  .icon-turbo-builders-club {
+    background-position: -85px -425px; }
+  .icon-outrageous-builders-club {
+    background-position: 0px -510px; }
+  .icon-administrator {
+    background-position: -85px -510px; }
+  .icon-veteran {
+    background-position: 0px -595px; }
+  /* Fix for centering modals until Profile page modals are converted to new style */
+  .modal:before {
+    height: 20%; } }
+
+.asset-thumb-container {
+  border: 1px solid #B8B8B8; }

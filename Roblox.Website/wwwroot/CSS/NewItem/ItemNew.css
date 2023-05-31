@@ -1,0 +1,1374 @@
+﻿#ItemContainer
+{
+    margin-top: 10px;
+    font-family: Verdana, Helvetica,Sans-Serif;
+}
+
+.PlaceItemContainer
+{
+    font-family: Arial, Helvetica,Sans-Serif !important;
+}
+.PlaceItemContainer #Summary
+{
+    border: none !important;
+    background: none !important;
+}
+.PlaceItemContainer .item-header
+{
+    color: #000;
+    font: bold 18px Arial, Helvetica, Sans-Serif;
+    padding-bottom: 5px;
+}
+.PlaceItemContainer #Actions_Place
+{
+    border: none !important;
+    background: none !important;
+    float:right !important;
+    text-align: right !important;
+    width: auto !important;
+	padding: 0 !important;
+}
+.PlaceItemContainer .PlayGames
+{
+    border: none !important;
+    background: none !important;    
+}
+
+#ItemContainer .StandardBoxHeader,
+#ItemContainer .StandardBox
+{
+	width: 709px;
+}
+
+#ItemContainer h2
+{
+	background-color: #003366;
+	border-bottom: solid 1px #555;
+	color: #ffffff;
+	font-size: x-large;
+	margin: 0;
+	text-align: center;
+}
+
+#ItemContainer h3
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+	line-height: 1em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+#ItemContainer #Item
+{
+	color: #555;
+	float: left;
+	width: 705px;
+}
+
+.PlaceItem
+{
+    font-family: Arial, Sans-Serif;
+    padding: 0px 5px !important;
+}
+
+#ItemContainer #Details
+{
+    margin: 10px;
+}
+
+#ItemContainer #Thumbnail,
+#ItemContainer #Thumbnail_Place
+{
+    border: solid 1px #eeeeee;
+	
+	padding: 0;
+	text-align: left;
+	min-width: 0;
+}
+
+#ItemContainer #Thumbnail
+{
+	height: 420px;
+	width: 420px;
+}
+
+#ItemContainer #Thumbnail_Place
+{
+	width: 420px;
+}
+
+#ItemContainer #Actions,
+#ItemContainer #Actions_Place
+{
+    background-color: #fff;
+	min-width: 0; /* peekaboo bug fix for IE7 */
+	overflow:hidden;
+	top:420px;
+	
+	width: 408px;
+	padding: 5px;
+	text-align: left;
+}
+#ItemContainer #Actions
+{
+    padding: 5px;
+    text-align: left;
+    width: 230px;
+}
+
+.AddRemoveFavorite
+{
+    background: url(/images/cssspecific/rbx2/favoriteStar_20h.png) no-repeat 0px -20px;
+	margin:0px;
+	display:inline-block;
+	position:relative;
+	top:3px;
+	*display:inline;
+    *zoom:1;
+    padding-top:4px;
+    padding-left:25px;
+    height: 18px;
+}
+.AddRemoveFavorite:hover, .AddRemoveFavorite.Favorited
+{
+    background-position: 0px 0px;
+}
+
+#ItemContainer #Summary
+{
+	background-color: #fff;
+	display: inline;
+	float: right;
+	padding: 7px;
+	width: 235px;
+}
+
+#ItemContainer #Summary h3
+{
+}
+
+#ItemContainer #Summary #Creator
+{
+	clear: left;
+}
+
+#ItemContainer #Summary #DescriptionLabel
+{
+	margin-bottom: 0.4em;
+	margin-top: 0.7em;
+}
+
+.label 
+{
+    margin-bottom:0.5em;   
+}
+
+#ItemContainer #Summary .Description
+{
+	border: solid 1px #555;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: normal;
+	max-height: 136px;
+	line-height: 1.5em;
+	padding: 4px;
+	overflow: auto;
+	text-align: left;
+}
+
+#ItemContainer #Summary #ReportAbuse
+{
+    margin: 0 auto;
+    padding: 4px;
+    text-align: center;
+}
+
+#ItemContainer #Summary #PublicDomainPurchase
+{
+    float:left;
+}
+
+#ItemContainer #Summary #PublicDomainPurchase #PricePublicDomain
+{
+	color: Blue;
+	float: left;
+	font-weight: bold;
+	line-height: 2em;
+	width: 100px;
+}
+
+#ItemContainer #Summary .ButtonGreyed
+{
+    cursor: default;
+    background-color: #A69FA1;
+    border: solid 1px #000;
+    color: Gray;
+    font: .9em Arial, Helvetica, Sans-Serif;
+    padding: 3px 10px;
+}
+
+#ItemContainer #Summary .ButtonGreyed:hover
+{
+    text-decoration: none;
+    color: Gray;
+}
+
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree
+{
+	float: left;
+	line-height: 2em;
+	width: 100px;
+}
+
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree .Button:hover
+{
+    background-color: #6e99c9;
+    border: solid 1px #000;
+}
+
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree a:hover
+{
+    color: #fff;
+}
+
+#ItemContainer #Summary #RobuxPurchase
+{
+}
+
+#ItemContainer #Summary #RobuxPurchase #PriceInRobux
+{
+	color: Green;
+	float: left;
+	font-weight: bold;
+	line-height: 2em;
+	width: 100px;
+}
+
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux
+{
+	float: left;
+	line-height: 2em;
+	width: 100px;
+}
+
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux .Button:hover
+{
+    background-color: #49b745;
+    border: solid 1px #000;
+}
+
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux a:hover
+{
+    color: #fff;
+}
+
+#ItemContainer #Summary #TicketsPurchase
+{
+    clear: left;
+}
+
+#ItemContainer #Summary #TicketsPurchase #PriceInTickets
+{
+	color: #fbb117;
+	float: left;
+	font-weight: bold;
+	line-height: 2em;
+	width: 100px;
+}
+
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets
+{
+	float: left;
+	line-height: 2em;
+	width: 100px;
+}
+
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets .Button:hover
+{
+	background-color: #fdd017;
+	border: solid 1px #000;
+}
+
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets a:hover
+{
+    color: #fff;
+}
+
+#ItemContainer #Configuration
+{
+	background-color: #fff;
+	border-bottom: dashed 1px #555;
+	border-left: dashed 1px #555;
+	border-right: dashed 1px #555;
+	clear: right;
+	float: right;
+	margin-left: 10px;
+	margin-top: -10px;
+	padding: 5px 10px;
+	text-align: center;
+	width: 249px;
+}
+
+.PurchaseModalClose
+{
+    cursor: pointer;
+    position: absolute;
+    right: -18px;
+    top: -18px;
+}
+.PurchaseModal
+{
+    width: 435px;
+    display: none;
+    position: absolute;
+    border: 2px solid #272727;
+    background-color: #E1E1E1;
+    padding: 5px;
+}
+.PurchaseModal .titleBar
+{
+    background-color: #E1E1E1;
+    font: bold 27px Arial, Helvetica, Sans-Serif;
+    letter-spacing: -1px;    
+    color: #363636;
+    height: 38px;
+}
+.PurchaseModalBody
+{
+    background-color: #fff;
+}
+.PurchaseModalMessage
+{
+    padding: 10px;
+    font: bold 15px Arial, Helvetica, Sans-Serif;
+    color: #000;
+    height: 110px;
+}
+.PurchaseModalMessageImage
+{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.PurchaseModalMessageText
+{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 275px;
+    vertical-align: top;
+    padding-top: 28px;
+}
+.PurchaseModalButtonContainer
+{
+    clear: left;
+    padding-top: 10px;
+    text-align: center;
+}
+.PurchaseModalFooter
+{
+    color: #666;
+    font: normal 12px Arial, Helvetica, Sans-Serif;
+    text-align: center;
+    margin: 10px auto 0px;
+    padding-bottom: 5px;
+}
+.ProcessingModal
+{
+    width: 300px;
+    min-height: 50px;
+    display: none;
+    position: absolute;   
+}
+.ProcessingModalBody
+{
+    margin: 15px auto;
+    text-align: center;
+    vertical-align: middle;
+    font: bold 18px arial, helvetica, sans-serif;
+    background: none;
+    color: #fff;
+}
+.CurrencyColor1
+{
+    color: #080;
+    padding-left: 20px;
+    background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0 -42px;
+}
+.CurrencyColor2
+{
+    color: #A61;
+    padding-left: 20px;
+    background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0 -122px;
+}
+.CurrencyColorFree
+{
+    color: #080;
+}
+
+.ItemVerb
+{
+	background-color: #fff;
+	border: dashed 1px #555;
+	text-align: center;
+	height: 20px;
+	margin-top: 5px;
+}
+
+.OwnerPlaceActionPanel
+{
+    position:absolute;
+    text-align:right;
+    width: 250px;
+}
+.OwnerPlaceAction
+{
+	height: 20px;
+	margin-top: 5px;
+}
+
+.PlaceItemHR
+{
+    background-color: #848484;
+    border: 0;
+    color: #848484;
+    height: 1px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#ItemContainer .Ownership
+{
+	clear: right;
+	color: #ff0000;
+	float: right;
+	margin-left: 10px;
+	margin-top: 0;
+	padding: 10px 10px;
+	text-align: center;
+	width: 230px;
+}
+
+#ItemContainer .PlayGames
+{
+    background-color: #ccc;
+	border: dashed 1px Green;
+	color: Green;
+	margin-top: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 408px;
+}
+
+#ItemContainer .BadgeStats
+{
+	width: 720px;
+	padding: 10px 0px;
+}
+
+#ItemContainer .RunningGames
+{
+    background-color: #ccc;
+	border: dashed 1px #555;
+	color: #555;
+	margin-top: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 408px;
+}
+
+#ItemContainer .GameInstances
+{
+    background-color: #fff;
+	border: solid 1px #000;
+	color: #555;
+	width: 408px;
+}
+
+#ItemContainer .RefreshRunningGames
+{
+    margin: 10px 0;
+    text-align: center;
+}
+
+#ItemContainer #Ownership .Button,
+#ItemContainer .PlayGames .Button
+{
+	background-color: #fff;
+}
+
+#ItemContainer #Ownership .Button:Hover
+{
+	background-color: #fff;
+	border: solid 1px #ff0000;
+	color: #ff0000;
+}
+
+#ItemContainer .PlayGames .Button:Hover
+{
+	background-color: #fff;
+	border: solid 1px Green;
+	color: Green;
+}
+
+#ItemContainer .CommentsContainer,
+#ItemContainer .TabbedInfoContainer
+{
+    margin: 10px;
+    margin-top: 0;
+    width: 665px;
+}
+#ItemContainer .CommentsContainer {
+    padding-bottom: 5px;
+}
+
+#ItemContainer .TabbedInfoContainer h3
+{
+    padding: 5px;
+}
+
+#ItemContainer .CommentsContainer .HeaderPager,
+#ItemContainer .CommentsContainer .FooterPager
+{
+    padding: 5px 0;
+    text-align: right;
+}
+
+#ItemContainer .CommentsContainer .Comments
+{
+    border: dashed 1px #555;
+    overflow: hidden;
+    width: 663px;
+}
+
+#ItemContainer .CommentsContainer .Comment,
+#ItemContainer .CommentsContainer .AlternateComment
+{
+    padding: 7px 10px;
+}
+
+#ItemContainer .CommentsContainer .Comment
+{
+    background-color: #fff;
+}
+
+#ItemContainer .CommentsContainer .AlternateComment
+{
+    background-color: #eee;
+}
+
+#ItemContainer .CommentsContainer .Commenter
+{
+    float: left;
+    width: 110px;
+}
+
+#ItemContainer .CommentsContainer .Avatar
+{
+    border: solid 1px #555;
+    height: 100px;
+    width: 100px;
+}
+
+.Avatar
+{
+    padding:0 0 8px 0;
+}
+
+#ItemContainer .CommentsContainer .Post
+{
+    float: left;
+    width: 80%;
+}
+
+#ItemContainer .CommentsContainer .Content
+{
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#ItemContainer .CommentsContainer .PostAComment
+{
+    margin: 10px 0 0 0;
+}
+
+#ItemContainer .CommentsContainer .PostAComment .Buttons
+{
+    margin: 10px 0 0 0;
+}
+
+#ItemContainer .CommentsContainer .MultilineTextBox,
+#ItemContainer .CommentsContainer textarea
+{
+    min-height: 0px;
+    width: 400px;
+}
+
+
+
+#EditItemContainer
+{
+	
+}
+
+#EditItem
+{
+	color: #555;
+	float: left;
+	font-family: Arial, Sans-Serif;
+	margin: 0;
+}
+
+#EditItemContainer h2
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	color: #333;
+	font-family: Comic Sans MS, Sans-Serif;
+	font-size: x-large;
+	margin: 0;
+	text-align: center;
+}
+
+#EditItemContainer fieldset
+{
+	font-size: 1.2em;
+	margin: 0;
+	color:#000;
+}
+
+#EditItemContainer #Confirmation
+{
+	border: dashed 1px #ff0000;
+	background-color: #ccc;
+	color: #ff0000;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px 5px;
+	width: 410px;
+}
+
+#EditItemContainer #ItemName
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	text-align: left;
+	width: 420px;
+}
+
+#EditItemContainer #ItemThumbnail
+{
+	border: solid 1px #555;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	text-align: left;
+	width: 420px;
+}
+
+#EditItemContainer #ItemDescription
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	text-align: left;
+	width: 420px;
+}
+
+#EditItemContainer #Comments,
+#EditItemContainer #PlaceAccess,
+#EditItemContainer #PlaceCopyProtection,
+#EditItemContainer #AllowGear,
+#EditItemContainer #SetGenres,
+#EditItemContainer #VersionHistory,
+#EditItemContainer #PublicDomain,
+#EditItemContainer #SellThisItem,
+#EditItemContainer #PlaceReset,
+#EditItemContainer #PlaceBuildAccess,
+.MyItemOptions
+{
+    padding: 5px;
+    margin: 10px;
+}
+
+#EditItemContainer #SellThisItem #Pricing
+{
+    background-color: #fff;
+    border: dashed 1px #000;
+    margin: 15px 5px 5px 5px;
+    padding: 5px;
+}
+
+#EditItemContainer #SellThisItem #Fee,
+#EditItemContainer #SellThisItem #Profit
+{
+}
+
+#EditItemContainer #SellThisItem #Price
+{
+	margin-top: 10px;
+}
+
+#EditItemContainer #SellThisItem #Price .TextBox
+{
+	padding: 2px 4px;
+	width: 75px;
+}
+
+
+#EditItemContainer .CopyProtectionRow,
+#EditItemContainer .EnableCommentsRow,
+#EditItemContainer .PlayerLimit,
+#EditItemContainer .PlaceType,
+#EditItemContainer .PublicDomainRow,
+#EditItemContainer .SellThisItemRow,
+#EditItemContainer .ChatSettings,
+#EditItemContainer .GearSettings,
+#EditItemContainer .GenreSettings,
+#EditItemContainer .MembershipLevelSettings
+{
+	font-size: .9em;
+	margin: 10px 35px;
+}
+#EditItemContainer .GenreSettings
+{
+	margin: 10px 0px;
+}
+#EditItemContainer .GearSettings
+{
+    margin: 10px 40px;
+}
+#EditItemContainer .PlaceAccessRow,
+#EditItemContainer .ResetPlaceRow
+{
+	font-size: .9em;
+	margin: 10px 0;
+	text-align: center;
+}
+
+#EditItemContainer .PlaceAccessRow
+{
+	margin: 10px 0 10px 100px;
+	text-align: left;
+}
+
+#EditItemContainer .PlayerLimit .ClassicPlace 
+{
+    float:left;
+}
+
+#EditItemContainer .PlayerLimit .MegaPlace 
+{
+    position:relative;
+    left: 20px;
+}
+
+#EditItemContainer .PlayerLimit .ClassicPlace .NumPlayers
+{
+    margin:5px 0 0 22px;
+}
+
+#ConfigurePlaceContainer .ResetPlaceRow .Button
+{
+	margin: 0 auto;
+}
+
+#EditItemContainer .PricingLabel
+{
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+	text-align: right;
+	width: 155px;
+}
+
+#EditItemContainer .PricingField_Robux
+{
+	float: left;
+	margin-left: 5px;
+	text-align: left;
+	width: 110px;
+}
+
+#EditItemContainer .PricingField_Tickets
+{
+	float: left;
+	margin-left: 5px;
+	text-align: left;
+	width: 110px;
+}
+
+#EditItemContainer .Buttons
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#EditItemContainer .Button
+{
+	border-color: #555;
+	color: #555;
+	cursor: pointer;
+}
+
+#EditItemContainer .Button:hover
+{
+	background-color: #6e99c9;
+	color: #fff;
+}
+
+#EditItemContainer .Label
+{
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+#EditItemContainer .TextBox
+{
+	border: dashed 1px #555;
+	margin: 0;
+	padding: 5px 10px;
+	width: 400px;
+}
+
+#EditItemContainer .Multiline
+{
+	border: dashed 1px #555;
+	margin: 0;
+	padding: 5px 10px;
+	width: 400px;
+}
+
+#EditItemContainer .Suggestion
+{
+	font: normal .8em/normal Verdana, sans-serif;
+	padding-left: 9px;
+}
+
+#EditItemContainer .ItemConfigRadioButton
+{
+    margin-left: 20px;    
+}
+
+#EditItemContainer .ItemConfigNotice
+{
+    margin: 10px 20px;
+    font-size:.8em;
+    color:red;
+}
+
+#ItemContainer .Ads_WideSkyscraper,
+#EditItemContainer .Ads_WideSkyscraper
+{
+	float: right;
+	text-align: right;
+	width: 160px;
+}
+
+.GroupBuildRunningGameItem
+{
+    border: solid 2px #5500FF;  
+}
+
+.ItemSalesTable a
+{
+}
+
+.VisitButton, .VisitButtonDisabled
+{
+    display: inline;
+    width: 10px;
+}
+.VisitButtonDisabled
+{
+    opacity: .5;
+    filter:alpha(opacity=50);
+}
+.MultiplayerVisit, .MultiplayerVisitDisabled {
+    background:url(/images/Play.png);
+    width:250px;
+    height:48px;
+}
+.MultiplayerVisitDisabled 
+{
+    cursor: default;
+    display:none;
+}
+.SoloVisit {
+    background:url(/images/PlaySolo.png);
+    width:143px;
+    height:48px;
+}
+.SoloVisitText {
+    display:none;
+}
+.BuildSolo {
+    background:url(/images/BuildSolo2.png);
+    width: 143px;
+    height: 48px;
+}
+div.VisitButtonsRight a.BuildSolo {
+	float:left;
+	margin-top:3px;
+}
+.EditButton {
+    background:url(/images/EditMode2.png);
+    width: 143px;
+    height: 48px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:inline;
+}
+.PersonalServerAccessDenied
+{
+    color: red;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.PlaceInfoIcons {
+    text-align: center;
+}
+.iPublic,
+.iLocked,
+.iUnlocked,
+.SharedIcon,
+.CopyLockedIcon,
+.AllGearIcon,
+.GenreGearIcon,
+.NoGearIcon
+{
+    display:inline-block;
+    width:16px;
+    height:16px;
+}
+.iPublic
+{
+    background:url(/images/public.png);
+}
+.iLocked
+{
+    background:url(/images/locked.png);
+}
+.iUnlocked
+{
+    background:url(/images/unlocked.png);
+}
+.SharedIcon
+{
+    background:url(/images/Shared.png);
+}
+.CopyLockedIcon
+{
+    background:url(/images/CopyLocked.png);
+}
+.AllGearIcon
+{
+    background:url(/images/Suitcase16x16.png);
+}
+.GenreGearIcon
+{
+    background:url(/images/GenreSuitcase16x16.png);
+}
+.NoGearIcon
+{
+    background:url(/images/NoSuitcase16x16.png);
+}
+
+/* Badges */
+#BadgeStatsHeader
+{
+    color: #666;
+    font: bold 13px Arial, Helvetica, Sans-Serif;
+    padding-left: 5px;
+}
+.BadgeStatsHR
+{
+    margin-left: 0px;
+    *margin-left: -10px;
+    width:708px;
+}
+#BadgeStats
+{
+    font-size: 10px;
+    width: 708px;
+}
+/* Override width for new item page */
+.PlaceItemContainer .BadgeStatsHR
+{
+    width:720px;
+}
+/* Override width for new item page */
+.PlaceItemContainer #BadgeStats
+{
+    width: 720px;
+}
+#BadgeStats .BadgeTable
+{
+    border: 0px;
+    border-spacing:0px;
+    font: normal 12px arial, helvetica, sans-serif;
+    width: 100%;
+}
+#BadgeStats .BadgeTable a
+{
+    color: #496780
+}
+#BadgeStats .BadgeRow,
+#BadgeStats .AlternatingBadgeRow
+{
+    height:100px;
+}
+#BadgeStats .AlternatingBadgeRow
+{
+    background-color: #dddde0;
+    color: #000;
+}
+#BadgeStats .BadgeIconColumn
+{
+    text-align:center;
+    width:100px;
+}
+#BadgeStats .BadgeDescriptionColumn
+{
+    width: 60%;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+#BadgeStats .BadgeStatsColumn
+{
+    width:26%;
+    padding-left: 5px;
+}
+#BadgeStats .BadgeEmptyTableColumn
+{
+    width:100%;
+}
+#BadgesShowContainer
+{
+    text-align: center;
+    margin-top: 5px;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+#BadgesShowMore
+{
+    cursor: pointer;
+    color: #00f;   
+}
+/* END Badges */
+
+.item-header h1
+{
+    margin: 0; padding: 0; font-size: 16px; font-style: inherit; display: inline;
+}
+
+.section
+{
+    padding:8px 0 0 0;   
+}
+
+.expires-div
+{
+    margin:16px 0 8px 0;
+}
+
+#timer
+{
+    color:Red;   
+    margin:8px 0;
+}
+
+.item-detail div, .creator-name
+{
+    line-height:1.5em;   
+}
+
+#assetContainer, #placeContainer
+{
+    float: left; width: 420px; overflow: hidden;
+}
+
+.updateSetsDiv
+{
+    float: right; width: 248px; border: 2px dashed maroon; margin-top: 5px;
+}
+
+.newVersionMsg
+{
+    padding: 5px 0px 5px 0px; text-align: center; color: Yellow; background-color: Maroon; float: right; width: 100%;
+}
+
+#updateSetContainer
+{
+    padding: 5px; float: right; width: 100%
+}
+
+#updateSetContainer p
+{
+    cursor: pointer; font-size: 12px; float: right; width: 100%;
+}
+
+.resaleError
+{
+    padding: 5px; background-color: #FF0000;
+}
+
+.resaleConfirmation
+{
+    padding: 5px; background-color: #00FF00;
+}
+
+.sellCollectibleMsg
+{
+    font-family: Verdana,Helvetica,sans-serif; font-weight: bold; font-size: 14px;
+}
+
+.groupBuildingGameText
+{
+  font-size: 16px; font-weight: bold; font-style: italic; line-height: 24px;
+}
+
+
+#ProcessPurchase_Free, #ProcessPurchase_Robux, #ProcessPurchase_Tickets,
+#ProcessRenew_Free, #ProcessRenew_Robux, #ProcessRenew_Tickets,
+#ProcessROBLOXPurchase
+{
+    margin: 2.5em auto; display: none;
+}
+
+#Processing_Free, #Processing_Robux, #Processing_Tickets,
+#Processing_FreeRenew, #Processing_RobuxRenew, #Processing_TicketsRenew,
+.processingMsg
+{
+    margin: 0 auto; text-align: center; vertical-align: middle;
+}
+
+.createSetPanelPopup
+{
+    width: 400px; height: 100%; padding: 0px; float: left; display: none;
+}
+
+.GetAFreeAccount:hover {
+	background-position: 0px 56px;
+}
+.GetAFreeAccount {
+    width:316px; height:56px;
+    background: url(/images/Buttons/getAFreeAccount.png);   
+}
+
+.PlayAsGuest:hover {
+	background-position: 0px 56px;
+}
+.PlayAsGuest {
+    width:316px; height:56px;
+    background: url(/images/Buttons/playAsGuest.png);   
+}
+
+.closeBtnCircle_35h:hover {
+	background-position: 0px 35px;
+}
+.closeBtnCircle_35h {
+    width:35px; height:35px;
+    background: url(/images/Buttons/closeBtnCircle_35h.png);   
+}
+.closeBtnCircle_20h:hover {
+	background-position: 0px 20px;
+}
+.closeBtnCircle_20h {
+    width:20px; height:20px;
+    cursor: pointer; 
+    margin-left:395px; 
+    position:absolute; 
+    top:5px; left:5px;
+    background: url(/images/Buttons/btn-x.png);   
+}
+.fblike
+{
+    display:inline-block; 
+    float:left;
+    background-color:White;
+}
+
+.btn-buynow 
+{
+    cursor: pointer;
+    padding-top: 10px;
+    margin-left: 135px;
+    width: 117px;
+    height: 40px;
+    background: url(/images/Buttons/btn-buynow.png);   
+}
+.btn-buynow:hover 
+{
+	background-position: 0px 50px;
+}
+
+.btn-buynow2
+{
+    width: 127px;
+    height: 50px;
+    background: url(/images/Buttons/btn-buynow-2.png) no-repeat;
+}
+.btn-buynow2:hover 
+{
+	background-position: 0px -50px;
+}
+
+.btn-cancel
+{
+    width: 96px;
+    height: 50px;
+    background: url(/images/Buttons/btn-cancel.png) no-repeat;
+}
+.btn-cancel:hover 
+{
+	background-position: 0px -50px;
+}
+
+.btn-continueshopping 
+{
+    cursor: pointer;
+    padding-top: 10px;
+    width: 213px;
+    height: 40px;
+    background: url(/images/Buttons/btn-continue_shopping.png);   
+}
+.btn-continueshopping:hover 
+{
+	background-position: 0px 50px;
+}
+
+.btn-tradecurrency
+{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background: url(/images/Buttons/btn-trade_currency.png) no-repeat;
+}
+.btn-tradecurrency:hover
+{
+    background-position: 0px -50px;
+}
+
+.btn-sellnow
+{
+    cursor: pointer;
+    width: 129px;
+    height: 50px;
+    background: url(/images/Buttons/btn-sell_now.png) no-repeat;
+}
+.btn-sellnow:hover
+{
+    background-position: 0px -50px;
+}
+
+.btn-buyrobux
+{
+    cursor: pointer;
+    width: 159px;
+    height: 50px;
+    background: url(/images/Buttons/btn-buy_robux.png) no-repeat;
+}
+.btn-buyrobux:hover
+{
+    background-position: 0px -50px;
+}
+
+/* Recommendations */
+.RecommendationHeader2
+{
+    color: #666;
+    font: bold 13px Arial, Helvetica, Sans-Serif;
+    padding-left: 5px;
+}
+.WideAspectRatio
+{
+    font: bold 11px Arial, Helvetica, Sans-Serif;
+    padding: 0px 7px;
+    width:160px !important;
+}
+.WideAspectRatio .AssetThumbnail
+{
+	background-color: #FFF;
+	border: 1px #000;
+	height: 100px;
+	width: 160px;
+}
+.WideAspectRatio .AssetDetails
+{
+	overflow: hidden;
+	padding: 5px;
+	height:90px;
+	width: 158px;
+}
+.WideAspectRatio .AssetName a
+{
+	line-height: 1.5em;
+	vertical-align: top;
+}
+/* END Recommendations */
+.RegisterBlueButton
+{
+    background-image: url("/images/Buttons/Register-blue.png");
+    height: 20px;
+    width: 92px;
+}
+.RegisterBlueButton:hover
+{
+    background-position: 0 -20px;
+    cursor: pointer;
+}
+.SignupRedButton
+{
+    background-image: url("/images/Buttons/btn-signup.png");
+    height: 50px;
+    width: 111px;
+}
+.SignupRedButton:hover
+{
+    background-position: 0 -50px;
+    cursor: pointer;
+}
+.DescriptionSeeMore
+{
+    color: #00f;
+    cursor: pointer;    
+}
+.GenreInfo .GamesInfoIcon
+{
+    display: inline-block; 
+    background-image: url(/images/GenreIcons/GenreIconsSprite.png);
+    width: 16px;
+    height: 16px;
+}
+.SignupButtonBlue, .SignupButtonBlue:hover {
+    width: 120px;
+    height: 50px;
+    background: url(/images/Buttons/btn-sign_up-blue-lg.png) no-repeat top;
+    margin: 0 auto;
+}
+.SignupButtonBlue:hover {
+    background: url(/images/Buttons/btn-sign_up-blue-lg.png) no-repeat bottom;
+}
+.PlaceItemContainer .RecommendationHeader2 {
+    text-align: left;
+    width: 247px;
+}
+
+
+
+#ItemContainer #Thumbnail {
+	border:none;
+}
+#ItemContainer #Summary {
+	border:none;
+}

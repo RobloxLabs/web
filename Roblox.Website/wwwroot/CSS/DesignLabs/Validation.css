@@ -1,0 +1,13 @@
+/* Legacy CSS file - Please do not copy */
+.error {
+  color: #E04A32; }
+
+input[type="text"].form-error, select.select-form-error {
+  border: 1px solid #E04A32;
+  box-shadow: 0 0 0 3px rgba(221, 0, 0, 0.1); }
+
+.page-error-message {
+  padding: 5px 20px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid #E04A32; }

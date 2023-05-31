@@ -1,0 +1,1 @@
+{"version":3,"file":"presenceStatusConstants.js","sourceRoot":"","sources":["presenceStatusConstants.ts"],"names":[],"mappings":";;;AAAa,QAAA,aAAa,GAAG;IACzB,OAAO,EAAE,CAAC;IACV,MAAM,EAAE,CAAC;IACT,MAAM,EAAE,CAAC;IACT,QAAQ,EAAE,CAAC;CACL,CAAC;AAEX,kBAAe;IACX,wBAAwB,EAAE,2BAA2B;IACrD,kBAAkB,EAAE;QAChB,eAAe,EAAE,iBAAiB;KACrC;CACJ,CAAC"}

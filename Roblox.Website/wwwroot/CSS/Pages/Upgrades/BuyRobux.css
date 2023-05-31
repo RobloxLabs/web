@@ -1,0 +1,42 @@
+﻿.robux-title {
+    font-size: 52px;
+    color: #ccc;
+    float: right;
+    line-height: 58px;
+    letter-spacing:-3px;
+}
+.robux-membership {
+    font-weight: normal;
+    line-height: 23px;
+}
+.robux-buy {
+    float: right;
+    width: 100px;
+    margin-top:12px;
+}
+.robux-product-body {
+    width: 340px;
+    float: right;
+    margin-left: 15px;
+}
+.robux-product-body .divider-bottom {
+    height:1px;
+    width: 100%
+}
+.robux-products-container {
+    padding-top:30px;
+    width:500px;
+    margin: 0 auto;    
+}
+.rdar-text,
+.rdar-select {
+    float:left;
+    padding:5px 5px 5px 10px;
+    line-height:20px;
+}
+.rdar-text {
+    width: 573px;
+}
+.bottom-40 {
+    margin-bottom: 40px;
+}

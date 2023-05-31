@@ -1,0 +1,148 @@
+body.adminStyle 
+{
+    background: #eaeaea
+}
+body.pageStyle
+{
+    background: white
+}
+
+body.pageStyle .adminContent 
+{
+    background: ivory; border: 1px solid #333; padding: 1em;
+}
+
+div.adminContent {
+    margin-top: 35px;
+    
+}
+.adminStyle *
+{
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.adminStyle .TightRadio div
+{  
+	width: 16em;
+}
+
+.adminStyle .TopFloat
+{
+	padding: 5px;
+	width: 100%;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
+
+
+.adminStyle fieldset
+{
+	padding: 1em;
+}
+.adminStyle legend
+{
+	padding-bottom: 0.5em;
+}
+.adminStyle td, th
+{
+	padding: 2px 0.5em 2px 0.5em;
+}
+
+.adminStyle .TreeView td
+{
+	padding: 0;
+}
+
+.adminStyle .Panel
+{
+	padding:6px;
+	border: solid 1px #000;
+}
+
+
+.adminStyle .GameGenres
+{
+    font-size: 14px;
+}
+.adminStyle .GameGenres, .GameGenres input, .GameGenres textarea
+{
+    font-size: 14px;
+}
+.adminStyle .GameGenres h1
+{
+    padding: 5px;
+    width: 100%;
+    clear: both;
+}
+.adminStyle .GameGenres h1 span
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Delicious, Verdana, Times New Roman, sans-serif;
+}
+.adminStyle .adminStyle .GameGenres ul
+{
+    list-style: none;
+    margin-bottom: 10px;
+    float: left;
+}
+.adminStyle .GameGenres ul li
+{
+    float: left;
+    margin: 5px;
+}
+.adminStyle .GameGenres ul li a
+{
+    padding: 5px;
+    border: 1px outset #9944AA;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.adminStyle .GameGenres ul li a:hover
+{
+    background: #EEEEEE;
+    border-style: inset;
+}
+.adminStyle .GameGenresTable
+{
+    clear: both;
+    margin-top: 10px;
+}
+.adminStyle .GameGenresTable table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.adminStyle .GameGenresTable table td, .GameGenresTable table th
+{
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+}
+.adminStyle .GameGenresTable table tr:first-child td, .GameGenresTable table tr:first-child th
+{
+    border-top: 0;
+}
+
+.adminStyle .GameGenresTable table tr:last-child td
+{
+    border-bottom: 0;
+}
+.adminStyle .GameGenresTable table tr td:first-child, .GameGenresTable table tr th:first-child
+{
+    border-left: 0;
+}
+.adminStyle .GameGenresTable table tr td:last-child, .GameGenresTable table tr th:last-child
+{
+    border-right: 0;
+}
+div#BigImageOverlayDiv 
+{
+    padding:50px;    
+    position:fixed;
+    top:30%;
+    left:40%;
+    z-index:2000;
+    background:url(/images/Moderation/Checkerboardforimages.gif)
+}

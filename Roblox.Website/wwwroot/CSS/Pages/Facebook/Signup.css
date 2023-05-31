@@ -1,0 +1,183 @@
+/* Legacy CSS file - Please do not copy */
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+body {
+  background-color: #E3E3E3; }
+
+input#MaleBtn {
+  margin-left: 0; }
+
+input#FemaleBtn {
+  margin-left: 20px; }
+
+.formRow {
+  float: left;
+  margin: 0 0 20px 0; }
+
+.rightFormColumn {
+  float: left;
+  line-height: normal; }
+
+.inputColumn {
+  float: left;
+  text-align: left;
+  position: relative;
+  line-height: normal; }
+  .inputColumn .tip-text {
+    margin-left: 2px;
+    clear: both; }
+
+.formRow label {
+  float: left;
+  padding: 0;
+  width: 130px;
+  text-align: left;
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: arial; }
+
+.error-status-bar {
+  color: black;
+  background-color: #FAE5E5;
+  border: solid 1px #c00;
+  margin-bottom: 18px;
+  display: block;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: -4px; }
+
+.formRadio label {
+  width: auto;
+  float: none;
+  font-size: 12px;
+  font-weight: normal; }
+
+input[type="radio"]#MaleBtn,
+input[type="radio"]#FemaleBtn {
+  padding: 0;
+  margin-top: -3px;
+  vertical-align: middle;
+  margin-right: 5px; }
+
+.facebook-connect-box {
+  width: 565px;
+  margin: auto; }
+
+.fbTitle {
+  float: left;
+  margin-top: 17px;
+  margin-bottom: 20px;
+  color: #363636; }
+
+.alreadyRegistered {
+  margin-top: 37px;
+  float: right; }
+
+.option-text {
+  float: left;
+  margin-top: 5px; }
+
+.loginLink {
+  margin-left: 5px; }
+
+.fbName {
+  position: relative;
+  top: 115px;
+  width: 113px;
+  text-align: center; }
+
+.facebokConnectLeftColumn {
+  background: url("/images/Facebook/SignUp/bg-fb_connect.png") no-repeat;
+  width: 189px;
+  height: 236px;
+  float: left; }
+
+#SyncUpForm .facebokConnectLeftColumn {
+  height: 185px; }
+
+.facebookConnectRightColumn {
+  float: left;
+  width: 356px;
+  margin-left: 20px; }
+
+.rbxLogoHeader {
+  background-image: url("/images/Logo/logo_O_light_11052018.svg");
+  padding-left: 44px;
+  padding-top: 9px;
+  margin-bottom: 12px;
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+  height: 33px; }
+
+h2 {
+  margin: 0 0 20px 0; }
+
+.signUpButtonDiv {
+  clear: both; }
+
+.signInButton {
+  float: right;
+  top: -2px;
+  position: relative; }
+
+.fb-clear {
+  clear: both; }
+
+.genderValidation {
+  top: -6px;
+  right: -166px; }
+
+.usernameValidation,
+.birthdayValidation {
+  top: -2px;
+  right: -175px;
+  max-width: 205px;
+  float: left;
+  clear: both;
+  margin-left: 2px; }
+
+.userNameInput {
+  width: 205px;
+  float: left; }
+
+#SyncUpForm input[type="text"],
+#SyncUpForm input[type="password"] {
+  border: 1px solid #a7a7a7;
+  height: 21px;
+  padding: 0px 3px;
+  font: normal 13px Arial, Helvetica, sans-serif;
+  line-height: 19px; }
+
+#fbBirthday {
+  position: relative;
+  right: 2px;
+  top: 1px; }
+
+.genderlabel {
+  margin-top: -1px !important;
+  margin-bottom: 5px; }
+
+.signup-usernameRow {
+  margin-top: -8px; }
+
+.signup-usernameLabel {
+  margin-top: 3px !important; }
+
+.pageError {
+  margin: 100px 0 10px 0; }
+
+#SyncUpForm .formRow label {
+  width: 75px; }
+
+#SyncUpForm .facebookConnectRightColumn {
+  width: 318px; }
+
+.fb-signup-container {
+  max-width: 650px;
+  margin: 0 auto; }
+
+.fb-signup-disabled-container {
+  text-align: center; }
+  .fb-signup-disabled-container .fb-signup-disabled-message {
+    font-size: 18px;
+    margin-bottom: 12px; }

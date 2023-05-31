@@ -1,0 +1,92 @@
+﻿.tbxPeople
+{
+    color: gray;
+    border-color: gray;
+    font-style:italic;
+}
+.btnAdd
+{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btnAdd : hover
+{
+    background-color: Blue;
+}
+.pplList
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: none;
+    max-height: 147px;
+}
+.pplList div img 
+{
+    margin-right: 6px;
+    
+}
+.PersonalServerRoleSet
+{
+    width: 195px;
+    font-size: 11px;
+    float: left;
+}
+
+.PersonalServerRoleSet div
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.papCheckBox
+{
+    /*float: left;*/
+    margin-left: 0px;
+}
+.papListRemoveUserIcon
+{
+    cursor: pointer;
+    font-weight: bold;
+    border: 0px;
+    vertical-align: middle;
+    height: 13px;
+    width: 13px;
+}
+.papListRemoveUserName
+{
+    margin-left: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+#PlaceAccessPrivileges .AccessSection
+{
+    margin:5px
+}
+#PlaceAccessPrivileges .AccessSection .header
+{
+    font-size:12px;
+    font-weight:bold;
+    margin-top:5px
+}
+#PlaceAccessPrivileges .AccessSection .subtext 
+{
+    font-size:11px;
+    color:#888;
+    font-style:italic;   
+    font-weight:normal;
+}
+#PlaceAccessPrivileges .AccessSection .main
+{
+    font-size:12px;
+    margin-top:8px;   
+}
+#PlaceAccessPrivileges .AccessSection select
+{
+    width:150px;  
+}
+#PlaceAccessPrivileges .divider 
+{
+    background-color:#ccc;
+    height:1px;
+    margin-bottom:12px;   
+}

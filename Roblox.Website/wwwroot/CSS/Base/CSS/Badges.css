@@ -1,0 +1,66 @@
+﻿#NewBadgesContainer {
+    margin-top: 10px;
+}
+
+#NewBadgesContainer .BadgeCategory {
+    padding-bottom: 10px;
+}
+
+#NewBadgesContainer .BadgeCategory ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set an invisible padding to offset the fixed header.
+ * Kinda hackish, but it plays nice with IE */
+#NewBadgesContainer .BadgePadding {
+    height: 80px;
+}
+
+#NewBadgesContainer .BadgeCategory li {
+    margin-top: -80px;
+}
+
+#NewBadgesContainer .BadgeCategory li:last-child {
+    border-bottom: none;
+}
+
+#NewBadgesContainer .BadgeContent {
+    padding: 15px 5px 5px;
+}
+
+#NewBadgesContainer .BadgeImage {
+    float: left;
+    width: 75px;
+    height: 75px;
+    padding: 0 10px 10px 0;
+    text-align: center;
+}
+
+#NewBadgesContainer .BadgeImage img {
+    height: 75px;
+}
+
+#NewBadgesContainer .BadgeDescription {
+    margin-left: 85px;
+    min-height: 75px;
+}
+
+#NewBadgesContainer h1 {
+    margin-top: 0;
+}
+
+.BadgeHint
+{
+	border: dashed 1px #000000;
+	padding: 5px 5px 5px 5px;
+	background-color: #E8EDFF;
+}
+
+.TileBadges
+{
+	float: left;
+	margin: 10px 10px;
+	text-align: center;
+}

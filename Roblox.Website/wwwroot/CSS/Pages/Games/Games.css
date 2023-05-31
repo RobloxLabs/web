@@ -1,0 +1,495 @@
+﻿.GearIcon
+{
+	margin-top: 1px;
+	margin-right: 1px;
+	position:relative;
+	top:3px;
+}
+/* ----------------- Screen real estate distrubution ----------------- */
+
+#GamesPageRightColumn
+{
+    position: absolute;
+	right: 0;
+	top: 0;
+}
+.sidebar-no-ad
+{
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.sidebar-with-ad
+{
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+#GamesPageRightColumnSidebar
+{
+    width: 330px;
+}
+
+.ads-container
+{
+    width: 300px;
+    height: 275px;
+    margin-left: 15px;
+}
+
+#GamesPageLeftColumn
+{
+    margin-left: 10px;
+    margin-right: 345px;
+}
+#GamesListsContainer
+{
+    min-width: 500px;
+    min-height: 820px;
+    clear: both;
+    line-height: 1.25;
+}
+
+.games-list-container
+{
+    padding-left: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+.overflow-visible
+{
+    overflow: visible;
+}
+.overflow-hidden
+{
+    overflow: hidden;
+}
+
+
+/* ----------------- Right column ----------------- */
+
+.move-with-window-stick-right
+{   
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+.move-with-window-min-left
+{   
+    position: absolute;
+    top: 90px;
+    left: 645px;
+}
+
+
+/* ----------------- Games lists and individual game items ----------------- */
+
+.games-list
+{
+    float: left;
+    margin-top: 7px;
+    min-height: 164px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 5px;
+}
+.games-list-header
+{
+    float: left;
+}
+
+.games-list-header h2 
+{
+    overflow: hidden;    
+}
+
+.see-all-button
+{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    line-height: 1.428;
+}
+.see-all-button .btn-text
+{
+    bottom: 0;
+}
+
+.games-list-column
+{
+    float: left;
+    width: 202px;
+}
+.game-item 
+{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right:10px;
+    position:relative;
+    text-align: left;
+    float: left;
+    width: 192px;
+    height: 144px;
+}
+.game-item:hover
+{
+    display: block;
+    z-index: 10;
+}
+.game-item .always-shown {
+    position: relative;
+    float: left;
+}
+.game-item:hover .always-shown
+{
+    z-index: 20;                /* must be > than .game-item:hover z-index */
+}
+.game-item .hover-shown
+{
+    display: none;
+    position: absolute;
+    width: 188px;
+    height: 18.5px;
+    padding: 165px 2px 8px;
+    margin-left: 4px;
+    left: -5px;
+    top: 4px;
+    border:solid 1px #888;
+    background: #fff;
+    text-align: left;
+    color: #888;
+}
+.game-item-image
+{
+    width: 192px;
+    height: 108px;
+}
+a.game-item-anchor:hover,
+a.game-item-anchor:active,
+a.game-item-anchor:visited,
+a.game-item-anchor:link
+{
+    color: #343434;
+}
+.deemphasized
+{
+    color: #999;
+    font-size: 12px;
+}
+
+.snap-bottom
+{
+    position: absolute;
+    bottom: 4px;
+}
+.snap-right
+{
+    right: 0;
+}
+.snap-left
+{
+    left: 2px;
+}
+.game-name
+{
+    font-size: 14px;
+    font-weight: 600;
+    width: 190px;
+    height: 17px;
+    overflow: hidden;
+}
+.game-name, .player-count, .show-on-hover-only
+{
+    padding-left: 2px;
+}
+.player-count
+{
+    float: left;
+}
+.creator-name
+{
+    clear: both;
+}
+.game-price, .game-bought-count
+{
+    float: right;
+    margin-right: 3px;
+}
+.game-bought-count 
+{
+    clear: both;
+    color: #888;
+}
+.game-thumbs-up-down
+{
+    overflow: hidden;
+}
+
+.games-filter-changer:hover, .games-filter-resetter:hover
+{
+    cursor: pointer;
+}
+
+#DivToHideOverflowFromLastGamesList
+{
+    position: relative;
+    height: 60px;
+    background-color: #fff;
+}
+
+
+/* ----------------- Horizontally scrolling lists ----------------- */
+
+.horizontally-scrollable
+{
+    float: left;
+    width: 10000000px;
+    min-height: 164px;
+    position: absolute;
+}
+.scroller
+{
+	height: 108px;
+	width: 55px;
+	margin-top: 5px;
+	background-color: #646464;
+	zoom: 1;
+    filter: alpha(opacity = 70);
+    opacity: 0.7;
+    position: absolute;
+	z-index: 10;                /* must be > than .game-item:hover .always-shown z-index */
+}
+.games-list:hover .scroller, .scroller:hover
+{
+	background-color: #000;
+	zoom: 1;
+    filter: alpha(opacity = 70);
+    opacity: 0.7;
+	cursor: pointer;
+}
+.scroller .arrow
+{
+	background-repeat: no-repeat;
+	height: 47px;
+	width: 27px;
+	position: absolute;
+	top: 30px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.scroller .arrow:hover
+{
+    background-position: 0;
+}
+
+.scroller.prev
+{
+	left: 0;
+}
+.scroller.prev .arrow
+{
+    left: 10px;
+}
+
+.scroller.next
+{
+	right: 0;
+}
+.scroller.next .arrow
+{
+    right: 10px;
+}
+
+
+/* ----------------- Filters & search ----------------- */
+
+#FiltersAndSort
+{
+    padding-left: 50px;
+    padding-top: 28px;
+    width: 100%;
+    min-width: 923px;
+}
+
+#FiltersAndSort.disabled .filter {
+    opacity: .5;
+}
+
+#GamesPageHeader
+{
+    float: left;
+    padding-left: 1px;
+    margin-top: 6px;
+}
+#GamesPageSearch
+{
+    float: right;
+    position: relative;
+    padding-top: 6px;
+    right:50px;
+}
+
+#GamesPageSearch .cancel-search 
+{
+    display:none; 
+    cursor: pointer; 
+    font-weight:bold;  
+}
+
+#GamesPageSearch a.show-cancel {
+    display: inline;
+}
+
+#SearchResultsContainer.search-pending {
+    cursor:wait;
+}
+
+.SearchIconButton
+{
+    background:url(/images/searchIcon.png) no-repeat;
+    cursor:pointer;
+    width:16px;
+    height:16px;
+    position:absolute;
+    right: 5px;
+    top: 10px;
+}
+#searchbox
+{
+    padding: 1px 22px 1px 7px;
+    border: 1px solid #bbb;
+    color: #888;
+    height: 20px;
+}
+
+#searchbox.focus {
+    color: #000;
+}
+
+.search-query-text {
+    font-weight: bold;
+}
+
+.filter
+{
+    float: left;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.filter select
+{
+    background: white;
+    padding: 4px 3px 3px 5px;
+    border: 1px solid #bbb;
+}
+.filter select:focus
+{
+    -webkit-box-shadow: 0 0 3px 1px #ccc;
+    -moz-box-shadow: 0 0 3px 1px #ccc;
+    box-shadow: 0 0 3px 1px #ccc;
+}
+
+
+/* ----------------- Ads ----------------- */
+
+#TopAdContainer
+{
+    margin: 0 auto;
+}
+.top-ad-970
+{
+    width: 970px;
+}
+.top-ad-728
+{
+    width: 728px;
+}
+#LeftGutterAdContainer, #RightGutterAdContainer
+{
+    margin-top: 35px;
+}
+@media screen and (min-width: 1480px) /* for browsing the website desktop */
+{
+    .nav-container .nav-content #MasterContainer #LeftGutterAdContainer {
+        margin-left: 208px;
+    }
+    .nav-container .nav-content #MasterContainer #TopAdContainer {
+        padding: 0;
+    }
+
+}
+@media screen and (min-width: 1359px) /* for browsing the website desktop */
+{
+    #TopAdContainer .top-ad-728 {
+        padding-left: 150px;
+    }
+}
+/* ----------------- Body and nav layout below 1900px ----------------- */
+
+@media screen and (max-width: 1899px) 
+{
+    #Body
+    {
+        width: 970px;
+    }
+    #BodyWrapper, #RepositionBody
+    {
+        width: 970px;
+    }
+    header nav
+    {
+        float: left;
+        clear: left;
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    header nav li
+    {
+        margin: 0;
+        background: #efefef;
+        display: block;
+        margin-bottom: 3px;
+    }
+    header nav a
+    {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+/* ----------------- Body and nav layout at or above 1900px ----------------- */
+
+#ResponsiveWrapper
+{
+    margin: auto;
+    position: relative;
+}
+#BodyWrapper, #RepositionBody
+{
+    width: auto;
+}
+header h1
+{
+    height: 70px;
+    width: 160px;
+    float: left;
+    display: block;
+}
+header nav
+{
+    float: right;
+    margin-top: 40px;
+}
+header nav li
+{
+    display: inline;
+    margin-left: 15px;
+}

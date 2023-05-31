@@ -1,0 +1,438 @@
+/* Legacy CSS file - Please do not copy */
+* {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+#navbar {
+  position: fixed;
+  width: 157px;
+  /* Must match #content margin-left */
+  height: 100%; }
+
+#content {
+  margin-left: 157px;
+  /* Must match #navbar width */
+  padding-left: 20px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+#placeForm .field-validation-error {
+  color: #a00;
+  width: auto;
+  position: relative; }
+
+#placeForm select.form-select.last-form-element {
+  margin-bottom: 0; }
+
+#placeForm select.form-select.no-margins {
+  margin: 0; }
+
+#placeForm select.form-select.SelectRank {
+  margin-top: 5px;
+  width: 150px; }
+
+#placeForm label {
+  display: block;
+  margin-bottom: 5px; }
+
+#placeForm select.form-select {
+  margin: 5px 0 20px 0;
+  border: 1px solid #A7A7A7; }
+
+#placeForm .privacy-label {
+  margin-top: 5px; }
+
+#placeForm .footnote {
+  font-weight: normal;
+  text-transform: none; }
+
+#placeForm .headline {
+  margin-bottom: 20px; }
+
+#placeForm #StudioGameTemplates {
+  margin-bottom: 10px; }
+
+#placeForm .headline h2 {
+  display: inline;
+  margin-right: 4px; }
+
+#placeForm h2 {
+  margin: 0;
+  padding: 0; }
+
+#placeForm div.tab-content {
+  padding-top: 20px;
+  padding-left: 10px; }
+
+#placeForm .form-text-box {
+  resize: none; }
+
+#placeForm .text-box {
+  margin-bottom: 10px; }
+
+#placeForm .text-box#Name {
+  width: 372px; }
+
+#placeForm .radio-button-label {
+  margin-bottom: 10px; }
+
+#placeForm .check-box-label {
+  margin-bottom: 10px; }
+
+#placeForm label.radio-selection {
+  margin-bottom: 10px; }
+
+#placeForm label.radio-selection-last {
+  margin-bottom: 30px; }
+
+#placeForm div.TabContent h2 {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+#placeForm #access_tab table {
+  border-collapse: collapse; }
+
+#placeForm .subsection {
+  margin-bottom: 20px; }
+
+#placeForm td {
+  border: 10px solid white;
+  /* Or any color which matches table's bgcolor */
+  border-width: 10px 0; }
+
+#placeForm fieldset {
+  padding-bottom: 5px;
+  border: none; }
+
+#placeForm span.tooltip-margin {
+  margin-right: 5px; }
+
+#placeForm textarea {
+  width: 372px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+#placeForm label.associate-group-label {
+  float: none; }
+
+#placeForm label.has-tooltip {
+  display: inline-block; }
+
+#placeForm #buttonRow {
+  margin: 20px 20px 0 10px; }
+
+#placeForm #buttonRow a {
+  margin-right: 10px; }
+
+#placeForm fieldset#gearTypes {
+  border-bottom: 1px solid;
+  border-color: #a7a7a7; }
+
+#placeForm .h2-tooltip {
+  margin-bottom: 1px; }
+
+#placeForm .access-label label {
+  display: inline-block; }
+
+#placeForm img.copylock-tooltip {
+  width: 12px;
+  height: 13px;
+  margin-left: 4px; }
+
+#placeForm div.roleset-name {
+  font-weight: bold; }
+
+#placeForm div.username-listitem {
+  color: gray;
+  margin-top: 5px;
+  float: left; }
+
+#placeForm span.invalid-name {
+  color: Red;
+  font-weight: bold;
+  display: none; }
+
+#placeForm a.roleset-tooltip {
+  margin-left: 1px; }
+
+#placeForm img.roleset-tooltip {
+  position: relative;
+  top: -6px;
+  vertical-align: middle; }
+
+#placeForm div.GroupAccess {
+  margin-top: 15px; }
+
+#placeForm div#AssignPermissions {
+  margin-bottom: 20px; }
+
+#placeForm div.GroupRoleSets {
+  margin-left: 20px; }
+
+#placeForm input[type='checkbox'] {
+  margin: 3px 7px 3px 0; }
+
+#placeForm input[type='radio'] {
+  margin-right: 9px; }
+
+#placeForm #gearTypes ul {
+  list-style-type: none;
+  width: 350px;
+  overflow: hidden;
+  margin: 0; }
+
+#placeForm a.roleset-tooltip {
+  vertical-align: middle; }
+
+#placeForm ul#gearTypes {
+  list-style-type: none;
+  width: 500px;
+  overflow: hidden;
+  margin-bottom: 10px; }
+
+#placeForm li.gearCheckbox {
+  float: left;
+  display: inline;
+  width: 33%; }
+
+#placeForm .TipsyImg {
+  vertical-align: middle;
+  margin-top: -10px; }
+
+#placeForm .checkboxListItem {
+  position: relative;
+  float: none; }
+
+#placeForm #groupPlace {
+  margin-bottom: 20px; }
+
+#placeForm div.placetype-warning {
+  color: red;
+  margin-top: -20px;
+  margin-bottom: 30px; }
+
+#placeForm a.tooltip {
+  float: none;
+  position: inherit;
+  margin-left: 1px; }
+
+#placeForm img.h2_tooltip {
+  width: 12px;
+  height: 13px;
+  margin-left: 4px; }
+
+#placeForm #TabsContentContainer {
+  min-height: 300px; }
+
+#placeForm div.spacing {
+  margin-bottom: 10px; }
+
+#placeForm .defaultText {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#placeForm .defaultTextActive {
+  color: #a1a1a1;
+  font-style: italic; }
+
+/* Thumbnail Stuff */
+.youTubeVideoOverlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 70px;
+  z-index: 5;
+  cursor: pointer;
+  background: white;
+  opacity: 0.0;
+  filter: alpha(opacity=0); }
+
+.SelectedYouTubeGalleryIcon {
+  top: -3px;
+  margin: 2px !important;
+  /** !important makes sure we override the margin in divSmallGalleryItem **/
+  border: 3px solid black;
+  /** If you change this border size, you need to change the margin, as well as the top value **/ }
+
+.RemoveYouTubeGalleryImage {
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 6;
+  /** Make sure this is higher than z-index of youTubeVideoOverlay **/ }
+
+.divSmallGalleryItem {
+  height: 70px;
+  width: 120px;
+  float: left;
+  position: relative;
+  margin: 5px; }
+
+#divSmallGalleryItemBox {
+  width: 420px;
+  height: 100px;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden; }
+
+#divSmallGalleryScrollContainer {
+  margin: 0px auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /** Allows for scroll bar **/
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+.smallGalleryThumbItem {
+  float: left; }
+
+.small-image-item {
+  height: 70px;
+  width: 120px; }
+
+.thumbnail-purchase-container {
+  float: left;
+  margin-left: 20px;
+  width: 280px;
+  /* fallback for old browsers */
+  width: calc(100% - 420px - 20px - 20px - 1px); }
+
+.thumbnail-display-container {
+  float: left;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+  position: relative;
+  width: 420px; }
+
+.thumbnail-purchase-container .MainThumbnail {
+  width: 280px; }
+
+.add-image-button {
+  margin-top: 10px; }
+
+.add-media-title {
+  margin-bottom: 10px; }
+
+#versionHistory {
+  overflow-y: hidden; }
+
+.versionHistoryTableContainer {
+  height: 322px;
+  overflow: hidden; }
+
+.versionHistoryTable {
+  width: 100%; }
+
+#versionHistoryItems .versionHistoryTable th,
+#versionHistoryItems .versionHistoryTable td {
+  text-align: center;
+  border: 0 none;
+  padding-top: 5px; }
+
+.pagerContainer {
+  text-align: center;
+  padding-top: 18px; }
+
+.pricinglabel {
+  float: left;
+  font-weight: bold;
+  line-height: 24px;
+  margin-right: 5px;
+  text-align: right;
+  width: 155px; }
+
+.pricingfield {
+  float: left;
+  height: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: left; }
+
+.sellgameaccess {
+  margin-bottom: 20px; }
+
+.privateserversaccess {
+  margin-top: 20px; }
+
+.priceinput {
+  border: 1px solid #ccc;
+  font-family: Verdana,Sans-Serif;
+  font-size: 1.2em; }
+
+.priceerror {
+  display: inline-block; }
+
+.priceinput {
+  width: 75px; }
+
+.pricingrow {
+  margin-top: 10px; }
+
+.robuxspan {
+  margin-top: 5px;
+  float: left; }
+
+.perpurchase {
+  float: left;
+  font-weight: bold;
+  line-height: 24px;
+  margin-right: 5px;
+  text-align: right; }
+
+.chzn-container {
+  width: 300px;
+  position: relative;
+  left: 100px; }
+
+#customlist_chzn {
+  width: 550px; }
+
+#customlist_chzn .chzn-choices {
+  overflow: auto;
+  width: 300px; }
+
+#customlist_chzn .chzn-drop {
+  width: 300px; }
+
+.customlist-error {
+  position: absolute;
+  display: inline-block;
+  height: 0;
+  *zoom: 1;
+  *display: inline; }
+
+.deviceTypeSection {
+  padding-bottom: 25px; }
+
+#PrivateServersError {
+  width: 538px;
+  margin-top: 5px;
+  display: none; }
+
+#SellGameAccessLabel.disabled,
+#Access.disabled,
+#bcOnly.disabled,
+#PrivateServerAccessLabel.disabled {
+  cursor: not-allowed; }
+
+.hidden {
+  display: none !important; }
+
+.error-msg-disable-pbs {
+  color: red;
+  display: none;
+  margin: 6px 0; }
+
+.nav > li.disabled > a {
+  color: #777777; }
+
+.nav > li.disabled > a:hover {
+  cursor: not-allowed;
+  text-decoration: none; }

@@ -1,0 +1,158 @@
+﻿#InviteAFriendContainer
+{
+ margin-top: 10px;
+}
+
+#InviteAFriendContainer h3
+{
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	text-align: left;
+	width: 700px;
+}
+
+#InviteAFriendContainer #Exposition
+{
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+	width: 700px;
+}
+
+#InviteAFriendContainer .Buttons
+{
+
+}
+
+#InviteAFriendContainer .Button
+{
+	border: solid 1px #000000;
+	color: #000000;
+	font-family: Verdana, Sans-Serif;
+	margin: 0 0 0 10px;
+	padding: 3px 10px 3px 10px;
+	text-decoration: none;
+}
+
+#InviteAFriendContainer .MultilineTextBox
+{
+	border: 2px solid #CCCCCC;
+	font-family: Arial, Sans-Serif;
+	line-height: 1.5em;
+	padding: 5px 5px 5px 5px;
+	width: 92%;
+}
+
+#InviteAFriendContainer .TextBox
+{
+    border: 2px solid #CCCCCC;
+	font-family: Arial, Sans-Serif;
+	padding: 5px 5px 5px 5px;
+	width: 92%;
+}
+
+#InviteAFriendContainer .Label
+{
+	font-weight: bold;
+}
+
+#InviteAFriendContainer #InvitationElements
+{
+	margin: 0 auto;
+	padding: 5px 5px 5px 5px;
+	width: 688px;
+}
+
+#InviteAFriendContainer #Name,
+#InviteAFriendContainer #Recipients,
+#InviteAFriendContainer #Message
+{
+	margin: 15px 0 0 0;
+}
+
+#InviteAFriendContainer .FormLabel
+{
+	float: left;
+	width: 94px;
+}
+
+#InviteAFriendContainer .FormField
+{
+	float: left;
+	width: 317px;
+}
+
+#InviteAFriendContainer .FormNotes
+{
+	float: right;
+	font-family: Verdana;
+	font-size: xx-small;
+	width: 277px;
+	text-align: left;
+}
+
+#InviteAFriendContainer #Confirmation h3
+{
+	margin: 0 auto;
+	text-align: left;
+	width: 400px;
+}
+
+#InviteAFriendContainer #Confirmation #Message
+{
+	border: solid 1px #000000;
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+	width: 380px;
+}
+
+#InviteAFriendContainer #Confirmation .Buttons
+{
+	margin: 0 auto;
+	width: 400px;
+}
+
+#ShareRobloxRibbon
+{
+    margin: 15px 0px;
+    padding: 3px;
+    text-align: center;
+}
+#ShareRobloxRibbon a
+{
+    text-decoration: none;
+    color: #000000;
+}
+.ShareRobloxButton
+{
+    padding: 4px;
+    margin: 4px 6px;
+    border: 3px solid #B2C1D2;
+    background: #A5D0FF;
+    color: #000000;
+    cursor:pointer;
+    font-size: 16px;
+}
+.ShareRobloxButtonCurrent
+{
+    padding: 4px;
+    margin: 4px 6px;
+    border: 3px solid #B2C1D2;
+    background: #527396;
+    color: #FFFFFF;
+    cursor:pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.ShareRobloxButton:hover
+{
+    background: #527396;
+    color: #FFFFFF;
+}
+.clearing
+{
+    clear:both;
+}
+#PleaseUpgradeMeContainer
+{
+    margin-top: 10px;
+}

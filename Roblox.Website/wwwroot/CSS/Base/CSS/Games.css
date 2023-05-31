@@ -1,0 +1,486 @@
+﻿#GamesContainer
+{
+	font-family: Verdana, Sans-Serif;
+}
+
+#GamesContainer h2
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+#GamesContainer h4
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 1.3em;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	margin: 15px 0;
+	padding: 0;
+}
+
+#GamesContainer ul
+{
+	font-family: Verdana, Sans-Serif;
+	list-style: none;
+	margin: 10px 0 30px 0;
+	padding-left: 0;
+}
+
+#GamesContainer ul li
+{
+	font-family: Verdana, Sans-Serif;
+	margin-bottom: 0.5em;
+}
+
+#GamesContainer ul a
+{
+	font-size: 1.1em;
+}
+
+#GamesContainer .DisplayFilters
+{
+	width: 170px;
+}
+
+#GamesContainer #Games
+{
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	width: 720px;
+	overflow: visible;
+	
+}
+.GameList
+{
+	overflow: visible;
+}
+
+
+#GamesContainer #Games .FooterPager
+{
+	margin: 20px 24px 0 0;
+	padding: 2px 0;
+	text-align: right;
+}
+
+#GamesContainer #Games .HeaderPager
+{
+	margin: 0 24px 0 100px;
+	padding: 30px 0;
+	text-align: left;
+}
+
+#GamesContainer #Games .HeaderPager .Label,
+#GamesContainer #Games .FooterPager .Label
+{
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+#GamesContainer .Game
+{
+	margin: 0 10px 15px 10px;
+	vertical-align: top;
+	width: 162px;
+}
+
+#GamesContainer .Game .GameThumbnail
+{
+	border: solid 1px #000;
+	width: 160px;
+	height: 100px;
+	text-align: center;
+}
+
+#GamesContainer .Game .GameDetails
+{
+	font-family: Verdana, Sans-Serif;
+	overflow: hidden;
+	padding: 2px 0 6px 0;
+	width: 152px;
+}
+
+.GameName
+{
+    font-weight:bold;
+    font-size:12px;
+}
+
+#GamesContainer .GameName a
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1.5em;
+	vertical-align: top;
+}
+
+.GamesBullet
+{
+	padding-right: 3px;
+}
+
+#GamesContainer .Label,
+#GamesContainer .Detail,
+#GamesContainer .DetailHighlighted
+{
+	font-size: 0.8em;
+}
+
+#GamesContainer .DetailHighlighted
+{
+	color: Red;
+	font-weight: bold;
+}
+
+#GamesContainer .GamesDisplaySet
+{
+	float: left;
+	font-family: Comic Sans MS, Arial, Sans-Serif;
+	font-size: 1.5em;
+}
+
+.GamesInfoIcon,
+.GenreIcon,
+.GearIcon
+{
+	margin-top: 1px;
+	margin-right: 1px;
+	position:relative;
+	top:3px;
+}
+div.GamesInfoIcon 
+{
+    height:14px;
+    width:16px;
+    display:inline-block;
+    top:0px;
+    padding:0;
+    margin-right:3px;
+}
+.AllowedGearRepeater_Container div.GamesInfoIcon
+{
+    background: url(/images/CategoryIcons/CategorySprite.png);
+}
+.AssetGenreRepeater_Container div.GamesInfoIcon
+{
+    background: url(/images/GenreIcons/GenreIconsSprite.png);
+    height:14px;
+}
+.AllowedGearRepeater_Container, .AssetGenreRepeater_Container
+{
+    clear:both;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+.AllowedGearRepeater_Container div, .AssetGenreRepeater_Container div
+{
+    float:left;
+    position:relative;
+    top:.25em;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+div.GamesInfoIcon.Melee
+{
+    background-position:48px 0px;
+}
+div.GamesInfoIcon.Ranged
+{
+    background-position:64px 16px;
+}
+div.GamesInfoIcon.Explosive
+{
+    background-position:-16px 0px;
+}
+div.GamesInfoIcon.PowerUps
+{
+    background-position:-16px -16px;
+}
+div.GamesInfoIcon.Navigation
+{
+    background-position:16px 0px;
+    z-index:inherit;
+}
+div.GamesInfoIcon.Music
+{
+    background-position:32px 0px;
+}
+div.GamesInfoIcon.Social
+{
+    background-position:48px 16px;
+}
+div.GamesInfoIcon.Building
+{
+    background-position:0px 0px;
+}
+div.GamesInfoIcon.PersonalTransport
+{
+    background-position:0px 16px;
+}
+div.GamesInfoIcon.Adventure
+{
+    background-position:0px 0px;
+}
+div.GamesInfoIcon.War
+{
+    background-position:16px -3px;
+}
+div.GamesInfoIcon.Funny
+{
+    background-position:32px 0px;
+}
+div.GamesInfoIcon.Scary
+{
+    background-position:49px 0px;
+}
+div.GamesInfoIcon.Fantasy
+{
+    background-position:-16px 0px;
+}
+div.GamesInfoIcon.Town.City
+{
+    background-position:-32px 0px;
+}
+div.GamesInfoIcon.All
+{
+    background-position: -47px 1px;
+}
+div.GamesInfoIcon.Ninja
+{
+    background-position:0px 16px;
+}
+div.GamesInfoIcon.Wild.West
+{
+    background-position:16px 15px;
+}
+div.GamesInfoIcon.Tutorial
+{
+    background-position:32px 16px;
+}
+div.GamesInfoIcon.Sports
+{
+    background-position:49px 16px;
+}
+div.GamesInfoIcon.Pirate
+{
+    background-position:-16px 16px;
+}
+div.GamesInfoIcon.Sci-Fi
+{
+    background-position:-32px 16px;
+}
+div.GamesInfoIcon.Skate.Park
+{
+    background-position:-48px 16px;
+    width:15px;
+}
+div.GamesInfoIcon.FPS
+{
+    background: url(/images/GenreIcons/FPS.png) no-repeat;
+    height:16px;
+}
+div.GamesInfoIcon.RPG
+{
+    background: url(/images/GenreIcons/RPG.png) no-repeat;
+    height:16px;
+}
+.SearchBoxBack .StandardBox
+{
+    background: #6e99c9;
+}
+.GameFilter
+{
+    color:#555;
+    margin-left:10px;
+    font-size:14px;
+}
+.GameFilter ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+    margin:0;
+}
+.GameFilter ul li
+{
+    margin:5px 0;
+}
+.GameFilter .SelectedFilter,
+.GameFilter .SelectedGenre,
+.GameFilter .SelectedSort
+{
+    background: url(/images/gamesPage_filterArrow.png) no-repeat 0 1px;
+    cursor:pointer;
+    padding-left:20px;
+    font-weight:normal;
+}
+.GameFilter .GamesFilter, .GameFilter .GamesGenre, .GameFilter .GamesSort
+{
+    padding-left:20px;
+    display: inline-block;
+}
+.GamesGenre h3
+{
+    display: inline-block;
+    cursor:pointer;
+    font-weight: normal;
+}
+#PlayTabs a
+{
+    text-decoration: none;
+}
+.SelectedFilter,
+.SelectedGenre,
+.SelectedSort
+{
+    font-weight: normal;
+}
+a.DisabledFilter,
+a.DisabledFilter:hover
+{
+    color: gray;
+    text-decoration: none;
+    cursor: default;
+}
+a.GamesGenre.DisabledFilter h3,
+a.GamesGenre.DisabledFilter:hover h3
+{
+    cursor: default;
+}
+
+#BCOnlyPlaces
+{
+    position:relative;
+    width: 410px; 
+    text-align:center; 
+    float: left; 
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+#BCOnlyPlaces .StandardBoxHeaderGray 
+{
+    width: 410px;
+    height:27px;
+    padding: 9px 2px 0 2px;
+    *padding: 5px 2px 0 2px;
+}
+#BCOnlyPlaces .StandardBox
+{
+    height: 188px;
+    padding:2px 0;
+}
+#BCOnlyPlacesTitle
+{
+    display:inline;
+    font-weight:bold;
+    font-size:19px;
+    position: relative;
+    *margin-left: 5px;
+}
+#BCOnlyGamesContent
+{
+    width:370px;margin: 0px auto;
+}
+#BCOnlyGamesContentPrevNavButton
+{
+    position:absolute;top:105px;left:10px;visibility: hidden;  
+}
+#BCOnlyGamesContentNextNavButton
+{
+    position:absolute;top:105px;right:10px;
+}
+#GenreDescriptionPanel
+{
+    float: left; width: 695px; font-size: 0.9em; padding: 10px; border-top: 1px solid #AAAAAA;
+}
+.SearchIconButton
+{
+    background:url(/images/searchIcon.png) no-repeat;cursor:pointer;width:16px;height:16px;position:absolute;top:5px;right:4px;   
+}
+.GameItem {
+    padding:6px;
+    margin-left:8px;
+    margin-bottom:8px;
+    position:relative;
+    text-align: left;
+}
+.GameItem:hover {
+    display:block;
+    z-index:99;
+}
+.GameItem .AlwaysShown {
+    position:relative;
+    width: 160px;
+    height: 130px;
+}
+.GameItem:hover .AlwaysShown {
+    z-index:999;
+}
+.GameItem .HoverShown {
+    display:none;
+    position:absolute;
+    width:160px;
+    padding:158px 15px 15px;
+    top:-10px;
+    left:-10px;
+    border:solid 1px #888;
+    background:#fff;
+    font-size: 11px;
+    text-align:left;
+    color:#888;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.GameItem .CreatorName {
+    position:relative;
+    top:-5px;
+    font-size:11px;
+    color:#888;
+}
+.GameItem .BCOverlay {
+    position:absolute;
+    top:81px;
+    left:0;
+}
+.PersonalServerOverlay_Small
+{
+    position: absolute; 
+    bottom: 1px;
+    right: 1px;
+    width: 34px;
+    height: 18px;
+    background-image: url('/images/icons/overlay_personal_small.png');
+    background-repeat: no-repeat;
+}
+.PersonalServerOverlay_Big
+{
+    position: absolute; 
+    bottom: 0px;
+    right: 0px;
+    width: 137px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url('/images/icons/overlay_personal_big.png');
+}
+.GameItem .MegaOverlay {
+    position:absolute;
+    top:81px;
+    right:0;
+}
+.GameItem .GenreIcon, .GameItem .GearIcon {
+    position:static;
+    top:0;
+    margin-top:0px;
+    margin-right:0px;
+}
+#GamesLeftColumn
+{
+    width: 136px;
+}

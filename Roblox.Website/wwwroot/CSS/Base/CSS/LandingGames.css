@@ -1,0 +1,176 @@
+﻿
+
+#header {
+    width:990px;
+    margin:0 auto;
+    padding:15px 0px 0px 0px;
+}
+
+#logo {
+    width:155px;
+    margin-left:15px;
+    float:left;
+}
+
+/*Login pop-up*/
+#login {
+    position:relative;
+    margin:15px 24px 0 0;
+    float:right;
+    color:#fff;
+    font-size:12px;
+}
+#loginButton {
+	display:inline-block;
+    cursor:pointer;
+    padding:2px 2px 5px 0;
+    background-position:bottom;
+    position:relative;
+}
+#loginButton:hover {
+    color:#d8e6fc;
+}
+#loginButton span {
+	padding:2px 15px 5px 0px;
+    background:url(/images/LandingGames/loginArrow.png) no-repeat 40px 7px;
+}
+#loginButton:hover span {
+    background-position:40px -41px;
+}
+#loginBox {
+    position:absolute;
+    top:22px;
+    right:0px;
+    color:#000;
+    display:none;
+    width:230px; 
+    background:#edeff3;	
+}
+
+#loginButton.active {
+    color:#00218c;
+    background-color:#edeff3;
+}
+#loginButton.active span {
+    background-position:40px -86px;
+}
+#loginBox fieldset {
+    margin:0 0 5px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+fieldset#body {
+    padding:10px 15px;
+    margin:0;
+}
+#loginBox #body fieldset label {
+    display:block;
+    float:none;
+    margin:0 0 0px 0;
+}
+#loginBox input {
+    width:92%;
+    border:1px solid #899caa;
+    color:#3a454d;
+    padding:3px 7px;
+    font-size:12px;
+}
+#loginBox #loginSubmit {
+    width:auto;
+    float:right;
+    background:url(/images/LandingGames/login_btn.png) repeat-x;
+    color:#fff;
+    padding:3px 10px 3px 10px;
+    border:1px solid #339cdf;
+    margin:5px 0 5px 0;
+    cursor:pointer;
+    position:relative;
+}
+#loginBox #body fieldset a {
+    color:#757d85;
+    text-decoration:underline;
+    font-size:12px;
+}
+#line {
+    width:100%;
+    height:1px;
+    background:#0047ba;
+}
+#facebook_btn {
+    width:230px;
+    height:30px;
+    margin:10px 0 0 0;
+    background:#edeff3;
+    text-align:center;
+}
+input:focus {
+    outline:none;
+}
+
+#container {
+    width:990px;
+    margin:0 auto;
+}
+
+#videoContainer {
+    width:950px;
+    height:371px;
+    background:url(/images/LandingGames/video_bg.png) no-repeat;
+    margin:0 0 15px 16px;
+    float:left;
+}
+#video {
+    margin:6px 0 0 5px;
+    float:left;
+}
+
+#link_text {
+		width:280px;
+		margin:150px 0 0 20px;
+    float:left;
+}
+
+a.crossroads, a.crossroads:visited {
+	width:330px;
+    height:298px;
+    display:block;
+    margin-right:10px;
+    background:url(/images/LandingGames/crossroads.gif) bottom no-repeat;
+    cursor:pointer;
+    float:left;
+}
+a.crossroads:hover {
+	background-position:top;
+}
+a.swordfight, a.swordfight:visited {
+	width:300px;
+    height:298px;
+    display:block;
+    margin-right:10px;
+    background:url(/images/LandingGames/swordfight.gif) bottom no-repeat;
+    cursor:pointer;
+    float:left;
+}
+a.swordfight:hover {
+	background-position:top;
+}
+a.seemoregames, a.seemoregames:visited {
+	width:330px;
+    height:298px;
+    display:block;
+    background:url(/images/LandingGames/seeMoreGames.gif) bottom no-repeat;
+    cursor:pointer;
+    float:left;
+}
+a.seemoregames:hover {
+	background-position:top;
+}
+
+#footer{
+    font-size:12px;
+    color:#457cb1;
+    background-color:#75a6d8;
+    margin:50px auto 0 auto;
+    text-align:center;
+}

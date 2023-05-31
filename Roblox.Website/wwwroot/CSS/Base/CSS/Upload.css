@@ -1,0 +1,40 @@
+﻿#post-image-main, #upload-video-main 
+{
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+#post-image-main a, #post-image-main a:hover, #upload-video-main a, #upload-video-main a:hover 
+{
+	text-decoration:none;
+}
+
+#post-image-ul, #upload-video-ul 
+{
+	text-align: left;
+	font-weight: normal;
+	font-size: 12pt;
+}
+
+#post-image-small, #upload-video-small 
+{
+	font-weight: normal;
+	font-size: 12pt;
+}
+
+#post-image-footer, #upload-video-footer
+{
+    text-align:right;
+}
+
+#post-image-footer a, #upload-video-footer a 
+{
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+#post-image-footer a:hover, #upload-video-footer a:hover
+{
+    text-decoration: none;
+}

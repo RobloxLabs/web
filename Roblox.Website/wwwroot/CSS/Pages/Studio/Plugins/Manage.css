@@ -1,0 +1,93 @@
+/* Legacy CSS file - Please do not copy */
+body {
+  min-width: 800px; }
+
+div.manage-header-wrap {
+  position: absolute;
+  width: 100%; }
+
+h2 {
+  position: relative;
+  top: 5px; }
+
+div.manage-header {
+  margin-bottom: 10px;
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  min-width: 300px;
+  z-index: 100;
+  background-color: #EFEFEF;
+  padding-left: 30px; }
+
+div.error-bar {
+  width: 95%;
+  height: 120px;
+  float: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  display: none; }
+
+div.plugins {
+  min-width: 800px;
+  margin-top: 65px;
+  margin-left: 30px; }
+
+div.plugin {
+  display: none;
+  height: auto;
+  min-height: 120px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  width: 95%; }
+
+div.plugin-controls {
+  height: 120px;
+  width: 225px;
+  float: right;
+  position: relative; }
+
+div.update-button-wrapper {
+  margin-right: 10px;
+  position: absolute;
+  height: 25px;
+  right: 0; }
+
+div.update-button-wrapper span {
+  display: inline-block; }
+
+div.update-button-wrapper span.updates {
+  display: none; }
+
+div.plugin-wrapper {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  margin-right: 10px;
+  height: 27px; }
+
+a.switch {
+  vertical-align: top;
+  margin: 7px 1px 1px 10px;
+  display: inline-block; }
+
+a.close-x {
+  display: inline-block;
+  top: 1px;
+  margin-left: 15px; }
+
+span.status-confirm, span.status-error {
+  position: relative;
+  top: 50px; }
+
+.update-button {
+  display: none; }
+
+div.button-bar {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
+  margin-top: 10px; }

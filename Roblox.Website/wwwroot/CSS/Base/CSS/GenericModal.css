@@ -1,0 +1,61 @@
+﻿.GenericModal .Title {
+    font-family:Arial, Helvetica, Sans-Serif;
+    font-weight:bold;
+    font-size:27px;
+    color:#363636;
+    margin: 5px 0;
+    letter-spacing: -1px;
+}
+
+.GenericModal {
+    padding: 5px;
+    *top: -150px;
+}
+
+.GenericModalBody {
+    background-color:#fff;
+    padding:10px
+}
+
+.GenericModal .Message {
+    display:inline-block;
+    width:275px;
+    vertical-align:middle;
+    font:bold 15px Arial,Helvetica,Sans-Serif;
+    letter-spacing: 0;
+    font-size-adjust: none;
+    font-stretch: normal;
+}
+
+.GenericModal div.ImageContainer {
+    display:inline-block;
+    height:110px;
+    width:110px;
+    overflow:hidden;
+    vertical-align:middle;
+    margin-left: -15px;
+    *float: left;
+    *margin-left: 0px;
+}
+
+.GenericModal img.GenericModalImage {
+    display:inline-block;
+    max-height:110px;
+    max-width:110px
+}
+
+.GenericModal .GenericModalButtonContainer {
+    text-align:center;
+    margin: 5px auto;
+    *margin-top: 115px;
+}
+
+div.GenericModalErrorMessage {
+    background-color: #FAE5E5;
+    border: 1px solid #C00;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding: 5px;
+    margin: 0 5px;
+}

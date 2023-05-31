@@ -1,0 +1,144 @@
+﻿#MasterContainer.heroFactory 
+{
+    background-color:#000;
+}
+#Body.heroFactory 
+{
+    background:none;
+}
+#BodyWrapper.heroFactory
+{
+    width:100%;
+    text-align:center;
+    background:url(/images/Contests/HeroFactory/background2.jpg) no-repeat center 1px #000;
+    position: relative;
+    top: -19px;
+    *top:-35px;
+}
+#Footer.heroFactory
+{
+    background:#000;
+}
+.heroFactory .ContentContainer
+{
+    width: 900px;
+    position: relative;
+    height:790px;
+    display:inline-block;
+    left: -65px;
+    top:30px;
+}
+.heroFactory .ContentContainerTwo
+{
+}
+.heroFactory .LeftColumn
+{
+    height:403px;
+    width:280px;
+    float:left;
+    margin-top:58px;
+    margin-left:74px;
+    position: relative;
+}
+.heroFactory .RightColumn
+{
+    float: right;
+    width: 500px;
+    position: relative;
+    top: 118px;
+    left: 72px;
+}
+.heroFactory .CTAPlay
+{
+    display: none;
+}
+.heroFactory .CTAButtonsContainer
+{
+    position: absolute;
+    top: -29px;
+    left: 500px;
+    text-align:left;
+}
+.heroFactory a.CTA
+{
+    display:block;
+    background-repeat:no-repeat;
+    background-position:top left;
+    height:50px;
+    width: 185px;
+    float: left;
+}
+.heroFactory .CTA.Play
+{
+    background:url(/images/Contests/HeroFactory/btn_play.png) top left;
+    width:185px;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+}
+.heroFactory .CTA.Play:hover
+{
+    background-position:bottom left;
+}
+.heroFactory .CTA.Vote
+{
+    display:none;
+}
+.heroFactory .CTA.Contest
+{
+    display:none;
+}
+.heroFactory .CTA.Leaders
+{
+    display:none;
+}
+.heroFactory .CTA.Prizes
+{
+    background-image:url(/images/Contests/HeroFactory/btn_prizes.png);
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+.heroFactory .CTA.Prizes:hover
+{
+    background-position:bottom left;
+}
+.heroFactory .CTA.Catalog
+{
+    display: none;
+}
+.heroFactory .DescriptionContainer
+{
+    margin: 76px 0px 0px 35px;
+    *margin-left:0px;
+    width: 420px;  
+}
+.heroFactory p.Description
+{
+    margin:0px;
+    font-family:Arial;
+    font-size:12px;
+    color:White;
+    text-align:left;
+    line-height:15px;
+}
+.heroFactory p.Description a {
+    color: #59faff;
+}
+#mediaspace /* positions nonyoutube video correctly */
+{
+    width: 460px;
+    position:relative;
+    left:15px;
+    top:5px;
+    *left:-5px;
+}
+.heroFactory .videoURL
+{
+    width:460px;
+    height:370px;
+}
+.heroFactory .SystemAlert
+{
+    display:none;
+}

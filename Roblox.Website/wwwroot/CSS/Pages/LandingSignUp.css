@@ -1,0 +1,124 @@
+/* Legacy CSS file - Please do not copy */
+body,
+.nav-container .nav-content {
+  background: #123f83; }
+
+.nav-container .nav-content {
+  margin-left: 0 !important;
+  width: 100% !important;
+  margin-top: 41px !important; }
+
+.nav-container #navigation,
+.nav-container .nav-icon {
+  display: none; }
+
+#Header {
+  margin: 0 auto;
+  color: White;
+  font-weight: bold;
+  width: 900px;
+  text-align: center; }
+
+#Header a, #Header a:visited, #Header a:active {
+  text-decoration: none; }
+
+#Header a:hover {
+  text-decoration: none; }
+
+#Header .Navigation {
+  clear: both;
+  background-color: #6e99c9;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: normal;
+  line-height: 2em;
+  text-decoration: none; }
+
+#Header {
+  position: absolute;
+  bottom: 0;
+  text-align: left; }
+
+#Header .AlertSpace a:active {
+  text-decoration: none; }
+
+#Experimental .CreateAccountWrapper {
+  margin: 17px 0 0 -89px; }
+
+.Footer {
+  width: 970px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  color: Black;
+  text-align: center; }
+
+.Footer.Experimental {
+  background-color: #123f83;
+  color: #899fc1;
+  width: 100%;
+  font-size: 12px; }
+
+.Experimental a {
+  color: white; }
+
+div.Experimental p.Legalese {
+  font-size: 10px;
+  padding: 0;
+  line-height: 20px; }
+
+.FooterContent {
+  width: 970px;
+  margin: 0 auto; }
+
+.FooterParagraph {
+  float: left;
+  margin-top: 31px;
+  color: #899fc1; }
+
+.FooterParagraph .privacy {
+  color: #00A2FF; }
+
+.FooterKidSafeLegaleseContainer {
+  width: 630px;
+  margin: 0 auto;
+  padding: 10px 0 10px 20px;
+  text-align: center; }
+
+.FooterLegaleseContainer {
+  float: right;
+  width: 630px;
+  /*margin: 0 auto;*/
+  padding: 10px 0 10px 20px;
+  text-align: left;
+  border-left: 1px solid #335d99; }
+
+#Experimental .title {
+  text-align: left;
+  margin: 0 0 20px 20px; }
+
+#Experimental .SignupWrapper {
+  float: right;
+  width: 525px;
+  padding-bottom: 10px;
+  padding-left: 9px; }
+
+#Experimental .VideoSubtitle {
+  margin-top: 0px; }
+
+#Experimental .VideoContainer {
+  float: left;
+  display: inline;
+  padding: 0px 5px;
+  width: 381px; }
+
+#Experimental .Content {
+  min-height: 252px;
+  padding: 8px 8px 8px 8px;
+  margin-bottom: 0px;
+  border-bottom: none; }
+
+.valid-container {
+  left: 2px; }
+
+#Experimental .SignupWrapper h1 {
+  margin: 0 0 10px 20px; }

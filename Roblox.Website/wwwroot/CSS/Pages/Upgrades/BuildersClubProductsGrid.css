@@ -1,0 +1,169 @@
+﻿
+/* ------------------ Page Structure ------------------ */
+#BCPageContainer .header {
+	padding-left: 10px;
+}
+
+#BCPageContainer .header .expire-text {
+	padding-left: 5px;
+	vertical-align: top;
+}
+
+.expire-text .date {
+	color: #cb0000;
+	vertical-align: top;
+}
+
+#BCPageContainer .left-column 
+{
+	width: 720px;
+	float: left;
+	margin: 0;
+}
+
+#BCPageContainer .right-column {
+	width: 250px;
+	float: right;
+}
+
+#BCPageContainer .header {
+	width: 100%;
+	clear: both;
+	padding-bottom: 30px;
+}
+
+#BCPageContainer .right-column #RightColumnWrapper {
+	border: none;
+}
+
+/* IE7 HAAAAAK */
+.simplemodal-container {
+	*top: -150px;
+}
+
+/* ------------------ Product Header Icons ------------------ */
+
+.product-title .center-bold {
+	text-align: center;
+	font-weight: bold;
+	width: 179px;
+}
+
+.product-title .product-space {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.product-title td{
+	padding-bottom: 20px;
+}
+
+/* ------------------ Benefit Summary Section ------------------ */
+
+.product-summary td{
+	padding: 4px;
+}
+
+.product-summary tr:first-child td{
+	border-top: none;
+	padding-top: 15px;
+}
+
+.product-summary .product-description{
+	text-align: left;
+	float: left;
+	color: #333333;
+}
+
+.product-summary .nbc-product{
+	float: right;
+	width: 3em;
+	color: #d90000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.product-summary{
+	color: #024102;
+	text-align: center;
+}
+
+/* ------------------ Benefit Summary Big Section ------------------ */
+
+.product-summary.summary-big{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.product-summary.summary-big .emphasis{
+	color: #02b302;
+	font-size: 17px;
+}
+
+.product-summary.summary-big tr:last-child td {
+	padding-bottom: 25px;
+}
+
+/* ------------------ Benefit Summary Small Section ------------------ */
+
+.product-summary.summary-small .bc-product,
+.product-summary.summary-small .tbc-product,
+.product-summary.summary-small .obc-product{
+	color: #02b302;
+	font-size: 18px;
+	padding: 0;
+}
+
+.product-summary.summary-small tr:first-child td{
+	padding-top: 20px;
+}
+
+.product-summary.summary-small tr:last-child td{
+	padding-bottom: 0;
+}
+
+/* ------------------ Product Purchase Grid ------------------ */ 
+
+.product-grid .product-cell:first-child {
+	border-left: none;
+}
+
+.product-grid .product-nbc {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 45px;
+}
+
+.product-grid .product-cell {
+	text-align: center;
+	height: 60px;
+	vertical-align: middle;
+	padding: 12px 0;
+}
+
+.product-grid tr:first-child td {
+	margin-top: 25px;
+}
+
+.product-grid .product-cell .product-text {
+	height: 35px;
+	font-size: 12px;
+}
+
+.product-grid .product-cell .product-text .product-extend {
+	padding-top: 3px;
+}
+
+.product-grid .product-cell .product-duration, .product-grid .product-cell .product-expiration  {
+	vertical-align: top;
+}
+
+.product-grid .product-cell .product-expiration-date {
+	color: red;
+	vertical-align: top;
+}
+
+.product-grid .product-cell.product-popular {
+	background-color: #fefebe;
+}

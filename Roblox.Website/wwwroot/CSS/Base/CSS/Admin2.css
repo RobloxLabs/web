@@ -1,0 +1,1441 @@
+.adminStyle * {
+	padding:0;
+	margin:0;
+}
+/* ==Firefox uses padding-left for ul; IE uses margin-left== */
+.adminStyle ul {
+	/*padding-left:1em;*/
+    margin-left:0;
+}
+
+.adminStyle .tight  {
+	margin-top:-10px;
+	margin-left:8px;
+	padding-left:8px;
+}
+.adminStyle img {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.adminStyle table{
+/*
+	cellpadding: 0;
+	cellspacing: 0;
+*/
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.adminStyle .spacer {  
+	clear: both;
+	float: none;
+	height: 1px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.adminStyle p {
+	padding: .6em 0 .6em 0;
+}
+.adminStyle .lessair{
+	margin: 2px 0 4px 0;
+	padding: 0;
+}
+
+.adminStyle .air{
+	line-height: 1.6em;
+}
+.adminStyle .small {
+	font-size: 11px;
+	line-height: 12px;
+}
+
+.adminStyle .left {
+	float:left;
+}
+.adminStyle .right {
+	float:right;
+}
+
+
+
+
+
+/* ============= MAIN CONTAINERS ============ */
+.adminStyle html {
+	padding:0;
+	margin:0;
+	/* background-color: #287241; */
+}
+
+.adminStyle body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	color: #444;
+	/* background:#f8fcff url(../graphics/bg_gradient.jpg) repeat-x top; */
+}
+.adminStyle a:link, .adminStyle a:visited, .adminStyle a:active {
+	color: #1e52d5;
+	text-decoration: none;
+}
+.adminStyle a:hover {
+	text-decoration: underline;
+}
+
+
+/* ============= Main content container ============ */
+.adminStyle #master_container {
+	/* background:url(../graphics/bg_clouds.jpg) no-repeat center top; */
+	width: 100%;
+}
+.adminStyle #container {
+	width:960px;
+	margin:0 auto 0 auto;
+}
+
+
+/* ==================================== HEADER ===================================== */
+
+
+/* bottom margin of 9 instead of 10 because the spacer div creates the additional 1px */
+.adminStyle .header {
+	margin:0 0 9px 0;
+}
+
+.adminStyle .logo {
+	float:left;
+	display:inline;
+	width:244px;
+	height:66px;
+	margin:22px 0 0 4px;
+}
+.adminStyle .logo_spacer {
+	width:244px;
+	height:66px;	
+}
+
+.adminStyle .ad_banner {
+	float:right;
+	display:inline;
+	width:468px;
+	height:60px;
+	margin:20px 30px 0 0;	
+}
+
+.adminStyle .login {
+	float:right;
+	display:inline;
+	width:172px;
+	padding:0 0 3px 0;
+	background:url(../graphics/bg_login_bottom.png) no-repeat bottom left;	
+}
+.adminStyle .login_placeholder {
+	float:right;
+	display:inline;
+	width:172px;
+	height:50px;
+}
+
+.adminStyle .login_header {
+	width:170px;
+	height:18px;
+	border-left:#2a2a2a 1px solid;
+	border-right:#2a2a2a 1px solid;
+	border-bottom:#639ddb 1px solid;
+	background:url(../graphics/bg_login_header.gif) repeat-x top left;	
+}
+.adminStyle .login_header p {
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px 0 0 9px;	
+}
+.adminStyle .login_content {
+	width:160px;
+	padding:3px 0 0 10px;
+	border-left:#2a2a2a 1px solid;
+	border-right:#2a2a2a 1px solid;
+	background:#fff;
+}
+.adminStyle .login_content p {
+	line-height:14px;
+	padding:3px 0 4px 0;
+}
+.adminStyle .login_input {
+	width:80px;
+	height:12px;	
+}
+
+
+
+
+
+
+/* ============================ NAV =================================== */
+.adminStyle .nav_container {
+	width:960px;
+	height:28px;
+	display:block;
+	margin:0 0 2px 0;
+	clear: both;
+	float: none;
+}
+.adminStyle .nav {
+	width:942px;
+	height:28px;
+	float:left;
+	display:block;
+	background:url(../graphics/nav-bg.gif) repeat-x;
+	line-height: 26px;
+	overflow: hidden;
+}
+.adminStyle .nav_left {
+	width:9px;
+	height:28px;
+	float:left;
+	display:block;
+}
+.adminStyle .nav_right {
+	width:9px;
+	height:28px;
+	float:left;
+	display:block;
+}
+
+.adminStyle .nav_button_container {
+	/* height:26px;
+	display: inline-block;
+	overflow: hidden; */
+	margin:1px auto 1px auto;
+}
+
+
+.adminStyle .nav_button_div {
+	width:2px;
+	height:26px;
+	float: left;
+	display: block;
+	background:url(../graphics/nav-div.gif) no-repeat;
+}
+.adminStyle .nav a:link, .adminStyle .nav a:visited, .adminStyle .nav a:active {
+	height:26px;
+	display: block;
+	float: left;
+	color: #fff;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 20px 0 20px;
+	text-decoration: none;
+}
+.adminStyle .nav a.news:link, .adminStyle .nav a.news:visited, .adminStyle .nav a.news:active {
+	padding: 0 5px 0 20px;
+}
+.adminStyle .nav a.news_feed:link, .adminStyle .nav a.news_feed:visited, .adminStyle .nav a.news_feed:active {
+	padding: 5px 20px 0 5px;
+}
+.adminStyle .nav a:hover {
+	text-decoration: underline;
+	background:url(../graphics/nav-bg-hover.gif) repeat-x;
+}
+.adminStyle .nav a.nav_on:link, .adminStyle .nav a.nav_on:visited, .adminStyle .nav a.nav_on:active {
+	text-decoration: none;
+	background:url(../graphics/nav-bg-on.gif) repeat-x;
+}
+
+/*.adminStyle .nav * {
+	border: #00CC66 solid 1px;
+} */
+
+
+/* ============= Breadcrumb Path Below Nav ============ */
+
+.adminStyle .breadcrumb {
+	font-weight: bold;
+	color:#000;
+	margin:8px 0 6px 7px;
+	padding:0 0 0 9px;
+	background:url(../graphics/arrow-breadcrumb.gif) no-repeat left;
+}
+
+.adminStyle .breadcrumb_placeholder {
+	height:7px;
+}
+
+
+
+/* ============= Flash container for home page ============ */
+
+.adminStyle .homepage_flash {
+	width:960px;
+	height:266px;
+	/*background:url(../graphics/flash-placeholder.png) no-repeat top left;*/
+	margin:0 0 10px 0;
+}
+
+
+
+
+
+
+/* ============= Content Panels ============ */
+
+.adminStyle .panel_1col {
+	width:314px;
+	display:block;
+	margin:0 0 9px 0;
+}
+/* fixed height for home panels */
+.adminStyle .panel_home_height {
+	height:296px;
+}
+/* space between left-floating panels */
+.adminStyle .panel_right_margin {
+	margin-right:9px;
+}
+.adminStyle .panel_2col {
+	width:637px;
+	display:block;
+	margin:0 0 10px 0;
+}
+.adminStyle .panel_3col {
+	width:960px;
+	display:block;
+	margin:0 0 10px 0;
+}
+.adminStyle .panel_3col_with_ad {
+	width:805px;
+	display:block;
+	margin:0 0 10px 0;
+}
+
+.adminStyle .panel_header {	
+	display:block;
+	height:28px;
+}
+.adminStyle .rollover_header {	
+	display:block;
+	height:10px;
+}
+.adminStyle .panel_header_left {
+	height:28px;
+	background:url(../graphics/panel-corner-top-left.png) no-repeat top left;
+}
+.adminStyle .panel_header_left2 {
+	height:28px;
+	background:url(../graphics/panel-corner-top-left2.png) no-repeat top left;
+}
+.adminStyle .panel_header_left_white {
+	height:28px;
+	background:url(../graphics/panel-corner-top-left-white.gif) no-repeat top left;
+}
+.adminStyle .rollover_header_left {
+	height:10px;
+	background:url(../graphics/rollover-corner-top-left.png) no-repeat top left;
+}
+.adminStyle .panel_header_right {
+	height:28px;
+	background:url(../graphics/panel-corner-top-right.png) no-repeat top right;
+}
+.adminStyle .panel_header_right2 {
+	height:28px;
+	background:url(../graphics/panel-corner-top-right2.png) no-repeat top right;
+}
+.adminStyle .panel_header_right_white {
+	height:28px;
+	background:url(../graphics/panel-corner-top-right-white.gif) no-repeat top right;
+}
+.adminStyle .rollover_header_right {
+	height:10px;
+	background:url(../graphics/rollover-corner-top-right.png) no-repeat top right;
+}
+.adminStyle .panel_header_content {
+	display:block;
+	width:auto;
+	height:28px;
+	margin:0 10px 0 10px;
+	background:url(../graphics/panel-header-bg.png) repeat-x;
+}
+.adminStyle .panel_header_content2 {
+	display:block;
+	width:auto;
+	height:28px;
+	margin:0 10px 0 10px;
+	background:url(../graphics/panel-header-bg2.png) repeat-x;
+}
+.adminStyle .panel_header_content_white {
+	display:block;
+	width:auto;
+	height:28px;
+	margin:0 10px 0 10px;
+	background:url(../graphics/panel-header-bg-white.gif) repeat-x;
+}
+.adminStyle .rollover_header_content {
+	display:block;
+	width:auto;
+	height:10px;
+	margin:0 10px 0 10px;
+	background:url(../graphics/panel-header-bg-white.gif) repeat-x;
+}
+.adminStyle .panel_header_content p {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+	padding:8px 0 0 10px;
+}
+.adminStyle .panel_header_content2 p {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+	padding:8px 0 0 10px;
+}
+.adminStyle .header_online_indicator {
+	margin:6px 0 0 10px;
+}
+.adminStyle .header_online_indicator_text {
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+	padding:8px 0 0 5px;
+}
+.adminStyle .panel_header_rightside {
+	float:right;
+	padding:8px 10px 0 0;
+}
+.adminStyle .panel_header_rightside a:link, .adminStyle .panel_header_rightside a:visited, .adminStyle .panel_header_rightside a:active {
+	color: #ff9;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.adminStyle .panel_header_rightside a:hover {
+	text-decoration: underline;
+}
+.adminStyle .panel_header_rightside img {
+	padding:0 0 1px 7px;
+	vertical-align:middle;
+}
+
+.adminStyle .panel_content_small {
+	background:#fff;
+	font-size:9px;
+	border-left:#2a2a2a 2px solid;
+	border-right:#2a2a2a 2px solid;	
+}
+.adminStyle .panel_content_small2 {
+	background:#000;
+	color:#fff;
+	font-size:9px;
+	border-left:#2a2a2a 2px solid;
+	border-right:#2a2a2a 2px solid;	
+}
+.adminStyle .panel_content {
+	background:#fff;
+	border-left:#2a2a2a 2px solid;
+	border-right:#2a2a2a 2px solid;	
+}
+.adminStyle .panel_content2 {
+	color:#fff;
+	background:#000;
+	border-left:#2a2a2a 2px solid;
+	border-right:#2a2a2a 2px solid;	
+}
+
+.adminStyle .panel_content_body {
+	padding:15px 20px 0 20px;
+}
+.adminStyle .rollover_content_body {
+	padding:0 20px 0 20px;
+}
+.adminStyle .panel_content_bottom_margin {
+	padding-bottom:25px;
+}
+.adminStyle .panel_content_bottom_margin10 {
+	padding-bottom:10px;
+}
+.adminStyle .panel_content_body p.top {
+	padding:0 0 10px 0;
+}
+.adminStyle .panel_content_body li {
+    margin-left:30px;
+}
+.adminStyle .panel_content_body_3col {
+	padding:15px 60px 25px 60px;
+}
+
+.adminStyle .panel_content a:link, .adminStyle .panel_content a:visited, .adminStyle .panel_content a:active {
+	color:#1e52d5;
+	text-decoration: none;
+}
+.adminStyle .panel_content a:hover {
+	text-decoration: underline;
+}
+
+.adminStyle .panel_footer {	
+	display:block;
+}
+.adminStyle .panel_footer_left {	
+	height:10px;
+	background:url(../graphics/panel-corner-bottom-left.png) no-repeat left;
+}
+.adminStyle .panel_footer_left2 {	
+	height:10px;
+	background:url(../graphics/panel-corner-bottom-left2.png) no-repeat left;
+}
+.adminStyle .panel_footer_right {	
+	height:10px;
+	background:url(../graphics/panel-corner-bottom-right.png) no-repeat right;
+}
+.adminStyle .panel_footer_right2 {	
+	height:10px;
+	background:url(../graphics/panel-corner-bottom-right2.png) no-repeat right;
+}
+.adminStyle .panel_footer_main {	
+	height:8px;
+	margin:0 10px 0 10px;
+	background:#fff;
+	border-bottom:#2a2a2a 2px solid;
+}
+.adminStyle .panel_footer_main2 {	
+	height:8px;
+	margin:0 10px 0 10px;
+	background:#000;
+	border-bottom:#2a2a2a 2px solid;
+}
+.adminStyle *html .panel_footer_main {	
+	margin:-4px 10px 0 10px;
+}
+.adminStyle *html .panel_footer_main2 {	
+	margin:-4px 10px 0 10px;
+}
+ 
+ 
+
+/* ============= home page panel content ============ */ 
+
+
+.adminStyle .games {	
+	width:118px;
+	font-weight:bold;
+}
+.adminStyle .games img {	
+	width:118px;
+	height:68px;
+	margin:0 0 2px 0;
+	border:1px solid #2a2a2a;
+}
+/* space between left floating panels */
+.adminStyle .games_right_margin {
+	margin-right:30px;
+}
+
+
+/* ============= Used in right col of Explore Detail ============ */
+.adminStyle .games2 {	
+	width:270px;
+	margin:0 0 14px 0;
+}
+.adminStyle .games2 img {	
+	float:left;
+	width:118px;
+	height:68px;
+	margin:0 8px 0 0;
+	border:1px solid #2a2a2a;
+}
+
+
+.adminStyle .top_rule {
+	border-top:#e1eaf3 1px solid;
+	margin:6px 0 0 0;
+	padding:5px 0 0 0;
+}
+
+
+.adminStyle .online_now {
+	width:90px;
+	float:left;
+	text-align:center;
+	margin-bottom:18px;
+}
+.adminStyle .online_now img {
+	margin:0 auto 3px auto;
+}
+.adminStyle .online_indicator {
+	padding:0 2px 0 0;
+}
+.adminStyle .online {
+	padding:0 0 0 11px;
+	background:url(../graphics/online_indicator_on.gif) no-repeat;
+}
+.adminStyle .offline {
+	padding:0 0 0 11px;
+	background:url(../graphics/online_indicator_off.gif) no-repeat;
+}
+
+
+
+
+ 
+ /* ============= FOOTER ============ */
+ 
+.adminStyle .footer_container {
+	height:140px;
+	text-align:center;
+	background:#287241 url(../graphics/bg_footer.jpg) no-repeat center top;
+}
+
+.adminStyle .footer {
+	padding: 10px 0 0 0;
+	line-height: 18px;
+	text-align: center;
+	color: #dedede;
+}
+
+.adminStyle .footer a:link, .adminStyle .footer a:active, .adminStyle .footer a:visited {
+	color: #aef08e;
+	text-decoration: none;
+}
+.adminStyle .footer a:hover {
+	color: #fff;
+}
+
+
+
+
+/* ============= TEXT ============ */
+
+.adminStyle h2 {
+	font-weight: bold;
+	font-size:12px;
+	color:#000;
+	padding-bottom:5px;
+	margin-bottom:14px;
+	border-bottom:1px solid #e1eaf3;
+}
+
+.adminStyle h2.highlight {
+	font-weight: bold;
+	font-size:12px;
+	color:#1a773b;
+	padding-bottom:5px;
+	margin:30px 0 5px 0;
+	border-bottom:1px solid #e1eaf3;
+}
+
+
+.adminStyle h3 {
+	font-size:11px;
+	font-weight: bold;
+	color:#000;
+	margin-top:30px;
+}
+.adminStyle h3.less_air {
+	font-size:11px;
+	font-weight: bold;
+	color:#000;
+	margin:0 0 4px 0;
+	padding:0;
+}
+
+
+.adminStyle h4 {
+	font-size:10px;
+	font-weight: bold;
+	color:#000;
+	margin:15px 0 4px 0;
+	padding:0 0 2px 0;
+	border-bottom:1px solid #e1eaf3;
+}
+
+ 
+ /* ============= BUTTONS ============ */
+ 
+.adminStyle .button_small_gray {
+ 	width:auto;
+	height:17px;
+ }
+.adminStyle  .button_small_gray_left {
+	float:left;
+	width:9px;
+ 	height:17px;
+ 	background:url(../graphics/btn-gray-left.gif) no-repeat;
+ }
+.adminStyle .button_small_gray_right {
+	float:left;
+	width:9px;
+ 	height:17px;
+ 	background:url(../graphics/btn-gray-right.gif) no-repeat;
+ }
+.adminStyle .button_small_gray_content {
+	display:block;
+	float:left;
+ 	color:#fff;
+	text-align:center;
+ 	height:15px;
+	padding:2px 5px 0 5px;
+ 	background:#2b2b2b;
+ }
+.adminStyle .button_small_gray_content  a:link, .adminStyle .button_small_gray_content a:visited, .adminStyle .button_small_gray_content a:active {
+	color: #fff;
+	font-weight:bold;
+	text-decoration: none;
+}
+.adminStyle .button_small_gray_content a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+/* ============= buttons at bottom of panel content ============ */
+.adminStyle .panel_buttons {
+	height:19px;
+	vertical-align:bottom;
+	padding:15px 20px 0 20px;
+}
+
+
+/* ============= prev/next buttons ============ */
+.adminStyle .buttons_prev_next {
+	float:right;
+}
+
+
+
+
+.adminStyle .button_blue {
+ 	width:auto;
+	height:19px;
+ }
+.adminStyle  .button_blue_left {
+	float:left;
+	width:9px;
+ 	height:19px;
+ 	background:url(../graphics/btn-blue-left.gif) no-repeat;
+ }
+.adminStyle .button_blue_right {
+	float:left;
+	width:9px;
+ 	height:19px;
+ 	background:url(../graphics/btn-blue-right.gif) no-repeat;
+ }
+.adminStyle .button_blue_content {
+	display:block;
+	float:left;
+ 	color:#fff;
+	text-align:center;
+ 	height:15px;
+	padding:2px 5px 0 5px;
+ 	background:#639ddb;
+	border-top:#2463a6 1px solid;
+	border-bottom:#2463a6 1px solid;
+ }
+.adminStyle .button_blue_content  a:link, .adminStyle .button_blue_content a:visited, .adminStyle .button_blue_content a:active {
+	color: #fff;
+	text-decoration: none;
+}
+.adminStyle .button_blue_content a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+.adminStyle .button_black {
+ 	width:auto;
+	height:19px;
+ }
+.adminStyle  .button_black_left {
+	float:left;
+	width:9px;
+ 	height:19px;
+ 	background:url(../graphics/btn-black-left.gif) no-repeat;
+ }
+.adminStyle .button_black_right {
+	float:left;
+	width:9px;
+ 	height:19px;
+ 	background:url(../graphics/btn-black-right.gif) no-repeat;
+ }
+.adminStyle .button_black_content {
+	display:block;
+	float:left;
+ 	color:#fff;
+	text-align:center;
+ 	height:16px;
+	padding:3px 5px 0 5px;
+ 	background:#639ddb;
+ }
+.adminStyle .button_black_content  a:link, .adminStyle .button_black_content a:visited, .adminStyle .button_black_content a:active {
+	color: #fff;
+	text-decoration: none;
+}
+.adminStyle .button_black_content a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+.adminStyle .button_gray {
+ 	width:auto;
+	height:19px;
+ }
+.adminStyle  .button_gray_left {
+	float:left;
+	width:9px;
+ 	height:19px;
+ 	background:url(../graphics/btn-light-gray-left.gif) no-repeat;
+ }
+.adminStyle .button_gray_right {
+	float:left;
+	width:9px;
+ 	height:19px;
+ 	background:url(../graphics/btn-light-gray-right.gif) no-repeat;
+ }
+.adminStyle .button_gray_content {
+	display:block;
+	float:left;
+ 	color:#fff;
+	text-align:center;
+ 	height:15px;
+	padding:2px 5px 0 5px;
+ 	background:#a0a0a0;
+	border-top:#444 1px solid;
+	border-bottom:#444 1px solid;
+ }
+.adminStyle .button_gray_content  a:link, .adminStyle .button_gray_content a:visited, .adminStyle .button_gray_content a:active {
+	color: #fff;
+	text-decoration: none;
+}
+.adminStyle .button_gray_content a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.adminStyle .button_glossy {
+ 	width:auto;
+	height:38px;
+ }
+.adminStyle  .button_glossy_left {
+	float:left;
+	width:16px;
+ 	height:38px;
+ 	background:url(../graphics/btn-glossy-left.gif) no-repeat;
+ }
+.adminStyle .button_glossy_right {
+	float:left;
+	width:20px;
+ 	height:38px;
+ 	background:url(../graphics/btn-glossy-right.gif) no-repeat;
+ }
+.adminStyle .button_glossy_content {
+	display:block;
+	float:left;
+ 	color:#fff;
+	text-align:center;
+ 	height:29px;
+	padding:9px 12px 0 12px;
+ 	background:url(../graphics/btn-glossy-middle.gif) repeat-x;
+ }
+.adminStyle .button_glossy_content  a:link, .adminStyle .button_glossy_content a:visited, .adminStyle .button_glossy_content a:active {
+	color: #fff;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.adminStyle .button_glossy_content a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+/* ============= smal circular buttons for up, down, left and right ============ */
+.adminStyle .button_small_blue {
+	float:left;
+	display:inline;
+	margin:0 0 0 4px;
+	vertical-align:bottom;
+}
+.adminStyle .button_small_prev {
+	float:left;
+	display:inline;
+	margin:0 4px 0 0;
+}
+.adminStyle .button_small_next {
+	float:left;
+	display:inline;
+	margin:0 0 0 6px;
+}
+
+
+/* ============= Shop Main ============ */
+
+.adminStyle .fpo {
+	clear:both;
+	float:left;
+	display:inline;
+	height:17px;
+	margin:1px 0 0 0;
+	padding:0 0 0 20px;
+	background:url(../graphics/icon-fpo.gif) no-repeat;
+}
+.adminStyle .item_hats {
+	clear:both;
+	float:left;
+	display:inline;
+	height:17px;
+	margin:1px 0 0 0;
+	padding:0 0 0 20px;
+	background:url(../graphics/icon_hats.gif) no-repeat;
+}
+.adminStyle .item_backdrops {
+	clear:both;
+	float:left;
+	display:inline;
+	height:17px;
+	margin:1px 0 0 0;
+	padding:0 0 0 20px;
+	background:url(../graphics/icon_backdrops.gif) no-repeat;
+}
+.adminStyle .item_buidlings {
+	clear:both;
+	float:left;
+	display:inline;
+	height:17px;
+	margin:1px 0 0 0;
+	padding:0 0 0 20px;
+	background:url(../graphics/icon_buildings.gif) no-repeat;
+}
+.adminStyle .item_shirts {
+	clear:both;
+	float:left;
+	display:inline;
+	height:17px;
+	margin:1px 0 0 0;
+	padding:0 0 0 20px;
+	background:url(../graphics/icon_shirts.gif) no-repeat;
+}
+.adminStyle .item_furniture {
+	clear:both;
+	float:left;
+	display:inline;
+	height:17px;
+	margin:1px 0 0 0;
+	padding:0 0 0 20px;
+	background:url(../graphics/icon_furniture.gif) no-repeat;
+}
+.adminStyle .item_all {
+	clear:both;
+	float:left;
+	display:inline;
+	height:17px;
+	margin:1px 0 0 0;
+	padding:0 0 0 20px;
+	background:url(../graphics/icon_all.gif) no-repeat;
+}
+
+
+
+
+/* ============= Parents_main ============ */
+
+.adminStyle .left_col {
+	width:195px;
+	display:block;
+	padding:0 30px 0 0;
+}
+.adminStyle .left_col_nav {
+	padding:0 0 0 12px;
+}
+.adminStyle .left_col_selected {
+	height:17px;
+	font-weight: bold;
+	color:#fff;
+	margin:0 0 0 -12px;
+	padding:0 0 0 12px;
+	background:#a0a0a0 url(../graphics/arrow-breadcrumb.gif) no-repeat left;
+}
+
+.adminStyle .double_wide_col {
+	width:680px;
+	display:block;
+}
+
+.adminStyle .parents_main {
+	width:200px;
+	margin: 0 25px 40px 0;
+}
+.adminStyle .parents_main img {
+	margin: 0 auto 10px auto;
+}
+
+/* ============= Parents_detail ============ */
+
+.adminStyle .faq_question_width {
+	width:420px;
+	display:block;
+}
+
+
+/* ============= Explore main ============ */
+
+.adminStyle .wide_col {
+	width:536px;
+}
+.adminStyle .sort_by {
+	width:260px;
+	padding:10px 0 0 0;
+}
+
+
+/* ============= Explore Page ============ */
+
+.adminStyle .games_big {	
+	float:left;
+	font-size:9px;
+	width:162px;
+	margin:12px 0 16px 0;
+}
+.adminStyle .games_big img {	
+	width:160px;
+	height:100px;
+	margin:0 0 2px 0;
+	border:1px solid #2a2a2a;
+}
+/* space between left floating panels */
+.adminStyle .games_big_right_margin {
+	margin-right:25px;
+}
+.adminStyle .games_big a:link, .adminStyle .games_big a:visited, .adminStyle .games_big a:active {
+	color:#1e52d5;
+	text-decoration: none;
+}
+.adminStyle .games_big a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* ============= Mailbox ============ */
+
+.adminStyle .mailbox_height {	
+	min-height:562px;
+}
+.adminStyle .mailbox_header {	
+	font-weight:bold;
+	color:#000;
+	padding:4px 0 4px 0;
+	margin-bottom:10px;
+	background:#ccc;
+	border-bottom:1px solid #000;
+}
+.adminStyle .mailbox {	
+	border-top:#e1eaf3 1px solid;
+	padding:4px 0 4px 0;
+}
+.adminStyle .mailbox_checkbox {	
+	float:left;
+	width:26px;
+	padding:0 0 0 10px;
+}
+.adminStyle .mailbox_subject {	
+	float:left;
+	width:258px;
+	font-weight:bold;
+}
+.adminStyle .mailbox_from {	
+	float:left;
+	width:265px;
+}
+.adminStyle .mailbox_date {	
+	float:left;
+}
+
+.adminStyle .mailbox_buttons {	
+	float:right;
+	margin:14px 0 0 0;
+}
+.adminStyle .mailbox_button_margin {	
+	margin:0 8px 0 0;
+}
+
+
+
+/* ============= Builders Club ============ */
+
+.adminStyle .builders_club_icon {	
+	width:40px;
+	padding: 0 0 14px 0;
+}
+.adminStyle .builders_club_reasons {	
+	font-weight:bold;
+	color:#000;
+	padding:0 20px 14px 0;
+}
+.adminStyle .shaded_box {
+	background:#e1eaf3;
+	padding: 10px 20px 20px 20px;
+	margin:30px 0 30px 0;
+}
+.adminStyle .builders_club_form {	
+	font-weight:bold;
+	color:#000;
+	padding:0 10px 2px 0;
+}
+.adminStyle .builders_club_form_input {	
+	padding:0 20px 0 0;
+}
+
+/* ============= Customize Avatar ============ */
+
+.adminStyle .ca_form {	
+	width:76px;
+	font-size:9px;
+	font-weight:bold;
+	color:#000;
+	text-align:right;
+	padding: 0 4px 10px 0;
+}
+.adminStyle .ca_textarea{	
+	width:185px;
+	height:100px;
+}
+
+.adminStyle .avatar {	
+	width:110px;
+	float:left;
+	margin:0 0 30px 0;
+}
+.adminStyle .avatar_margin {	
+	margin:0 10px 0 0;
+}
+.adminStyle .avatar_image_box {	
+	width:108px;
+	height:108px;
+	margin:0 0 3px 0;
+	border:1px solid #a0a0a0;
+}
+
+.adminStyle .x_icon {	
+	width:9px;
+	height:9px;
+	position:relative;
+	top:1px;
+	left:98px;
+}
+
+.adminStyle .avatar_height {
+	min-height:614px;
+}
+
+
+/* ============= My Roblox ============ */
+
+.adminStyle .my_form {	
+	width:77px;
+	font-size:9px;
+	text-align:right;
+	padding: 0 4px 10px 0;
+}
+.adminStyle .my_textarea{	
+	width:190px;
+	height:100px;
+}
+
+.adminStyle .places_main_left {	
+	width:418px;
+	padding: 0 20px 20px 0;
+}
+.adminStyle .places_main_image {	
+	width:418px;
+	height:228px;
+	border:1px solid #fff;
+}
+.adminStyle .places_main_right {	
+	width:154px;
+}
+
+.adminStyle .places {	
+	width:74px;
+	height:46px;
+	margin: 2px 4px 0 0;
+	border:1px solid #fff;
+	float:left;
+}
+.adminStyle .avatar_left {
+	width:122px;
+	float:left;
+}
+
+.adminStyle .badges {
+	width:67px;
+	float:left;
+	text-align:center;
+	margin-bottom:10px;
+	display:block;
+}
+.adminStyle .badges img {
+	margin:0 auto 3px auto;
+}
+
+.adminStyle .myroblox_height {
+	min-height:978px;
+}
+
+
+
+/* ============= People ============ */
+
+.adminStyle .four_col {	
+	width:122px;
+	float:left;
+	padding:0 0 10px 0;
+	margin:0 0 30px 0;
+}
+.adminStyle .four_col_margin {	
+	margin:0 15px 0 0;
+}
+.adminStyle .four_col_image_box {	
+	width:120px;
+	height:120px;
+	margin:0 0 3px 0;
+	border:1px solid #a0a0a0;
+	text-align:center;
+}
+
+.adminStyle .people_height {	
+	height:778px;
+}
+
+
+/* ============= Shop Detail ============ */
+
+.adminStyle .comments_av {	
+	width:64px;
+	float:left;
+	margin:0 10px 0 0;
+}
+.adminStyle .comments_text {	
+	width:400px;
+	float:left;
+	margin:0 20px 0 0;
+}
+.adminStyle .comments_abuse {	
+	width:45px;
+	float:right;
+	padding:0 0 0 12px;
+	margin:5px 0 0 0;
+	text-align:right;
+	background:url(../graphics/icon-abuse.gif) no-repeat;
+}
+
+.adminStyle .related_items {
+	clear:both;
+}
+.adminStyle .related_items_margin {
+	clear:both;
+}
+.adminStyle .related_items_height {
+	height:397px;
+}
+
+.adminStyle .one_col_image_box {	
+	float:left;
+	width:78px;
+	height:78px;
+	margin:0 10px 15px 0;
+	border:1px solid #a0a0a0;
+}
+.adminStyle .one_col_image_box_last {	
+	float:left;
+	width:78px;
+	height:78px;
+	margin:0 10px 0 0;
+	border:1px solid #a0a0a0;
+}
+
+
+.adminStyle .shop_detail_main_image {
+	float:left;
+	width:248px;
+	height:248px;
+	margin:0 20px 0 0;
+	border:1px solid #a0a0a0;
+}
+.adminStyle .shop_detail_main_text {
+	width:315px;
+	float:left;
+}
+
+/* ============= Explore Detail ============ */
+
+.adminStyle .games_in_progress {
+	height:19px;
+	margin:4px 0 0 0;
+	padding:4px 0 0 0;
+	border-top:1px solid #444;
+}
+
+.adminStyle .in_progress_left {
+	float:left;
+	padding:4px 0 0 0;
+}
+
+.adminStyle .in_progress_left a:link, .adminStyle .in_progress_left a:visited, .adminStyle .in_progress_left a:active {
+	color: #6cf;
+	text-decoration: none;
+}
+.adminStyle .in_progress_left a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* ============= UserAdmin ============= */
+.adminStyle .ua_fieldset_col1,
+.adminStyle .ua_fieldset_col2 {
+    margin-top: 5px;
+    width: 580px;
+}
+.adminStyle .ua_fieldset_col2 {
+    width: 360px;
+}
+.adminStyle .ua_component_col1, 
+.adminStyle .ua_component_col2_div,
+.adminStyle .ua_component_col2_table {
+    background: lightsteelblue;
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+.adminStyle .ua_component_col2_div {
+    width: 327px;
+}
+.adminStyle .UserNotesContainer
+{
+    max-height:300px;
+    overflow:auto;
+    margin-top:5px;
+}
+
+
+/* ============= Tabs ============ */
+
+.adminStyle .tabs {
+	height:25px;
+	margin:0 0 15px 0;
+	border-bottom:1px solid #444;
+}
+
+.adminStyle .tabs p{
+	padding:6px 14px 0 14px;
+	display: block;
+	float: left;
+	font-weight:bold;
+}
+
+
+
+
+
+/* ============= MISC ============ */
+
+.adminStyle .margin_top15 {
+	margin-top:15px;
+}
+.adminStyle .margin_top25 {
+	margin-top:25px;
+}
+.adminStyle .margin_right15 {
+	margin-right:15px;
+}
+.adminStyle .light {
+	color:#afafaf;
+}
+.adminStyle .players_online {
+	color:#1a773b;
+	font-weight:bold;
+}
+.adminStyle .selected {
+	font-weight:bold;
+}
+.adminStyle .search_box {
+	width:160px;
+	height:18px;
+	margin:0 0 4px 0;
+}
+.adminStyle .input_short {
+	width:120px;
+	height:18px;
+	margin:0 0 4px 0;
+}
+.adminStyle .input_shorter {
+	width:60px;
+	height:16px;
+	margin:0 0 4px 5px;
+}
+.adminStyle .input_long {
+	width:200px;
+	height:18px;
+	margin:0 0 4px 0;
+}
+.adminStyle .text_area {
+	width:200px;
+	height:100px;
+	margin:0 0 4px 0;
+}
+.adminStyle .arrow_down {
+	display:inline;
+	margin:0 0 0 5px;
+}
+
+.adminStyle .dark {
+	color:#000;
+}
+.adminStyle .highlight {
+	color:#1a773b;
+}
+.adminStyle .highlight2 {
+	color:#c60;
+}
+.adminStyle .icon_public {
+	padding:0 0 5px 16px;
+	margin:0 0 3px 0;
+	font-weight:bold;
+	background:url(../graphics/icon-public.gif) no-repeat;	
+}
+.adminStyle .icon_robux {
+	padding:0 0 0 20px;
+	font-weight:bold;
+	background:url(../graphics/icon-robux.gif) no-repeat;	
+}
+.adminStyle .icon_tix {
+	padding:0 0 4px 20px;
+	font-weight:bold;
+	background:url(../graphics/icon-tix.gif) no-repeat;	
+}
+
+.adminStyle .ad2{
+	margin:-10px auto 0 auto;
+}
+
+.adminStyle .rollovers {
+	width:220px;
+}

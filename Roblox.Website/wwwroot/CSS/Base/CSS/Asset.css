@@ -1,0 +1,19 @@
+﻿#AssetContainer
+{
+	margin: 0 auto;
+	width: 620px;
+}
+
+#AssetContainer h2
+{
+	color: #333;
+	font-size: x-large;
+	margin-bottom: 5px;
+}
+
+#AssetContainer #Asset
+{
+	background-color: #eee;
+	border: solid 1px #000;
+	color: #555;
+}

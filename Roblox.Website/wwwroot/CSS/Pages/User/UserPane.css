@@ -1,0 +1,104 @@
+﻿/* when important is not included, it is being overridden by... something.  */
+div.ProfileAlertPanel .SmallHeaderAlertSpaceLeft {
+	background: none !important;
+	float: none !important;
+	height:50px !important;
+}
+div.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace {
+	height: 50px !important;
+	background: none !important;
+}
+.ProfileAlertPanel
+{
+    width:348px;
+    padding:5px;
+    background-color: #FFF;
+    border:none;
+    height: 64px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace {
+	background: none;
+	border:1px solid #ccc;
+	float:none;
+	font-weight: bold;
+	height:50px;
+	margin: 0 auto;
+	padding: 0;
+    position:relative; top:0px;
+	width:155px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace a 
+{    
+	position: absolute;
+	width:43px;
+	padding-left: 18px;	
+	background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0px 0px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace a:hover {
+	text-decoration: none;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert {
+    border:none;
+    background:none;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a {
+	left:13px; top:8px;
+	color:#444;
+	background-position: -2px 0px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a:hover {
+	color:#aaa;
+	background-position: -2px -20px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert {
+    border:none;
+    background:none;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a {
+	left:13px; top:28px;
+	color:#080;
+	background-position: -1px -41px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a:hover {
+	color:#0d0;
+	background-position: -1px -61px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert {
+    border:none;
+    background:none;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a {
+	left:79px; top:8px;
+	color:#05b;
+	background-position: -2px -81px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a:hover {
+	color:#0cf;
+	background-position: -2px -101px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert {
+    border:none;
+    background:none;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a {
+	left:79px; top:28px;
+	color:#a61;
+	background-position: -2px -121px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a:hover {
+	color:#fb6;
+	background-position: -2px -141px;
+}
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.icons, a.icons,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.message_icon,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.friends_icon,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.robux_icon,
+.ProfileAlertPanel .SmallHeaderAlertSpaceLeft div.tickets_icon
+{
+    display:none;
+}
+.UserPaneContainer {
+    text-align: center;
+    width: 352px;
+    margin: auto;
+}

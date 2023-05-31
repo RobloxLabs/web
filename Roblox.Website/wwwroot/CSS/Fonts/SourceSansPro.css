@@ -1,0 +1,26 @@
+<?php
+header('Content-Type: text/css');
+?>/* Legacy CSS file - Please do not copy */
+/* source-sans-pro-300 - latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("/fonts/source-sans-pro-v9-latin-300.woff2") format("woff2"), url("/fonts/source-sans-pro-v9-latin-300.woff") format("woff"), url("/fonts/source-sans-pro-v9-latin-300.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */ }
+
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url("/fonts/source-sans-pro-v9-latin-regular.woff2") format("woff2"), url("/fonts/source-sans-pro-v9-latin-regular.woff") format("woff"), url("/fonts/source-sans-pro-v9-latin-regular.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */ }
+
+/* source-sans-pro-600 - latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("/fonts/source-sans-pro-v9-latin-600.woff2") format("woff2"), url("/fonts/source-sans-pro-v9-latin-600.woff") format("woff"), url("/fonts/source-sans-pro-v9-latin-600.svg#SourceSansPro") format("svg");
+  /* Legacy iOS */ }

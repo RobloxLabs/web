@@ -1,0 +1,66 @@
+﻿.Revised .VisitButtonGirlGuest, .Revised .VisitButtonBoyGuest, .Revised .VisitButtonGirlGuest:hover, .Revised .VisitButtonBoyGuest:hover {
+    width: 180px;
+    background-repeat:no-repeat;
+    height: 228px;
+    display: inline-block;
+    padding: 0px;
+}
+.Revised .VisitButtonGirlGuest {
+    background-image: url(/images/Buttons/AB-female_character.jpg);
+    background-position: center;
+}
+.Revised .VisitButtonBoyGuest {
+    background-image: url(/images/Buttons/AB-male_character.jpg);
+    background-position: center;
+    margin-right: 25px;
+}
+.Revised .VisitButtonGirlGuest:hover {
+    background-image: url(/images/Buttons/AB-female_character.jpg);
+    background-position: bottom;
+}
+.Revised .VisitButtonBoyGuest:hover {
+    background-image: url(/images/Buttons/AB-male_character.jpg);
+    background-position: bottom;
+    margin-right: 25px;
+}
+
+.Revised .Title {
+    text-align: center;
+    color:#333;
+    font-size: 24px;
+    font-weight: bold;
+    padding:5px 0;
+}
+.RevisedCharacterSelectSignup 
+{
+    width: 72px;
+    height: 20px;
+    float: left;
+}
+.RevisedCharacterSelectSignup {
+    background-image: url(/images/Buttons/sign_up_small.png);
+    background-position: top;
+}
+.RevisedCharacterSelectSignup:hover {
+    background-image: url(/images/Buttons/sign_up_small.png);
+    background-position: bottom;
+}
+.Revised .HaveAccount {
+    float:right;
+    color:#095fb5;
+    font-size: 14px;
+    cursor:pointer;
+}
+.Revised.GuestModePromptModal {
+    width:475px;
+    border: 2px solid #333;
+    padding:0px 5px 5px 5px;
+    background-color:#e1e1e1;
+}
+.RevisedFooter {
+    height:38px; 
+    width: 90%; 
+    margin: 0 auto;
+    border-top:1px solid #e1e1e1;
+    text-align:center;
+}

@@ -1,0 +1,61 @@
+﻿#GamesContainer .DisplayFilters {
+    width:126px;
+}
+.WaitCursor, .WaitCursor *
+{
+    cursor: wait !important;
+}
+
+.PlayButton,
+.BuildButton,
+.PlayButtonSelected,
+.BuildButtonSelected
+{ 
+    height: 54px;
+    width: 123px;
+    display: block;
+    cursor: pointer;
+}        
+
+.PlayButton
+{
+    background-image: url('/images/games/playBtn_off.png');
+    background-repeat: no-repeat;
+}
+
+.BuildButton
+{
+    background-image: url('/images/games/buildBtn_off.png');
+    background-repeat: no-repeat;
+}
+.PlayButton:hover,
+.PlayButtonSelected
+{
+    background-image: url('/images/games/playBtn_on.png');
+    background-repeat: no-repeat;
+}
+.BuildButton:hover,
+.BuildButtonSelected
+{
+    background-image: url('/images/games/buildBtn_on.png');
+    background-repeat: no-repeat;
+}
+#BCOnlyPlaces
+{
+    width: 416px;
+}
+#BCOnlyPlaces .StandardBoxHeaderGray 
+{
+    width: 399px;
+    height: 33px;
+    padding:0 7px 0 16px;
+}
+#BCOnlyPlaces .StandardBox
+{
+    padding:5px;
+}
+
+#GamesLeftColumn
+{
+    width: 126px;
+}

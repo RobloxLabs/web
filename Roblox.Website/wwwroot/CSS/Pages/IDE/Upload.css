@@ -1,0 +1,50 @@
+/* Legacy CSS file - Please do not copy */
+.boxed-body p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 13px; }
+
+#progressBarWrapper {
+  font-size: 0;
+  /* Solves known issue with display: inline-block reading newlines as whitespace */ }
+
+#progressBarWrapper a {
+  margin-right: 5px;
+  margin-top: 5px;
+  vertical-align: top; }
+
+#uploadProgressBar {
+  width: 555px;
+  height: 32px;
+  border: 1px solid;
+  border-color: #a7a7a7;
+  border-top-color: #666;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+  display: inline-block; }
+
+#progressAmount {
+  width: 0;
+  height: 100%; }
+
+.progress-blue-bar {
+  background-image: url(/images/IDE/bg-upload_progress.png); }
+
+.progress-error-bar {
+  background-image: none;
+  background: none;
+  background-color: red; }
+
+#shareWithFriends {
+  margin-top: 30px;
+  padding-top: 5px;
+  display: none; }
+
+#gameLink {
+  display: block;
+  margin-top: 10px;
+  width: 555px; }
+
+.error-text {
+  color: red; }

@@ -1,0 +1,109 @@
+﻿    #VerifyImageHolder
+    {
+        float:left;
+        margin-right: 4px;
+        margin-top: 8px;
+    }
+    #VerificationText-Top
+    {        
+        font-family:Arial;
+        font-size:40px;
+        font-weight:bold;
+        color:#363636;        
+    }
+    #VerificationText-Bottom
+    {        
+        font-family:Arial;
+        font-size:14px;
+        font-weight:normal;
+        color:#000;        
+    }
+    #RightColumn
+    {
+        width:300px;
+        float:right;
+    }
+    #VerificationResult
+    {
+        text-align:center;        
+        width:50%;
+        margin:0px auto;
+    }
+    #VerifyUserInfo
+    {
+        color: #000000;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 46px 0 18px;
+    }
+    #ChildPrivacyLevel
+    {
+        margin-bottom: 18px;
+    }
+    #ChildPrivacyLevelText
+    {
+        color: #000000;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .GreenSubmitButton
+    {
+        background:url("/images/btn-submit.png");
+        height:50px;
+        width:134px;
+        border:0;
+        padding:0;
+        cursor:pointer;
+    }
+    .GreenSubmitButton:hover
+    {
+        background-position:0 -50px;
+        cursor:pointer;
+    }
+    #ExtraText
+    {
+        margin-top:16px;
+        font:11px Arial;
+        color:#666;
+    }
+    #RobloxForParents
+    {
+        text-align:left;
+        border-left: 1px solid #CCCCCC;
+    }
+    #GoPremium
+    {
+        text-align:left;
+        border-left: 1px solid #CCCCCC;
+        border-bottom: 1px solid #CCCCCC;
+    }
+    #RobloxGiftCards
+    {
+        text-align:left;
+        border-left: 1px solid #CCCCCC;
+    }
+    #BLueLink
+    {
+        margin-top:16px;
+        padding-bottom:17px;
+        margin-left:10px;
+    }
+    
+    #SideBarHeader
+    {
+        font:Bold 16px Arial;
+        color:Black;
+        margin-bottom: 19px;
+        padding-top: 21px;
+        margin-left:10px;
+    }
+    #SideText
+    {
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: normal;
+        color:Black;
+        margin-left:10px;
+    }

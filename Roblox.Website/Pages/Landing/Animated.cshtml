@@ -1,0 +1,220 @@
+﻿@page
+@model Roblox.Website.Pages.Landing.AnimatedModel
+
+@inject IScriptManager ScriptManager
+@inject IStyleManager CSSManager
+
+@inject IStaticUrlResolver StaticContent
+
+@{
+    Layout = "~/Pages/Shared/Experimental/_Layout.cshtml";
+
+    CSSManager.PageCSS.Add("Pages/Landing/BlueCity/Landing.css");
+    CSSManager.PageCSS.Add("Pages/Accounts/AnimatedSignup.css");
+    CSSManager.PageCSS.Add("Pages/LandingSignUp.css");
+
+    ScriptManager.PageScripts.Add("SignupFormValidatorGeneric.old.js");
+    ScriptManager.PageScripts.Add("Landing/BlueCity/AnimatedSignupFormValidator.js");
+    ScriptManager.PageScripts.Add("Landing/BlueCity/AnimatedLoginFormValidator.js");
+    ScriptManager.PageScripts.Add("FormValidator.js");
+    ScriptManager.PageScripts.Add("CaptchaModal.js");
+}
+<script type="text/javascript">
+    Roblox = Roblox || {};
+    Roblox.Resources = Roblox.Resources || {};
+    Roblox.Resources.AnimatedSignupFormValidator = {
+        //<sl:translate>
+        doesntMatch: "Doesn't match",
+        requiredField: "Required",
+        tooLong: "Too long",
+        tooShort: "Too short",
+        maxValid: "Too many accounts use this email",
+        needsFourLetters: "Needs 4 letters",
+        needsTwoNumbers: "Needs 2 numbers",
+        noSpaces: "No spaces allowed",
+        weakKey: "Weak key combination.",
+        invalidName: "Can't be your character name",
+        alreadyTaken: "Already taken",
+        cantBeUsed: "Can't be used",
+        invalidBirthday: "Invalid birthday",
+        loginFieldsRequired: "Username and Password are required.",
+        loginFieldsIncorrect: "Your username or password is incorrect.",
+        invalidEmail: "Invalid email"
+        //</sl:translate>
+    };
+
+    Roblox.Resources.CaptchaModal = {
+        //<sl:translate>
+        title: "Are you human?",
+        message: "To finish, please verify that you are human.",
+        finish: "Finish"
+        //</sl:translate>
+    };
+</script>
+<style type="text/css">
+    body {
+        background: url("@StaticContent.GetUrl("~/Images/Landing/BlueCity/background_city.jpg")") repeat-x;
+        padding-top: 35px;
+    }
+    #Container {
+        background: url("@StaticContent.GetUrl("~/Images/Landing/BlueCity/forground_city.png")") repeat-x;
+    }
+</style>
+<div id="Experimental" class="ShadowedStandardBox" data-is-animated="@Model.IsAnimated">
+    <div class="Content">
+        <div id="animatedHeader">
+            <div id="headerLogo"><img src="@StaticContent.GetUrl("~/Images/Landing/BlueCity/logo.png")" alt="logo" /></div>
+            <div id="headerTextTop">Join millions of builders</div>
+            <div id="headerTextBottom">and explore their creations</div>
+        </div>
+        <div id="animatedBodyWrapper">
+            <div id="animatedBody">
+                <div class="VideoContainer">
+                    <iframe id="ytplayer"  type="text/html" width="380" height="250"
+                            src="https://www.youtube.com/embed/LHdA7Yc-8Rg?fs=1&rel=0&controls=0&showinfo=0&autoplay=1&mute=1&loop=1"
+                            frameborder="0">
+                    </iframe>
+                    <div class="slogan-container">
+                        <div id="slogan">What will you build?</div>
+                    </div>
+                </div>
+                <!--div class="ImageContainer" style="float: left;">
+                    <img src="http://images.rbxcdn.com/a53fcaef613b178ec86dc2937d677451.jpg" alt="Roblox Landing Page Image" width="380" height="250" />
+                    <div class="slogan-container">
+                        <div id="slogan">What will you build?</div>
+                    </div>
+                </!div-->
+                <div id="animated-wrapper" data-first-visit="False">
+                    <div class="sign-up-row">
+                        <div class="sign-up-inner-row">
+                            <span id="animated-tab-signup" class="animated-tab">Sign up</span>
+                            <span class="animated-tab">|</span>
+                            <span id="animated-tab-login" class="animated-tab">Login</span>
+                        </div>
+                    </div>
+                    <div id="animated-login" style="display: none;">
+                        <form method="post" id="login-form" action="/newlogin">
+                            <div class="sign-up-row">
+                                <div class="sign-up-inner-row">
+                                    <span id="login-error" class="required-text error" style="display: none;"></span>
+                                </div>
+                            </div>
+                            <div class="sign-up-row">
+                                <div>
+                                    <input type="text" id="loginUsername" name="username" class="text-box text-box-large" tabindex="1" placeholder="Username" />
+                                </div>
+                            </div>
+                            <div class="sign-up-row">
+                                <div>
+                                    <input type="password" id="loginPassword" name="password" class="text-box text-box-large" tabindex="2" placeholder="Password" />
+                                </div>
+                            </div>
+                            <div>
+                                <a onclick="return Roblox.AnimatedLoginFormValidator.validateLoginForm();" tabindex="3" class="btn-large btn-primary" id="login-button">Login</a>
+                            </div>
+                        </form>
+                        <br />
+                        <div id="login-footer" class="sign-up-row">
+                            <div class="sign-up-inner-row">
+                                <a href="/Login/ResetPasswordRequest.aspx">Forgot your username/password?</a>
+                            </div>
+                            <div>
+                                Don't have an account? <a href="#" onclick="$('#animated-tab-signup').click();"> Sign up</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="animated-signup" style="display: none;">
+                        <form method="post" id="signup-form" action="/landing/animated">
+                            <div class="sign-up-row">
+                                <div class="sign-up-inner-row">
+                                    <span id="birthdayGood" class="good-text" style="display: none;">OK</span> <span id="birthdayError" class="required-text error" style="display: none;"></span>
+                                    <span id="birthdayText">Birthday</span>
+                                </div>
+                                <div>
+                                    <select id="lstMonths" asp-items="Model.Months" onchange="Roblox.AnimatedSignupFormValidator.checkBirthday()" tabindex="1"></select>
+                                    <select id="lstDays" asp-items="Model.Days" onchange="Roblox.AnimatedSignupFormValidator.checkBirthday()" tabindex="2"></select>
+                                    <select id="lstYears" asp-items="Model.Years" onchange="Roblox.AnimatedSignupFormValidator.checkBirthday()" tabindex="3"></select>
+                                </div>
+                                <div>
+                                    <span class="sign-up-description">
+                                        Enter your birthday for a personalized experience.<br />
+                                        It will not be given to any third party.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="sign-up-row">
+                                <div class="sign-up-inner-row">
+                                    <span id="genderGood" class="good-text" style="display: none;">OK</span>
+                                    <span id="genderError" class="required-text error" style="display: none;"></span>
+                                    <span id="genderText">Gender</span>
+                                </div>
+                                <div>
+                                    <input id="MaleBtn" name="gender" onclick="Roblox.AnimatedSignupFormValidator.checkGender();" tabindex="4" type="radio" value="Male" />
+                                    <label for="MaleBtn">Male</label>
+                                    <input id="FemaleBtn" name="gender" onclick="Roblox.AnimatedSignupFormValidator.checkGender();" tabindex="5" type="radio" value="Female" />
+                                    <label for="FemaleBtn">Female</label>
+                                </div>
+                            </div>
+                            <div class="sign-up-row">
+                                <div class="sign-up-inner-row">
+                                    <span id="usernameGood" class="good-text" style="display: none;">OK</span>
+                                    <span id="usernameError" class="required-text error" style="display: none;"></span>
+                                    <span id="usernameText">Username</span>
+                                </div>
+                                <div>
+                                    <input type="text" id="username" name="username" value="" class="text-box text-box-large" tabindex="6" onblur="Roblox.AnimatedSignupFormValidator.checkUsername()" />
+                                </div>
+                                <div>
+                                    <span class="sign-up-description">3-20 alphanumeric characters, no spaces</span>
+                                </div>
+                            </div>
+                            <div class="sign-up-row">
+                                <div class="sign-up-inner-row">
+                                    <span id="passwordGood" class="good-text" style="display: none;">OK</span>
+                                    <span id="passwordError" class="required-text error" style="display: none;"></span>
+                                    <span id="passwordText">Password</span>
+                                </div>
+                                <div>
+                                    <input name="password" value="" id="password" class="text-box text-box-large" tabindex="7" type="password" onkeyup="Roblox.AnimatedSignupFormValidator.checkPassword();" />
+                                </div>
+                                <div>
+                                    <span class="sign-up-description">6-20 characters, minimum of 4 letters & 2 numbers</span>
+                                </div>
+                            </div>
+                            <div class="sign-up-row">
+                                <div class="sign-up-inner-row">
+                                    <span id="passwordConfirmGood" class="good-text" style="display: none;">OK</span>
+                                    <span id="passwordConfirmError" class="required-text error" style="display: none;"></span>
+                                    <span id="passwordConfirmText">Confirm Password</span>
+                                </div>
+                                <div>
+                                    <input name="passwordConfirm" value="" id="passwordConfirm" class="text-box text-box-large" tabindex="8" type="password" onkeyup="Roblox.AnimatedSignupFormValidator.checkPasswordConfirm();" />
+                                </div>
+                            </div>
+                            <div>
+                                <a onclick="return Roblox.AnimatedSignupFormValidator.validateForm();" tabindex="9" class="btn-large btn-primary roblox-signup" id="SignUpButton">Sign Up</a>
+                            </div>
+                        </form>
+                    </div>
+                    <script type="text/javascript">
+                        if (typeof Roblox === "undefined") {
+                            Roblox = {};
+                        }
+
+                        $(".roblox-signup").click(function () {
+                            if (Roblox.AnimatedSignupFormValidator.validateForm()) {
+                                $('#signup-form').submit();
+                            }
+                        });
+
+                        $("#lstMonths").val();
+                        $("#lstDays").val();
+                        $("#lstYears").val();
+
+                        ;
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

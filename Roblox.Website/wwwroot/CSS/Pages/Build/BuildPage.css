@@ -1,0 +1,429 @@
+/* Legacy CSS file - Please do not copy */
+/* header - less margin-bottom */
+.BuildPageHeaderTopLvl {
+  margin-bottom: 7px;
+  display: block; }
+
+.BuildPageContent {
+  float: left; }
+
+#build-page {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+#build-page td {
+  padding: 0; }
+
+/* left side menu begins */
+#build-page td.menu-area {
+  width: 148px;
+  vertical-align: top;
+  height: 738px;
+  /* same as the skyscraper ad */ }
+
+#build-page #MyCreationsTab td.menu-area {
+  padding-top: 10px; }
+
+#build-page td.menu-area a.tab-item {
+  display: block;
+  padding: 5px 10px;
+  color: Black !important;
+  font-size: 16px; }
+
+#build-page td.menu-area a.tab-item:hover {
+  text-decoration: none;
+  background-color: #EFEFEF; }
+
+/* in addition to a.tab-item */
+#build-page td.menu-area a.tab-item-selected {
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  background-color: #EFEFEF;
+  padding: 4px 9px;
+  /* 1px less to account for the border */
+  font-weight: bold; }
+
+/* left side menu ends */
+#build-page td.content-area {
+  width: 622px;
+  padding: 9px 10px 10px 10px !important;
+  vertical-align: top;
+  border-right: 1px solid #cccccc; }
+
+#build-page td.no-ads {
+  border-right: none; }
+
+#build-page .separator {
+  background-color: #EFEFEF;
+  margin: 10px 0;
+  height: 1px; }
+
+/** stuff in the header begins */
+#build-page table.section-header {
+  margin-bottom: 26px;
+  width: 622px;
+  border-spacing: 0; }
+
+#build-page table.section-header td {
+  vertical-align: top;
+  height: 45px; }
+
+#build-page table.section-header label.sort-label {
+  font-size: 14px;
+  font-weight: 600; }
+
+#build-page table.section-header input[type=checkbox] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  margin-left: 5px; }
+
+#build-page table.section-header label.checkbox-label {
+  float: initial;
+  color: Black;
+  font-size: 12px; }
+
+td.content-title {
+  white-space: nowrap; }
+
+div.sorts-and-filters .checkbox {
+  padding-top: 2px;
+  white-space: nowrap;
+  padding-right: 6px; }
+
+#build-page table.section-header div.sorts-and-filters {
+  text-align: right;
+  position: relative;
+  top: 16px;
+  padding-left: 20px;
+  *left: 20px; }
+
+#build-page table.section-header div.creation-context-filters-and-sorts {
+  text-align: right;
+  position: relative;
+  top: 14px;
+  padding-left: 20px;
+  *left: 20px; }
+
+div.creation-context-filters-and-sorts .checkbox {
+  padding-top: 2px;
+  white-space: nowrap;
+  padding-right: 6px; }
+
+#build-page .show-active-places-only .checkbox-label {
+  padding-left: 0px; }
+
+#build-page div.creation-context-breadcrumb {
+  margin-top: 6px; }
+
+#build-page div.buildpage-loading-container {
+  text-align: center; }
+
+.active-only-checkbox {
+  float: right;
+  vertical-align: middle; }
+
+.active-only-checkbox > input[type='checkbox'] {
+  margin-top: 0px; }
+
+.show-archive-checkbox {
+  float: right;
+  vertical-align: middle; }
+
+.show-archive-checkbox > input[type='checkbox'] {
+  margin-top: 0px; }
+
+/** stuff in the header ends */
+/* item listings start */
+#build-page .item-table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+#build-page .item-table td {
+  padding: 0;
+  vertical-align: top; }
+
+#build-page .item-table .image-col {
+  width: 80px;
+  overflow: hidden; }
+
+#build-page .item-table .name-col {
+  padding-top: 11px;
+  padding-left: 8px;
+  width: 300px; }
+
+#build-page .item-table .name-col a.title {
+  display: block;
+  margin-bottom: 2px;
+  overflow: hidden; }
+
+#build-page .item-table .stats-col-games {
+  width: 140px;
+  vertical-align: middle; }
+
+#build-page .item-table .stats-col {
+  width: 198px;
+  vertical-align: middle; }
+
+#build-page .item-table .edit-col {
+  vertical-align: middle;
+  padding-right: 10px; }
+  
+  #build-page .item-table .build-col {
+  vertical-align: middle;
+  padding-right: 10px; }
+
+#build-page .item-table .menu-col {
+  vertical-align: middle;
+  text-align: right; }
+
+/* item listings end */
+/* other items on the list area start */
+#build-page a[class^='load-more-'] {
+  display: block;
+  width: 100px;
+  margin: 20px auto 0 auto; }
+
+/* other items on the list area end */
+/* "Gear" drop down button begins */
+#build-page .gear-button,
+#build-page .gear-button-hover,
+#build-page .gear-button-open {
+  background: url(/images/BuildPage/btn-gear_sprite_27px.png) no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 27px;
+  border: none;
+  position: relative;
+  margin-right: 10px; }
+
+#build-page .gear-hover {
+  background-position: 0 -27px; }
+
+#build-page .gear-open {
+  background-position: 0 -54px;
+  z-index: 100; }
+
+#build-page .gear-button {
+  left: -1px; }
+
+#build-page .gear-button-wrapper {
+  top: 5px;
+  width: 38px;
+  background-color: #FFFFFF;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: white;
+  height: 37px;
+  position: relative;
+  margin-right: 5px; }
+
+/* gear drop down button ends */
+#build-page a.item-image img {
+  width: 69px; }
+
+#build-page a.game-image img {
+  /*width: 70px;*/
+  width: 110px;  }
+
+#build-page a.item-image img,
+#build-page a.game-image img {
+  height: 69px;
+  display: block;
+  border: none; }
+
+#build-page .totals-label {
+  line-height: 17px;
+  font-size: 13px; }
+
+#build-page .aside-text {
+  margin-left: 10px;
+  font-size: 13px; }
+
+#build-page .aside-text,
+#build-page .totals-label {
+  color: #999; }
+
+/* number of sales or visits */
+#build-page .item-table .totals-label span {
+  color: black;
+  margin-left: 2px; }
+
+/* active/inactive links and date start */
+#build-page .details-table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+#build-page .details-table td.activate-cell {
+  width: 115px; }
+
+#build-page .details-table td.hide-activate-cell {
+  display: none; }
+
+#build-page .details-table td.ad-activate-cell {
+  width: 115px; }
+
+#build-page .details-table td {
+  font-size: 13px; }
+
+#build-page .details-table td > span {
+  margin-right: 5px;
+  color: #999; }
+
+#build-page a.place-active,
+#build-page a.place-inactive, span.inactive-image {
+  padding-left: 18px;
+  font-size: 13px;
+  /*background-image: url("/images/BuildPage/ico-game_privacy.png");*/
+  background-image: url("/images/BuildPage/ico-game_status3.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 15px; }
+  
+#build-page a.place-active {
+  color: #006F00; }
+
+#build-page a.place-inactive {
+  color: #8B8B8B; }
+
+#build-page a.place-active:hover {
+  background-position: 0 -15px;
+  text-decoration: none; }
+
+#build-page a.place-inactive, span.inactive-image {
+  background-position: 0 -30px; }
+
+#build-page span.creator-app {
+  color: #888;
+  font-size: 12px; }
+
+span.inactive-image {
+  display: inline-block; }
+
+#build-page a.place-inactive:hover {
+  background-position: 0 -45px;
+  text-decoration: none; }
+
+/* active/inactive links and date end */
+/*** building games box on right ****/
+.build-games-container {
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 3px; }
+
+.build-games-container ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 11px;
+  margin-bottom: 17px; }
+
+.build-games-container li {
+  margin-bottom: 14px; }
+
+.build-drop-down {
+  *margin-left: -141px;
+  *margin-top: 34px; }
+
+/* Ad Page stuff */
+.run-ad-buttons {
+  float: right;
+  margin-left: 10px; }
+
+.bid-amount-box {
+  text-align: left;
+  float: right;
+  margin-left: 10px; }
+
+.group-fund-box {
+  float: right;
+  margin-top: 1px; }
+
+.bid-amount-text {
+  padding-top: 5px;
+  margin-right: 5px; }
+
+#upload-iframe {
+  width: 100%;
+  height: 150px;
+  margin-left: 10px; }
+
+#upload-iframe.place-specific-assets {
+  height: 230px; }
+
+#upload-plugin-iframe {
+  width: 100%;
+  height: 220px;
+  margin-left: 10px; }
+
+#universe-create-container label {
+  min-width: 100px;
+  display: inline-block; }
+
+.universe-list-container {
+  margin-top: 20px;
+  padding-top: 20px; }
+
+.universe-create-container {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 10px; }
+
+#universe-create-container label[for=description] {
+  vertical-align: top; }
+
+#universe-create-container .submit {
+  margin-top: 5px; }
+
+#universe-create-container .loading-image {
+  padding-top: 9px;
+  padding-bottom: 8px; }
+
+#universe-create-container .error {
+  color: red;
+  display: inline-block;
+  vertical-align: top; }
+
+.item-universe {
+  text-overflow: ellipsis;
+  width: 400px;
+  display: block;
+  overflow: hidden; }
+
+#build-page .item-table .universe-name-col {
+  vertical-align: middle;
+  width: 457px; }
+
+#build-page .item-table .universename-context-col {
+  padding-top: 28px;
+  width: 400px; }
+
+#universe-create-container .form-row {
+  margin-bottom: 10px; }
+
+.root-place-selector {
+  width: 200px; }
+
+.content-area .create-new-button {
+  margin-bottom: 10px; }
+
+#build-page .spacer {
+  height: 15px;
+  width: 10px; }
+
+#build-page .groups-dropdown-container {
+  margin-bottom: 15px; }
+
+#build-page .groups-dropdown-container select {
+  width: 135px; }
+
+#build-page .option {
+  margin-bottom: 4px; }
+
+#build-page .option select {
+  /*min-width: 150px;*/ }
+
+#build-page .item-template {
+  display: none; }

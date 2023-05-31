@@ -1,0 +1,63 @@
+﻿	.stdio2AlertBody {
+		background-color: white;
+	}
+	.stdio2AlertMessage {
+		font: normal 13px Arial;
+		color: black;
+		height: 150px;
+	}
+	.btn-learnMore {
+		width: 159px;
+		height: 50px;
+		background: url("/images/Studio2Alert/btn-learn_more.png") no-repeat;
+	}
+	.btn-learnMore:hover {
+		background-position: 0px -50px;
+	}
+	.stdio2AlertMessageText 
+	{
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 24px;
+		float:right;
+	}
+	.stdio2AlertMessageImage {
+		display: inline-block;
+		padding: 10px;
+		float:left;
+	}
+	.Studio2AlertModalContainer {
+		padding-bottom: 13px;
+		text-align: center;
+		padding-top: 39px;
+	}
+	.studioMuchMore {
+		font-style: italic;
+		padding-left: 20px;
+	}
+	.studioWhatsNew {
+		font: bold 13px arial;
+		color: black;
+		padding-top: 13px;
+		margin-bottom: 5px;
+	}
+
+	.studioHasArrived 
+	{
+		padding-top: 24px;
+		font: bold 15px arial;
+		color: black;
+	}
+	#studioNewFeatures li {
+		padding-left: 20px;
+		background-image: url(/images/Studio2Alert/img-check.png);
+		background-repeat: no-repeat;
+		background-position: 0 .1em;
+		padding-bottom: 6px;
+	}
+	#studioNewFeatures
+	{
+		margin:0;
+		padding-left: 0;
+		list-style: none;
+	}

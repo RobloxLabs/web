@@ -1,0 +1,29 @@
+﻿.BannerRedesign { 
+    background:url(/images/RevisedHeader/bg-obc_header.png) repeat-x !important;
+}
+#NavigationRedesignBannerContainer a.btn-logo,#NavigationRedesignBannerContainer a.btn-logo:visited {
+    background:url(/images/Themes/Halloween2013/Halloween-2013-header.png) !important;
+	width:116px !important;
+}
+#NavigationRedesignBannerContainer a.btn-logo:hover {
+    background:url(/images/Themes/Halloween2013/Halloween-2013-header.png) !important;
+    background-position: 0 35px !important;
+}
+#NavigationRedesignBannerContainer .HeaderDivider {
+    border-left: 1px solid #878988 !important;
+}
+#Footer.LanguageRedesign {
+    color:#555 !important;
+    background-color: Black !important;
+}
+#Footer.LanguageRedesign div.legal { 
+    border-color:white !important;
+} 
+#Footer.LanguageRedesign p.Legalese {
+    color: #555 !important;
+}
+html 
+{
+    background-color:Black !important;
+}
+    

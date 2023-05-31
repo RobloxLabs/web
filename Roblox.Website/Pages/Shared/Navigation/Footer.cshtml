@@ -1,0 +1,81 @@
+﻿@using System.Net
+@using Roblox.TranslationResources.CommonUI
+@using Roblox.TranslationResources.Feature
+
+@inject IStringLocalizer<Features> Resources
+@inject IStringLocalizer<Catalog> GenreResources
+
+<div id="Footer" class="footer-container">
+    <div class="FooterNav">
+        <a href="/info/Privacy.aspx"><b>@Resources["Label.PrivacyPolicy"]</b></a>
+        &nbsp;|&nbsp; 
+        <a href="http://corp.roblox.com/advertise-on-roblox">@Resources["Label.AdvertiseWithUs"]</a>
+        &nbsp;|&nbsp; 
+        <a href="http://corp.roblox.com/roblox-press">@Resources["Label.Press"]</a>
+        &nbsp;|&nbsp; 
+        <a href="http://corp.roblox.com/contact-us">@Resources["Label.ContactUs"]</a>
+        &nbsp;|&nbsp;
+        <a href="http://corp.roblox.com/">@Resources["Label.AboutUs"]</a>
+        &nbsp;|&nbsp;
+        <a href="http://blog.roblox.com">@Resources["Label.Blog"]</a>
+        &nbsp;|&nbsp;
+        <a href="http://corp.roblox.com/jobs">@Resources["Label.Jobs"]</a>
+        &nbsp;|&nbsp;
+        <a href="/Parents.aspx">@Resources["Label.Parents"]</a>  
+            <span class="LanguageOptionElement">&nbsp;|&nbsp;</span> 
+            <span ref="footer-parents" class="LanguageOptionElement LanguageTrigger"  drop-down-nav-button="LanguageTrigger">English&nbsp;<span class="FooterArrow">▼</span>
+                    <div class="dropuplanguagecontainer" style="display:none;" drop-down-nav-container="LanguageTrigger">
+                        <div class="dropdownmainnav" style="z-index:1023">
+                                <a href="/UserLanguage/LanguageRedirect?languageCode=de&amp;relativePath=@WebUtility.UrlEncode(Context.Request.Path)" class="LanguageOption js-lang" data-js-langcode="de"><span class="notranslate">Deutsch</span>&nbsp;(German) </a>
+                            </div>  
+                    </div>
+            </span> 
+    </div>
+    <div class="FooterNav">
+        <div id="SEOGenreLinks" class="SEOGenreLinks">
+                  <a href="/all-games">@GenreResources["LabelGenreAll"]</a> 
+                      <span>|</span>
+                  <a href="/building-games">@GenreResources["LabelGenreBuilding"]</a> 
+                      <span>|</span>
+                  <a href="/horror-games">@GenreResources["LabelGenreHorror"]</a> 
+                      <span>|</span>
+                  <a href="/town-and-city-games">@GenreResources["LabelGenreTownAndCity"]</a> 
+                      <span>|</span>
+                  <a href="/military-games">@GenreResources["LabelGenreMilitary"]</a> 
+                      <span>|</span>
+                  <a href="/comedy-games">@GenreResources["LabelGenreComedy"]</a> 
+                      <span>|</span>
+                  <a href="/medieval-games">@GenreResources["LabelGenreMedieval"]</a> 
+                      <span>|</span>
+                  <a href="/adventure-games">@GenreResources["LabelGenreAdventure"]</a> 
+                      <span>|</span>
+                  <a href="/sci-fi-games">@GenreResources["LabelGenreSciFi"]</a> 
+                      <span>|</span>
+                  <a href="/naval-games">@GenreResources["LabelGenreNaval"]</a> 
+                      <span>|</span>
+                  <a href="/fps-games">@GenreResources["LabelGenreFPS"]</a> 
+                      <span>|</span>
+                  <a href="/rpg-games">@GenreResources["LabelGenreRPG"]</a> 
+                      <span>|</span>
+                  <a href="/sports-games">@GenreResources["LabelGenreSports"]</a> 
+                      <span>|</span>
+                  <a href="/fighting-games">@GenreResources["LabelGenreFighting"]</a> 
+                      <span>|</span>
+                  <a href="/western-games">@GenreResources["LabelGenreWestern"]</a> 
+        </div>
+    </div>
+    <div class="legal">
+        <div class="left">
+            <div id="a15b1695-1a5a-49a9-94f0-9cd25ae6c3b2">
+                <a href="http://www.truste.org/ivalidate.php?url=www.roblox.com&sealid=105" id="TrusteeSeal"><img src="/Images/TRUSTe/seal.png" border="0" id="TrusteLogo" alt="Truste" /></a>
+            </div>
+        </div>
+        <div class="right">
+            <p class="Legalese">
+    ROBLOX, "Online Building Toy", characters, logos, names, and all related indicia are trademarks of <a href="http://corp.roblox.com/" ref="footer-smallabout">ROBLOX Corporation</a>, &copy;@DateTime.Now.Year.ToString(). Patents pending.
+    ROBLOX is not sponsored, authorized or endorsed by any producer of plastic building bricks, including The LEGO Group, MEGA Brands, and K'Nex, and no resemblance to the products of these companies is intended. Use of this site signifies your acceptance of the <a href="/info/terms-of-service" ref="footer-terms">Terms and Conditions</a>.
+</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>

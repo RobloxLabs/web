@@ -1,0 +1,117 @@
+﻿#UserContainer #AssetsMenu
+{
+	float: left;
+	width: 158px;
+}
+
+#UserContainer #AssetsContent
+{
+	float: left;
+	margin: 0 28px;
+	min-width: 0; /* peekaboo bug fix for IE7 */
+	position: relative; /* peekaboo bug fix for IE6 */
+	text-align: left;
+	width: 745px;
+}
+#UserContainer #AssetsContent .HeaderPager,
+#UserContainer #AssetsContent .FooterPager
+{
+    clear:both;
+	margin: 0 12px 0 10px;
+	padding: 2px 0;
+	text-align: center;
+}
+
+#UserContainer #AssetsContent .HeaderPager
+{
+	margin-bottom: 10px;
+}
+
+#UserContainer #AssetsContent .HeaderPager .Label,
+#UserContainer #AssetsContent .FooterPager .Label
+{
+	vertical-align: middle;
+}
+
+#FavoritesContent .Asset,
+#UserContainer .Asset
+{
+	margin: 0 10px 15px 10px;
+	vertical-align: top;
+	width: 112px;
+}
+
+
+#UserContainer .Asset .AssetThumbnail
+{
+	border: solid 1px #CCC;
+	height: 110px;
+	position: relative;
+	text-align: center;
+	width: 110px;
+}
+
+#FavoritesContent .Asset .AssetDetails,
+#UserContainer .Asset .AssetDetails
+{
+	overflow: hidden;
+	padding: 2px 0 6px 0;
+	text-align: left;
+	width: 110px;
+}
+
+#FavoritesContent .AssetName a,
+#UserContainer .AssetName a
+{
+	font-weight: bold;
+	vertical-align: top;
+}
+
+#FavoritesContent .Label,
+#FavoritesContent .Detail,
+#FavoritesContent .PriceInRobux,
+#FavoritesContent .PriceInTickets,
+#UserContainer .Label,
+#UserContainer .Detail,
+#UserContainer .PriceInRobux,
+#UserContainer .PriceInTickets
+{
+	font-size: 12px;
+}
+
+#FavoritesContent .Label,
+#UserContainer .Label {
+	font-weight: 600;
+	color: #999;
+}
+
+#FavoritesContent .PriceInRobux,
+#UserContainer .PriceInRobux
+{
+	color: Green;
+	font-weight: bold;
+}
+
+#FavoritesContent .PriceInTickets,
+#UserContainer .PriceInTickets
+{
+	color: #fbb117;
+	font-weight: bold;
+}
+.universe-creations-text {
+    margin-left: 10px;
+    margin-right: 6px;
+}
+.creation-context {
+    cursor: pointer;
+}
+.AssetThumbnail {
+    cursor: pointer;
+}
+.no-items {
+    text-align: center;
+     font-size: 17px; 
+     color: #990000; 
+     font-weight: bold;
+     margin: 10px;
+}

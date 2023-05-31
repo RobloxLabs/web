@@ -1,0 +1,20 @@
+/* Legacy CSS file - Please do not copy */
+a.close-x {
+  background-color: #E73E33;
+  cursor: pointer;
+  text-decoration: none;
+  width: 27px;
+  height: 27px;
+  position: relative; }
+
+.close-x:after {
+  position: absolute;
+  top: -2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "\0078";
+  font-size: 27px;
+  color: #FFFFFF;
+  line-height: 27px;
+  text-align: center; }

@@ -1,0 +1,346 @@
+/* Legacy CSS file - Please do not copy */
+/* STRUCTURE */
+.PromoteModalErrorMessage.errorStatusBar {
+  height: auto;
+  display: none;
+  min-height: 0px;
+  padding: 5px; }
+
+#ItemContainer {
+  margin-top: 10px; }
+
+#ItemContainer #Item {
+  float: left;
+  width: 800px; }
+
+#ItemContainer #Thumbnail {
+  height: 320px;
+  width: 320px;
+  padding: 0;
+  text-align: left;
+  min-width: 0;
+  position: relative;
+  margin: 20px 0; }
+
+#ThumbnailText {
+  font-size: 12px;
+  padding-bottom: 5px; }
+
+#ItemContainer h1 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+#ItemContainer h3 {
+  display: block; }
+
+#ItemContainer .item-type {
+  margin: 2px 0 20px 0px;
+  padding: 0; }
+
+#ItemContainer #Summary #Creator {
+  float: left; }
+
+.fblike {
+  margin-left: 20px; }
+
+/* SUMMARY */
+#Summary .SummaryDetails {
+  margin: 0 20px 5px 20px;
+  padding-bottom: 40px;
+  position: relative;
+  min-height: 249px;
+  width: 268px;
+  float: left; }
+
+#Summary .SummaryDetails .AssetName {
+  overflow: hidden; }
+
+#Summary .DescriptionPanel {
+  clear: both; }
+
+#Summary .SummaryDetails .Avatar {
+  padding: 0 0 8px 0; }
+
+#ItemContainer #Summary {
+  float: left;
+  margin-bottom: 20px;
+  padding: 0px;
+  width: 480px; }
+
+#ItemContainer #Summary .ContentRating {
+  margin-left: 1px;
+  margin-top: 3px; }
+
+#ItemContainer .UserOwns {
+  display: none; }
+
+#ItemContainer #Summary .Description a:hover {
+  cursor: pointer; }
+
+.Description.Full {
+  white-space: pre; }
+
+.Description.body {
+  white-space: pre-line;
+  max-height: 200px;
+  overflow-x: hidden; }
+
+#ItemContainer #BuyWithRobux {
+  margin: 5px 0px; }
+
+#timer {
+  margin: 0 0 5px 0; }
+
+#Summary .item-detail {
+  float: left;
+  padding-left: 5px; }
+
+.GenreInfo .GamesInfoIcon {
+  display: inline-block;
+  background-image: url(/images/GenreIcons/GenreIconsSprite.png);
+  width: 16px;
+  height: 16px; }
+
+.LimitedEditionRemaining,
+#RobuxPurchaseDisabledMsg,
+#PricePublicDomain,
+.PrivateSalesPurchasePanel,
+.PrivateSalesPurchasePanel .Price,
+.PublicDomainPrice {
+  margin-bottom: 5px; }
+
+.PrivateSalesPurchasePanel .Price {
+  display: block; }
+
+.PrivateSalesPurchasePanel .invisible, .ItemOptions .invisible, pre.Description.Full, .SetListDropDownList .menu a.invisible {
+  display: none; }
+
+#Tabs {
+  margin-bottom: 10px; }
+
+/* END SUMMARY */
+/* TABS? */
+.ui-tabs-hide {
+  display: none; }
+
+/* END TABS */
+/* for badges */
+#ItemContainer .Ownership {
+  float: right; }
+
+/* PRIVATE SALES */
+.PrivateSales {
+  padding-top: 20px; }
+
+.PrivateSales h2 {
+  margin: 0px 0px 15px 0px;
+  display: block; }
+
+/* END PRIVATE SALES AND PRICE GRAPH */
+.createSetPanelPopup {
+  width: 400px;
+  height: 100%;
+  padding: 0px;
+  float: left;
+  display: none; }
+
+.createSetPanelPopup div {
+  float: left; }
+
+/* modalPopup */
+.closeBtnCircle_35h:hover {
+  background-position: 0px 35px; }
+
+.closeBtnCircle_35h {
+  width: 35px;
+  height: 35px;
+  background: url(/images/Buttons/closeBtnCircle_35h.png); }
+
+.closeBtnCircle_20h:hover {
+  background-position: 0px 20px; }
+
+.closeBtnCircle_20h {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 395px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: url(/images/Buttons/btn-x.png); }
+
+.PurchaseModal .simplemodal-close a {
+  background: url("/images/Buttons/btn-x.png") no-repeat top left;
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 5px; }
+
+.PurchaseModal .simplemodal-close a:hover {
+  background-position: bottom left;
+  cursor: pointer; }
+
+/* ProcessingView is used in a lot of places, not just item purchase */
+#ProcessingView {
+  width: 200px; }
+
+#ProcessingView p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold; }
+
+/* END modalPopup */
+/* ITEM OPTIONS DROPDOWN */
+.SetList.ItemOptions {
+  position: relative;
+  top: 0;
+  right: 210px;
+  float: right; }
+
+.SetList.ItemOptions a.btn-dropdown, .ItemOptions a.btn-dropdown-active {
+  width: 13px; }
+
+/* END ITEM OPTIONS DROPDOWN */
+/* REPORT ABUSE */
+#ItemContainer #Summary #ReportAbuse {
+  margin: 0 auto;
+  padding: 4px;
+  text-align: center; }
+
+.btn-blue-ok-sharp {
+  height: 50px;
+  width: 102px;
+  display: inline-block;
+  background: url("/images/Buttons/btn_blue_ok_l.png") top left no-repeat; }
+
+.btn-blue-ok-sharp:hover {
+  cursor: pointer;
+  background-position: bottom left; }
+
+.UserOwnsAsset {
+  display: inline-block;
+  height: 9px;
+  width: 9px;
+  vertical-align: middle;
+  margin-right: 4px;
+  top: 50%;
+  margin-top: -4.5px;
+  background: url("/images/Icons/comment-user-owns-asset.png"); }
+
+/* END NEW COMMENT STYLES */
+/* COMMENTS MODERATION */
+#ItemContainer #Actions {
+  overflow: hidden;
+  top: 420px;
+  width: 408px;
+  padding: 5px;
+  text-align: left; }
+
+#ItemContainer #Actions {
+  padding: 5px;
+  text-align: left;
+  width: 230px; }
+
+/* END COMMENTS MODERATION */
+/* AJAX PURCHASE */
+.CustomizeCharacterLink {
+  display: block;
+  margin-top: 10px; }
+
+.PurchaseModalMessage.SuccessMsg {
+  padding: 30px 20px 20px 20px;
+  height: auto; }
+
+.PurchaseModal span.Robux, .PurchaseModal span.Free {
+  margin-bottom: 2px; }
+
+.PurchaseModalClose {
+  cursor: pointer;
+  position: absolute;
+  right: -18px;
+  top: -18px; }
+
+.PurchaseModal {
+  width: 435px;
+  display: none;
+  position: absolute;
+  border: 2px solid #272727;
+  background-color: #E1E1E1;
+  padding: 5px; }
+
+.PurchaseModal .titleBar {
+  background-color: #E1E1E1;
+  font-weight: bold;
+  font-size: 27px;
+  letter-spacing: -1px;
+  color: #343434;
+  height: 38px;
+  text-align: center; }
+
+.PurchaseModalBody {
+  background-color: #fff; }
+
+.PurchaseModalMessage {
+  padding: 10px;
+  height: 170px; }
+
+#create-set-dialog {
+  height: 327px; }
+
+#PurchaseModalButtonContainer {
+  position: relative; }
+
+.PurchaseModalMessageImage {
+  display: inline-block;
+  width: 110px;
+  height: 110px; }
+
+.PurchaseModalMessageText {
+  display: inline-block;
+  width: 275px;
+  vertical-align: top;
+  padding-top: 28px; }
+
+.PurchaseModalButtonContainer {
+  clear: left;
+  padding-top: 10px;
+  text-align: center; }
+
+.PurchaseModalFooter {
+  text-align: center;
+  margin: 10px auto 0px;
+  padding-bottom: 5px; }
+
+.ProcessingModalBody {
+  margin: 15px auto;
+  text-align: center;
+  vertical-align: middle;
+  background: none; }
+
+.CurrencyColor1 {
+  color: #080;
+  padding-left: 20px;
+  background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0 -42px; }
+
+.CurrencyColor2 {
+  color: #A61;
+  padding-left: 20px;
+  background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0 -122px; }
+
+.CurrencyColorFree {
+  color: #080; }
+
+/* END AJAX PURCHASE */
+/* Voting */
+.actions {
+  position: relative;
+  height: 22px;
+  clear: both;
+  padding-bottom: 15px; }
+
+.actions .voting {
+  position: absolute;
+  top: 0px;
+  left: 10px; }

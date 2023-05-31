@@ -1,0 +1,286 @@
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+/* Please use icon-variant-v2 instead */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  font: inherit;
+  line-height: inherit; }
+
+.signup-or-log-in {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .signup-or-log-in h3 {
+    margin-left: 10px;
+    margin-top: 5px;
+    text-transform: none; }
+  .signup-or-log-in h3.new-header {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: #191919; }
+  .signup-or-log-in .title {
+    text-transform: none; }
+  .signup-or-log-in .form-group {
+    margin-bottom: 0; }
+  .signup-or-log-in .input-field {
+    height: 46px;
+    line-height: 1.33;
+    border-radius: 3px;
+    font-size: 20px; }
+  .signup-or-log-in .fake-input-field {
+    height: 46px; }
+  .signup-or-log-in .fake-input-lg {
+    font-size: 18px; }
+    .signup-or-log-in .fake-input-lg label {
+      font-weight: 300; }
+  .signup-or-log-in p.form-control-label {
+    margin: 0; }
+  .signup-or-log-in p.form-control-label.input-validation {
+    display: block; }
+  .signup-or-log-in input[type=text] {
+    width: 100%; }
+  .signup-or-log-in input[type=password] {
+    width: 100%; }
+  .signup-or-log-in input[type=email] {
+    width: 100%; }
+  .signup-or-log-in .signup-container {
+    height: auto;
+    padding: 10px; }
+    .signup-or-log-in .signup-container .text-info {
+      color: #B8B8B8; }
+    .signup-or-log-in .signup-container .signup-input-area .signup-submit-button {
+      width: 100%;
+      margin-top: 12px; }
+      @media (max-width: 767px) {
+        .signup-or-log-in .signup-container .signup-input-area .signup-submit-button {
+          margin-top: 6px; } }
+    .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group {
+      float: left; }
+      .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.day, .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.month, .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.year {
+        width: 33.33%; }
+      .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group .rbx-select {
+        border-radius: 0;
+        background-position: 93% 10px;
+        background-position-x: "82%";
+        background-position-x: calc(100% - 2px);
+        background-position-y: 10px;
+        height: 44px;
+        border: 1px solid #B8B8B8;
+        border-width: 0 0 0 1px;
+        min-width: 70px;
+        width: 100%;
+        font-size: 18px; }
+      .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.month .rbx-select {
+        border-width: 0px; }
+    .signup-or-log-in .signup-container .signup-input-area .birthday-container .birthday-label {
+      color: #B8B8B8;
+      font-weight: 400;
+      font-size: 16px; }
+    .signup-or-log-in .signup-container .signup-input-area .birthday-container .form-group.has-error .input-field {
+      border-color: #a94442; }
+    .signup-or-log-in .signup-container .signup-input-area .birthday-container .form-group.has-success .input-field {
+      border-color: #3c763d; }
+    .signup-or-log-in .signup-container .signup-input-area .birthday-container .fake-input-lg {
+      padding: 0;
+      height: 46px;
+      overflow: hidden; }
+      .signup-or-log-in .signup-container .signup-input-area .birthday-container .fake-input-lg label {
+        padding: 10px 10px;
+        float: left;
+        width: 24%; }
+    .signup-or-log-in .signup-container .signup-input-area .password-form-group {
+      position: relative; }
+    .signup-or-log-in .signup-container .signup-input-area .password-with-visibility-toggle {
+      padding-right: 40px; }
+      .signup-or-log-in .signup-container .signup-input-area .password-with-visibility-toggle::-ms-clear, .signup-or-log-in .signup-container .signup-input-area .password-with-visibility-toggle::-ms-reveal {
+        display: none; }
+    .signup-or-log-in .signup-container .signup-input-area .password-visibility-toggle {
+      background-size: 48px;
+      cursor: pointer;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      height: 24px;
+      width: 24px; }
+      .signup-or-log-in .signup-container .signup-input-area .password-visibility-toggle.icon-password-show {
+        background-position: 0px -1728px; }
+      .signup-or-log-in .signup-container .signup-input-area .password-visibility-toggle.icon-password-hide {
+        background-position: 0px -1752px; }
+    .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg {
+      height: 46px; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg label {
+        position: relative;
+        width: 75px;
+        top: -9px; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .gender-circle {
+        width: 32px;
+        height: 32px;
+        border-radius: 15px;
+        border: 1px solid #B8B8B8;
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 10%;
+        margin-left: 10%;
+        cursor: pointer;
+        outline: none; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg[disabled] label {
+        color: #B8B8B8; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg[disabled] .gender-circle {
+        cursor: not-allowed; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .gender-circle.selected-gender[name="genderFemale"] {
+        background-color: #fff;
+        border: 1px solid #D86868; }
+        .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .gender-circle.selected-gender[name="genderFemale"] .cover-sprite.female {
+          background-position: -24px 0; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .gender-circle.selected-gender[name="genderMale"] {
+        background-color: #fff;
+        border: 1px solid #32B5FF; }
+        .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .gender-circle.selected-gender[name="genderMale"] .cover-sprite.male {
+          background-position: -22px 0; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .cover-sprite.gender {
+        margin: 3px 9px;
+        height: 26px; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .cover-sprite.female {
+        background-image: url(/images/Landing/RollerCoaster/gender-female_12072017.png);
+        background-repeat: no-repeat;
+        background-position: 6.75px 0;
+        width: 28px;
+        margin-left: 0; }
+      .signup-or-log-in .signup-container .signup-input-area .gender-container .fake-input-lg .cover-sprite.male {
+        background-image: url(/images/Landing/RollerCoaster/gender-male_12072017.png);
+        background-repeat: no-repeat;
+        background-position: 8px 0;
+        width: 28px;
+        margin-left: 0; }
+    .signup-or-log-in .signup-container .signup-input-area .legal-text-container {
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 14px; }
+      .signup-or-log-in .signup-container .signup-input-area .legal-text-container div {
+        font-size: 14px; }
+      .signup-or-log-in .signup-container .signup-input-area .legal-text-container a {
+        color: #00A2FF; }
+      .signup-or-log-in .signup-container .signup-input-area .legal-text-container .checkbox {
+        margin-top: 0; }
+    .signup-or-log-in .signup-container .switch-to-login-section {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 40px;
+      line-height: 40px; }
+      .signup-or-log-in .signup-container .switch-to-login-section #switch-to-login {
+        float: right;
+        border-bottom-style: solid;
+        border-right-style: solid; }
+  .signup-or-log-in .captcha-container div#recaptcha_widget_div {
+    text-align: center; }
+  .signup-or-log-in .captcha-container .captcha-submit-button {
+    width: 183px;
+    width: calc(50% - 2px); }
+  .signup-or-log-in .captcha-container .captcha-back-button {
+    width: 183px;
+    width: calc(50% - 2px); }
+  .signup-or-log-in .captcha-container .g-recaptcha {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+    text-align: -ms-center; }
+  .signup-or-log-in .captcha-container #recaptcha_area {
+    display: inline-block;
+    margin-bottom: 10px; }
+  .signup-or-log-in .login-container .forgot-password-link {
+    float: right; }
+  .signup-or-log-in .login-container .switch-to-signup-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 40px; }
+    .signup-or-log-in .login-container .switch-to-signup-section #switch-to-signup {
+      float: right;
+      border-bottom-style: solid;
+      border-right-style: solid; }
+  .signup-or-log-in .login-container .login-input-area {
+    padding: 10px; }
+    .signup-or-log-in .login-container .login-input-area button.login-button {
+      width: 100%; }
+  .signup-or-log-in .login-container .two-step-verification-input-area {
+    padding-top: 30px; }
+    .signup-or-log-in .login-container .two-step-verification-input-area .two-step-button {
+      width: 183px;
+      width: calc(50% - 2px); }
+    .signup-or-log-in .login-container .two-step-verification-input-area .two-step-back-button {
+      width: 183px;
+      width: calc(50% - 2px); }
+  .signup-or-log-in .input-validation {
+    min-height: 24px; }
+  .signup-or-log-in .input-validation-large {
+    margin-top: 10px; }
+  .signup-or-log-in .alert-warning {
+    width: 100%;
+    border-radius: 3px; }
+  .signup-or-log-in .fb-login-container a.facebook-login {
+    color: #fff;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: #3b5998;
+    display: block;
+    font-size: 21px;
+    background: #3b5998 url("../../../images/Landing/RollerCoaster/fb-icon.png") no-repeat;
+    background-position: 5% 12px; }
+  .signup-or-log-in .fb-login-container a.facebook-login:hover {
+    background-color: #627aad; }
+  .signup-or-log-in .fb-login-container .orcontainer {
+    margin: 0 auto;
+    margin-bottom: 16px;
+    margin-top: 16px; }
+    .signup-or-log-in .fb-login-container .orcontainer .separator {
+      display: inline-block;
+      width: 121px;
+      width: calc(50% - 25px);
+      height: 1px;
+      margin-bottom: 4px;
+      padding-top: 0px;
+      background-color: #B8B8B8;
+      color: transparent;
+      line-height: 1px; }
+    .signup-or-log-in .fb-login-container .orcontainer .or {
+      position: static;
+      display: inline-block;
+      margin-right: 8px;
+      margin-left: 8px;
+      color: #B8B8B8;
+      font-size: 21px;
+      font-weight: 300; }
+
+.fb-signup-choose-username .signup-container .form-group {
+  margin-bottom: 10px; }
+
+.fb-signup-choose-username .captcha-container button#CaptchaSubmitButton {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0; }
+
+@media (max-width: 767px) {
+  .signup-or-log-in .gender-container .fake-input-lg label {
+    display: inline-block; }
+  .signup-or-log-in .signup-container .signup-input-area .birthday-container .fake-input-lg {
+    height: auto; }
+  .signup-or-log-in .signup-container .signup-input-area .birthday-container .fake-input-lg label {
+    float: none;
+    margin-bottom: 0;
+    width: 100%; }
+  .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.day, .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.year, .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.month {
+    width: 33.33%; }
+  .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group .input-field.rbx-select {
+    border-width: 1px 1px 0 0; }
+  .signup-or-log-in .signup-container .signup-input-area .birthday-container .rbx-select-group.year .input-field.rbx-select {
+    border-width: 1px 0 0 0; } }

@@ -1,0 +1,129 @@
+﻿.FrontPagePanel
+{
+	float: left;
+	border: solid 1px black;
+	margin: 5px;
+	background-color: White;
+}
+
+#SignInPane
+{
+	border: none;
+	margin-left: 0px;
+	width: 152px;
+	height: 250px;
+}
+#Movie
+{
+	width: 424px;
+	height: 250px;
+}
+#FrontPageRectangleAd
+{
+	margin: 5px 0px 5px 5px;
+	width: 300px;
+	height: 250px;
+	background-color: Transparent;
+}
+
+#SalesPitch
+{
+	margin-left: 0px;
+	width: 586px;
+	height: 90px;
+}
+
+#WhatsNew
+{
+	margin-left: 0px;
+	width: 586px;
+	height: 280px;
+}
+
+#RandomFacts
+{
+	float: right;
+	margin-right: 0px;
+	width: 300px;
+	height: 150px;
+}
+
+.RandomFactoid
+{
+	text-align: center;
+	height: 32px;
+	width: 290px;
+	padding: 2px;
+	overflow:hidden;
+}
+#marqueecontainer{
+	position: relative;
+	width: 300px; /*marquee width */
+	height: 100px; /*marquee height */
+	background-color: white;
+	overflow: hidden;
+}
+
+.RandomFactoid img
+{
+	float: left;
+}
+
+#ParentsCorner
+{
+	margin-right: 0px;
+	width: 300px;
+	height: 220px;
+	_height: 240px;
+}
+#ParentsCorner #Inside
+{
+	padding: 10px;
+}
+
+.ShieldImage
+{
+	float: left;
+	padding: 5px;
+}
+.TrusteeSeal
+{
+	float: left;
+	width: 140px;
+	padding: 5px;
+}
+
+
+#NewsFeeder
+{
+	margin-right: 0px;
+	width: 158px;
+}
+#FrontPageBannerAd
+{
+	margin-left: 0px;
+	width: 728px;
+	height: 90px;
+	background-color: Transparent;
+}
+
+.BadAdButton
+{
+    background-color: Transparent;
+    border: 0;
+    font-size: .8em;
+    z-index: 100;  /* fix so it's on top of the banner below it */
+    font-family: Verdana;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    height: 8px;
+    top: -1px;
+    right: 0;
+}
+.BadAdButton:hover
+{
+    background-color: #fff;
+    border: solid 1px #000;
+    text-decoration: none;
+}

@@ -1,0 +1,349 @@
+﻿/* Page Structure */
+#assetContainer {
+    float: left;
+    width: 320px;
+    overflow: hidden;
+}
+
+/* END Page Structure */
+
+/* Genre and Gear Details */
+#ItemContainer .GearGenreContainer {
+    padding: 12px 0px 15px 0px;
+    margin-top: 5px;
+}
+.GearGenreContainer #GenresDiv, .GearGenreContainer .GearDiv {
+    float: left;
+    width: 135px;
+}
+#GenresDiv .label {
+    margin: 0;
+}
+.GamesInfoIcon
+{
+	margin-top: 1px;
+	margin-right: 1px;
+	position:relative;
+	top:3px;
+}
+div.GamesInfoIcon 
+{
+    height:14px;
+    width:16px;
+    display:inline-block;
+    top:0px;
+    padding:0;
+    margin-right:3px;
+}
+.AllowedGearRepeater_Container, .AssetGenreRepeater_Container
+{
+    clear:both;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+.AllowedGearRepeater_Container div, .AssetGenreRepeater_Container div
+{
+    float:left;
+    position:relative;
+    top:.25em;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+.AllowedGearRepeater_Container div.GamesInfoIcon
+{
+    background: url(/images/CategoryIcons/CategorySprite.png);
+}
+.AssetGenreRepeater_Container div.GamesInfoIcon
+{
+    background: url(/images/GenreIcons/GenreIconsSprite.png);
+    height:14px;
+}
+div.GamesInfoIcon.Melee
+{
+    background-position:48px 0px;
+}
+div.GamesInfoIcon.Ranged
+{
+    background-position:64px 16px;
+}
+div.GamesInfoIcon.Explosive
+{
+    background-position:-16px 0px;
+}
+div.GamesInfoIcon.PowerUps
+{
+    background-position:-16px -16px;
+}
+div.GamesInfoIcon.Navigation
+{
+    background-position:16px 0px;
+    z-index:inherit;
+}
+div.GamesInfoIcon.Music
+{
+    background-position:32px 0px;
+}
+div.GamesInfoIcon.Social
+{
+    background-position:48px 16px;
+}
+div.GamesInfoIcon.Building
+{
+    background-position:0px 0px;
+}
+div.GamesInfoIcon.PersonalTransport
+{
+    background-position:0px 16px;
+}
+div.GamesInfoIcon.Adventure
+{
+    background-position:0px 0px;
+}
+div.GamesInfoIcon.War
+{
+    background-position:16px -3px;
+}
+div.GamesInfoIcon.Funny
+{
+    background-position:32px 0px;
+}
+div.GamesInfoIcon.Scary
+{
+    background-position:49px 0px;
+}
+div.GamesInfoIcon.Fantasy
+{
+    background-position:-16px 0px;
+}
+div.GamesInfoIcon.Town.City
+{
+    background-position:-32px 0px;
+}
+div.GamesInfoIcon.All
+{
+    background-position: -47px 1px;
+}
+div.GamesInfoIcon.Ninja
+{
+    background-position:0px 16px;
+}
+div.GamesInfoIcon.Wild.West
+{
+    background-position:16px 15px;
+}
+div.GamesInfoIcon.Tutorial
+{
+    background-position:32px 16px;
+}
+div.GamesInfoIcon.Sports
+{
+    background-position:49px 16px;
+}
+div.GamesInfoIcon.Pirate
+{
+    background-position:-16px 16px;
+}
+div.GamesInfoIcon.Sci-Fi
+{
+    background-position:-32px 16px;
+}
+div.GamesInfoIcon.Skate.Park
+{
+    background-position:-48px 16px;
+    width:15px;
+}
+div.GamesInfoIcon.FPS
+{
+    background: url(/images/GenreIcons/FPS.png) no-repeat;
+    height:16px;
+}
+div.GamesInfoIcon.RPG
+{
+    background: url(/images/GenreIcons/RPG.png) no-repeat;
+    height:16px;
+}
+
+.badge-description {
+    overflow: hidden; margin-top: 5px;
+}
+
+
+/* Private Sales */
+#ResalePanel .btn-negative {
+    margin-left:10px;
+}
+#UserSalesTab {
+    width: 330px;
+    float: left;
+    margin-right: 7px;
+}
+#UserSalesTab .SellerNameAndSerial {
+    width: 155px;
+    margin-left: 2px;
+}
+#UserSalesTab .SellerName {
+    margin: 2px 0px;
+    padding: 0px;
+}
+#UserSalesTab .SerialNum {
+    margin: 2px 0px;
+    padding: 0px;
+}
+#UserSalesTab .PriceBuyContainer {
+    text-align: center;
+}
+#UserSalesTab td {
+    padding-bottom: 10px;
+}
+.pgItemsForResale {
+    text-align: center;
+}
+
+
+/* PRICE GRAPH */
+.ItemSalesTable {
+    width: 100%;
+}
+.PriceGraph {
+    /*width: 380px;
+    float: left;
+    padding-left: 7px;*/
+    overflow: hidden;
+}
+.PriceGraph .header {
+    margin-top: 0px;
+}
+.PriceGraph .Options, .pricestats {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.pricestats .days30,.pricestats .days90,.pricestats .days180 {
+    display: none;
+}
+.pricestats span.selected {
+    display: inline;
+}
+#days30:hover,#days90:hover,#days180:hover {
+    cursor: pointer;
+}
+
+/* ADD GEAR TO GAME */
+div.PromoteModalBtn 
+{
+    background: url('/images/Buttons/btn-add_to_game-sm.png') no-repeat top left;
+    display: block;
+    width: 100px;
+    height: 23px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    margin-right: 5px;
+}
+div.PromoteModalBtn:hover {
+    cursor: pointer;
+    background-position: bottom left;
+}
+.PromoteModalErrorMessage.errorStatusBar {
+    height: auto;
+    display: none;
+    min-height: 0px;
+    padding: 5px;
+}
+.PromoteItemTooltip
+{
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    top: -3px;
+}
+/* END ADD GEAR TO GAME */
+
+#Summary .BuyPriceBoxContainer {
+    text-align: center;
+    float: left;
+    width: 170px;
+}
+#Summary .BuyPriceBox {
+    width: 158px;
+    background-color: #e1e1e1;
+    border: 1px solid #a7a7a7;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.BuyPriceBoxContainer .FavoriteStar {
+    background: url('/images/star.png') no-repeat;
+    padding: 2px 0px 2px 20px;
+    margin-top: 5px;
+}
+
+/* Recommendations */
+.AssetRecommenderContainer {
+    text-align: center;
+}
+.AssetRecommenderContainer td {
+    padding: 0 7px;
+}
+.AssetRecommenderContainer tr {
+    display: block;
+}
+/* END Recommendations */
+
+/* Callouts and fading */
+.calloutParent
+{
+    position: relative;
+}
+div.callout
+{
+    width: 175px;
+	height: 35px;
+	min-height: 50px;
+	position: absolute;
+	top: -92px;
+	left: 73px;
+	color: #ccc;
+	text-shadow: 0 0 1px #000;
+	background-color: #444;
+	background-image: -moz-linear-gradient(top, #444, #444);
+	border: 1px solid #333;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px #999;
+	margin: 10px;
+	padding: 10px;
+	z-index: 999;
+}
+.callout::before
+{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border: 0.8em solid transparent;
+	position: absolute;
+}
+.callout.top-left::before
+{
+	left: 7px;
+	bottom: -20px;
+	border-top: 10px solid #444;
+}
+.fadeInAndOut
+{
+    display: none;
+}
+/* END Callouts and fading */
+
+/* Summary */
+.RobuxAndTicketsPurchasePanel {
+    background: url('/images/UI/img-or_divider.png') no-repeat top left;
+    display: block;
+    height: 8px;
+    width: 147px;
+    margin: 0px 0px 5px 5px;
+}
+.expires-div
+{
+    margin:0px 0px 5px 0px;
+}
+
+/* END Summary */

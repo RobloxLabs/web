@@ -1,0 +1,121 @@
+﻿#StoreContainer
+{
+	font-family: Verdana, Sans-Serif;
+}
+
+#StoreContainer h2
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	letter-spacing: 0.5em;
+	line-height: 1em;
+	margin: 0px;
+	padding: 0px;
+}
+
+#StoreContainer h3
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	margin: 5px 0;
+	padding: 0;
+}
+
+#StoreContainer ul
+{
+	list-style: none;
+	margin: 10px 0 30px 0px;
+}
+
+#StoreContainer ul li
+{
+	margin-bottom: 0.5em;
+}
+
+#StoreContainer ul a
+{
+	font-size: 1.1em;
+}
+
+#StoreContainer .DisplayFilters
+{
+	width: 150px;
+}
+
+#StoreContainer #Products
+{
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 585px;
+}
+
+#StoreContainer #Products #HeaderPager,
+#StoreContainer #Products #FooterPager
+{
+	margin: 0 24px 0 10px;
+	padding: 2px 0;
+	text-align: right;
+}
+
+#StoreContainer #Products #HeaderPager
+{
+	margin-bottom: 10px;
+}
+
+#StoreContainer #Products #HeaderPager .Label,
+#StoreContainer #Products #FooterPager .Label
+{
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+#StoreContainer #Products #AdditionalPlace
+{
+	margin: 0 auto;
+	width: 420px;
+}
+
+#StoreContainer #AdsPane
+{
+	border: solid 1px #000;
+	float: right;
+	text-align: right;
+	width: 160px;
+}
+
+#StoreContainer .Label,
+#StoreContainer .Detail,
+#StoreContainer .DetailHighlighted
+{
+	font-size: 0.8em;
+}
+
+#StoreContainer .DetailHighlighted
+{
+	color: Red;
+	font-weight: bold;
+}
+
+#StoreContainer .Thumbnail
+{
+	border: solid 1px #000;
+	height: 230px;
+	width: 420px;
+}
+
+#StoreContainer .Price
+{
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+#StoreContainer .InsufficientFunds
+{
+	color: Red;
+}

@@ -1,0 +1,142 @@
+﻿.AjaxCommentsContainer
+{
+    margin: 10px;
+    margin-top: 0;
+    width: 570px;
+}
+.AjaxCommentsContainer {
+    padding-bottom: 5px;
+}
+.Comments .DeleteCommentButton:hover {
+    cursor: pointer;
+}
+.Comments .more span:hover {
+    cursor: pointer;
+}
+.Comments .empty,.Comments .more {
+    text-align: center;
+}
+.Comments .loading
+{
+    background:#fff url('/images/ProgressIndicator4.gif') no-repeat center;
+    width:100%;
+    height:100px;
+}
+.AjaxCommentsContainer .Comments
+{
+    overflow: hidden;
+    width: 663px;
+    margin-top: 15px;
+}
+.AjaxCommentsContainer .Comment
+{
+    padding: 0px;
+    margin-bottom: 15px;
+}
+.AjaxCommentsContainer .Commenter
+{
+    float: left;
+    width: 110px;
+}
+.AjaxCommentsContainer .Avatar
+{
+    height: 100px;
+    width: 100px;
+}
+.AjaxCommentsContainer .Post .Audit {
+    margin-bottom: 5px;
+}
+.AjaxCommentsContainer .Post .Audit .ByLine {
+    float: left;
+}
+.AjaxCommentsContainer .Post .Audit .AbuseButton {
+    float: right;
+}
+.AjaxCommentsContainer .PostContainer {
+    float: left;
+}
+.AjaxCommentsContainer .Post,
+.AjaxCommentsContainer .PostBottom
+{
+    float: none;
+    background: url('/images/UI/bg-comments-extra-long.png') no-repeat;
+    padding:15px 15px 15px 35px;
+    width: 410px;
+}
+.AjaxCommentsContainer .Post {
+    min-height: 48px;
+}
+.AjaxCommentsContainer .PostBottom {
+    background-position:bottom left;
+}
+.AjaxCommentsContainer .Content
+{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.AjaxCommentsContainer .PostACommentContainer {
+    margin: 15px 0 0 0;
+    padding-bottom: 15px;
+}
+.AjaxCommentsContainer .PostAComment
+{
+    margin: 0;
+    float: left;
+}
+.AjaxCommentsContainer .PostAComment .Buttons
+{
+    margin: 10px 0 0 0;
+    padding: 0px 10px 10px 10px;
+    background: url('/images/UI/bg-comments-compose-v2.png') no-repeat -20px bottom;
+    *background-position: 0px bottom;
+    *padding-bottom: 0px;
+}
+
+.AjaxCommentsContainer .MultilineTextBox,
+.AjaxCommentsContainer textarea
+{
+    min-height: 0px;
+    width: 420px;
+    background: transparent;
+    overflow: auto;
+    border: none;
+    height: 95px;
+    padding: 5px;
+}
+.AjaxCommentsContainer div.MultilineTextBox {
+    cursor: pointer;
+}
+.AjaxCommentsContainer textarea:focus {
+    outline: none;
+}
+.AjaxCommentsContainer .CommentText {
+    background: url('/images/UI/bg-comments-compose-v2.png') no-repeat;
+    padding-left: 20px;
+    width: 440px;
+}
+.AjaxCommentsContainer .centered-error-container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.AjaxCommentsContainer .PostAComment
+{
+    margin: 10px 0 0 0;
+}
+.AjaxCommentsContainer .PostAComment .Buttons
+{
+    margin: 10px 0 0 0;
+}
+.CommentText .SuperSafePanel {
+    left: 322px;
+}
+.CommentsItemTemplate {
+    display: none;
+}
+.BlueCommentBtn {
+    float: right;
+}
+#CharsRemaining {
+    margin: 3px 8px;
+    float: right;
+}

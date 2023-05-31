@@ -1,0 +1,50 @@
+﻿/* Leaderboards Section */
+#Leaderboards {
+    margin: 0 auto;
+    position: relative;
+    text-align: justify;    
+    left: -15px;
+    max-height: 715px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 897px;
+}
+
+#leaderboards-controls {
+    width: 897px !important;
+}
+
+.leaderboards-header,
+.leaderboards-rows-container {
+    width: 880px !important;
+}
+
+#LeaderboardsTabs {
+    position: relative;    
+    text-align: left;
+    width: 928px;
+    margin: 0 auto;
+    height: 45px;
+}
+
+    #LeaderboardsTabs label {
+        font-size: 27px;
+        font-weight: bold;
+        color: #21212d;
+        text-align: center;
+        line-height: 45px;
+        height: 45px;
+        padding: 0 10px;
+        display: inline-block;
+    }
+
+        #LeaderboardsTabs label.active {
+        }
+
+        #LeaderboardsTabs label:hover {
+            cursor: pointer;
+        }
+
+#fixed-leaderboards-buttons {
+    display: none;
+}

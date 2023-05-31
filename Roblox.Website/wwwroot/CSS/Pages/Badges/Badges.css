@@ -1,0 +1,45 @@
+﻿.TileBadges
+{
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+.badge-list-view-container {
+    
+}
+
+.badge-list-view-container:before,
+.badge-list-view-container:after {
+    content: " ";
+    display: table;
+}
+
+.badge-list-view-container:after {
+    clear: both;
+}
+
+.badge-container {
+    position: relative;    
+}
+
+.badge-update-panel {
+    position: relative;
+}
+
+
+.badge-loading-indicator {
+    display: none;
+    position: relative;
+}
+
+.badge-loading-indicator img {
+    position: absolute;
+    margin: 24% 45% 0;
+
+}
+
+.badge-pager-container {
+    position: relative;
+    text-align: center;
+}

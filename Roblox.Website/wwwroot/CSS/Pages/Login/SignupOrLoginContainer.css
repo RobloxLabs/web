@@ -1,0 +1,27 @@
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+/* Please use icon-variant-v2 instead */
+/* RBX default font of Source Sans Pro */
+.form-inline {
+  position: static; }
+
+.rbx-login-partial {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: #191919 0 1px 4px 0;
+  max-width: 400px;
+  padding: 24px 10px 10px 10px; }
+  .rbx-login-partial h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #191919;
+    font-size: 21px;
+    line-height: 1em; }
+
+.rbx-login-partial-legacy {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 15px;
+  max-width: 435px; }
+  .rbx-login-partial-legacy h3 {
+    margin-top: 5px; }

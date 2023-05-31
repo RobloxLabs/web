@@ -1,0 +1,672 @@
+﻿#Header {
+    font-family:Arial,Helvetica,sans-serif;
+    position:absolute;
+    bottom:0;
+    text-align:left;
+}
+#hlNews {
+    margin-right:4px;
+}
+
+#Header .SmallHeaderAlertSpaceLeft
+{
+    background: url("/images/cssspecific/rbx2/bg-statbar-left.png") no-repeat scroll left center transparent;
+    *background : none;
+    height:21px;
+    right:2px;
+    width:auto;
+    padding-left:4px;
+    float:right;
+}
+
+.SmallHeaderAlertSpaceLeft .AlertSpace {
+    float: left;
+    border: none;
+    position: relative;
+    top: 0;
+    width: auto;
+    margin: 0;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: url("/images/cssspecific/rbx2/bg-statbar-right-28h.png") no-repeat scroll right 0 transparent;
+    height: 28px;
+    padding-left: 9px;
+    padding-top: 1px;
+}
+.SmallHeaderAlertSpaceLeft 
+{
+    background: url("/images/cssspecific/rbx2/head_bkg_t1.png") no-repeat scroll left;
+    height: 28px;
+    right: 2px;
+    padding-left: 3px;
+    float: right;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace a {
+	padding-right:10px;
+	padding-left: 19px;	
+	background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0px 0px;
+	position:static;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace a:hover, #Header .AlertSpace a:active {
+	text-decoration: none;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert {
+    border:none;
+    background:none;
+    display:inline;
+    float:left;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a {
+	/*left:13px; top:8px;*/
+	color:#444;
+	background-position: -2px -3px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a:hover {
+	color:#aaa;
+	background-position: -2px -23px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert {
+    border:none;
+    background:none;
+    display:inline;
+    float:left;
+    width:auto;
+    padding:0px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a {
+	/*left:13px; top:28px;*/
+	color:#080;
+	background-position: -1px -43px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a:hover {
+	color:#0d0;
+	background-position: -1px -63px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert {
+    border:none;
+    background:none;
+    display:inline;
+    float:left;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a {
+	/*left:79px; top:8px;*/
+	color:#05b;
+	background-position: -2px -82px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a:hover {
+	color:#0cf;
+	background-position: -2px -102px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert {
+    border:none;
+    background:none;
+    display:inline;
+    float:left;
+    margin-top:4px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a {
+	/*left:79px; top:28px;*/
+	color:#a61;
+	background-position: -2px -123px;
+}
+.SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a:hover {
+	color:#fb6;
+	background-position: -2px -143px;
+}
+.AlertSpace .icons, .AlertSpace .icons a {
+    display:none;
+}
+.AlertSpace .message_icon {
+    display:none;
+}
+.AlertSpace .friends_icon {
+    display:none;
+}
+.AlertSpace .robux_icon {
+    display:none;
+}
+.AlertSpace .tickets_icon {
+    display:none;
+}
+
+.OldAlertSpace .icons, .OldAlertSpace .icons a{
+    display:none;
+}
+.OldAlertSpace .message_icon {
+    display:none;
+}
+.OldAlertSpace .friends_icon {
+    display:none;
+}
+.OldAlertSpace .robux_icon {
+    display:none;
+}
+.OldAlertSpace .tickets_icon {
+    display:none;
+}
+
+
+#Header .Navigation {
+	width:900px; height:30px;
+	background: url(/images/cssspecific/rbx2/topNav_blue.png);
+	background-position: 0px 0px;
+	text-align: center;
+	line-height:20px;
+}
+.Navigation ul {
+	margin: 0px auto;
+	padding:0 0 0 58px;
+}
+.Navigation li {
+	display: inline-block;
+	margin: 0px; padding:6px 15px 0px; 
+	height:24px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.Navigation li:hover {
+	background: url(/images/cssspecific/rbx2/topNav_blue.png);
+	background-position: 0px 30px;
+}
+
+.Navigation a {
+	display: inline-block;
+	color: #fff;
+}
+.Navigation a:hover {
+	text-decoration:none;
+}
+
+.Navigation ul li a, .Navigation ul li a:visited {
+    border:none;
+    font-size:16px;
+    padding:0px;
+}
+.StandardBox {
+	padding:5px; margin-bottom:8px;
+	background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x #fff;
+	border: 1px solid #aaa;
+	z-index: 0;
+}
+.StandardBoxHeader, .StandardBoxHeaderGray {
+	height:33px;
+	padding:0 7px 0 5px;
+	text-align:left;
+	z-index:2;
+	background: url(/images/cssspecific/rbx2/tab_black_33h_t1.png) no-repeat left top;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	z-index: 0;
+}
+.StandardBoxHeaderGray 
+{
+    background: url(/images/cssspecific/rbx2/tab_gray_33h_t1.png) no-repeat left top;
+}
+.StandardBoxHeader span, .StandardBoxHeaderGray span
+{
+	display:block;
+	width:100%; height:29px;
+	padding:5px 5px 0 2px;
+	background: url(/images/cssspecific/rbx2/tab_black_33h_t2.png) no-repeat right top;
+	overflow:hidden;
+}
+.StandardBoxHeaderGray span
+{
+    background: url(/images/cssspecific/rbx2/tab_gray_33h_t2.png) no-repeat right top;
+}
+
+.StandardTabWhite {
+	
+	background: url(/images/cssspecific/rbx2/tab_white_26h_t1.png) no-repeat left top;
+	padding: 0 4px;
+	float:none;
+	text-align:left;
+}
+.StandardTabWhite span {
+	display:block;
+	width:100%;
+	*width: 115%;
+	height:26px;
+	padding: 5px 5px 0 9px;
+	*padding-right:14px;
+	background: url(/images/cssspecific/rbx2/tab_white_26h_t2.png) no-repeat right top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000;
+	font-weight: normal;
+}
+
+.StandardBoxWhite {
+	position:relative; top: -1px;
+	background: #fff;
+	border:1px solid #ccc;
+	padding:8px;
+	color:Black;
+}
+
+.StandardTabGray,
+.StandardTabGrayActive
+{
+    position:relative;
+    background:url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+    background-position: left 0px;
+    height:31px;
+    padding:0px;
+    text-align:left;
+    cursor: pointer; 
+    margin: 0px;
+}
+
+.StandardTabGray span,
+.StandardTabGrayActive span
+{
+    background:url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+    background-position: right 0px;
+    height:25px;
+	padding: 6px 16px 0 8px;
+	margin:0 0 0 4px;
+	color:#333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	display: block;
+}
+.StandardTabGray a,
+.StandardTabGrayActive a
+{
+    color: #333;
+}
+
+.StandardTabGrayActive 
+{
+    background-position: left -62px;
+}
+.StandardTabGrayActive span 
+{
+    background-position: right -62px; 
+}
+
+.StandardTabGray:hover {
+	position:relative;
+    background:url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+    background-position: left -31px;
+    height:31px;
+    padding:0px;
+    z-index: 2;
+    text-align:left;
+    margin: 0px;
+}
+.StandardTabGray span:hover {
+	background:url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+    background-position: right -31px;
+    height:25px;
+	padding: 6px 16px 0 8px;
+	margin:0 0 0 4px;
+	color:#333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+}
+.StandardBoxGray {
+    position:relative;
+    top:-2px;
+	padding:8px 5px;
+	background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x #fff;
+	border: 1px solid #aaa;
+}
+
+/*StandardBox Alerts CSS*/
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace {
+	position:relative; top:0px;
+	width:155px; height:50px;
+	border:1px solid #ccc;
+	margin: 0; padding: 0;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background: none;
+	float:none;
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace a 
+{    
+	position: absolute;
+	width:43px;
+	padding-left: 18px;	
+	background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0px 0px;
+}
+
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace a:hover, #Header .AlertSpace a:active {
+	text-decoration: none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert {
+    border:none;
+    background:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a {
+	left:13px; top:8px;
+	color:#444;
+	background-position: -2px 0px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .MessageAlert a:hover {
+	color:#aaa;
+	background-position: -2px -20px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert {
+    border:none;
+    background:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a {
+	left:13px; top:28px;
+	color:#080;
+	background-position: -2px -41px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .RobuxAlert a:hover {
+	color:#0d0;
+	background-position: -2px -61px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert {
+    border:none;
+    background:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a {
+	left:79px; top:8px;
+	color:#05b;
+	background-position: -2px -81px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .FriendsAlert a:hover {
+	color:#0cf;
+	background-position: -2px -101px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert {
+    border:none;
+    background:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a {
+	left:79px; top:28px;
+	color:#a61;
+	background-position: -2px -121px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft .AlertSpace .TicketsAlert a:hover {
+	color:#fb6;
+	background-position: -2px -141px;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft div.icons, a.icons {
+    display:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft div.message_icon {
+    display:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft div.friends_icon {
+    display:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft div.robux_icon {
+    display:none;
+}
+.StandardBox .SmallHeaderAlertSpaceLeft div.tickets_icon {
+    display:none;
+}
+
+
+
+
+#GroupsPeopleContainer .StandardTabGray, #GroupsPeopleContainer .StandardTabGrayActive
+{
+    position:relative;
+    top:2px;
+}
+
+.tab_white_31h_container  .ajax__tab_header {
+      background:none;
+}
+
+.tab_white_31h_container .ajax__tab_outer    {
+      background:none;
+      height:auto;
+}
+
+.tab_white_31h_container .ajax__tab_inner    {
+     position:relative;
+     background:url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+     height:31px;
+     padding-left:0px;
+     z-index: 2;
+}
+
+.tab_white_31h_container .ajax__tab_header .ajax__tab_tab {
+     background: url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+     height:25px;
+	 padding: 6px 16px 0 8px;
+	 margin:0 0 0 4px;
+}
+
+.tab_white_31h_container .ajax__tab_hover .ajax__tab_outer {
+     background:none;
+     height:auto;
+}
+
+.tab_white_31h_container .ajax__tab_hover .ajax__tab_inner {
+     position:relative;
+     background:url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+     background-position: left -31px;
+     height:31px;
+     padding-left:0px;
+     z-index: 2;
+}
+
+.tab_white_31h_container .ajax__tab_hover .ajax__tab_tab {
+     background:url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+     background-position: right -31px;
+     height:25px;
+	 padding: 6px 16px 0 8px;
+	 margin:0 0 0 4px;
+}
+
+.tab_white_31h_container .ajax__tab_active .ajax__tab_outer {
+     background:none;
+     height:auto;
+}
+
+.tab_white_31h_container .ajax__tab_active .ajax__tab_inner {
+     position:relative;
+     background:url(/images/cssspecific/rbx2/tab_white_31h_t1.png) no-repeat left top;
+     background-position: left -62px;
+     height:31px;
+     padding-left:0px;
+     z-index: 2;
+}
+
+.tab_white_31h_container .ajax__tab_active .ajax__tab_tab {
+     background:url(/images/cssspecific/rbx2/tab_white_31h_t2.png) no-repeat right top;
+     background-position: right -62px;
+     height:25px;
+	 padding: 6px 16px 0 8px;
+	 margin:0 0 0 4px;
+}
+.tab_white_31h_container  .ajax__tab_body { 
+    position:relative;
+    top:-2px;
+	padding:8px 5px;
+	background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x #fff;
+	border: 1px solid #aaa;
+}
+.Column2a {
+    float:left;
+}
+.Column3b {
+    float:left;   
+}
+.Column2c {
+    float:left;
+    margin-left:10px
+}
+.Column2d {
+    float:left;
+}
+.Column1e {
+    width:140px;
+}
+.Column2e .StandardBoxHeaderGray {
+    margin:0;
+    width:726px;
+}
+.Column2e .StandardBoxGray
+{
+    width: 726px;
+}
+
+.Column2f {
+    float:left;
+}
+div.rbx2only {
+    display:block;
+}
+.rbx2only {
+    display:inline;
+}
+.rbx2hide {
+    display:none;
+}
+#RobloxCentralBank {
+    overflow:hidden;
+}
+.transparentBkg {
+    background-color:Transparent;
+}
+.FriendRequestsPane {
+    width:890px;
+}
+.Shadow {
+    display:none;   
+}
+.ShadowedStandardBox .Header {
+    height:33px;
+	padding:0 7px 0 5px;
+	text-align:left;
+	z-index:2;
+	background: url(/images/cssspecific/rbx2/tab_black_33h_t1.png) no-repeat left top;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+}
+.ShadowedStandardBox .Header span {
+    display:block;
+	width:100%; height:29px;
+	background: url(/images/cssspecific/rbx2/tab_black_33h_t2.png) no-repeat right top;
+	overflow:hidden;
+	height: 26px;
+	padding: 7px 4px 0px 3px;
+}
+.ShadowedStandardBox .Content {
+    padding:5px; margin-bottom:8px;
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+}
+a.rss_icon 
+{
+    background:url(/images/cssspecific/rbx2/topNav_rss.png) no-repeat;
+}
+.Column1d .StandardTabWhite, .Column2d .StandardTabWhite
+{
+    width:auto;
+}
+.MyRobloxContainer
+{
+    width:890px;
+}
+.BCHat {
+    margin-top: 1px;
+}
+
+/*Old Header Alerts (Big Banner)*/
+.OldAlertSpace {
+	position:relative; top:0px;
+	width:147px; height:50px;
+	border:1px solid #ccc;
+	margin: 0; padding: 0;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+#Header .OldAlertSpace {
+    float:right;
+    border:none;
+    margin-left:0;
+	margin-right:0;
+    background: url(/images/cssspecific/rbx2/head_sign.png) 0px 0px;
+    height:78px;
+}
+.OldAlertSpace a {
+	position: absolute;
+	width:43px;
+	padding-left: 18px;
+	background: url(/images/cssspecific/rbx2/head_infobox_icons.png) no-repeat 0px 0px;
+}
+.OldAlertSpace a:hover, #Header .AlertSpace a:active {
+	text-decoration: none;
+}
+.OldAlertSpace .MessageAlert {
+    border:none;
+    background:none;
+}
+.OldAlertSpace .MessageAlert a {
+	left:13px; top:8px;
+	color:#444;
+	background-position: -2px 0px;
+}
+.OldAlertSpace .MessageAlert a:hover {
+	color:#aaa;
+	background-position: -2px -20px;
+}
+.OldAlertSpace .RobuxAlert {
+    border:none;
+    background:none;
+}
+.OldAlertSpace .RobuxAlert a {
+	left:13px; top:28px;
+	color:#080;
+	background-position: -2px -41px;
+}
+.OldAlertSpace .RobuxAlert a:hover {
+	color:#0d0;
+	background-position: -2px -61px;
+}
+.OldAlertSpace .FriendsAlert {
+    border:none;
+    background:none;
+}
+.OldAlertSpace .FriendsAlert a {
+	left:79px; top:8px;
+	color:#05b;
+	background-position: -2px -81px;
+}
+.OldAlertSpace .FriendsAlert a:hover {
+	color:#0cf;
+	background-position: -2px -101px;
+}
+.OldAlertSpace .TicketsAlert {
+    border:none;
+    background:none;
+}
+.OldAlertSpace .TicketsAlert a {
+	left:79px; top:28px;
+	color:#a61;
+	background-position: -2px -121px;
+}
+.OldAlertSpace .TicketsAlert a:hover {
+	color:#fb6;
+	background-position: -2px -141px;
+}

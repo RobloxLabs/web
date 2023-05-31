@@ -1,0 +1,37 @@
+/* Legacy CSS file - Please do not copy */
+#CreateBadgeContainer .form-label {
+  width: 150px;
+  float: left; }
+
+#CreateBadgeContainer .FormElement {
+  margin-bottom: 20px; }
+
+#CreateBadgeContainer .PreviewImage {
+  float: left;
+  margin-right: 20px; }
+
+#CreateBadgeContainer .InstructionsGraphic {
+  background: url("/images/Badges/badge_instructions.png") no-repeat;
+  width: 966px;
+  height: 323px;
+  position: relative;
+  margin-bottom: 15px; }
+
+.download-button-container {
+  text-align: center;
+  position: relative;
+  top: 264px;
+  left: 19px;
+  width: 148px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+#CreateBadgeContainer .BlueDownloadBtn:hover {
+  background-position: bottom left; }
+
+.ProcessingModal {
+  width: 300px;
+  min-height: 50px;
+  display: none;
+  position: absolute; }

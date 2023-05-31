@@ -1,0 +1,664 @@
+﻿textarea {
+    resize:none;
+}
+#GroupsPeopleContainer .StandardTabGrayActive, #GroupsPeopleContainer .StandardTabGray
+{
+    position:relative;
+    cursor:pointer;
+}
+.groupEmblemThumbnail
+{
+    position:relative;
+    top:-4px;
+    cursor:pointer;
+}
+.groupEmblemThumbnail
+{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+	text-align: center;
+	width: 105px;
+	overflow: hidden;	
+}
+#GroupThumbnails
+{
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.GroupDescriptionThumbnail
+{
+    float: left;
+    clear: none;
+    margin: 0px 10px 10px 0px;   
+}
+
+.GroupMembers
+{
+    width: 100%;   
+}
+
+.GroupMembers tr
+{
+    padding-bottom: 10px;
+}
+
+.GroupMembers td
+{
+    padding: 0px 5px 10px 5px;
+    text-align: center;
+}
+
+.IncompleteFormField
+{
+    color: red;
+}
+
+.GroupWallPostButton
+{
+    width: 69px;
+    height: 53px;
+    margin: 3px 0px 4px 0px;
+    float: right;
+}
+
+.GroupWallPostText
+{
+    width: 375px;
+    height: 53px;
+    float: left;
+}
+    
+.GroupDescriptionEdit
+{
+    border: none;  
+    border-style:none;
+}
+
+.EmblemAdminImage
+{
+   margin: 0x;
+}
+
+.CreateNewGroup
+{
+    padding-bottom:10px;
+    margin-bottom:10px;
+    display:block;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.CreateNewGroupError
+{
+    color: Red;
+}
+
+.GroupMembersAdminTable tr
+{
+    text-align: left;
+}
+
+.GroupMembersAdminTable td
+{
+    width: 85px;
+    margin: 2px;
+}
+
+#GroupSearchResults thead tr
+{
+    background-color: #B0C4DE;
+    color: Black;
+}
+
+#GroupSearchResults .GroupEmblemImg
+{
+    border: solid 2px #B0C4DE;
+    padding: 2px;
+}
+.selectedSmallThumb
+{
+    border: solid 2px #FFE390;
+}
+.nonSelectedSmallThumb
+{
+    border: solid 2px transparent;
+}
+
+
+#left-column, #mid-column, #right-column
+{
+    float:left;
+    position:relative;
+    min-height: 100px;
+}
+#left-column .StandardBox, #mid-column .StandardBox, #right-column .StandardBox
+{
+    background: url(/images/cssspecific/rbx2/standardBox_01_bkg.png) top repeat-x white;
+    color:#000;
+}
+#left-column .StandardBox a, #mid-column .StandardBox a, #right-column .StandardBox a
+{
+    color: #095fb5;
+}
+#left-column .StandardBox .ReportAbuse .AbuseButton a, #mid-column .StandardBox .ReportAbuse .AbuseButton a, #right-column .StandardBox .ReportAbuse .AbuseButton a
+{
+    color:Red;
+}
+#left-column 
+{
+    width: 166px;
+    margin: 0 0 0 5px;
+}
+#right-column 
+{
+    width: 166px;
+}
+#mid-column 
+{
+    width:505px;
+    margin: 0px 20px;
+}
+#mid-column.GroupsPage
+{
+    width:661px;
+}
+#mid-column .ReportAbuse
+{
+    text-align: right;
+}
+#GroupThumbnails
+{
+    overflow:hidden;
+    margin:0;
+    width:100%;
+    position:relative;
+}
+.GroupListItemContainer
+{
+    clear:left;
+    padding: 5px 0px 5px 14px;
+}
+.GroupListItemContainer a
+{
+    display:block;
+}
+.GroupListItemContainer:hover, .GroupListItemContainer.selected:hover
+{
+    background-color: #fff;
+    cursor:pointer;
+}
+.GroupListItemContainer.selected
+{
+    background: url('/images/gamesPage_filterArrow.png') 4px center no-repeat;
+}
+.selected .GroupListName
+{
+    font-weight:bold;
+}
+.GroupListImageContainer, .GroupListName
+{
+    float:left;
+    font-size:11px;
+}
+.GroupListName a, .GroupListName a:hover, .GroupListName a:visited 
+{
+    color:#000;
+    text-decoration:none;
+}
+.GroupListImageContainer img
+{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.GroupListName
+{
+    overflow:hidden;
+    width:90px;
+    height: 32px;
+    text-align: left;
+    position:relative;
+    padding: 0 7px;
+    padding-top:12px;
+}
+#left-column .StandardBox
+{
+    overflow:hidden;
+    float: left;
+    text-align:center;
+    width:100%;
+    background: #E8E8E8;
+}
+#CreateGroupBtn
+{
+    width: 130px;
+    position:relative;
+    *left:0px;
+    margin: 5px 0 10px 0;
+}
+.GroupPanelContainer
+{
+    overflow:hidden;
+    padding:10px;
+}
+.GroupPanelContainer .left-col
+{
+    width:25%;
+    float:left;
+    margin-right:2%;
+    overflow:hidden;
+}
+.GroupPanelContainer .left-col div
+{
+    text-align:left;
+}
+.GroupPanelContainer .right-col
+{
+    float:left;
+    width:73%;
+}
+.GroupPanelContainer .right-col p
+{
+    overflow:hidden;
+}
+.GroupOwner
+{
+    color:gray;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.MyRank
+{
+    width: 100%;
+    font-size: 14px;
+    color:Gray;
+    margin-top: 10px;
+}
+.MyRank span
+{
+    color:#000;
+}
+.AdvertiseGroup
+{
+    margin-top:10px;
+}
+.ReportAbuse
+{
+    font-size:11px;
+}
+#GroupRoleSetsMembersPane .ReportAbusePanel
+{
+    float: right;
+    margin-top: 2px;
+}
+.GroupWallPostBtn
+{
+    padding: 3px 6px;
+    position: relative;
+    top: 32px;
+    left: 5px;
+}
+.GroupControlsBox div
+{
+    margin: 6px 0;
+    text-align: center;
+}
+#SearchControls
+{
+    width: 865px;
+    height: 28px;
+    clear: both;
+    display: block;
+    background: #C4C4C4; /* #C4C4C4 */
+    border: 1px solid #AAA;
+    margin: 0 0 15px 0;
+    left: 5px;
+    position: relative;
+    padding: 2px 5px;
+    top:-5px;
+}
+.MyGroupsPage #SearchControls
+{
+    top:0px;
+    text-align:center;
+}
+#SearchControls .content
+{
+    text-align:center;
+}
+.content .SearchKeyword
+{
+    width:350px;
+}
+#SearchControls .label
+{
+    font-weight: bold;
+    width: 200px;
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+    margin-right: 7px;
+}
+.ClaimOwnershipPanel
+{
+    border: 2px solid black;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.GroupListContainer
+{
+    padding:0;
+}
+.JoinGroupDiv
+{
+    margin-top:10px;
+}
+.AlreadyRequestedInvite
+{
+    margin-top: 10px;
+}
+
+.RepeaterImage
+{
+    width:20%;
+    overflow:hidden;
+    float:left;
+}
+.RepeaterImage img
+{
+    clear:both;
+}
+.RepeaterText
+{
+    width:75%;
+    float:right;
+}
+.GroupWall_PostContainer
+{
+    overflow:hidden;
+    width:100%;
+    margin-bottom: 5px;
+}
+input.default
+{
+    font-style:italic;
+    color:#888;
+}
+.GroupWallPane
+{
+    padding-bottom:10px;
+    position:relative;
+    overflow:hidden;
+}
+.GroupWallPane .AlternatingItemTemplateEven
+{
+    background-color:#fff;
+    clear:both;
+    padding:10px;
+}
+.GroupWallPane .AlternatingItemTemplateOdd
+{
+    background-color:#F2F2F2;
+    clear:both;
+    padding:10px;
+}
+.GroupControlsBox input, .GroupControlsBox button
+{
+    width:125px;
+}
+.InsideBoxHeader
+{
+    font-size:18px;
+    font-weight:bold;
+    color:#000;
+    display:block;
+    clear:both;
+    padding: 3px;
+    margin-bottom:5px;
+}
+.StatusView .top
+{
+    background: url('/images/Groups/bg-speech_top.png') no-repeat;
+    padding:5px;
+    width:317px;
+}
+.StatusView .bottom
+{
+    background: url('/images/Groups/bg-speech_bottom.png') no-repeat;
+    padding:5px;
+    padding-right: 0;
+}
+.StatusView .bottom .content
+{
+    float: left;
+    position: relative;
+    left: 28px;
+}
+.StatusView .ReportAbuse
+{
+    display: inline-block;
+    float: right;
+}
+#GroupDescP
+{
+    word-wrap:break-word;
+}
+#GroupDescP a:hover
+{
+    cursor:pointer;
+}
+.GroupsPeopleTabs_Container
+{
+    display:block;
+    height:30px;
+}
+.GroupsPeopleTabs_Container div
+{
+    float:left;
+    margin:0;
+}
+#GroupRoleSetsMembersPane .loading
+{
+    display:none;
+    height:69px;
+    width:100%;
+    background: url('/images/spinners/spinner16x16.gif') no-repeat center;
+    *float:left;
+}
+.GroupWallPane .loading
+{
+    display:none;
+    position:absolute;
+    top:0;
+    height:100%;
+    width:100%;
+}
+.GroupWallPane .loading .content
+{
+    position:absolute;
+    top:0;
+    height:100%;
+    width:100%;
+    background: url('/images/ProgressIndicator4.gif') no-repeat center;
+    z-index:1;
+}
+.GroupWallPane .loading .background
+{
+    position:absolute;
+    top:0;
+    height:100%;
+    width:100%;
+    background: #fff;
+}
+div.MyAuditPage
+{
+    *padding-top:10px;
+    position:relative;
+}
+.AuditLog 
+{
+    width: 100%;
+    font-size: 14px;
+}
+.AuditLogContainer
+{    
+    clear:both;
+    border-top:1px solid #afafaf;
+}
+.AuditLogContainer td 
+{
+    margin:0;
+}
+.AuditLogContainer .header td
+{
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #ccc;
+    border-top:none;
+    padding:4px;
+}
+.AuditLogContainer .header td.Description
+{
+    border-right: 1px solid #F1F1F1;
+}
+.AuditLogContainer tr.header td
+{
+    font-weight:bold;
+    background-color:#f1f1f1;
+}
+.AuditLogContainer td.User
+{
+    width:126px;
+}
+.AuditLogContainer td.Rank
+{
+    width:80px;
+}
+.AuditLogContainer td.Rank span 
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 80px;
+}
+.AuditLogContainer td.Description
+{
+    width:500px;
+}
+.AuditLogContainer td.Date
+{
+    width:85px;
+}
+#AuditPage 
+{
+    padding-top: 20px;
+}
+.AuditLogContainer .datarow 
+{
+    padding-top: 10px;
+    height: 34px;
+}
+.AuditLogContainer .datarow td
+{
+    padding: 4px;
+    border-bottom:1px solid #ccc;
+}
+.GroupAdmin .StandardBox #searchbox {
+    float: right;
+    max-width:100%;
+}
+
+.GroupAdmin .StandardBox .RoleSetDropDownList {
+    max-width: 220px;
+}
+#AuditPage div.SortsAndFilters {
+    margin: 5px 0 7px 5px;
+    float: right;
+}
+#AuditPage .SortsAndFilters .SortFilterLabel {
+    font: 12px arial;
+    color: black;
+    font-weight: bold;
+}
+#AuditPage .SortsAndFilters select {
+    font-size: 11px;
+}
+#AuditPage .roblox-avatar-image img {
+    width: 13px;
+    height: 7px;
+}
+#AuditPage .roblox-avatar-image img:first-child {
+    width: 24px;
+    height: 24px;
+}
+#AuditPage .roblox-avatar-image
+{
+    float:left;
+}
+#AuditPage td.User span.username {
+    padding-left: 3px;
+    top: 4px;
+    position: relative;
+}
+#AuditPage #PagingContainerDivBottom {
+    margin-top: 30px;
+}
+#AuditPage h1 a, #AuditPage h1 a:hover {
+    color: #363636;
+    text-decoration: none;
+}
+#AuditPage h1 a:hover {
+    cursor: pointer;
+}
+#AuditPage #submitButton { 
+    background: url(/images/UI/catalog/bg-27px_silver_btn.png) repeat-x;
+    font: bold 11px Arial,Helvetica,sans-serif;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #aaa;
+    background-position: top left;
+    padding-top: 1px;
+    width: 26px;
+    text-align: center;
+    height: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 3px;
+}
+#AuditPage #usernameTextbox {
+    margin: 0;
+    padding: 0;
+    font-size:11px;
+}
+#AuditPage #userHidden {
+    padding-top: 2px;
+    float: left;
+    display: none;
+    padding-left: 5px;
+}
+#AuditPage .secondLevelHeader {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+#AuditPage .secondLevelHeader a {    
+    color: black;
+}
+#AuditPage .secondLevelHeader a:hover {
+    text-decoration: none;
+}
+#AuditPage div.ErrorMessage {
+    background-color: #FAE4EB;
+    border: 1px solid #CC0005;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 3px;
+    height: 15px;
+    width: 330px;
+}

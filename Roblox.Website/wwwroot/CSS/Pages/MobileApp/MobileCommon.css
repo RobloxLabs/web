@@ -1,0 +1,21 @@
+/* Legacy CSS file - Please do not copy */
+body {
+  font: 15px Arial;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  margin: 17px 17px;
+  font: 39px arial;
+  font-weight: bold;
+  color: #363636; }
+
+h2 {
+  font-size: 20px;
+  font-weight: bold; }
+
+h1 .PageCount {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 22px; }

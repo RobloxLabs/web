@@ -1,0 +1,115 @@
+/* RBX default font of Source Sans Pro */
+.form-inline {
+  position: static; }
+
+/* Please use icon-variant-v2 instead */
+.content {
+  width: 970px; }
+
+.play-history-table {
+  border: none;
+  border-spacing: 0;
+  margin-top: 30px;
+  width: 940px; }
+  .play-history-table:before, .play-history-table:after {
+    content: " ";
+    display: table; }
+  .play-history-table:after {
+    clear: both; }
+  .play-history-table .first {
+    width: 160px; }
+  .play-history-table .visits {
+    width: 50px; }
+  .play-history-table .average-visit-time {
+    width: 165px; }
+  .play-history-table .total-play-time {
+    width: 150px; }
+
+h1, h2 {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 0; }
+
+ul.nav.nav-pills {
+  margin-bottom: 20px; }
+
+.tab-container + div > div {
+  padding: 21px 15px; }
+
+.rbx-tab {
+  min-width: 25%; }
+
+#csv-error, #dev-stats-error {
+  margin-top: 10px; }
+  #csv-error.text-alert, #dev-stats-error.text-alert {
+    width: auto; }
+  #csv-error.error-message, #dev-stats-error.error-message {
+    padding: 5px 10px;
+    width: 130px; }
+
+#csv-description {
+  margin-bottom: 18px; }
+
+.csv-download {
+  width: 250px; }
+  .csv-download #revenue-csv-month, .csv-download #dev-stats-month {
+    display: block;
+    margin-bottom: 5px; }
+
+.content-container select {
+  margin-right: 20px; }
+
+.accord-section-open > .accord-content {
+  max-height: 1000px; }
+
+.accordion::before {
+  clear: both; }
+
+.accordion:before, .accordion:after {
+  content: " ";
+  display: table; }
+
+.accordion:after {
+  clear: both; }
+
+.accordion table {
+  width: 100%; }
+
+#game-tab h1 {
+  font-weight: normal; }
+
+#dev-dashboard-stats {
+  border: 1px solid #ccc;
+  display: table;
+  margin-bottom: 20px; }
+  #dev-dashboard-stats table {
+    float: left;
+    border-top: none;
+    width: auto; }
+  #dev-dashboard-stats .live-counter {
+    font-size: 20px;
+    padding: 20px;
+    display: table-cell;
+    vertical-align: middle; }
+    #dev-dashboard-stats .live-counter span {
+      vertical-align: middle; }
+    #dev-dashboard-stats .live-counter .player-count .odometer-inside, #dev-dashboard-stats .live-counter .player-count .odometer-value {
+      font-size: 60px; }
+    #dev-dashboard-stats .live-counter .server-count .odometer-inside, #dev-dashboard-stats .live-counter .server-count .odometer-value {
+      font-size: 1em; }
+    #dev-dashboard-stats .live-counter .server-count .odometer-value {
+      margin-top: 1px; }
+
+.divider-right {
+  border-right: 1px solid #ccc; }
+
+.pie-chart-container[data-rbx-time=hourly] {
+  padding-bottom: 40px; }
+
+.pie-chart-container .developer-revenue-aggregation-dropdown {
+  float: right;
+  margin-right: 100px;
+  width: 140px; }
+
+.tab-content {
+  margin-top: 15px; }

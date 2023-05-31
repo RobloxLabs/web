@@ -1,0 +1,133 @@
+﻿#MyAccountBalanceContainer
+{
+	font-family: Verdana, Helvetica, Sans-Serif;
+}
+
+#MyAccountBalanceContainer h2
+{
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	letter-spacing: 0.4em;
+	line-height: 1em;
+	margin: 10px 0 0 -2px;
+	padding: 0;
+}
+
+#MyAccountBalanceContainer h3
+{
+	background-color: #ccc;
+	border-bottom: solid 1px #000;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 1.7em;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+#MyAccountBalanceContainer h4
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 0;
+	padding: 5px 5px 5px 15px;
+	color:#990000;
+}
+
+#MyAccountBalanceContainer #AboutRobux
+{
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	float: right;
+	margin-top: 20px;
+	width: 275px;
+}
+
+#MyAccountBalanceContainer #AboutRobux h3
+{
+	border-top: solid 1px #000;
+}
+
+#MyAccountBalanceContainer #AboutRobux p
+{
+	margin: 0;
+	padding: 10px 15px;
+}
+
+#MyAccountBalanceContainer #Earnings
+{
+	border: solid 1px #000;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	width: 600px;
+}
+
+#MyAccountBalanceContainer .Earnings_Period
+{
+	margin-bottom: 20px;
+}
+
+#MyAccountBalanceContainer .Earnings_LoginAward,
+#MyAccountBalanceContainer .Earnings_PlaceTrafficAward,
+#MyAccountBalanceContainer .Earnings_Ambassador
+{
+	padding: 0px 0px 0px 50px;
+	height:16px;
+	 background-color:#eeeeee;
+}
+
+#MyAccountBalanceContainer .Earnings_SaleOfGoods,
+#MyAccountBalanceContainer .Earnings_PeriodTotal,
+#MyAccountBalanceContainer .Earnings_LoginAwardBC,
+#MyAccountBalanceContainer .Earnings_Currency
+{
+    padding: 0px 0px 0px 50px;
+    height:16px;
+   
+}
+
+#MyAccountBalanceContainer .Earnings_LoginAward .Label,
+#MyAccountBalanceContainer .Earnings_LoginAwardBC  .Label,
+#MyAccountBalanceContainer .Earnings_PlaceTrafficAward .Label,
+#MyAccountBalanceContainer .Earnings_SaleOfGoods .Label,
+#MyAccountBalanceContainer .Earnings_Ambassador .Label,
+#MyAccountBalanceContainer .Earnings_Currency .Label
+{
+	float: left;
+	width: 380px;
+}
+
+
+
+#MyAccountBalanceContainer .Earnings_PeriodTotal .Label
+{
+	float: left;
+	padding-right: 10px;
+	text-align: right;
+	width: 370px;
+
+}
+
+#MyAccountBalanceContainer .Earnings_PeriodTotal .Field
+{
+    color:Blue;
+    font-weight:bold;
+   
+}
+
+
+
+#MyAccountBalanceContainer .Field
+{
+	float: right;
+	width: 75px;
+}
+#MyAccountBalanceContainer .Zebra
+{
+    background-color:#eeeeee;
+}

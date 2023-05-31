@@ -1,0 +1,123 @@
+﻿.ItemPurchaseAjaxContainer .TicketsPurchasePanel, .GamePassContainer .RobuxPurchasePanel {
+    text-align: center;
+    margin-left: 5px;
+    float: left;
+}
+.ItemPurchaseAjaxContainer .PurchaseModalMessageText {
+    padding-left: 10px;
+}
+.ItemPurchaseAjaxContainer span.Free
+{
+    color:#080;
+    font-weight:bold;
+}
+/* Start Character PopUp and A|B Character Popup Styles*/
+.ABCloseCircle
+{
+    cursor: pointer; position:absolute; top:-10px; right:-10px;
+}
+.Message
+{
+    margin-top:12px;   
+    float:right; 
+    width:200px;
+    color:#343434; 
+    text-align:left; 
+    padding: 0px;
+}
+/* END Character PopUp and A|B Character Popup Styles*/
+
+/* copied from Item.css on 2.19.2013 */
+.PurchaseModalMessage.SuccessMsg {
+    padding: 30px 20px 20px 20px;
+    height: auto;
+}
+.PurchaseModal span.robux, 
+.PurchaseModal span.tickets, 
+.PurchaseModal span.robux-text {
+    margin-bottom: 2px;
+}
+
+.AddRemoveFavorite
+{
+    background: url(/images/cssspecific/rbx2/favoriteStar_20h.png) no-repeat 0 -20px;
+	margin:0;
+	display:inline-block;
+	position:relative;
+	top:3px;
+    padding-top:4px;
+    padding-left:25px;
+    height: 18px;
+}
+.AddRemoveFavorite:hover, .AddRemoveFavorite.Favorited
+{
+    background-position: 0 0;
+}
+
+.VisitButton, .VisitButtonDisabled
+{
+    display: inline;
+    width: 10px;
+}
+.VisitButtonSoloPlay, .VisitButtonBuild, .VisitButtonEdit {
+    height: 50px;
+}
+.VisitButtonDisabled
+{
+    opacity: .5;
+    filter:alpha(opacity=50);
+}
+.EditButton {
+    background:url(/images/EditMode2.png);
+    width: 143px;
+    height: 48px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:inline;
+}
+.PersonalServerAccessDenied
+{
+    color: red;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.iLocked,
+.iUnlocked,
+.SharedIcon,
+.CopyLockedIcon,
+.GenreGearIcon,
+.NoGearIcon
+{
+    display:inline-block;
+    height:20px;
+    width:20px;
+}
+.iUnlocked {
+    background:url(/images/cssspecific/rbx2/icon_public.png);
+}
+.iLocked {
+    background:url(/images/cssspecific/rbx2/icon_public.png);
+    background-position:-20px;
+}
+
+h3.RecommendationHeader
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 100%;
+}
+h3.RecommendationHeader a {
+    margin-left: 13px;
+}
+
+.Description.Full {
+    white-space: pre;
+}
+.Description.body {
+    white-space: pre-line;
+    max-height: 200px;
+    overflow-x: hidden;
+}

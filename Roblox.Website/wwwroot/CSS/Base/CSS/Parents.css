@@ -1,0 +1,101 @@
+﻿
+#ParentsContainer
+{
+
+}
+#ParentsContainer .GrayscaleHatImg
+{
+    position: relative;
+    float: right;
+    top: -20px;
+}
+#ParentsContainer .StandardDividerTop {
+    padding-top: 12px;
+}
+#ParentsContainer .DescriptionText
+{
+    font-size: 14px;
+    background:none;
+}
+#ParentsContainer .DescriptionText ul {
+    padding: 0;
+    list-style: none;
+}
+#ParentsContainer #BreadcrumbsContainer
+{
+    margin-bottom: 20px;
+}
+
+#ParentsContainer h2
+{
+    font-family: Verdana, Sans-Serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	line-height: 1em;
+    margin: 0 0 20px 0;
+}
+
+#ParentsContainer #LeftColumn
+{
+    float: left;
+    padding: 0 15px 0 0;
+    width: 400px;
+}
+
+#ParentsContainer #RightColumn
+{
+    float: right;
+    padding: 0 0 0 15px;
+    width: 400px;
+}
+
+#ParentsContainer .ParentsSection
+{
+    background-color: #fff;
+    border: solid 1px #ccc;
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    width: 370px;
+}
+
+#ParentsContainer h3,
+dt
+{
+    color: Blue;
+    font-family: Verdana, Sans-Serif;
+	font-size: 1.3em;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	line-height: 1em;
+}
+
+#ParentsContainer .SectionIcon
+{
+    float: left;
+    margin-right: 20px;
+}
+
+#ParentsContainer .PageImage
+{
+    float: right;
+}
+
+/* for Parents/ControlPanel/ManageUsers.aspx */
+.MyRobloxContainer .Column1a .StandardBox em
+{
+	display: none;
+	font-style: normal;
+	position: absolute;
+	z-index: 2;
+	background: #3B526B;
+	color: #FFFFFF;
+	padding: 3px;
+	border: 4px solid #C6D9FD;
+	width: 200px;
+}
+
+.MyRobloxContainer .Column1a .StandardBox ul li
+{
+	padding: 4px;
+}

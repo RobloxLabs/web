@@ -1,0 +1,10 @@
+﻿#AlreadyInstalled
+{
+	font-size: large; 
+	margin: 44px 44px 44px 44px;
+}
+
+#AlreadyInstalled a
+{
+	text-decoration: underline;
+}

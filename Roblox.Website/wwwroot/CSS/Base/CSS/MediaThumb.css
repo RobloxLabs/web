@@ -1,0 +1,32 @@
+/* Legacy CSS file - Please do not copy */
+div.MediaPlayerControls {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border: 0; }
+
+div.MediaPlayerIcon {
+  background-image: url(/images/AssetIcons/MediaPlayerIcons.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  border: 0; }
+
+.MediaPlayerIcon.Play {
+  background-position: left top;
+  cursor: pointer; }
+
+.MediaPlayerIcon.Play:hover {
+  background-position: right top; }
+
+.MediaPlayerIcon.Pause {
+  background-position: left center;
+  cursor: pointer; }
+
+.MediaPlayerIcon.Pause:hover {
+  background-position: right center; }
+
+.MediaPlayerIcon.Error {
+  background-position: left bottom; }

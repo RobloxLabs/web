@@ -1,0 +1,263 @@
+/* Please use icon-variant-v2 instead */
+.icon-default-profileicon, .icon-add-friend, .icon-remove-friend, .icon-friend-pending, .icon-send-message, .icon-join-game, .icon-send-message-disabled, .icon-start-chat, .icon-accept-friend {
+  background-image: url(/images/shared/profile_06282017.svg);
+  background-repeat: no-repeat;
+  background-size: 44px auto;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.dark-theme .icon-default-profileicon, .dark-theme .icon-add-friend, .dark-theme .icon-remove-friend, .dark-theme .icon-friend-pending, .dark-theme .icon-send-message, .dark-theme .icon-join-game, .dark-theme .icon-send-message-disabled, .dark-theme .icon-start-chat, .dark-theme .icon-accept-friend {
+  background-image: url("/images/shared/profile_dark_09282018.svg"); }
+
+.light-theme .icon-default-profileicon, .light-theme .icon-add-friend, .light-theme .icon-remove-friend, .light-theme .icon-friend-pending, .light-theme .icon-send-message, .light-theme .icon-join-game, .light-theme .icon-send-message-disabled, .light-theme .icon-start-chat, .light-theme .icon-accept-friend {
+  background-image: url("/images/shared/profile_light_10232018.svg"); }
+
+.icon-add-friend {
+  background-position: 0px 0px; }
+
+.icon-remove-friend {
+  background-position: 0px -44px; }
+
+.icon-friend-pending {
+  background-position: 0px -88px; }
+
+.icon-send-message {
+  background-position: 0px -132px; }
+
+.icon-join-game {
+  background-position: 0px -176px; }
+
+.icon-send-message-disabled {
+  background-position: 0px -220px; }
+
+.icon-start-chat {
+  background-position: 0px -308px; }
+
+.icon-accept-friend {
+  background-position: 0px -396px; }
+
+.profile-header:before, .profile-header:after {
+  content: " ";
+  display: table; }
+
+.profile-header:after {
+  clear: both; }
+
+.profile-header .profile-header-top:before, .profile-header .profile-header-top:after {
+  content: " ";
+  display: table; }
+
+.profile-header .profile-header-top:after {
+  clear: both; }
+
+.profile-header .profile-avatar-image,
+.profile-header .profile-header-content {
+  float: left; }
+
+.profile-header .profile-avatar-image {
+  position: relative;
+  margin-right: 12px;
+  width: 128px;
+  height: 128px; }
+  @media (max-width: 767px) {
+    .profile-header .profile-avatar-image {
+      float: none;
+      margin: 0 auto;
+      width: 102px;
+      height: 102px; } }
+  @media (max-width: 767px) {
+    .profile-header .profile-avatar-image .avatar-profile {
+      width: 102px;
+      height: 102px; } }
+  .profile-header .profile-avatar-image .profile-avatar-status {
+    z-index: 1000; }
+
+.profile-header .profile-header-content {
+  width: 100%;
+  position: relative; }
+  @media (max-width: 767px) {
+    .profile-header .profile-header-content {
+      width: 100%;
+      margin-left: 0;
+      position: static; } }
+
+.profile-header .header-caption {
+  width: 82%;
+  width: calc(100% - 128px - 24px);
+  height: 128px;
+  position: relative;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media (max-width: 767px) {
+    .profile-header .header-caption {
+      width: 100%;
+      height: auto; } }
+  .profile-header .header-caption .header-title {
+    display: flex;
+    align-items: center; }
+    .profile-header .header-caption .header-title:before, .profile-header .header-caption .header-title:after {
+      content: " ";
+      display: table; }
+    .profile-header .header-caption .header-title:after {
+      clear: both; }
+    @media (max-width: 767px) {
+      .profile-header .header-caption .header-title {
+        padding-top: 15px; } }
+    .profile-header .header-caption .header-title h2,
+    .profile-header .header-caption .header-title span[class^="icon"] {
+      float: left; }
+    .profile-header .header-caption .header-title h2 {
+      display: inline-block;
+      margin: 0 12px 0 0; }
+      @media (max-width: 767px) {
+        .profile-header .header-caption .header-title h2 {
+          display: none; } }
+    .profile-header .header-caption .header-title h3 {
+      display: none;
+      margin: 0; }
+      @media (max-width: 767px) {
+        .profile-header .header-caption .header-title h3 {
+          display: inline-block; } }
+    .profile-header .header-caption .header-title .profile-name {
+      padding: 0; }
+    .profile-header .header-caption .header-title .icon-premium-medium {
+      flex-shrink: 0;
+      margin-right: 8px; }
+      @media (max-width: 767px) {
+        .profile-header .header-caption .header-title .icon-premium-medium {
+          display: none; } }
+    .profile-header .header-caption .header-title .icon-premium-small {
+      flex-shrink: 0;
+      margin-right: 8px;
+      display: none; }
+      @media (max-width: 767px) {
+        .profile-header .header-caption .header-title .icon-premium-small {
+          display: inline; } }
+  .profile-header .header-caption .header-userstatus {
+    margin-top: 0; }
+    @media (max-width: 767px) {
+      .profile-header .header-caption .header-userstatus {
+        display: none; } }
+    .profile-header .header-caption .header-userstatus .header-userstatus-text {
+      display: flex;
+      align-items: center; }
+      .profile-header .header-caption .header-userstatus .header-userstatus-text span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+        @media (max-width: 767px) {
+          .profile-header .header-caption .header-userstatus .header-userstatus-text span {
+            margin: 6px 0; } }
+    .profile-header .header-caption .header-userstatus .form-has-feedback,
+    .profile-header .header-caption .header-userstatus textarea {
+      height: 45px; }
+  .profile-header .header-caption .header-details {
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 35px; }
+    @media (max-width: 767px) {
+      .profile-header .header-caption .header-details {
+        display: block;
+        margin: 6px 0 0 0;
+        min-height: unset; } }
+    .profile-header .header-caption .header-details .details-info li,
+    .profile-header .header-caption .header-details .details-actions li {
+      padding-right: 15px; }
+    .profile-header .header-caption .header-details .details-info {
+      display: flex; }
+      @media (max-width: 767px) {
+        .profile-header .header-caption .header-details .details-info {
+          display: block; } }
+      .profile-header .header-caption .header-details .details-info li {
+        float: left;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse; }
+        .profile-header .header-caption .header-details .details-info li .font-header-2 {
+          margin-right: 6px; }
+    .profile-header .header-caption .header-details .details-actions.desktop-action {
+      display: block; }
+    .profile-header .header-caption .header-details .details-actions.mobile-action {
+      display: none; }
+    @media (max-width: 767px) {
+      .profile-header .header-caption .header-details .details-actions {
+        float: left;
+        width: 100%; }
+        .profile-header .header-caption .header-details .details-actions.desktop-action {
+          display: none; }
+        .profile-header .header-caption .header-details .details-actions.mobile-action {
+          display: block;
+          margin: 12px 0 0 0; } }
+    .profile-header .header-caption .header-details .details-actions li {
+      float: right; }
+    .profile-header .header-caption .header-details .details-actions.mobile-action li {
+      float: left;
+      width: 50%;
+      border-right: 1px solid #B8B8B8;
+      padding: 0 5px;
+      text-align: center; }
+      .profile-header .header-caption .header-details .details-actions.mobile-action li:last-child {
+        border-right: 0 none; }
+    .profile-header .header-caption .header-details .details-actions.mobile-action.three-item-list li {
+      width: 33%; }
+
+.profile-header .mobile-user-status {
+  display: none; }
+  @media (max-width: 767px) {
+    .profile-header .mobile-user-status {
+      display: block; } }
+
+.profile-header .header-userstatus {
+  float: left;
+  margin-top: 12px;
+  width: auto;
+  max-width: 100%; }
+  .profile-header .header-userstatus.display-form {
+    width: 100%; }
+  .profile-header .header-userstatus .header-userstatus-text span {
+    width: 100%;
+    display: inline-block; }
+    @media (max-width: 767px) {
+      .profile-header .header-userstatus .header-userstatus-text span {
+        white-space: normal; } }
+    .profile-header .header-userstatus .header-userstatus-text span.userstatus-editable {
+      cursor: pointer; }
+  .profile-header .header-userstatus .header-userstatus-share-progress {
+    margin: 6px;
+    height: 16px;
+    width: 48px; }
+    @media (max-width: 767px) {
+      .profile-header .header-userstatus .header-userstatus-share-progress {
+        width: 100%; } }
+  .profile-header .header-userstatus textarea {
+    resize: vertical; }
+  .profile-header .header-userstatus .form-has-feedback {
+    margin-bottom: 0; }
+    .profile-header .header-userstatus .form-has-feedback .form-control-label {
+      text-align: right; }
+
+.profile-header .header-details-error {
+  float: right;
+  margin: 0 6px 0 0; }
+
+.profile-header .profile-header-more {
+  position: absolute;
+  top: 0;
+  right: 6px; }
+  @media (max-width: 767px) {
+    .profile-header .profile-header-more {
+      top: 124px;
+      right: 12px; } }
+
+.profile-header .icon-more {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }

@@ -1,0 +1,103 @@
+﻿#Help
+{
+    border-style: ridge;
+    border-color: #dddddd;
+    border-width: 5px;
+    background-color: #eeeeee;
+    height: 600px;
+    padding: 1px;
+}
+#Help h1
+{
+    text-indent: 10px;
+}
+#Help .salesForce, #Help .salesForce iframe
+{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    float: left;
+    width: 625px;
+    height: 500px;
+}
+
+#Help .avatar
+{
+    text-align: center;
+    display: block;
+    float: right;
+    clear: right;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#Help .descriptionPanels
+{
+    background-color: Transparent;
+    background-image: url('/images/Speech Bubble 225.gif');
+    width: 225px;
+    height: 235px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+#Help .descriptionPanels p
+{
+    font-family: Comic Sans MS;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 25px;
+    text-align: left;
+    color: Navy;
+    font-size: 9pt;
+}
+
+#Help .navigation
+{
+    clear: left;
+    color: #6e99c9;
+    border: none;
+    background-color: Transparent;
+    font-family: 'Comic Sans MS' , Verdana, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+#Help .navigation .MenuItem
+{
+    color: #6e99c9;
+    font-size: 16px;
+    line-height: 2em;
+}
+#Help .navigation a.MenuItem:link, #Help .navigation a.MenuItem:visited, #Help .navigation a.MenuItem:active
+{
+    color: #6e99c9;
+    text-decoration: none;
+}
+#Help .navigation a.MenuItem:hover
+{
+    text-decoration: underline;
+}
+
+#Help .forumLinks
+{
+    font-family: Sans-Serif;
+    border-width: 3px;
+    border-color: #dddddd;
+    border-style: groove;
+    visibility: hidden;
+    display: none;
+    filter: alpha(opacity=93);
+    opacity: .93;
+    background-color: #eeeeee;
+    background-image: url('/images/help_gradient.png');
+    background-repeat: repeat-y;
+    background-position: left top;
+    width: 150px;
+    font-size: 10pt;
+    text-align: center;
+    padding: 5px;
+    line-height: 2em;
+}

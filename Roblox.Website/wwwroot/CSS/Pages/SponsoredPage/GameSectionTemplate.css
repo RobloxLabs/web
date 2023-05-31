@@ -1,0 +1,73 @@
+﻿/*Game Section*/
+
+.place-thumb {    
+    width: 276px;
+    height:125px;
+}
+
+.places-container {        
+    margin: 0 auto;
+    position: absolute;   
+}
+
+.place-container-1 {
+    position: absolute;
+    left: 538px;
+}
+
+.place-container-2 {
+    position: absolute;
+    left: 13px;
+    top: 340px;
+}
+
+.place-container-3 {
+    position: absolute;
+    left: 538px;
+    top: 340px;
+}
+
+.place-description-text {
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+    width: 375px;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.place-link {
+    font-weight: bold;
+    color: #fff !important;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.place-description-text {
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+    width: 375px;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.place-thumb {
+    width: 438px;
+    height: 230px;
+}
+
+.place-thumb-1 {
+    left: 631px;
+    top: 0px;
+}
+
+.place-thumb-2 {
+    left: 103px;
+    top: 346px;
+}
+
+.place-thumb-3 {
+    left: 631px;
+    top: 346px;
+}

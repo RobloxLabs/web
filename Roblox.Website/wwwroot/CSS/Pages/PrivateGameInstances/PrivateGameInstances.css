@@ -1,0 +1,63 @@
+﻿/* ----------------------- Modal styles ----------------------- */
+
+#GetOrUseAccessCodeModal
+{
+    width: 700px;
+    min-height: 191px;
+    padding: 5px;
+}
+#GetOrUseAccessCodeModal div.Message
+{
+    width: 690px;
+    min-height: 130px;
+    padding: 14px 5px 5px 5px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+/* ----------------------- Layout ----------------------- */
+
+#GetOrUseAccessCodeModal div.Message .column
+{
+    width: 280px;
+    text-align: center;
+}
+#GetOrUseAccessCodeModal div.Message h2
+{
+    margin-bottom: 5px;
+}
+#HaveAccessCodeSection
+{
+    float: left;
+    padding: 5px 30px 5px 30px;
+}
+#NeedAccessCodeSection
+{
+    float: left;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+#AccessCodeInput
+{
+    width: 95%;
+    height: 16px
+}
+#GeneratedAccessCodeContainer
+{
+    height: 22px;
+}
+
+#GetOrUseAccessCodeModal div.Message .action-button
+{
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+#ProgressIndicator
+{
+    height: 20px;
+    background-image: url(/images/Accounts/ProgressIndicator.gif);
+    background-repeat: no-repeat;
+    margin-left: 315px;
+    margin-top: 40px;
+}

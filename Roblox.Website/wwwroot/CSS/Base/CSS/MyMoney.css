@@ -1,0 +1,359 @@
+div.MyMoneyPage
+{
+    *padding-top:10px;
+    position:relative;
+}
+.MyMoneyPage ul
+{
+    padding:0;
+    *position:relative;
+    *left:-40px;
+}
+.MyMoneyPage select
+{
+    font-size:11px;
+}
+
+.MyMoneyPage #TabsContentContainer
+{
+    width:962px;
+}
+
+.MyMoneyPage div.TabContent
+{
+    float:left;
+    width: 795px;
+    position:relative;
+}
+.MyMoneyPage .tipsy
+{
+    text-align:left;
+}
+
+.MyMoneyPage .BuyRobuxButton
+{
+    position:absolute;
+    right:10px;
+    *right:18px;
+    top:9px;
+    *top:8px;
+    background:url('/images/Buttons/btn-buyrobux.png') no-repeat left top;
+    width: 141px;
+    height: 34px;
+}
+.MyMoneyPage .BuyRobuxButton:hover
+{
+    background-position:left -34px;
+    cursor:pointer;
+}
+.MyMoneyPage .SortFilterLabel
+{
+    font:12px arial;
+    color:#000;
+    font-weight:bold;
+}
+.MyMoneyPage .SortsAndFilters
+{
+    margin:5px 0px 7px 5px;
+}
+.MyMoneyPage .SortsAndFilters div
+{
+    float:left;
+}
+.MyMoneyPage .roblox-avatar-image, .MyMoneyPage td.Member div.Roblox
+{
+    float:left;
+}
+.MyMoneyPage .roblox-avatar-image img[title],.MyMoneyPage td.Member div.Roblox
+{
+    width:24px;
+    height:24px;
+}
+.MyMoneyPage table,.MyMoneyPage table tr,.MyMoneyPage table td
+{
+    margin:0;
+    padding:0;
+}
+
+#Summary_tab .loading
+{
+    position:absolute;
+    top:0;
+    left:0;
+    background:#fff url('/images/Spinners/spinner100x100.gif') no-repeat center;
+    width:100%;
+    height:100%;
+}
+#Summary_tab .loading
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#fff;
+    text-align:center;
+}
+#Summary_tab .RobuxColumn, #Summary_tab .TicketsColumn
+{
+    float:left;
+    background-color:#fff;
+    margin:0 3px;
+    width: 390px;
+    *width:387px;
+}
+#Summary_tab .RobuxColumn
+{
+    padding-right:2px;
+    *padding-right:6px;
+    border-right:1px solid #ccc;
+}
+
+/* SUMMARY,TRANSACTIONS,TRADE */
+#Summary_tab table td,#MyTransactions_tab table td, #TradeItems_tab table td
+{
+    padding:5px;
+    border-top:1px solid #ccc;
+    margin:0;
+    float:left;
+}
+#Summary_tab table .header td,#MyTransactions_tab table,#TradeItems_tab table
+{
+    border-top:1px solid #9e9e9e;
+}
+#Summary_tab tr.title td,#Summary_tab tr.header td,.MyMoneyPage .total td,#MyTransactions_tab tr.header td,#TradeItems_tab tr.header td
+{
+    font-weight:bold;
+    background-color:#f1f1f1;
+}
+#Summary_tab table,#MyTransactions_tab table,#TradeItems_tab table
+{
+    width:100%;
+}
+
+/* SUMMARY */
+#Summary_tab tr.title td
+{
+    border:none;
+}
+#Summary_tab .RobuxColumn tr.title td
+{
+    padding-left:23px;
+    background:url('/images/Icons/img-robux.png') no-repeat center left;
+}
+#Summary_tab .TicketsColumn tr.title td
+{
+    padding-left:20px;
+    background:url('/images/Tickets.png?v=2') no-repeat center left;
+}
+#Summary_tab tr.title img 
+{
+    position:relative;
+    top:1px;
+}
+#Summary_tab .total .money
+{
+    font-weight:normal;
+}
+#Summary_tab td.Categories
+{
+        width: 212px;
+}
+#Summary_tab td.Debit,#Summary_tab td.Credit
+{
+    width:72px;
+}
+#Summary_tab .header td.Debit,#Summary_tab .header td.Credit
+{
+    width:71px;
+}
+#Summary_tab .header td.Debit
+{
+    padding:0px;
+    width:83px;
+}
+#Summary_tab .header td.Debit span
+{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display:block;
+    width:71px;
+    height:100%;
+    padding:5px;
+}
+#Summary_tab .header td.Debit.NoBorder span
+{
+    border-left: none;
+    border-right: none;
+}
+#Summary_tab .total td
+{
+    width:341px;
+    border-top:1px solid #ccc;
+    text-align:right;
+}
+#Summary_tab .RobuxColumn .total td
+{
+    padding-top:9px; /*tds are not even because contained images are different heights */
+}
+#Summary_tab .total img
+{
+    padding:0 3px;
+    position:relative;
+    top:2px;
+}
+
+
+
+
+#MyTransactions_tab .TransactionsContainer
+{
+    clear:both;
+}
+#MyTransactions_tab .SortsAndFilters .Currency
+{
+    padding-right:5px;
+    border-right: 1px solid #ccc;
+}
+#MyTransactions_tab .SortsAndFilters .Currency .SortFilterLabel
+{
+    position: relative;
+    top: -2px;
+}
+#MyTransactions_tab .SortsAndFilters .TimePeriod
+{
+    margin-left:5px;
+}
+#MyTransactions_tab .SortsAndFilters .TimePeriod input
+{
+    font-size:1em;
+    height:1em;
+    width:60px;
+}
+
+/* SHARED MY TRANSACTIONS TRADE ITEMS */
+#MyTransactions_tab table,#TradeItems_tab table
+{
+    width:790px;
+}
+#MyTransactions_tab .header td,#TradeItems_tab .header td
+{
+    border-right: 1px solid #CCC;
+    border-top:none;
+}
+#MyTransactions_tab .header td.Amount,#TradeItems_tab .header td.Action
+{
+    border-right: 1px solid #F1F1F1;
+}
+#MyTransactions_tab .empty,#TradeItems_tab .empty
+{
+    width:710px;
+    text-align:center;
+}
+#MyTransactions_tab .loading,#TradeItems_tab .loading
+{
+    background:#fff url('/images/Spinners/spinner100x100.gif') no-repeat center;
+    height:150px;
+    position:relative;
+    width:710px;
+}
+#MyTransactions_tab .error,#TradeItems_tab .error
+{
+    height:1em;
+    position:relative;
+    width:710px;
+    text-align:center;
+}
+#MyTransactions_tab .morerecords td,#TradeItems_tab .morerecords td
+{
+    text-align: center;
+    width: 100%;
+    border-top: none;
+    padding-top:20px;
+}
+#MyTransactions_tab .morerecords td a:hover,#TradeItems_tab .morerecords td a:hover
+{
+    cursor:pointer;
+}
+
+
+/* MY TRANSACTIONS SPECIFIC */
+#MyTransactions_tab td.Date
+{
+    width:85px;
+}
+#MyTransactions_tab .datarow td.Date
+{
+    width:86px;
+}
+#MyTransactions_tab td.Member
+{
+    width:126px;
+}
+#MyTransactions_tab .datarow td.Member
+{
+    width:126px;
+}
+#MyTransactions_tab td.Description
+{
+    width: 435px;
+}
+#MyTransactions_tab .datarow td.Description
+{
+    width: 437px;
+}
+#MyTransactions_tab td.Amount
+{
+    width:100px;
+}
+#MyTransactions_tab .datarow td.Amount
+{
+    padding-left:31px;
+    width:75px;
+}
+#MyTransactions_tab td.Amount.Robux
+{
+    background: url('/images/Icons/img-robux.png') no-repeat 10px 12px;
+}
+#MyTransactions_tab td.Amount.Tickets
+{
+    background: url('/images/Tickets.png?v=2') no-repeat 10px 9px;
+}
+#MyTransactions_tab .Member span
+{
+    padding-left: 3px;
+    top: 4px;
+    position: relative;
+}
+.MyMoneyPage td.Member div.Roblox
+{
+    background: url('/images/Icons/roblox-icon-round-tiny.jpg') no-repeat top left;
+}
+#MyTransactions_tab .datarow .Date,#MyTransactions_tab .datarow .Description,#MyTransactions_tab .datarow .Amount
+{
+    padding-top:10px;
+}
+
+
+
+
+#TradeItems_tab .Date,#TradeItems_tab .Expires
+{
+    width:80px;
+}
+#TradeItems_tab .Action
+{
+    width:90px;
+}
+#TradeItems_tab .TradePartner
+{
+    width:160px;
+}
+#TradeItems_tab .Status
+{
+    width:255px;
+}
+#TradeItems_tab .template
+{
+    display:none;
+}

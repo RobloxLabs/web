@@ -1,0 +1,426 @@
+/* Legacy CSS file - Please do not copy */
+input#MaleBtn {
+  margin-left: 0; }
+
+input#FemaleBtn {
+  margin-left: 20px; }
+
+div.Signup {
+  margin: 0 auto;
+  color: #666;
+  float: left;
+  background: #E1E1E1;
+  border: 1px solid #BCBCBC;
+  height: 248px;
+  width: 260px;
+  margin-right: 5px;
+  text-align: center; }
+
+div.Signup h2 {
+  text-align: center;
+  border-bottom: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 9px;
+  color: black; }
+
+div.Signup .formRow {
+  float: left;
+  width: 250px;
+  padding: 2px 0 6px 13px; }
+
+div.Signup .formRow label {
+  float: left;
+  padding: 0;
+  width: 60px;
+  text-align: left;
+  font-size: 11px;
+  color: black;
+  top: -3px;
+  position: relative; }
+
+div.Signup .formRow input {
+  float: left;
+  border: 1px solid #999;
+  padding: 3px;
+  width: 140px; }
+
+div.Signup .formRow select {
+  padding: 1px;
+  /* avoid dropdown glazing in ff */
+  margin: 0; }
+
+div.Signup .formRadio {
+  float: left;
+  width: 158px;
+  text-align: left; }
+
+div.Signup .formRadio input {
+  width: auto;
+  float: none;
+  border: 0px; }
+
+div.Signup .formRadio label {
+  width: auto;
+  float: none;
+  font-size: 12px; }
+
+div.Signup .formSelect {
+  float: left;
+  width: 185px;
+  text-align: left; }
+
+.SignupWrapper {
+  width: 760px;
+  margin: 0 auto; }
+
+.SignupWrapper .title {
+  text-align: center; }
+
+.SignupWrapper h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #363636;
+  display: block;
+  letter-spacing: -2px; }
+
+.SignupWrapper .SignupBox {
+  width: 540px;
+  border-right: 1px solid #ccc;
+  float: left;
+  margin-top: 25px;
+  padding-top: 10px; }
+
+.SignupWrapper .LowerRightBox {
+  float: left;
+  padding-left: 10px;
+  width: 190px;
+  padding-top: 15px; }
+
+.SignupWrapper .UpperRightBox {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  height: 36px;
+  padding-right: 30px;
+  padding-left: 10px;
+  margin-top: 25px;
+  padding-top: 10px; }
+
+.SignupWrapper .loginLink {
+  background: url(/images/UI/btn-login-gray-small.png);
+  background-position: top left;
+  width: 51px;
+  height: 23px;
+  cursor: pointer;
+  float: right; }
+
+.SignupWrapper .fbLoginButton {
+  background: url(/images/UI/btn-login_with_fb.png);
+  background-position: top left;
+  width: 170px;
+  height: 25px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin-top: 10px; }
+
+.SignupWrapper .signupMainButton {
+  background: url(/images/UI/btn-sign_up-mainpage.png);
+  background-position: top left;
+  width: 119px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; }
+
+.SignupWrapper .submitMainButton {
+  background: url(/images/UI/btn-submit.png);
+  background-position: top left;
+  width: 134px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; }
+
+.SignupWrapper .signupMainButton:hover, .SignupWrapper .fbLoginButton:hover, .SignupWrapper .loginLink:hover, .SignupWrapper .submitMainButton:hover {
+  background-position: bottom left; }
+
+.SignupWrapper .Termsandconditions {
+  padding-top: 20px;
+  font-size: 11px;
+  padding-bottom: 7px; }
+
+div.SignupWrapper div.rightFormColumn {
+  float: left;
+  width: 350px; }
+
+div.SignupWrapper .inputColumn {
+  float: left;
+  width: 183px;
+  text-align: left; }
+
+div.SignupWrapper .formRadio {
+  float: left;
+  width: 132px;
+  text-align: left; }
+
+/* copied over formRow labels */
+div.SignupWrapper .formRow {
+  float: left;
+  padding: 2px 0 14px 23px; }
+
+div.SignupWrapper .formRow label, div.NewEmailForm .formRow span.FormTitle {
+  float: left;
+  padding: 0px 0 0;
+  width: 140px;
+  text-align: left;
+  margin-top: 4px; }
+
+div.SignupWrapper .formRow input {
+  width: 170px;
+  float: left; }
+
+div.SignupWrapper .formRow select {
+  float: left;
+  margin-left: 0px; }
+
+div.SignupWrapper .formRadio label {
+  width: auto;
+  float: none;
+  font-size: 12px;
+  font-weight: normal; }
+
+div.SignupWrapper .formRow .formRadio input {
+  width: auto;
+  float: none;
+  border: 0px; }
+
+div.SignupWrapper .formSelect {
+  float: left;
+  text-align: left; }
+
+div.SignupWrapper .formRow input.newsletterCheck {
+  width: auto;
+  margin-right: 10px;
+  margin-top: 1px;
+  border: 0px; }
+
+.SignupWrapper #birthdayError {
+  left: -5px; }
+
+.SignupWrapper #genderError {
+  top: -12px;
+  left: -2px; }
+
+.SignupWrapper #CaptchaContainer {
+  width: 315px !important;
+  margin: 0 auto !important;
+  padding-bottom: 20px;
+  padding-top: 5px; }
+
+div.NewEmailForm #NewsletterCheckText {
+  font-size: 12px;
+  font-weight: normal;
+  padding: inherit;
+  margin-top: 1px;
+  width: 300px; }
+
+/* bonus round */
+div.NewEmailForm .formRow span.FormTitle {
+  width: 100px; }
+
+div.NewEmailForm .SignupBox {
+  width: 477px;
+  border: none;
+  float: none;
+  margin: 0 auto; }
+
+div.NewEmailForm .btn-large {
+  float: left; }
+
+div.NewEmailForm .noThanksLink {
+  padding-left: 10px;
+  top: 18px;
+  position: relative;
+  color: #888; }
+
+.emailValidation {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  color: #aa0000; }
+
+div#EmailError {
+  display: none; }
+
+div#EmailGood {
+  display: none; }
+
+div#ReferrerError {
+  display: none; }
+
+/* END bonus round */
+div.SignupWrapper .inputColumn.radio {
+  width: auto; }
+
+.SignupWrapper div.validation {
+  height: 14px;
+  margin-top: 5px;
+  float: left;
+  position: relative;
+  color: #aa0000; }
+
+table {
+  border-collapse: collapse;
+  /* 'cellspacing' equivalent */ }
+
+table td, table th {
+  padding: 0;
+  /* 'cellpadding' equivalent */ }
+
+table#UsernameError {
+  left: -2px;
+  top: -17px;
+  display: none; }
+
+.SignupWrapper table#birthdayError {
+  display: none;
+  left: 2px;
+  top: -5px;
+  /*IE7 Hack */
+  *top: -17px; }
+
+.SignupWrapper #genderError {
+  display: none;
+  height: 0;
+  top: -3px; }
+
+table#passwordError {
+  left: -2px;
+  top: -17px;
+  display: none; }
+
+table#passwordConfirmError {
+  left: -2px;
+  top: -17px;
+  display: none; }
+
+table#emailError {
+  left: -2px;
+  top: -17px;
+  display: none; }
+
+div.LowerRightBox span {
+  font-size: 15px;
+  font-weight: bold;
+  color: #363636; }
+
+div.clear {
+  clear: both; }
+
+input[type="radio"]#MaleBtn, input[type="radio"]#FemaleBtn {
+  padding: 0;
+  margin-top: -3px;
+  vertical-align: middle;
+  *height: 21px;
+  margin-right: 2px; }
+
+div.formRadio.signupPage {
+  margin-top: 5px;
+  width: 150px; }
+
+div#genderGood {
+  margin: 0; }
+
+.validation {
+  float: left;
+  position: relative;
+  width: 140px;
+  height: 14px; }
+
+.validator-container {
+  position: absolute;
+  width: 180px;
+  height: 48px; }
+
+.validator-tooltip-top,
+.validator-tooltip-bottom {
+  background: url(/images/UI/bg-bubble.png) no-repeat right top;
+  width: 180px;
+  height: 3px; }
+
+.validator-tooltip-bottom {
+  background-position: right bottom; }
+
+.validator-tooltip-main {
+  width: 165px;
+  color: #a00;
+  font-weight: normal;
+  font-size: 11px;
+  background: url(/images/UI/bg-bubble.png) no-repeat left center;
+  padding-left: 15px; }
+
+.validator-tooltip-main p {
+  margin: 0; }
+
+.separateSignUpFromLoginWithBorder {
+  margin-top: 10px;
+  border-top: 1px solid #bdbdbd; }
+
+a.ControlLoginButton {
+  padding: 6px 0px !important;
+  margin: 0 auto;
+  background: url("/images/UI/btn-big_silver_tile.png") top left;
+  display: block;
+  width: 88px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  height: 18px;
+  border: 1px solid #bcbcbc; }
+
+a.ControlLoginButton:hover, a.ControlLoginButton:active {
+  background-position: bottom left;
+  text-decoration: none; }
+
+div.FrontPageLoginBox {
+  float: left;
+  padding: 0px 48px;
+  background: #e1e1e1;
+  border: 1px solid #bcbcbc;
+  height: 248px;
+  width: 160px;
+  margin-right: 5px;
+  text-align: center; }
+
+div.FrontPageLoginBox {
+  padding: 0 5px 0px 5px;
+  width: 250px; }
+
+div.FrontPageLoginBox .LoginViewContainer {
+  padding-left: 10px; }
+
+span#ForgetPasswordPrompt {
+  font-size: 11px;
+  padding-left: 5px;
+  display: none;
+  /* only show this if on the front page */ }
+
+div.FrontPageLoginBox span#ForgetPasswordPrompt {
+  display: block;
+  text-align: left;
+  padding: 3px 0px 0px 0px; }
+
+div.FrontPageLoginBox .fbSplashPageConnect {
+  padding-top: 6px; }
+
+div.FrontPageLoginBox a.SignupButtonImage {
+  float: left;
+  margin: inherit; }
+
+div.FrontPageLoginBox div.CenterSignupText {
+  margin: 0 auto;
+  padding-top: 0;
+  margin-top: 6px; }

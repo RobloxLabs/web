@@ -1,0 +1,207 @@
+/* Legacy CSS file - Please do not copy */
+/* TODO: Move to Roblox.SocialLinks.WebApp SOC-5018 */
+/* Please use icon-variant-v2 instead */
+.fraud-message {
+  border-width: 1px 1px 1px 1px;
+  border-color: #757575;
+  border-style: solid; }
+
+.dark-theme .fraud-message {
+  border-color: #656668; }
+
+.light-theme .fraud-message {
+  border-color: #BDBEBE; }
+
+.fraud-message {
+  border-radius: 3px;
+  padding: 5px;
+  margin: -58px auto 6px;
+  text-align: center;
+  width: 850px;
+  height: 40px; }
+
+#visual-cart {
+  height: 470px;
+  width: 412px;
+  padding: 5px 40px 5px 35px;
+  float: left; }
+
+.product {
+  float: left;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.product-compare {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 110px;
+  clear: both; }
+
+.icon-robux-gold {
+  background-size: 100% auto;
+  width: 72px;
+  height: 72px;
+  background-position: 0px 0px;
+  background-size: 144px;
+  float: left; }
+
+.product-image {
+  float: left;
+  margin-top: 9px; }
+
+.product-detail {
+  float: left;
+  width: 300px;
+  margin-left: 22px;
+  text-align: left; }
+
+.product-name {
+  height: 36px; }
+
+.product-duration {
+  height: 27px; }
+
+#payment-method {
+  float: left;
+  margin-left: 40px;
+  padding-top: 5px;
+  max-width: 440px; }
+
+.payment-spacer {
+  margin-bottom: 10px; }
+
+.payment-method-label {
+  margin-left: 10px; }
+
+.payment-method-label-image {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.payment-method-image {
+  background: url("/images/Upgrades/payment_methods_sprite_20200218.png") no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  *zoom: 1;
+  width: 42px;
+  height: 26px;
+  position: relative;
+  top: 6px; }
+
+.visa {
+  background-position: 0 -2px; }
+
+.masterCard {
+  background-position: 0 -30px; }
+
+.discover {
+  background-position: 0 -58px; }
+
+.americanExpress {
+  background-position: 0 -86px; }
+
+.paypal {
+  background-position: 0 -114px; }
+
+.redeemCard {
+  background-position: 0 -142px; }
+
+.rixty {
+  background-position: 0 -170px; }
+
+.robloxCredit {
+  background-position: 0 -142px; }
+
+.debitCard {
+  background-position: 0 -198px; }
+
+.appleAppStore {
+  background-position: 0 -225px; }
+
+.googlePlayStore {
+  background-position: 0 -254px; }
+
+.xsollaAmazonPay {
+  background-position: 0 -282px; }
+
+.xboxStore {
+  background-position: 0 -310px; }
+
+.xsolla {
+  background-position: 0 -2px; }
+
+.xsollaOxxo {
+  background-position: 0 -338px; }
+
+.xsollaSofort {
+  background-position: 0 -394px; }
+
+.xsollaBoleto {
+  background-position: 0 -422px; }
+
+.xsollaPayPal {
+  background-position: 0 -114px; }
+
+.xsollaOther {
+  background-position: 0 -170px; }
+
+.payment-method-label-text {
+  margin-left: 10px; }
+
+#payment-method-button {
+  margin-top: 30px; }
+
+#payment-method-error {
+  width: 185px;
+  margin-top: 10px; }
+
+.hide-option {
+  animation: fadeout  0.5s forwards; }
+
+.show-option {
+  animation: fadin 0.5s forwards; }
+
+@keyframes fadeout {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadin {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* supercharge */
+#supercharge {
+  margin-left: 110px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  clear: both; }
+
+#supercharge-checkboxes .form-row-checkbox {
+  margin-top: 10px; }
+
+#cart {
+  margin-left: 110px;
+  margin-right: 40px; }
+
+#cart .price {
+  float: right; }
+
+.added-product {
+  height: 40px; }
+
+.addon-hidden {
+  padding-top: 20px; }
+
+#total-balance {
+  font-weight: bold; }
+
+.hidden {
+  display: none; }
+
+#support-a-star-wrapper {
+  margin-top: 30px; }
