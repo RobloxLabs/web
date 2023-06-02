@@ -101,6 +101,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.TranslationResources
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.Web.Code", "..\Assemblies\Web\Code\Roblox.Web.Code\Roblox.Web.Code.csproj", "{D7C4DAD3-09E8-4B9D-8622-5442EC8ED865}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Platform.Membership.Commands", "..\Assemblies\Platform\Membership\Roblox.Platform.Membership.Commands\Roblox.Platform.Membership.Commands.csproj", "{42384262-1491-4212-86F9-770A39AA3E11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,10 @@ Global
 		{D7C4DAD3-09E8-4B9D-8622-5442EC8ED865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C4DAD3-09E8-4B9D-8622-5442EC8ED865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C4DAD3-09E8-4B9D-8622-5442EC8ED865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42384262-1491-4212-86F9-770A39AA3E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42384262-1491-4212-86F9-770A39AA3E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42384262-1491-4212-86F9-770A39AA3E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42384262-1491-4212-86F9-770A39AA3E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -274,6 +280,7 @@ Global
 		{528C72A5-932F-40A9-B7B8-3D2B4BAB977E} = {E983FD40-2749-4C04-B6BA-E835CA4045C8}
 		{291EA3B9-B0BC-438B-8D82-5BFE4F252EF7} = {528C72A5-932F-40A9-B7B8-3D2B4BAB977E}
 		{D7C4DAD3-09E8-4B9D-8622-5442EC8ED865} = {16572BAE-40F4-47A8-BC9F-F59037643A63}
+		{42384262-1491-4212-86F9-770A39AA3E11} = {31905177-9D55-4044-AF83-48A4D18AD336}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {899E014E-6FA2-40D9-9870-A893660A5F34}
