@@ -12,10 +12,20 @@ namespace Roblox.Website.Pages
         public IStringLocalizer<Login> LoginLangResources { get; }
         public IStringLocalizer<Controls> ControlsLangResources { get; }
 
-        [BindProperty] public string? Username { get; set; }
-        [BindProperty] public string? Password { get; set; }
+        [BindProperty] public string Username { get; set; } = string.Empty;
+        [BindProperty] public string Password { get; set; } = string.Empty;
 
-        public string ReturnUrl { get; set; } = "/";
+        [BindProperty] public string? ReturnUrl { get; set; }
+
+        public string? ErrorMessage
+        {
+            set
+            {
+                ModelState.Clear();
+                if (value != null)
+                    ModelState.AddModelError(string.Empty, value);
+            }
+        }
 
         public NewLoginModel(IWebAuthenticator webAuthenticator,
             IStringLocalizer<Login> loginLangResources, IStringLocalizer<Controls> controlsLangResources)
@@ -26,53 +36,32 @@ namespace Roblox.Website.Pages
             ControlsLangResources = controlsLangResources;
         }
 
-        private void SetErrorMessage(string? message)
-        {
-            if (!string.IsNullOrEmpty(message))
-                ModelState.AddModelError("ErrorMessage", message);
-        }
-
-        /// <summary>
-        /// Self-validates the model and returns the resulting validation message (if any)
-        /// </summary>
-        /// <returns>The validation message</returns>
-        public string? GetValidationMessage()
-        {
-            string? message = null;
-            if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
-                message = LoginLangResources["Message.UsernameAndPasswordRequired"];
-
-            return message;
-        }
-
         public void OnGet()
         {
             if (_authenticator.IsAuthenticated())
-                Redirect("/");
+                Redirect(ReturnUrl ?? "/");
         }
 
         public void OnPost()
         {
-            SetErrorMessage(GetValidationMessage());
-
             if (ModelState.IsValid)
             {
                 var result = _authenticator.AuthenticateUser(Username, Password);
                 switch (result)
                 {
                     case AuthenticationResultCode.Success:
-                        Redirect(ReturnUrl);
+                        Redirect(ReturnUrl ?? "/");
                         break;
                     case AuthenticationResultCode.InvalidUsername:
                         // Unknown user
-                        SetErrorMessage(string.Format(LoginLangResources["Label.GreetingForNewAccount"], Username));
+                        ErrorMessage = string.Format(LoginLangResources["Label.GreetingForNewAccount"], Username);
                         break;
                     case AuthenticationResultCode.InvalidPassword:
                         // Incorrect username or password
-                        SetErrorMessage(LoginLangResources["Response.IncorrectUsernamePassword"]);
+                        ErrorMessage = LoginLangResources["Response.IncorrectUsernamePassword"];
                         break;
                     default:
-                        SetErrorMessage(LoginLangResources["Response.UnknownLoginError"]);
+                        ErrorMessage = LoginLangResources["Response.UnknownLoginError"];
                         break;
                 }
             }

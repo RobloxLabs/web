@@ -94,7 +94,13 @@ namespace Roblox.Website
                 // TODO: This is not all-good; do some role-checking
                 options.Conventions.AuthorizeFolder("/Admi/", "EmployeesOnly")
                     .AllowAnonymousToFolder("/");
-            });
+            })
+            .AddViewOptions(
+                options =>
+                {
+                    options.HtmlHelperOptions.ClientValidationEnabled = true;
+                }
+            );
 
             ConfigureLogger(services);
             ConfigureBundles(services);

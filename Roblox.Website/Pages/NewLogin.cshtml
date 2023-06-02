@@ -7,9 +7,6 @@
 @{ 
     CSSManager.PageCSS.Add("~/CSS/Pages/IDE/Login.css");
     CSSManager.PageCSS.Add("~/CSS/Base/CSS/iFrameLogin.css");
-
-    ScriptManager.PageScripts.Add("jquery.validate.js");
-    ScriptManager.PageScripts.Add("jquery.validate.unobtrusive.js");
 }
 <!--[if IE 7]>
 <style>        
@@ -26,18 +23,19 @@
             ScriptManager.PageScripts.Add("~/js/Login/Login.js");
             CSSManager.PageCSS.Add("~/CSS/Pages/Login/Login.css");
         }
-        @Html.ValidationSummary()
+        <partial name="_ValidationScriptsPartial" />
+        @Html.ValidationSummary(true)
         <div id="loginarea" class="divider-bottom">
             <div id="leftArea">
                 <div id="loginPanel">
                     <table id="logintable">
                         <tr id="username">
-                            <td>@Html.LabelFor(m => m.Username, Model.LoginLangResources["Label.UsernameWithColumn"], new { @class = "form-label" })</td>
-                            <td>@Html.TextBoxFor(m => m.Username, new { @class = "text-box text-box-medium" })</td>
+                            <td><label asp-for="Username" class="form-label">@Model.LoginLangResources["Label.UsernameWithColumn"]</label></td>
+                            <td><input asp-for="Username" class="text-box text-box-medium" /></td>
                         </tr>
                         <tr id="password">
-                            <td>@Html.LabelFor(m => m.Password, Model.LoginLangResources["Label.PasswordWithColumn"], new { @class = "form-label" })</td>
-                            <td>@Html.PasswordFor(m => m.Password, new { @class = "text-box text-box-medium" })</td>
+                            <td><label asp-for="Password" class="form-label">@Model.LoginLangResources["Label.PasswordWithColumn"]</label></td>
+                            <td><input asp-for="Password" class="text-box text-box-medium" type="password" /></td>
                         </tr>
                     </table>
                     <div>
@@ -82,7 +80,7 @@
     <a  roblox-js-onsignup class="btn-medium btn-primary">@Model.LoginLangResources["Action.SignUpCapitalized"]</a>                    </div>
             </div>
         </div>
-        @Html.HiddenFor(m => m.ReturnUrl)
+        <input asp-for="ReturnUrl" type="hidden" />
     </form>
 </div>
 <script type="text/javascript">
