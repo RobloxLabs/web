@@ -9,8 +9,8 @@ namespace Roblox.Website
 
 		public BundleConfig(IScriptManager scripts, IStyleManager styles)
 		{
-			_scripts = scripts ?? throw new ArgumentNullException(nameof(scripts));
-			_styles = styles ?? throw new ArgumentNullException( nameof(styles));
+			_scripts = scripts;
+			_styles = styles;
 		}
 
         public void RegisterBundles()

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Roblox.TranslationResources.CommonUI;
 
@@ -24,10 +25,12 @@ namespace Roblox.Website.Pages.Landing
             Years = new SelectList(_helper.GetYears(), "Key", "Value");
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
             if (_authenticator.IsAuthenticated())
-                Redirect("/");
+                return LocalRedirect("/");
+
+            return Page();
         }
     }
 }

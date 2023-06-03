@@ -1,6 +1,4 @@
-﻿using System;
-
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 
 using Roblox.EventLog;
 
@@ -11,8 +9,7 @@ using Roblox.Platform.Authentication;
 using Roblox.Platform.Security;
 
 using Roblox.Web.StaticContent;
-
-using Roblox.Website.Data;
+using Microsoft.AspNetCore.Rewrite;
 
 namespace Roblox.Website
 {
@@ -53,8 +50,8 @@ namespace Roblox.Website
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddAuthentication(RobloxCookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
+            services.AddAuthentication()
+                .AddCookie(RobloxCookieAuthenticationDefaults.AuthenticationScheme, options =>
                 {
                     options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
                     options.LoginPath = RobloxCookieAuthenticationDefaults.LoginPath;
@@ -94,13 +91,7 @@ namespace Roblox.Website
                 // TODO: This is not all-good; do some role-checking
                 options.Conventions.AuthorizeFolder("/Admi/", "EmployeesOnly")
                     .AllowAnonymousToFolder("/");
-            })
-            .AddViewOptions(
-                options =>
-                {
-                    options.HtmlHelperOptions.ClientValidationEnabled = true;
-                }
-            );
+            });
 
             ConfigureLogger(services);
             ConfigureBundles(services);
@@ -137,7 +128,13 @@ namespace Roblox.Website
             app.UseEndpoints(endpoint =>
             {
                 endpoint.MapRazorPages();
+                //endpoint.MapControllers();
+                endpoint.MapDefaultControllerRoute();
             });
+
+            var rewriteOptions = new RewriteOptions()
+                .AddRedirect("(.*)Default.aspx", "$1");
+            app.UseRewriter(rewriteOptions);
 
             app.UseRequestLocalization();
 

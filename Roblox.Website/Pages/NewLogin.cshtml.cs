@@ -36,22 +36,35 @@ namespace Roblox.Website.Pages
             ControlsLangResources = controlsLangResources;
         }
 
-        public void OnGet()
+        /// <summary>
+        /// Redirects the user to the given return URL
+        /// </summary>
+        /// <returns>The <see cref="IActionResult"/> for the redirect</returns>
+        private IActionResult Redirect()
         {
-            if (_authenticator.IsAuthenticated())
-                Redirect(ReturnUrl ?? "/");
+            return LocalRedirect(ReturnUrl ?? "/");
         }
 
-        public void OnPost()
+        public IActionResult OnGet()
         {
+            if (_authenticator.IsAuthenticated())
+                return Redirect();
+
+            return Page();
+        }
+
+        public IActionResult OnPost()
+        {
+            if (_authenticator.IsAuthenticated())
+                return Redirect();
+
             if (ModelState.IsValid)
             {
                 var result = _authenticator.AuthenticateUser(Username, Password);
                 switch (result)
                 {
                     case AuthenticationResultCode.Success:
-                        Redirect(ReturnUrl ?? "/");
-                        break;
+                        return Redirect();
                     case AuthenticationResultCode.InvalidUsername:
                         // Unknown user
                         ErrorMessage = string.Format(LoginLangResources["Label.GreetingForNewAccount"], Username);
@@ -65,6 +78,8 @@ namespace Roblox.Website.Pages
                         break;
                 }
             }
+
+            return Page();
         }
     }
 }
