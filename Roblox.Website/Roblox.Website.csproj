@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-Roblox.Website-53440733-3462-404b-9771-9b31d4c49387</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <StartupObject>Roblox.Website.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

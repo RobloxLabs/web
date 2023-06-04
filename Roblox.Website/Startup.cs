@@ -10,6 +10,7 @@ using Roblox.Platform.Security;
 
 using Roblox.Web.StaticContent;
 using Microsoft.AspNetCore.Rewrite;
+using System.Net;
 
 namespace Roblox.Website
 {
@@ -106,13 +107,21 @@ namespace Roblox.Website
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             // Configure the HTTP request pipeline.
-            if (env.IsDevelopment())
+
+            // Configure error pages
+            const string errorPageUrl = "/RobloxDefaultErrorPage.aspx";
+            app.UseExceptionHandler(errorPageUrl);
+            app.UseStatusCodePages(context => {
+                var request = context.HttpContext.Request;
+                var response = context.HttpContext.Response;
+
+                response.Redirect(errorPageUrl + "?code=" + response.StatusCode);
+
+                return Task.CompletedTask;
+            });
+
+            if (!env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }

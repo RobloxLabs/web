@@ -1,12 +1,9 @@
-﻿@using System.Net
-@using Roblox.TranslationResources.CommonUI
-
-@inject IStringLocalizer<Features> Resources
+﻿@*@inject IStringLocalizer<TranslationResources.CommonUI.Features> Resources*@
 
 <div class="site-header">
     <div id="navigation-container">
         <a href="/Default.aspx" class="btn-logo" data-se="nav-logo"></a>
-        <div id="header-login-container">
+        @*<div id="header-login-container">
             <div id="header-login-wrapper" class="iframe-login-signup">
                 <a id="header-signup" href="/Login/NewAge.aspx">@Resources["Label.sSignUp"]</a>
                 <span id="header-or">@Resources["Label.sOr"]</span>
@@ -14,9 +11,9 @@
                     <a id="header-login" class="btn-control btn-control-large">@Resources["Label.sLogin"] <span class="grey-arrow">▼</span></a>
                 </span>
                 <div id="iFrameLogin" style="display:none" runat="server" clientidmode="Static">
-                    <iframe class="login-frame" src="/Login/iFrameLogin.aspx?loginRedirect=True&parentUrl=@WebUtility.UrlEncode(Context.Request.Path.Value)" scrolling="no" frameborder="0"></iframe>
+                    <iframe class="login-frame" src="/Login/iFrameLogin.aspx?loginRedirect=True&parentUrl=@System.Net.WebUtility.UrlEncode(Context.Request.Path.Value)" scrolling="no" frameborder="0"></iframe>
                 </div>
             </div>
-        </div>
+        </div>*@
     </div>
-</div> 
+</div>

@@ -1,7 +1,5 @@
-using Microsoft.AspNetCore.Mvc;
-
-using Roblox.TranslationResources.Authentication;
-using Roblox.TranslationResources.CommonUI;
+using LoginResources = Roblox.TranslationResources.Authentication.Login;
+using ControlsResources = Roblox.TranslationResources.CommonUI.Controls;
 
 namespace Roblox.Website.Pages
 {
@@ -9,8 +7,8 @@ namespace Roblox.Website.Pages
     {
         private readonly IWebAuthenticator _authenticator;
 
-        public IStringLocalizer<Login> LoginLangResources { get; }
-        public IStringLocalizer<Controls> ControlsLangResources { get; }
+        public IStringLocalizer<LoginResources> LoginLangResources { get; }
+        public IStringLocalizer<ControlsResources> ControlsLangResources { get; }
 
         [BindProperty] public string Username { get; set; } = string.Empty;
         [BindProperty] public string Password { get; set; } = string.Empty;
@@ -28,7 +26,7 @@ namespace Roblox.Website.Pages
         }
 
         public NewLoginModel(IWebAuthenticator webAuthenticator,
-            IStringLocalizer<Login> loginLangResources, IStringLocalizer<Controls> controlsLangResources)
+            IStringLocalizer<LoginResources> loginLangResources, IStringLocalizer<ControlsResources> controlsLangResources)
         {
             _authenticator = webAuthenticator;
 
@@ -45,18 +43,20 @@ namespace Roblox.Website.Pages
             return LocalRedirect(ReturnUrl ?? "/");
         }
 
-        public IActionResult OnGet()
+        private IActionResult? OnRequest()
         {
             if (_authenticator.IsAuthenticated())
                 return Redirect();
 
-            return Page();
+            return null;
         }
+
+        public IActionResult OnGet() => OnRequest() ?? Page();
 
         public IActionResult OnPost()
         {
-            if (_authenticator.IsAuthenticated())
-                return Redirect();
+            var onRequestResult = OnRequest();
+            if (onRequestResult != null) return onRequestResult;
 
             if (ModelState.IsValid)
             {

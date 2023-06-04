@@ -3,17 +3,11 @@
 @inject IScriptManager ScriptManager
 @inject IStyleManager CSSManager
 
-@{ 
-    ScriptManager.PageScripts.Add("Landing/BlueCity/Animation.js");
-    ScriptManager.PageScripts.Add("Landing/BlueCity/Animated.js");
-}
-
 <!DOCTYPE html>
 <html>
 <head>
     <!-- MachineID: @ViewData["MachineID"] -->
     <title>@(!string.IsNullOrEmpty(ViewData["Title"] as string) ? ViewData["Title"] + " - ROBLOX" : "ROBLOX")</title>
-    <link rel="stylesheet" href="~/CSS/m/reset.css" />
     <link rel="stylesheet" href="~/CSS/m/main.css" />
     <partial name="PageCSS" />
     <partial name="~/Pages/Shared/Tracking/GoogleAnalytics.cshtml" />
@@ -41,14 +35,23 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
     <div id="Container">
-        <partial name="~/Pages/Shared/Navigation/Banner.cshtml" />
+        @RenderSection("Banner", false)
+        @if (!IsSectionDefined("Banner"))
+        {
+            <partial name="~/Pages/Shared/Navigation/Banner.cshtml" />
+            <div class="forceSpace">&nbsp;</div>
+        }
         <div style="clear:both"></div>
         <div id="Body" style="width:970px">
             @RenderBody()
             <partial name="~/Pages/Shared/Tracking/GoogleAdWordsConversionTracker.cshtml" />
             <partial name="~/Pages/Shared/Modals/ConfirmationModal.cshtml" />
         </div>
-        <partial name="~/Pages/Shared/Experimental/_Footer.cshtml" />
+        @RenderSection("Footer", false)
+        @if (!IsSectionDefined("Footer"))
+        {
+            <partial name="~/Pages/Shared/Navigation/Footer.cshtml" />
+        }
     </div>
 
     <partial name="~/Pages/Shared/Tracking/EventManager.cshtml" />
