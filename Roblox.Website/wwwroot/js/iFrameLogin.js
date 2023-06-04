@@ -90,7 +90,7 @@ Roblox.iFrameLogin = new function () {
             if (captchaOn)
                 $('#Captcha_upBadCaptcha').text("");
             var onSuccess = onError = function (result, context) {
-                if (result.IsValid) {
+                if (result.isValid) {
                     var topUrl;
                     //Redirect based on http/https
                     if (requireRedirect) {
@@ -107,8 +107,10 @@ Roblox.iFrameLogin = new function () {
                     window.parent.location = topUrl;
                     
                 } else {
+                    var errorCode = result.errorCode;
+                    var message = result.message;
                     //Reload Page if Captcha control changed
-                    if (result.ErrorCode.indexOf(CaptchaChangedCode) != -1) {
+                    if (errorCode.indexOf(CaptchaChangedCode) != -1) {
                         if (userName != '' && window.location.href.indexOf('username') == -1) {
                             window.location.href = window.location.href + '&username=' + userName;
                         } else
@@ -116,30 +118,30 @@ Roblox.iFrameLogin = new function () {
                         return false;
                     }
                     //Handle the Failure Response
-                    if (result.ErrorCode.indexOf(RequireTwoFactorAuthCode) != -1) {
+                    if (errorCode.indexOf(RequireTwoFactorAuthCode) != -1) {
                         window.parent.location = "/login/twofactorauth?username=" + encodeURIComponent(userName);
                     }
-                    if (result.ErrorCode.indexOf(IncorrectCredentialCode) != -1) {
+                    if (errorCode.indexOf(IncorrectCredentialCode) != -1) {
                         displayInputError($('#Password'), true);
                         $("#NotAMemberLink").hide();
                         $("#ForgotPasswordLink").show();
-                    } else if (result.ErrorCode.indexOf(ErrorOccurredCode) != -1) {
+                    } else if (errorCode.indexOf(ErrorOccurredCode) != -1) {
                         resizeParent('145px');
-                        $('#ErrorMessage').text(result.Message);
-                    } else if (result.ErrorCode.indexOf(FeatureDisabledCode) != -1) {
-                        $('#ErrorMessage').text(result.Message);
+                        $('#ErrorMessage').text(message);
+                    } else if (errorCode.indexOf(FeatureDisabledCode) != -1) {
+                        $('#ErrorMessage').text(message);
                     }
-                    //Else all other errors are to do with Captcha -if(result.Message == 'incorrect-captcha-sol')						
+                    //Else all other errors are to do with Captcha -if(message == 'incorrect-captcha-sol')						
                     else {
                         //Increase size of the window to display the error message:
                         resizeParent('280px');
                         displayInputError($('#Password'), false);
                         $('#Captcha_upBadCaptcha').show();
                         $('#Captcha_upBadCaptcha').css("color", "red");
-                        if (result.Message == 'incorrect-captcha-sol')
+                        if (message == 'incorrect-captcha-sol')
                             $('#Captcha_upBadCaptcha').text(Roblox.iFrameLogin.Resources.invalidCaptchaEntry);
                         else
-                            $('#Captcha_upBadCaptcha').text(result.Message);
+                            $('#Captcha_upBadCaptcha').text(message);
                     }
                     if (captchaOn) {
                         Recaptcha.reload("t"); // Required to avoid Captcha control from overriding focus()
@@ -151,7 +153,20 @@ Roblox.iFrameLogin = new function () {
                     return false;
                 }
             }
-            Roblox.Website.Services.Secure.LoginService.ValidateLogin(userName, password, captchaOn, ch, resp, onSuccess, onError);
+            $.ajax({
+                type: "POST",
+                url: "/Authentication/ValidateLogin",
+                data: {
+                    "userName": userName,
+                    "password": password,
+                    "isCaptchaOn": captchaOn,
+                    "challenge": ch,
+                    "captchaResponse": resp
+                },
+                success: onSuccess,
+                error: onError
+            });
+            //Roblox.Website.Services.Secure.LoginService.ValidateLogin(userName, password, captchaOn, ch, resp, onSuccess, onError);
         };
 
         var verifyUserName = function () {
