@@ -1,0 +1,31 @@
+﻿@page "/Login/FulfillConstraint.aspx"
+@model Roblox.Website.Pages.Login.FulfillConstraintModel
+@{
+    Layout = "_LayoutSimple";
+    ViewData["Title"] = "Site Offline";
+}
+<p style="text-align: center">
+    &nbsp;</p>
+<p style="text-align: center">
+    @*http://c0.roblox.com/robloxteamsitedownimage1*@
+    <img src="/Images/ErrorPages/Maintenance.png" id="imgRobloxTeam" title="Offline" /></p>
+<h3 style="text-align: center">
+    The site is currently offline for maintenance and upgrades. Please check back soon!
+</h3>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<p>
+<form method="post">
+    <input asp-for="ConstraintPassword" type="password" />
+    <input value="R" name="button" type="submit" />
+    <input value="O" name="button" type="submit" />
+    <input value="B" name="button" type="submit" />
+    <input value="L" name="button" type="submit" />
+    <input value="O" name="button" type="submit" />
+    <input value="X" name="button" type="submit" />
+</form>

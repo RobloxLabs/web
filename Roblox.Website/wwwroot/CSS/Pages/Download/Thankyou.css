@@ -1,0 +1,16 @@
+.successful-message-div {
+  text-align: center;
+  width: 970px;
+  margin: 30px auto;
+  min-height: 400px; }
+
+.successful-message-div .icon-games {
+  background-size: 200% auto;
+  width: 80px;
+  height: 80px;
+  background-position: 0px -80px; }
+
+.successful-message-div .successful-message-description {
+  width: 500px;
+  margin: 50px auto;
+  text-align: center; }

@@ -1,0 +1,75 @@
+/* Please use icon-variant-v2 instead */
+.push-notifications-global-prompt .push-notifications-global-prompt-site-wide-body {
+  display: flex;
+  align-items: center; }
+  .push-notifications-global-prompt .push-notifications-global-prompt-site-wide-body .push-notifications-prompt-actions {
+    text-align: right;
+    min-width: 140px;
+    margin-right: 12px;
+    padding-right: 4px; }
+  .push-notifications-global-prompt .push-notifications-global-prompt-site-wide-body .push-notifications-prompt-content {
+    padding-left: 140px;
+    flex-grow: 1; }
+  .push-notifications-global-prompt .push-notifications-global-prompt-site-wide-body .icon-close-white {
+    background-position: 0px -704px;
+    background-size: 32px auto;
+    width: 16px;
+    height: 16px;
+    margin-left: 12px; }
+    .push-notifications-global-prompt .push-notifications-global-prompt-site-wide-body .icon-close-white:hover {
+      cursor: pointer; }
+
+#push-notifications-permissions-prompt-modal .modal-dialog {
+  width: 420px; }
+
+#push-notifications-permissions-prompt-modal .push-notifications-permissions-prompt-instructional-image {
+  text-align: center; }
+
+#push-notifications-permissions-disabled-instruction-modal .modal-dialog {
+  width: 970px; }
+
+#push-notifications-permissions-disabled-instruction-modal .push-notifications-modal-step-instruction {
+  min-height: 4.5em;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left; }
+
+#push-notifications-permissions-disabled-instruction-modal .instructions-body {
+  margin-bottom: 15px;
+  overflow: hidden; }
+
+#push-notifications-permissions-disabled-instruction-modal .reenable-step {
+  float: left;
+  text-align: center;
+  border: 0; }
+
+#push-notifications-permissions-disabled-instruction-modal .reenable-step1-of3 {
+  width: 322px; }
+
+#push-notifications-permissions-disabled-instruction-modal .reenable-step2-of3,
+#push-notifications-permissions-disabled-instruction-modal .reenable-step3-of3 {
+  width: 322px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #B8B8B8, #fff) 1 100%;
+  /* grey3 */ }
+
+#push-notifications-permissions-disabled-instruction-modal .reenable-step1-of3 p,
+#push-notifications-permissions-disabled-instruction-modal .reenable-step2-of3 p,
+#push-notifications-permissions-disabled-instruction-modal .reenable-step3-of3 p {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+#push-notifications-permissions-disabled-instruction-modal .reenable-step1-of4 {
+  width: 239px;
+  height: 325px; }
+
+#push-notifications-permissions-disabled-instruction-modal .reenable-step2-of4,
+#push-notifications-permissions-disabled-instruction-modal .reenable-step3-of4,
+#push-notifications-permissions-disabled-instruction-modal .reenable-step4-of4 {
+  width: 240px;
+  height: 340px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #B8B8B8, #fff) 1 100%;
+  /* grey3 */ }

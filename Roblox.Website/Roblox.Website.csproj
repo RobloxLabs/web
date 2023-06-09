@@ -22,6 +22,8 @@
     <ProjectReference Include="..\..\Assemblies\Platform\Membership\Roblox.Platform.Membership\Roblox.Platform.Membership.csproj" />
     <ProjectReference Include="..\..\Assemblies\TranslationResources\Roblox.TranslationResources\Roblox.TranslationResources.csproj" />
     <ProjectReference Include="..\..\Assemblies\Web\Code\Roblox.Web.Code\Roblox.Web.Code.csproj" />
+    <ProjectReference Include="..\..\Assemblies\Web\Maintenance\Roblox.Web.Maintenance\Roblox.Web.Maintenance.csproj" />
+    <ProjectReference Include="..\..\Assemblies\Web\Mvc\Roblox.Web.Mvc\Roblox.Web.Mvc.csproj" />
     <ProjectReference Include="..\..\Assemblies\Web\Responses\Roblox.Web.Responses\Roblox.Web.Responses.csproj" />
     <ProjectReference Include="..\..\Assemblies\Web\Roblox.Web.Authentication\Roblox.Web.Authentication.csproj" />
     <ProjectReference Include="..\..\Assemblies\Web\StaticContent\Roblox.Web.StaticContentV2\Roblox.Web.StaticContentV2.csproj" />

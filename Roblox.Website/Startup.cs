@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Rewrite;
 
 using Roblox.EventLog;
 
@@ -9,8 +10,8 @@ using Roblox.Platform.Authentication;
 using Roblox.Platform.Security;
 
 using Roblox.Web.StaticContent;
-using Microsoft.AspNetCore.Rewrite;
-using System.Net;
+using Roblox.Web.Maintenance;
+using Roblox.Web.Mvc;
 
 namespace Roblox.Website
 {
@@ -62,7 +63,7 @@ namespace Roblox.Website
             services.AddAuthorization(options =>
             {
                 // By default, all incoming requests will be authorized according to the default policy.
-                //options.FallbackPolicy = options.GetPolicy("Constraint");
+                //options.FallbackPolicy = options.GetPolicy("Restricted");
 
                 // Only allows access to the site if the user is authenticated.
                 options.AddPolicy("Restricted", 
@@ -77,15 +78,15 @@ namespace Roblox.Website
                         .RequireClaim("IsAdmin", true.ToString())
                         .Build()
                 );
-                // Only allows access to the site if the user has successfully provided the correct cookie to bypass the constraint.
-                options.AddPolicy("Constraint", 
-                    new AuthorizationPolicyBuilder()
-                        .RequireClaim("IsConstrainted", false.ToString())
-                        .Build()
-                );
             });
 
             services.AddLocalization();
+
+            services.AddControllersWithViews(options =>
+            {
+                options.Filters.AddService<CookieConstraintActionFilter>();
+                options.Filters.AddService<CookieConstraintPageFilter>();
+            });
 
             services.AddRazorPages(options =>
             {
@@ -96,6 +97,7 @@ namespace Roblox.Website
 
             ConfigureLogger(services);
             ConfigureBundles(services);
+            ConfigureCookieConstraint(services);
             ConfigureDomainFactories(services);
         }
 
@@ -174,6 +176,35 @@ namespace Roblox.Website
             services.AddSingleton<EventLog.ILogger>(logger);
         }
 
+        private void ConfigureBundles(IServiceCollection services)
+        {
+            services.AddSingleton<IStaticUrlResolver, StaticUrlResolver>();
+            services.AddSingleton<IScriptManager, RobloxScripts>()
+                    .AddSingleton<IStyleManager, RobloxCSS>();
+
+            services.AddSingleton<BundleConfig>();
+
+            services.AddWebOptimizer();
+        }
+
+        private void ConfigureCookieConstraint(IServiceCollection services)
+        {
+            var settings = new CookieConstraintSettings(
+                () => Roblox.Web.Maintenance.Properties.Settings.Default.IsCookieConstraintEnabled,
+                () => Roblox.Web.Maintenance.Properties.Settings.Default.CookieConstraintCookieName,
+                () => Roblox.Web.Maintenance.Properties.Settings.Default.CookieConstraintPassword,
+                () => Roblox.WebsiteSettings.Properties.Settings.Default.CookieConstraint_RedirectDomain,
+                () => Roblox.WebsiteSettings.Properties.Settings.Default.CookieConstraint_RedirectURL,
+                () => Roblox.WebsiteSettings.Properties.Settings.Default.CookieConstraint_ProtectedPageExtension,
+                () => Roblox.Web.Maintenance.Properties.Settings.Default.CookieConstraintIpBypassRangeCsv,
+                () => Roblox.Web.Code.Properties.Settings.Default.CookieConstraint_AllowedButtonValuesCSV
+            );
+            services.AddSingleton<ICookieConstraintSettings>(settings);
+            services.AddSingleton<IConstraintVerifier, CookieConstraintVerifier>();
+            services.AddSingleton<CookieConstraintActionFilter>();
+            services.AddSingleton<CookieConstraintPageFilter>();
+        }
+
         /// <summary>
         /// Initializes and configures all platform domain-factories used by the current application.
         /// </summary>
@@ -185,17 +216,6 @@ namespace Roblox.Website
             .AddSingleton<EmailDomainFactories>()
             .AddSingleton<AuthenticationDomainFactories>()
             .AddSingleton<SecurityDomainFactories>();
-        }
-
-        private void ConfigureBundles(IServiceCollection services)
-        {
-            services.AddSingleton<IStaticUrlResolver, StaticUrlResolver>();
-            services.AddSingleton<IScriptManager, RobloxScripts>()
-                    .AddSingleton<IStyleManager, RobloxCSS>();
-
-            services.AddSingleton<BundleConfig>();
-
-            services.AddWebOptimizer();
         }
     }
 }
