@@ -212,7 +212,7 @@ namespace Roblox.Website
         private void ConfigureDomainFactories(IServiceCollection services)
         {
             services.AddSingleton<MembershipDomainFactories>()
-            .AddSingleton<RoleDomainFactories>()
+            .AddSingleton<RolesDomainFactories>()
             .AddSingleton<EmailDomainFactories>()
             .AddSingleton<AuthenticationDomainFactories>()
             .AddSingleton<SecurityDomainFactories>();

@@ -149,6 +149,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hashing", "Hashing", "{0CFA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.Hashing", "..\Assemblies\Hashing\Roblox.Hashing\Roblox.Hashing.csproj", "{9CD89FB0-7066-4C5A-AA12-EA5680640888}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{37802AE1-F94F-4C3C-B119-C6E83C2AECD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Assets", "..\Assemblies\Assets\Roblox.Assets\Roblox.Assets.csproj", "{89F20D28-E035-4A75-8722-0A33FCC38E1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roblox.Platform.Email.Entities", "..\Assemblies\Platform\Email\Roblox.Platform.Email.Entities\Roblox.Platform.Email.Entities.csproj", "{4B3EC540-AC44-436F-AD47-C31A63FEBE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roblox.Platform.Email.Core", "..\Assemblies\Platform\Email\Roblox.Platform.Email.Core\Roblox.Platform.Email.Core.csproj", "{6E5B20EF-E7C5-4715-A080-BC934D346BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,6 +347,18 @@ Global
 		{9CD89FB0-7066-4C5A-AA12-EA5680640888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD89FB0-7066-4C5A-AA12-EA5680640888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CD89FB0-7066-4C5A-AA12-EA5680640888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F20D28-E035-4A75-8722-0A33FCC38E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F20D28-E035-4A75-8722-0A33FCC38E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F20D28-E035-4A75-8722-0A33FCC38E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F20D28-E035-4A75-8722-0A33FCC38E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3EC540-AC44-436F-AD47-C31A63FEBE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3EC540-AC44-436F-AD47-C31A63FEBE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3EC540-AC44-436F-AD47-C31A63FEBE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3EC540-AC44-436F-AD47-C31A63FEBE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5B20EF-E7C5-4715-A080-BC934D346BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5B20EF-E7C5-4715-A080-BC934D346BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5B20EF-E7C5-4715-A080-BC934D346BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5B20EF-E7C5-4715-A080-BC934D346BD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -414,6 +434,10 @@ Global
 		{21C3652D-0CC1-4D46-8050-72EC34CF6403} = {E7D3D144-E3F6-4CD3-BC87-490C033CAFA3}
 		{0CFA066D-4353-427D-827E-310A22AB30E9} = {E983FD40-2749-4C04-B6BA-E835CA4045C8}
 		{9CD89FB0-7066-4C5A-AA12-EA5680640888} = {0CFA066D-4353-427D-827E-310A22AB30E9}
+		{37802AE1-F94F-4C3C-B119-C6E83C2AECD3} = {E983FD40-2749-4C04-B6BA-E835CA4045C8}
+		{89F20D28-E035-4A75-8722-0A33FCC38E1D} = {37802AE1-F94F-4C3C-B119-C6E83C2AECD3}
+		{4B3EC540-AC44-436F-AD47-C31A63FEBE5C} = {4027B7F9-D11E-4DAA-86A4-8DF0ED6F09E6}
+		{6E5B20EF-E7C5-4715-A080-BC934D346BD8} = {4027B7F9-D11E-4DAA-86A4-8DF0ED6F09E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {899E014E-6FA2-40D9-9870-A893660A5F34}
