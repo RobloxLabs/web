@@ -97,7 +97,7 @@ span.pagerbtns.next
 }
 #mid-column .FooterPager .paging_wrapper input
 {
-    *vertical-align
+    /**vertical-align*/
 }
 .Members_DropDown
 {
